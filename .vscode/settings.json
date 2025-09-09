@@ -1,3 +1,21 @@
 {
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug POSApplication",
+            "request": "launch",
+            "mainClass": "com.comerzzia.bricodepot.pos.application.ComerzziaPOSApplication",
+            "projectName": "pos-gui",
+            "vmArgs": "",
+            "args": "",
+            "classPaths": [
+                "C:/Users/Tier1/Desktop/posvscode/pos-application/target/classes",
+                "C:/Users/Tier1/Desktop/posvscode/pos-gui/target/classes",
+                "C:/Users/Tier1/Desktop/posvscode/pos-resources/target/classes",
+                "C:/Users/Tier1/Desktop/posvscode/pos-resources/src/main/resources/configuracion"
+            ]
+        }
+    ],
     "java.compile.nullAnalysis.mode": "automatic"
 }
