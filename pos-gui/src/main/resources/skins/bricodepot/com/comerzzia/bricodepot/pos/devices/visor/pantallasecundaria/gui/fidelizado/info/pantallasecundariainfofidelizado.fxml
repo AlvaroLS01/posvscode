@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.comerzzia.pos.core.gui.componentes.datepicker.* ?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-1.0" maxWidth="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="800.0" styleClass="mainFxmlClass, pantalla-modal" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.comerzzia.bricodepot.pos.devices.visor.pantallasecundaria.gui.fidelizado.info.PantallaSecundariaInfoFidelizadoController">
+  <children>
+    <VBox alignment="CENTER" prefHeight="480.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <HBox alignment="CENTER" prefHeight="40.0" prefWidth="450.0" styleClass="titulo-ventana" VBox.vgrow="NEVER">
+          <children>
+            <Label fx:id="lbTitulo" text="%Revise sus datos" />
+          </children>
+        </HBox>
+        <HBox prefHeight="20.0" prefWidth="200.0" />
+        <ScrollPane fx:id="scrollPane" fitToHeight="false" fitToWidth="false" hmax="1.0" prefHeight="342.0" prefViewportHeight="0.0" prefViewportWidth="0.0" prefWidth="778.0" vvalue="0.0" VBox.vgrow="ALWAYS">
+          <content>
+            <AnchorPane id="Content" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0">
+              <children>
+                <VBox alignment="TOP_LEFT" fillWidth="true" layoutX="0.0" layoutY="0.0" prefHeight="-1.0" prefWidth="633.0">
+                  <children>
+                    <HBox fx:id="hbNombre" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbNombre" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Nombre" />
+                        <TextField id="tfCodigo" fx:id="tfNombre" editable="false" prefHeight="-1.0" prefWidth="325.0" HBox.hgrow="NEVER" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbApellidos" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbApellidos" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Apellidos" />
+                        <TextField id="tfCodigo" fx:id="tfApellidos" editable="false" prefHeight="-1.0" prefWidth="325.0" HBox.hgrow="NEVER" />
+                      </children>
+                    </HBox>
+                    <HBox id="hbDomicilio" fx:id="hbDocumento" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbDocumento" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Documento" />
+                        <TextField id="tfCodigo" fx:id="tfDocumento" editable="false" prefHeight="-1.0" prefWidth="325.0" HBox.hgrow="NEVER" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbPais" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label id="lbNumeroTarjeta" fx:id="lbPais" alignment="CENTER_RIGHT" prefWidth="101.0" text="%Pais" />
+                        <TextField id="tfNumeroTarjeta" fx:id="tfPais" editable="false" prefWidth="325.0" HBox.hgrow="NEVER" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbEmail" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0">
+                      <children>
+                        <Label fx:id="lbEmail" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Email" />
+                        <TextField id="tfCodigo" fx:id="tfEmail" editable="false" prefHeight="-1.0" prefWidth="325.0" HBox.hgrow="NEVER" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbMovil" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbMovil" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Movil" />
+                        <TextField id="tfCodigo" fx:id="tfMovil" editable="false" prefHeight="-1.0" prefWidth="325.0" HBox.hgrow="NEVER" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbColectivo" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbColectivo" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Colectivo" />
+                        <TextField id="tfCodigo" fx:id="tfColectivo" editable="false" prefHeight="-1.0" prefWidth="325.0" HBox.hgrow="NEVER" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbCP" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbCP" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Código Postal" />
+                        <TextField id="tfCodigo" fx:id="tfCP" editable="false" prefHeight="-1.0" prefWidth="325.0" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbProvincia" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbProvincia" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Provincia" />
+                        <TextField id="tfCodigo" fx:id="tfProvincia" editable="false" prefHeight="-1.0" prefWidth="325.0" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbLocalidad" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbLocalidad" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Localidad" />
+                        <TextField id="tfCodigo" fx:id="tfLocalidad" editable="false" prefHeight="-1.0" prefWidth="325.0" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbPoblacion" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbPoblacion" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Población" />
+                        <TextField id="tfCodigo" fx:id="tfPoblacion" editable="false" prefHeight="-1.0" prefWidth="325.0" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbDomicilio" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbDomicilio" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Domicilio" />
+                        <TextField id="tfCodigo" fx:id="tfDomicilio" editable="false" prefHeight="-1.0" prefWidth="325.0" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbEstadoCivil" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbEstadoCivil" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Estado Civil" />
+                        <TextField id="tfCodigo" fx:id="tfEstadoCivil" editable="false" prefHeight="-1.0" prefWidth="325.0" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbSexo" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbSexo" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Sexo" />
+                        <TextField id="tfCodigo" fx:id="tfSexo" editable="false" prefHeight="-1.0" prefWidth="325.0" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbFechaNacimiento" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbFechaNacimiento" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Fecha Nacimiento" />
+                        <TextField id="tfCodigo" fx:id="tfFechaNacimiento" editable="false" prefHeight="-1.0" prefWidth="325.0" />
+                      </children>
+                    </HBox>
+                    <HBox fx:id="hbTiendaFavorita" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="804.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                      <children>
+                        <Label fx:id="lbTiendaFavorita" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Tienda Favorita" />
+                        <TextField id="tfCodigo" fx:id="tfTiendaFavorita" editable="false" prefHeight="-1.0" prefWidth="325.0" />
+                      </children>
+                    </HBox>
+                  </children>
+                </VBox>
+              </children>
+            </AnchorPane>
+          </content>
+        </ScrollPane>
+        <HBox alignment="CENTER" prefHeight="30.0" prefWidth="450.0" />
+        <Label fx:id="lbError" styleClass="lbError" text="" />
+        <HBox alignment="CENTER_RIGHT" prefHeight="55.0" prefWidth="778.0" VBox.vgrow="ALWAYS">
+          <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="678.0">
+              <children>
+                <Button fx:id="btRechazar" mnemonicParsing="false" onAction="#accionRechazar" prefHeight="40.0" prefWidth="110.0" styleClass="btCancelar" text="%Rechazar" />
+              </children>
+            </VBox>
+            <VBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="400.0">
+              <children>
+                <Button id="btAceptar" fx:id="btValidar" mnemonicParsing="false" onAction="#accionValidar" prefHeight="40.0" prefWidth="110.0" styleClass="btAceptar" text="%Validar" />
+              </children>
+            </VBox>
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+  <stylesheets>
+    <URL value="@../../../styles/styles.css" />
+  </stylesheets>
+</AnchorPane>

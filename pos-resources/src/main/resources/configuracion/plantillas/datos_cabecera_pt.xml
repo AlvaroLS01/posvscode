@@ -1,0 +1,52 @@
+<!--Esta plantilla usa un parámetro $imprimirDatosFacturacion que no llega desde el POS. Se debe asignar como (con un solo corchete): ##set( $imprimirDatosFacturacion = true )
+-->
+<plantilla>
+	#printIfLinea(${ticket.getCabecera().getEmpresa().getDesEmpresa()})
+	#printIfLinea(${ticket.getCabecera().getEmpresa().getDomicilio()})
+	#printIfLinea(${ticket.getCabecera().getEmpresa().getPoblacion()})
+	#if(!${ticket.getCabecera().getEmpresa().getNombreComercial().equals(${ticket.getCabecera().getEmpresa().getDesEmpresa()})}) 
+	   #printIfLinea(${ticket.getEmpresa().getNombreComercial()})
+	#end
+	<linea> <texto>Capital Social:1.000.000,00€</texto> </linea>
+	<linea> <texto>Registada na conservatória do registo</texto> </linea>	
+	<linea> <texto>comercial do Entroncamento, sob o</texto> </linea>
+												   
+	<linea> <texto>NIPC:${ticket.getCabecera().getEmpresa().getCif()}</texto> </linea>
+	
+	<linea><texto></texto></linea>
+	
+	#if (${ticket.getCabecera().getTienda().getDesAlmacen()})
+<!--		#if (!${ticket.getCabecera().getTienda().getDesAlmacen().equals(${ticket.getCabecera().getEmpresa().getDesEmpresa()})}) -->
+<!--		  <linea><texto size="40" align="left">LOJA:${ticket.getCabecera().getTienda().getCodAlmacen()} - ${ticket.getCabecera().getTienda().getDesAlmacen()}</texto></linea>-->
+		  #printIfLinea(${ticket.getCabecera().getTienda().getDomicilio()})
+		  <linea><texto size="50" align="left">${ticket.getCabecera().getTienda().getPoblacion()}, ${ticket.getCabecera().getTienda().getCp()} (${ticket.getCabecera().getTienda().getProvincia()})</texto></linea>		  
+<!--		  #codigoPostalProvincia(${ticket.getCabecera().getTienda().getCp()} ${ticket.getCabecera().getTienda().getProvincia()})-->
+<!--          #printIfLinea(${ticket.getCabecera().getTienda().getPoblacion()})	-->	  
+<!--		  #printIfLinea(${ticket.getCabecera().getTienda().getTelefono1()})-->
+		  <linea> <texto size="50" align="left" fontsize="4">${ticket.getCabecera().getTienda().getTelefono1()}, - Chamada para a rede fixa nacional</texto> </linea>
+
+<!--		  <linea><texto></texto></linea>-->
+		#end
+	#end
+	
+	<!-- Inicio Datos Factura -->
+	#if ($imprimirDatosFacturacion)
+		<linea><texto size="40" align="left">CLIENTE FATURA:</texto></linea>
+		#printIfLinea(${ticket.getCabecera().getCliente().getDatosFactura().getNombre()})
+		#printIfLineaEtiqueta(${ticket.getCabecera().getCliente().getDatosFactura().getTipoIdentificacion()} ${ticket.getCabecera().getCliente().getDatosFactura().getCif()})
+		#printIfLinea(${ticket.getCabecera().getCliente().getDatosFactura().getDomicilio()})
+<!-- 		#printIfLinea(${ticket.getCabecera().getCliente().getDatosFactura().getPoblacion()}) -->
+		
+		#set($poblacion = $ticket.getCabecera().getCliente().getDatosFactura().getPoblacion())
+		#set($cp = $ticket.getCabecera().getCliente().getDatosFactura().getCp())
+		#set($provincia = $ticket.getCabecera().getCliente().getDatosFactura().getProvincia())
+		
+		#set($direccionCompleta = "$poblacion, $cp")
+
+		#if ($provincia)
+		    #set($direccionCompleta = "$direccionCompleta ($provincia)")
+		#end
+		<linea><texto size="50" align="left">$direccionCompleta</texto></linea><!-- #printIfLinea(${ticket.getCabecera().getCliente().getDatosFactura().getTelefono()})-->																   
+	#end	
+</plantilla>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																					 

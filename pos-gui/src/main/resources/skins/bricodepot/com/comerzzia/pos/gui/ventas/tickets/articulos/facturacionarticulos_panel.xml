@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+    ComerZZia 3.0
+
+    Copyright (c) 2008-2015 Comerzzia, S.L.  All Rights Reserved.
+
+    THIS WORK IS  SUBJECT  TO  SPAIN  AND  INTERNATIONAL  COPYRIGHT  LAWS  AND
+    TREATIES.   NO  PART  OF  THIS  WORK MAY BE  USED,  PRACTICED,  PERFORMED
+    COPIED, DISTRIBUTED, REVISED, MODIFIED, TRANSLATED,  ABRIDGED, CONDENSED,
+    EXPANDED,  COLLECTED,  COMPILED,  LINKED,  RECAST, TRANSFORMED OR ADAPTED
+    WITHOUT THE PRIOR WRITTEN CONSENT OF COMERZZIA, S.L. ANY USE OR EXPLOITATION
+    OF THIS WORK WITHOUT AUTHORIZATION COULD SUBJECT THE PERPETRATOR TO
+    CRIMINAL AND CIVIL LIABILITY.
+
+    CONSULT THE END USER LICENSE AGREEMENT FOR INFORMATION ON ADDITIONAL
+    RESTRICTIONS.
+
+-->
+<Panel>
+    <LineaBotones>
+    	<Boton>
+			<texto>abrir cajón (no visible)</texto>
+            <clave>ABRIR CAJON</clave>
+            <tipo>OPERACION</tipo>
+			<teclaAccesoRapido>Ctrl + O</teclaAccesoRapido>
+			<rutaImagen>iconos/ticket_aparcar.png</rutaImagen>
+			<visible>N</visible>
+        </Boton>
+        <Boton>
+			<texto>APARCAR TICKET</texto>
+            <clave>aparcarTicket</clave>
+            <tipo>METODO</tipo>
+			<rutaImagen>iconos/ticket_aparcar.png</rutaImagen>
+			<visible>S</visible>
+        </Boton> 
+        <Boton>
+			<texto>RECUPERAR TICKET</texto>
+            <clave>recuperarTicket</clave>
+            <tipo>METODO</tipo>
+			<rutaImagen>iconos/ticket_recuperar.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>  
+        <Boton>
+			<texto>ANULAR TICKET</texto>
+            <clave>CANCELAR VENTA</clave>
+            <tipo>OPERACION</tipo>
+			<rutaImagen>iconos/ticket_anular.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+        <Boton>
+            <texto>SALDO GIFTCARD</texto>
+            <clave>consultarSaldoGiftCard</clave>
+            <tipo>METODO</tipo>
+	    <rutaImagen>iconos/park.png</rutaImagen>
+	    <visible>S</visible>
+        </Boton>
+        <Boton>
+            <texto>ANTICIPO</texto>
+            <clave>pagarAnticipo</clave>
+            <tipo>METODO</tipo>
+	    <rutaImagen>iconos/pagos.png</rutaImagen>
+	    <visible>S</visible>
+        </Boton> 
+        <Boton>
+			<texto>PAGOS</texto>
+            <clave>abrirPagos</clave>
+            <tipo>METODO</tipo>
+			<rutaImagen>iconos/pagos.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+        
+	</LineaBotones>
+	<LineaBotones>	        
+		<Boton>
+			<texto>GESTIÓN DOCUMENTOS</texto>
+            <clave>abrirGestionTickets</clave>
+            <tipo>METODO</tipo>
+			<rutaImagen>iconos/ticket_gestion.png</rutaImagen>
+			<visible>S</visible>
+                        <parametros>
+                            <entry>
+                            <key>idAccion</key>
+                            <value>207</value>
+                            </entry>
+                        </parametros>
+        </Boton>
+        <Boton>
+            <texto>FIDELIZACION</texto>
+            <clave>fidelizacion</clave>
+            <tipo>METODO</tipo>
+	    <rutaImagen>iconos/fideliza-tag.png</rutaImagen>
+	    <visible>S</visible>        	
+        </Boton>
+       	<Boton>
+			<texto>BÚSQUEDA</texto>
+            <clave>abrirBusquedaArticulos</clave>
+            <tipo>METODO</tipo>
+			<rutaImagen>iconos/buscar-articulo.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>  
+      
+       	<Boton>
+			<texto>CAMBIAR CAJERO</texto>
+            <clave>cambiarCajero</clave>
+            <tipo>METODO</tipo>
+			<rutaImagen>iconos/cambiar_cajero.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+		<Boton>
+			<texto>CONSULTAR DISPONIBILIDAD</texto>
+			<clave>consultarDisponibilidad</clave>
+			<tipo>METODO</tipo>
+			<teclaAccesoRapido></teclaAccesoRapido>
+			<rutaImagen>menu/POS-mantenimiento-articulos.png</rutaImagen>
+			<visible>N</visible>
+		</Boton>
+    </LineaBotones> 
+</Panel>

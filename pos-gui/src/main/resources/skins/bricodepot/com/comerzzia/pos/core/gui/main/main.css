@@ -1,0 +1,42 @@
+/**
+ * ComerZZia 3.0
+ *
+ * Copyright (c) 2008-2015 Comerzzia, S.L.  All Rights Reserved.
+ *
+ * THIS WORK IS  SUBJECT  TO  SPAIN  AND  INTERNATIONAL  COPYRIGHT  LAWS  AND
+ * TREATIES.   NO  PART  OF  THIS  WORK MAY BE  USED,  PRACTICED,  PERFORMED
+ * COPIED, DISTRIBUTED, REVISED, MODIFIED, TRANSLATED,  ABRIDGED, CONDENSED,
+ * EXPANDED,  COLLECTED,  COMPILED,  LINKED,  RECAST, TRANSFORMED OR ADAPTED
+ * WITHOUT THE PRIOR WRITTEN CONSENT OF COMERZZIA, S.L. ANY USE OR EXPLOITATION
+ * OF THIS WORK WITHOUT AUTHORIZATION COULD SUBJECT THE PERPETRATOR TO
+ * CRIMINAL AND CIVIL LIABILITY.
+ *
+ * CONSULT THE END USER LICENSE AGREEMENT FOR INFORMATION ON ADDITIONAL
+ * RESTRICTIONS.
+ */
+/*PIE*/
+.pie-wrap {
+	-fx-background-color: transparent;
+}
+
+.footer-wrap {
+	-fx-background-color: #090a0c,
+		linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+		linear-gradient(#20262b, #191d22),
+		radial-gradient(center 50% 0%, radius 100%, rgba(114, 131, 148, 0.9),
+		rgba(255, 255, 255, 0) );
+	-fx-background-insets: 0, 0, 0, 0;
+}
+/****** ESTILOS CREADOS PARA CONTROLAR LAS VERSIONES PERSONALIZADAS *********/
+.main-background {
+ 	 -fx-background-color: #090a0c;
+	
+}
+.topMain-background {
+	 -fx-background-image: url("../../../gui/imagenes/fondos/logo_brico.bmp");
+	 -fx-background-repeat: no-repeat;
+	 -fx-background-position: left;
+}
+.oculta {
+	visibility: visible;
+}

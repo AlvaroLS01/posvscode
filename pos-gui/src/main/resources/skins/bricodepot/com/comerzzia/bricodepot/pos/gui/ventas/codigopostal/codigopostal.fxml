@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" onKeyReleased="#accionTeclas" prefHeight="170.0" prefWidth="400.0" styleClass="mainFxmlClass, pantalla-detalle" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.comerzzia.bricodepot.pos.gui.ventas.codigopostal.CodigoPostalController">
+  <children>
+    <VBox layoutX="0.0" layoutY="0.0" prefHeight="170.0" prefWidth="400.0">
+      <children>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="400.0" styleClass="titulo-ventana">
+          <children>
+            <Label fx:id="lbTitulo" text="%CÓDIGO POSTAL" />
+          </children>
+        </HBox>
+        <VBox prefHeight="80.0" prefWidth="700.0">
+          <children>
+            <HBox alignment="CENTER" prefHeight="80.0" prefWidth="400.0">
+              <children>
+                <TextField fx:id="tfCodPostal" alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="300.0" />
+              </children>
+            </HBox>
+          </children>
+        </VBox>
+        <HBox alignment="CENTER_RIGHT" prefHeight="70.0" prefWidth="400.0">
+          <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="350.0">
+              <children>
+                <Button fx:id="btnCancelar" focusTraversable="false" minWidth="10.0" mnemonicParsing="false" onAction="#accionAceptar" prefHeight="42.0" prefWidth="115.0" styleClass="btAceptar" text="%Aceptar">
+                  <HBox.margin>
+                    <Insets left="20.0" right="20.0" />
+                  </HBox.margin>
+                </Button>
+                <Button fx:id="btnAceptar" focusTraversable="false" minWidth="10.0" mnemonicParsing="false" onAction="#accionCancelar" prefHeight="42.0" prefWidth="115.0" styleClass="btCancelar" text="%Cancelar">
+                  <HBox.margin>
+                    <Insets right="20.0" />
+                  </HBox.margin>
+                </Button>
+              </children>
+            </HBox>
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

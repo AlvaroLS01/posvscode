@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="195.0" prefWidth="569.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.comerzzia.bricodepot.pos.gui.ventas.tickets.pagos.email.seleccionenvio.SeleccionEnvioTicketController">
+  <children>
+    <VBox layoutX="0.0" layoutY="0.0" prefHeight="195.0" prefWidth="569.0" styleClass="mainFxmlClass, pantalla-detalle">
+      <children>
+        <HBox alignment="CENTER" prefHeight="43.000099999997474" prefWidth="569.0" styleClass="titulo-ventana">
+          <children>
+            <Label fx:id="lbTitulo" alignment="CENTER" prefHeight="30.0" prefWidth="569.0" text="%¿Cómo quiere su factura?" />
+          </children>
+        </HBox>
+        <HBox prefHeight="158.0" prefWidth="569.0">
+          <children>
+            <HBox alignment="CENTER" prefHeight="52.0" prefWidth="284.5">
+              <children>
+                <Button mnemonicParsing="false" onAction="#accionPapel" prefHeight="42.0" prefWidth="115.0" text="%Papel" />
+              </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="52.0" prefWidth="284.5">
+              <children>
+                <Button mnemonicParsing="false" onAction="#accionCorreo" prefHeight="42.0" prefWidth="174.0" text="%Correo electrónico" />
+              </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="52.0" prefWidth="285.5">
+              <children>
+                <Button mnemonicParsing="false" onAction="#accionAmbos" prefHeight="42.0" prefWidth="115.0" text="%Ambos" />
+              </children>
+            </HBox>
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+  <stylesheets>
+    <URL value="@../../../../styles/styles.css" />
+  </stylesheets>
+</AnchorPane>

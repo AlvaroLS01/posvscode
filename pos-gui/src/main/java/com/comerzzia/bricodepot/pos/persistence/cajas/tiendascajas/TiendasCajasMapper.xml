@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajasMapper">
+  <resultMap id="BaseResultMap" type="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajas">
+    <id column="uid_caja" jdbcType="VARCHAR" property="uidCaja" />
+    <result column="uid_actividad" jdbcType="VARCHAR" property="uidActividad" />
+    <result column="codalm" jdbcType="VARCHAR" property="codalm" />
+    <result column="codcaja" jdbcType="VARCHAR" property="codcaja" />
+    <result column="uid_tpv" jdbcType="VARCHAR" property="uidTpv" />
+    <result column="activo" jdbcType="CHAR" property="activo" />
+    <result column="direccion_ip" jdbcType="VARCHAR" property="direccionIp" />
+    <result column="id_tipo_caja" jdbcType="BIGINT" property="idTipoCaja" />
+    <result column="version_articulos_apl" jdbcType="BIGINT" property="versionArticulosApl" />
+    <result column="fecha_version_articulos_apl" jdbcType="TIMESTAMP" property="fechaVersionArticulosApl" />
+    <result column="id_act_version_articulos_apl" jdbcType="BIGINT" property="idActVersionArticulosApl" />
+    <result column="id_buzon_remoto" jdbcType="BIGINT" property="idBuzonRemoto" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajas">
+    <result column="configuracion" jdbcType="LONGVARBINARY" property="configuracion" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    uid_caja, uid_actividad, codalm, codcaja, uid_tpv, activo, direccion_ip, id_tipo_caja, 
+    version_articulos_apl, fecha_version_articulos_apl, id_act_version_articulos_apl, 
+    id_buzon_remoto
+  </sql>
+  <sql id="Blob_Column_List">
+    configuracion
+  </sql>
+  <select id="selectByExampleWithBLOBs" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajasExample" resultMap="ResultMapWithBLOBs">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from d_tiendas_cajas_tbl
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajasExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from d_tiendas_cajas_tbl
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from d_tiendas_cajas_tbl
+    where uid_caja = #{uidCaja,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from d_tiendas_cajas_tbl
+    where uid_caja = #{uidCaja,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajasExample">
+    delete from d_tiendas_cajas_tbl
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajas">
+    insert into d_tiendas_cajas_tbl (uid_caja, uid_actividad, codalm, 
+      codcaja, uid_tpv, activo, 
+      direccion_ip, id_tipo_caja, version_articulos_apl, 
+      fecha_version_articulos_apl, id_act_version_articulos_apl, 
+      id_buzon_remoto, configuracion)
+    values (#{uidCaja,jdbcType=VARCHAR}, #{uidActividad,jdbcType=VARCHAR}, #{codalm,jdbcType=VARCHAR}, 
+      #{codcaja,jdbcType=VARCHAR}, #{uidTpv,jdbcType=VARCHAR}, #{activo,jdbcType=CHAR}, 
+      #{direccionIp,jdbcType=VARCHAR}, #{idTipoCaja,jdbcType=BIGINT}, #{versionArticulosApl,jdbcType=BIGINT}, 
+      #{fechaVersionArticulosApl,jdbcType=TIMESTAMP}, #{idActVersionArticulosApl,jdbcType=BIGINT}, 
+      #{idBuzonRemoto,jdbcType=BIGINT}, #{configuracion,jdbcType=LONGVARBINARY})
+  </insert>
+  <insert id="insertSelective" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajas">
+    insert into d_tiendas_cajas_tbl
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="uidCaja != null">
+        uid_caja,
+      </if>
+      <if test="uidActividad != null">
+        uid_actividad,
+      </if>
+      <if test="codalm != null">
+        codalm,
+      </if>
+      <if test="codcaja != null">
+        codcaja,
+      </if>
+      <if test="uidTpv != null">
+        uid_tpv,
+      </if>
+      <if test="activo != null">
+        activo,
+      </if>
+      <if test="direccionIp != null">
+        direccion_ip,
+      </if>
+      <if test="idTipoCaja != null">
+        id_tipo_caja,
+      </if>
+      <if test="versionArticulosApl != null">
+        version_articulos_apl,
+      </if>
+      <if test="fechaVersionArticulosApl != null">
+        fecha_version_articulos_apl,
+      </if>
+      <if test="idActVersionArticulosApl != null">
+        id_act_version_articulos_apl,
+      </if>
+      <if test="idBuzonRemoto != null">
+        id_buzon_remoto,
+      </if>
+      <if test="configuracion != null">
+        configuracion,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="uidCaja != null">
+        #{uidCaja,jdbcType=VARCHAR},
+      </if>
+      <if test="uidActividad != null">
+        #{uidActividad,jdbcType=VARCHAR},
+      </if>
+      <if test="codalm != null">
+        #{codalm,jdbcType=VARCHAR},
+      </if>
+      <if test="codcaja != null">
+        #{codcaja,jdbcType=VARCHAR},
+      </if>
+      <if test="uidTpv != null">
+        #{uidTpv,jdbcType=VARCHAR},
+      </if>
+      <if test="activo != null">
+        #{activo,jdbcType=CHAR},
+      </if>
+      <if test="direccionIp != null">
+        #{direccionIp,jdbcType=VARCHAR},
+      </if>
+      <if test="idTipoCaja != null">
+        #{idTipoCaja,jdbcType=BIGINT},
+      </if>
+      <if test="versionArticulosApl != null">
+        #{versionArticulosApl,jdbcType=BIGINT},
+      </if>
+      <if test="fechaVersionArticulosApl != null">
+        #{fechaVersionArticulosApl,jdbcType=TIMESTAMP},
+      </if>
+      <if test="idActVersionArticulosApl != null">
+        #{idActVersionArticulosApl,jdbcType=BIGINT},
+      </if>
+      <if test="idBuzonRemoto != null">
+        #{idBuzonRemoto,jdbcType=BIGINT},
+      </if>
+      <if test="configuracion != null">
+        #{configuracion,jdbcType=LONGVARBINARY},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajasExample" resultType="java.lang.Long">
+    select count(*) from d_tiendas_cajas_tbl
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update d_tiendas_cajas_tbl
+    <set>
+      <if test="record.uidCaja != null">
+        uid_caja = #{record.uidCaja,jdbcType=VARCHAR},
+      </if>
+      <if test="record.uidActividad != null">
+        uid_actividad = #{record.uidActividad,jdbcType=VARCHAR},
+      </if>
+      <if test="record.codalm != null">
+        codalm = #{record.codalm,jdbcType=VARCHAR},
+      </if>
+      <if test="record.codcaja != null">
+        codcaja = #{record.codcaja,jdbcType=VARCHAR},
+      </if>
+      <if test="record.uidTpv != null">
+        uid_tpv = #{record.uidTpv,jdbcType=VARCHAR},
+      </if>
+      <if test="record.activo != null">
+        activo = #{record.activo,jdbcType=CHAR},
+      </if>
+      <if test="record.direccionIp != null">
+        direccion_ip = #{record.direccionIp,jdbcType=VARCHAR},
+      </if>
+      <if test="record.idTipoCaja != null">
+        id_tipo_caja = #{record.idTipoCaja,jdbcType=BIGINT},
+      </if>
+      <if test="record.versionArticulosApl != null">
+        version_articulos_apl = #{record.versionArticulosApl,jdbcType=BIGINT},
+      </if>
+      <if test="record.fechaVersionArticulosApl != null">
+        fecha_version_articulos_apl = #{record.fechaVersionArticulosApl,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.idActVersionArticulosApl != null">
+        id_act_version_articulos_apl = #{record.idActVersionArticulosApl,jdbcType=BIGINT},
+      </if>
+      <if test="record.idBuzonRemoto != null">
+        id_buzon_remoto = #{record.idBuzonRemoto,jdbcType=BIGINT},
+      </if>
+      <if test="record.configuracion != null">
+        configuracion = #{record.configuracion,jdbcType=LONGVARBINARY},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map">
+    update d_tiendas_cajas_tbl
+    set uid_caja = #{record.uidCaja,jdbcType=VARCHAR},
+      uid_actividad = #{record.uidActividad,jdbcType=VARCHAR},
+      codalm = #{record.codalm,jdbcType=VARCHAR},
+      codcaja = #{record.codcaja,jdbcType=VARCHAR},
+      uid_tpv = #{record.uidTpv,jdbcType=VARCHAR},
+      activo = #{record.activo,jdbcType=CHAR},
+      direccion_ip = #{record.direccionIp,jdbcType=VARCHAR},
+      id_tipo_caja = #{record.idTipoCaja,jdbcType=BIGINT},
+      version_articulos_apl = #{record.versionArticulosApl,jdbcType=BIGINT},
+      fecha_version_articulos_apl = #{record.fechaVersionArticulosApl,jdbcType=TIMESTAMP},
+      id_act_version_articulos_apl = #{record.idActVersionArticulosApl,jdbcType=BIGINT},
+      id_buzon_remoto = #{record.idBuzonRemoto,jdbcType=BIGINT},
+      configuracion = #{record.configuracion,jdbcType=LONGVARBINARY}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update d_tiendas_cajas_tbl
+    set uid_caja = #{record.uidCaja,jdbcType=VARCHAR},
+      uid_actividad = #{record.uidActividad,jdbcType=VARCHAR},
+      codalm = #{record.codalm,jdbcType=VARCHAR},
+      codcaja = #{record.codcaja,jdbcType=VARCHAR},
+      uid_tpv = #{record.uidTpv,jdbcType=VARCHAR},
+      activo = #{record.activo,jdbcType=CHAR},
+      direccion_ip = #{record.direccionIp,jdbcType=VARCHAR},
+      id_tipo_caja = #{record.idTipoCaja,jdbcType=BIGINT},
+      version_articulos_apl = #{record.versionArticulosApl,jdbcType=BIGINT},
+      fecha_version_articulos_apl = #{record.fechaVersionArticulosApl,jdbcType=TIMESTAMP},
+      id_act_version_articulos_apl = #{record.idActVersionArticulosApl,jdbcType=BIGINT},
+      id_buzon_remoto = #{record.idBuzonRemoto,jdbcType=BIGINT}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajas">
+    update d_tiendas_cajas_tbl
+    <set>
+      <if test="uidActividad != null">
+        uid_actividad = #{uidActividad,jdbcType=VARCHAR},
+      </if>
+      <if test="codalm != null">
+        codalm = #{codalm,jdbcType=VARCHAR},
+      </if>
+      <if test="codcaja != null">
+        codcaja = #{codcaja,jdbcType=VARCHAR},
+      </if>
+      <if test="uidTpv != null">
+        uid_tpv = #{uidTpv,jdbcType=VARCHAR},
+      </if>
+      <if test="activo != null">
+        activo = #{activo,jdbcType=CHAR},
+      </if>
+      <if test="direccionIp != null">
+        direccion_ip = #{direccionIp,jdbcType=VARCHAR},
+      </if>
+      <if test="idTipoCaja != null">
+        id_tipo_caja = #{idTipoCaja,jdbcType=BIGINT},
+      </if>
+      <if test="versionArticulosApl != null">
+        version_articulos_apl = #{versionArticulosApl,jdbcType=BIGINT},
+      </if>
+      <if test="fechaVersionArticulosApl != null">
+        fecha_version_articulos_apl = #{fechaVersionArticulosApl,jdbcType=TIMESTAMP},
+      </if>
+      <if test="idActVersionArticulosApl != null">
+        id_act_version_articulos_apl = #{idActVersionArticulosApl,jdbcType=BIGINT},
+      </if>
+      <if test="idBuzonRemoto != null">
+        id_buzon_remoto = #{idBuzonRemoto,jdbcType=BIGINT},
+      </if>
+      <if test="configuracion != null">
+        configuracion = #{configuracion,jdbcType=LONGVARBINARY},
+      </if>
+    </set>
+    where uid_caja = #{uidCaja,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajas">
+    update d_tiendas_cajas_tbl
+    set uid_actividad = #{uidActividad,jdbcType=VARCHAR},
+      codalm = #{codalm,jdbcType=VARCHAR},
+      codcaja = #{codcaja,jdbcType=VARCHAR},
+      uid_tpv = #{uidTpv,jdbcType=VARCHAR},
+      activo = #{activo,jdbcType=CHAR},
+      direccion_ip = #{direccionIp,jdbcType=VARCHAR},
+      id_tipo_caja = #{idTipoCaja,jdbcType=BIGINT},
+      version_articulos_apl = #{versionArticulosApl,jdbcType=BIGINT},
+      fecha_version_articulos_apl = #{fechaVersionArticulosApl,jdbcType=TIMESTAMP},
+      id_act_version_articulos_apl = #{idActVersionArticulosApl,jdbcType=BIGINT},
+      id_buzon_remoto = #{idBuzonRemoto,jdbcType=BIGINT},
+      configuracion = #{configuracion,jdbcType=LONGVARBINARY}
+    where uid_caja = #{uidCaja,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajas">
+    update d_tiendas_cajas_tbl
+    set uid_actividad = #{uidActividad,jdbcType=VARCHAR},
+      codalm = #{codalm,jdbcType=VARCHAR},
+      codcaja = #{codcaja,jdbcType=VARCHAR},
+      uid_tpv = #{uidTpv,jdbcType=VARCHAR},
+      activo = #{activo,jdbcType=CHAR},
+      direccion_ip = #{direccionIp,jdbcType=VARCHAR},
+      id_tipo_caja = #{idTipoCaja,jdbcType=BIGINT},
+      version_articulos_apl = #{versionArticulosApl,jdbcType=BIGINT},
+      fecha_version_articulos_apl = #{fechaVersionArticulosApl,jdbcType=TIMESTAMP},
+      id_act_version_articulos_apl = #{idActVersionArticulosApl,jdbcType=BIGINT},
+      id_buzon_remoto = #{idBuzonRemoto,jdbcType=BIGINT}
+    where uid_caja = #{uidCaja,jdbcType=VARCHAR}
+  </update>
+  <select id="selectByExampleWithBLOBsWithRowbounds" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajasExample" resultMap="ResultMapWithBLOBs">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from d_tiendas_cajas_tbl
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExampleWithRowbounds" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.tiendascajas.TiendasCajasExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from d_tiendas_cajas_tbl
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>

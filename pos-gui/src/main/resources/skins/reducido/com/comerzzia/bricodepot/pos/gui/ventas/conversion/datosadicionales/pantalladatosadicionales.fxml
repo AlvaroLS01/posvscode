@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.comerzzia.pos.core.gui.componentes.datepicker.* ?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onKeyReleased="#accionTeclas" prefHeight="250.0" prefWidth="600.0" styleClass="mainFxmlClass, pantalla-detalle" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.comerzzia.bricodepot.pos.gui.ventas.conversion.datosadicionales.PantallaDatosAdicionalesController">
+  <children>
+    <VBox layoutX="0.0" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="250.0" prefWidth="600.0">
+      <children>
+        <HBox alignment="CENTER" maxHeight="-1.0" maxWidth="-1.0" prefHeight="50.0" prefWidth="50.0" styleClass="titulo-ventana">
+          <children>
+            <Label fx:id="lbTitulo" text="%DATOS ADICIONALES" />
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="81.0" prefWidth="600.0">
+          <children>
+            <Label id="lbFecha" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="80.0" styleClass="etiqueta-titulo2" text="%Fecha: " />
+            <DatePicker fx:id="dpFecha" prefWidth="138.0" />
+		  </children>
+		  <children>
+            <Label fx:id="lbHora" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="80.0" styleClass="etiqueta-titulo2" text="%Hora: " />
+            <TextField fx:id="tfHora" alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="40.0" />
+		  </children>
+			<children>
+            <Label fx:id="lbMinutos" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="80.0" styleClass="etiqueta-titulo2" text="%Minutos: " />
+            <TextField fx:id="tfMinutos" alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="40.0" />
+          </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="80.0" prefWidth="600.0">
+          <children>
+            <Label fx:id="lbFactura" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="100.0" styleClass="etiqueta-titulo2" text="%Factura: " />
+            <TextField fx:id="tfFactura" alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="350.0" />
+          </children>
+        </HBox>
+        <HBox alignment="CENTER_RIGHT" prefHeight="61.0" prefWidth="600.0">
+          <children>
+            <Button id="btnCancelar" focusTraversable="false" minWidth="10.0" mnemonicParsing="false" onAction="#accionAceptar" prefHeight="42.0" prefWidth="115.0" styleClass="btAceptar" text="%Aceptar">
+              <HBox.margin>
+                <Insets left="20.0" right="20.0" />
+              </HBox.margin>
+            </Button>
+            <Button id="btnAceptar" focusTraversable="false" minWidth="10.0" mnemonicParsing="false" onAction="#accionCancelar" prefHeight="42.0" prefWidth="115.0" styleClass="btCancelar" text="%Cancelar">
+              <HBox.margin>
+                <Insets right="20.0" />
+              </HBox.margin>
+            </Button>
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="147.0" prefHeight="195.0" prefWidth="569.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.comerzzia.bricodepot.pos.gui.ventas.tickets.pagos.email.EmailController">
+  <children>
+    <VBox layoutX="0.0" layoutY="0.0" prefHeight="195.0" prefWidth="569.0" styleClass="mainFxmlClass, pantalla-detalle">
+      <children>
+        <HBox alignment="CENTER" prefHeight="42.0" prefWidth="569.0" styleClass="titulo-ventana">
+          <children>
+            <Label fx:id="lbTitulo" alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0" text="%Introduzca su email" />
+          </children>
+        </HBox>
+        <VBox alignment="CENTER" prefHeight="103.0" prefWidth="-1.0">
+          <children>
+            <HBox alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0">
+              <children>
+                <TextField fx:id="tfEmail" alignment="CENTER" onKeyReleased="#accionAceptarIntro" prefWidth="351.0" />
+              </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="42.0" prefWidth="569.0">
+              <children>
+                <Label id="lbT" fx:id="lbTextError" alignment="CENTER" contentDisplay="CENTER" prefHeight="22.5" prefWidth="241.0" styleClass="lbError" text="" textFill="#ff3333" visible="true" />
+              </children>
+            </HBox>
+          </children>
+        </VBox>
+        <VBox prefHeight="55.0" prefWidth="569.0">
+          <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="158.0" prefWidth="569.0">
+              <children>
+                <Button mnemonicParsing="false" onAction="#accionVisor" prefHeight="42.0" prefWidth="228.0" styleClass="btAceptar" text="%Enviar al visor">
+                  <HBox.margin>
+                    <Insets right="10.0" fx:id="x1" />
+                  </HBox.margin>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#accionCancelar" prefHeight="42.0" prefWidth="115.0" styleClass="btCancelar" text="%Cancelar" HBox.margin="$x1" />
+              </children>
+            </HBox>
+          </children>
+        </VBox>
+      </children>
+    </VBox>
+  </children>
+  <stylesheets>
+    <URL value="@../../../../styles/styles.css" />
+  </stylesheets>
+</AnchorPane>

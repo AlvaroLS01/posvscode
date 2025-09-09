@@ -1,0 +1,45 @@
+<plantilla> 
+    <documento>
+		<logo></logo>  
+		<linea> <texto> </texto> </linea>
+		#set( $imprimirDatosFacturacion =  false)
+		#parse("./plantillas/datos_cabecera_pt.xml")
+		<linea> <texto> </texto> </linea>
+		<linea>
+			<texto align="left" size="40">${ticket.getCabecera().getFechaAsLocale()}</texto>
+		</linea>    
+		<linea>
+			<texto size="16" align="left">Bilhete presente: </texto>			
+		</linea>
+		<linea>
+			<texto size="30" align="left">${ticket.getCabecera().getCodTicket()}</texto>
+		</linea>
+		<linea> <texto> </texto> </linea>
+		<linea> <texto>Q.    ARTIGO                        </texto> </linea>
+		<linea> <texto>----------------------------------------</texto> </linea>
+		## LINEAS
+		#foreach ($linea in $ticket.getLineas())   
+		#if(${linea.isImprimirTicketRegalo()}) 
+
+			<linea> 
+				 <texto size="5" align="right">${linea.getCantidadAsString()}</texto>
+				 <texto size="1" align="right"> </texto>
+				 <texto size="26" align="left">${linea.getArticulo().getDesArticulo()}</texto>
+				 <texto size="8" align="right"></texto> 
+			</linea>   
+
+			#end  
+		#end
+		<linea> <texto> </texto> </linea>
+		<linea> <texto>----------------------------------------</texto> </linea>
+
+		<linea>
+			<texto></texto>
+		</linea>
+		<codbar align="center" tipo-leyenda="0" >${ticket.getCabecera().getLocalizador()}</codbar>	
+		<linea>
+			<texto></texto>
+		</linea>
+		<corte></corte>
+	</documento>
+</plantilla>

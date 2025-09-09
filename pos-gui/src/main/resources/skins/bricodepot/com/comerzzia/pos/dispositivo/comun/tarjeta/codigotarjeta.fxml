@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="147.0" prefHeight="147.0" prefWidth="569.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.comerzzia.pos.dispositivo.comun.tarjeta.CodigoTarjetaController">
+  <children>
+    <HBox prefHeight="200.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <AnchorPane minHeight="119.0" prefHeight="119.0" prefWidth="600.0" HBox.hgrow="ALWAYS">
+          <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" styleClass="mainFxmlClass, pantalla-detalle" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <children>
+                <AnchorPane minHeight="30.0" prefHeight="37.0" prefWidth="600.0" styleClass="titulo-ventana" VBox.vgrow="NEVER">
+                  <children>
+                    <Label fx:id="lbTitulo" alignment="CENTER" prefHeight="37.0" prefWidth="479.0" text="%Lea o escriba el código de barras de la tarjeta" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  </children>
+                </AnchorPane>
+                <AnchorPane minHeight="52.0" prefHeight="52.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+                  <children>
+                    <VBox minHeight="43.5" prefHeight="43.5" prefWidth="600.0" AnchorPane.bottomAnchor="21.5" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                      <children>
+                        <AnchorPane id="AnchorPane" prefWidth="600.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" layoutX="36.0" layoutY="11.0" prefWidth="146.0" text="%Número de tarjeta" />
+                            <TextField id="tfNumTarjetaRegalo" fx:id="tfNumero" layoutX="208.0" layoutY="8.0" onKeyReleased="#accionAceptarIntro" prefWidth="316.0" />
+                          </children>
+                        </AnchorPane>
+                      </children>
+                    </VBox>
+                  </children>
+                </AnchorPane>
+                <AnchorPane minHeight="51.999900000002526" prefHeight="51.999900000002526" prefWidth="578.0" VBox.vgrow="NEVER">
+                  <children>
+                    <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="0.0">
+                      <children>
+                        <Button fx:id="btTarjetaAbono" mnemonicParsing="false" onAction="#crearTarjetaAbono" prefHeight="42.0" prefWidth="231.0" text="%TARJETA ABONO (COMERZZIA)" />
+                        <Button fx:id="btnAltaFidelizado" disable="true" minWidth="1.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="1.0" styleClass="btAlta" text="%Alta Fidelizado" visible="false" />
+                        <Button mnemonicParsing="false" onAction="#accionAceptar" prefHeight="42.0" prefWidth="120.0" styleClass="btAceptar" text="%Aceptar" />
+                        <Button mnemonicParsing="false" onAction="#accionCancelar" prefHeight="42.0" prefWidth="115.0" styleClass="btCancelar" text="%Cancelar" />
+                      </children>
+                    </HBox>
+                  </children>
+                </AnchorPane>
+              </children>
+            </VBox>
+          </children>
+        </AnchorPane>
+      </children>
+    </HBox>
+  </children>
+  <stylesheets>
+    <URL value="@../../../../styles/styles.css" />
+  </stylesheets>
+</AnchorPane>

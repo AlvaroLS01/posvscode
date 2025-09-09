@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="formulariofidelizado" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isSummaryWithPageHeaderAndFooter="true" whenResourceMissingType="Empty" uuid="ee215489-9482-449b-bb38-5ebd3146261d">
+	<property name="ireport.zoom" value="1.8150000000000073"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="15948"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+		<defaultValueExpression><![CDATA[".//"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="MOVIL" class="java.lang.String">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<parameter name="EMAIL" class="java.lang.String"/>
+	<parameter name="DESEMP" class="java.lang.String"/>
+	<parameter name="EMAIL_NOTIF" class="java.lang.String"/>
+	<parameter name="MOVIL_NOTIF" class="java.lang.String"/>
+	<parameter name="LOGO" class="java.io.InputStream"/>
+	<parameter name="DOMICILIO" class="java.lang.String">
+		<defaultValueExpression><![CDATA[""]]></defaultValueExpression>
+	</parameter>
+	<parameter name="CP" class="java.lang.String">
+		<defaultValueExpression><![CDATA[""]]></defaultValueExpression>
+	</parameter>
+	<parameter name="PROVINCIA" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="FIRMA" class="java.io.InputStream"/>
+	<field name="nombre" class="java.lang.String">
+		<fieldDescription><![CDATA[nombre]]></fieldDescription>
+	</field>
+	<field name="apellidos" class="java.lang.String">
+		<fieldDescription><![CDATA[apellidos]]></fieldDescription>
+	</field>
+	<field name="fechaNacimiento" class="java.util.Date"/>
+	<field name="codTipoIden" class="java.lang.String">
+		<fieldDescription><![CDATA[codTipoIden]]></fieldDescription>
+	</field>
+	<field name="domicilio" class="java.lang.String">
+		<fieldDescription><![CDATA[domicilio]]></fieldDescription>
+	</field>
+	<field name="poblacion" class="java.lang.String">
+		<fieldDescription><![CDATA[poblacion]]></fieldDescription>
+	</field>
+	<field name="provincia" class="java.lang.String">
+		<fieldDescription><![CDATA[provincia]]></fieldDescription>
+	</field>
+	<field name="cp" class="java.lang.String">
+		<fieldDescription><![CDATA[cp]]></fieldDescription>
+	</field>
+	<field name="sexo" class="java.lang.String">
+		<fieldDescription><![CDATA[sexo]]></fieldDescription>
+	</field>
+	<field name="desPais" class="java.lang.String">
+		<fieldDescription><![CDATA[desPais]]></fieldDescription>
+	</field>
+	<field name="documento" class="java.lang.String"/>
+	<variable name="FR_FIDELIZADO" class="java.lang.Object"/>
+	<variable name="DIRECCION" class="java.lang.String">
+		<variableExpression><![CDATA[(($P{DESEMP}!=null)?$P{DESEMP}:"")+
+(($P{DOMICILIO}!=null)?" , "+$P{DOMICILIO}:"")+
+(($P{CP}!=null)?" "+$P{CP}:"")+
+(($P{PROVINCIA}!=null)?" - "+$P{PROVINCIA}:"")]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="59">
+			<image onErrorType="Blank">
+				<reportElement uuid="b176941c-032c-4e11-bfaa-db8c40f7ac88" x="0" y="0" width="555" height="50"/>
+				<imageExpression><![CDATA[$P{LOGO}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="286" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="2b56ac73-d96b-47fd-95ca-d9da634e46e8" x="0" y="5" width="555" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="11" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[FORMULÁRIO DE SOLICITAÇÃO DE ADESÃO DE FIDELIZADO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="79e57e0c-e2df-4e79-9e92-4c08017981be" x="0" y="36" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[NOME:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5d9a0026-97b9-48ab-a949-ddecd266794e" x="0" y="56" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[SOBRENOME:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1e42de41-98a9-405d-a72a-5398b59f14de" x="0" y="76" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[DATA DE NASCIMENTO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8630c1f7-7e06-4d0f-9dae-29f35b3b079f" x="0" y="96" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[EMAIL:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="23748581-e895-475a-97e2-2ddd58372750" x="0" y="116" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[TELEMÓVEL:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="53fa33d5-b494-4636-a6b4-a0edb70fe848" x="0" y="136" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[TIPO DE DOCUMENTO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="986f9937-931a-4042-89ef-a78d4d4d3d61" x="0" y="156" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[ENDEREÇO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="aa01e3d7-ff1e-4f0f-999f-e933df984507" x="0" y="176" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[POPULAÇÃO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="26af3605-9630-4b98-863a-6b3d8050a283" x="0" y="196" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[PROVÍNCIA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5006c986-c94f-41e9-a3da-e1b2fe695410" x="0" y="216" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[CÓDIGO POSTAL.:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="58673a78-4e7e-466f-ae7d-bc2ea880413d" x="0" y="236" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[PAIS:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2f181f01-f835-4b9f-b15c-54ff5e42004e" x="0" y="256" width="128" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isUnderline="false"/>
+					<paragraph leftIndent="5"/>
+				</textElement>
+				<text><![CDATA[GÉNERO:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="1588aff5-eb7b-4106-8f86-62f90936c8fc" x="128" y="36" width="427" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="c44da0d4-bfb8-4c71-b738-cf5aa565a1fa" x="128" y="56" width="427" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{apellidos}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+				<reportElement uuid="324462ab-cd4e-4225-8a1d-03d37188f191" x="128" y="76" width="427" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fechaNacimiento}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4ebe07e1-ce16-42c8-b70c-017140f8d43b" x="128" y="96" width="268" height="20"/>
+				<textElement verticalAlignment="Middle" markup="none">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{EMAIL}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="4f413d18-3350-4268-91b7-80c7ebbe9fc2" x="128" y="116" width="268" height="20"/>
+				<textElement verticalAlignment="Middle" markup="none">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{MOVIL}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="5bbbc400-302f-4259-8f5c-a7d16f4b1685" x="128" y="136" width="61" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codTipoIden}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="438b5a96-34dd-46c2-873f-66916471e9c5" x="128" y="156" width="427" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{domicilio}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="9dbc5465-4b59-4f6e-b68c-101782235333" x="128" y="176" width="427" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{poblacion}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="72661572-2253-49bb-8361-7120948967ab" x="128" y="196" width="427" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{provincia}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="5fbb5d4e-96ff-42cd-947b-b4e474e16b2f" x="128" y="216" width="427" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cp}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="5d3816de-1f0d-46a0-8072-dafadc8d714d" x="128" y="236" width="427" height="20"/>
+				<textElement verticalAlignment="Middle" markup="none">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{desPais}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="2b56ac73-d96b-47fd-95ca-d9da634e46e8" x="128" y="256" width="56" height="20">
+					<printWhenExpression><![CDATA[$F{sexo}.equals( "H" )]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Hombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2b56ac73-d96b-47fd-95ca-d9da634e46e8" x="128" y="256" width="56" height="20">
+					<printWhenExpression><![CDATA[$F{sexo}.equals( "M" )]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Mujer]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="5bbbc400-302f-4259-8f5c-a7d16f4b1685" x="189" y="136" width="366" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{documento}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="9839b7a8-4b94-4f19-a141-2055d5034d84" x="501" y="96" width="54" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{EMAIL_NOTIF}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="72f9d74b-ab97-47b2-b5bc-ddebf4bd546e" x="501" y="116" width="54" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{MOVIL_NOTIF}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="0498f1ec-9c8b-4a35-b91a-abb43d6a28c6" x="396" y="96" width="105" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="7" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[PERMITE COMUNICAÇÕES COMERCIAIS:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e17907bc-35bb-4adf-aec1-6f2d5ae6da98" x="396" y="116" width="105" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="7" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[PERMITE COMUNICAÇÕES COMERCIAIS:]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="9d3a74e1-770b-4b14-83ca-2e1db0419c04" x="0" y="282" width="555" height="1"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="439" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="292" width="555" height="144"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[2.1. Poderão solicitar a adesão como Afiliados do Programa todas as pessoas singulares maiores de idade, na sua qualidade de empresário/profissional ou como indivíduos, que adquiram artigos e materiais de bricolage e construção, vendido pelo BRICO DEPOT, quer através de vendas online, quer através das suas lojas.
+
+2.2. O Afiliado que for uma pessoa coletiva deve designar uma pessoa singular autorizada como seu representante legal, sendo esta a pessoa que gere as vantagens e benefícios do Programa de Fidelização, em nome e em representação da empresa. As empresas e pessoas singulares interessadas em aderir ao Programa de Fidelização devem (i) preencher previamente um formulário de inscrição (ver Anexo I dos presentes T&CG), no qual deverão inserir os dados obrigatórios solicitados, que devem ser verdadeiros, exatos e completos, (ii) aceitar a Política de Privacidade e (iii) aceitar os presentes T&CG.
+
+2.3. A BRICO DEPOT reserva-se o direito de recusar a adesão, poder negar ao Afiliado o acesso e utilização, presente ou futura, do Programa de Fidelização ou dos seus conteúdos e/ou serviços de qualquer empresa sediada em Portugal Continental ou pessoa singular, profissional liberal, maior de idade que não cumpra os requisitos detalhados nos presentes T&CG e/ou que não cumpra os presentes T&CG, bem como verificar a identidade do Afiliado para qualquer situação relacionada com o Programa de Fidelização.
+
+2.4. As pessoas e sociedades que queiram aderir ao Programa Fidelização podem fazê-lo através dos espaços disponibilizados para o efeito nas lojas.
+
+2.5. O Afiliado deve garantir a atualização dos seus dados se os mesmos sofrerem alterações.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="277" width="555" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.     Adesão ao Programa de Fidelização BRICO CLUB]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="96" width="555" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1.     Programa de Fidelização BRICO CLUB
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="1" y="111" width="555" height="166"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[1.1. O Programa de Fidelização BRICO CLUB  visa melhorar a experiência de compra e conceder vantagens e benefícios aos clientes da BRICO DEPOT (doravante os "Afiliados”). A referida melhoria na experiência de compra será gerada a partir de uma melhor compreensão das necessidades dos nossos clientes e das ações correspondentes nas lojas BRICO DEPOT para satisfazer estas necessidades. Tal será levado a cabo através do tratamento de dados pessoais anonimizados que poderão ser recolhidos online e/ou offline, bem como através de inquéritos, entrevistas, dados de geolocalização, entre outros, de acordo com o disposto na nossa Política de Privacidade.
+
+1.2. Os benefícios acima mencionados poderão ser de natureza generalizada, bem como adaptados às características pessoais de cada um dos Afiliados. A título de exemplo, os benefícios podem consistir em ofertas de produtos e serviços, como por exemplo, emissão de cupões de desconto personalizados, serviços de pagamento de contas, acesso Wi-Fi gratuito em todas ou algumas das lojas BRICO DEPOT, concursos e sorteios, ofertas específicas, financiamento através dos nossos parceiros, seguros e assistência, sessões de formação e participação em workshops, testes de materiais e produtos e, em geral, qualquer outra cortesia ou privilégio concedido no âmbito da participação dos Afiliados no Programa ou da análise do comportamento de compra dos mesmos, bem como  qualquer ação para recompensar a preferência destes pelos produtos e/ou serviços que oferece a BRICO DEPOT.
+
+1.3. Cada um dos benefícios, quer sejam gerais ou particulares para alguns ou determinados grupos profissionais dos Afiliados, serão devidamente comunicados, bem como as condições em que poderão optar pela obtenção dos referidos benefícios.
+
+1.4. Os Afiliados poderão optar pelos benefícios decorrentes da sua adesão ao Programa de Fidelização, depois de aceites estes T&CG e após terem preenchido corretamente o respetivo formulário de inscrição (ver Anexo I aos presentes T&CG), através de um cartão digital que pode ser descarregado através da aplicação Wallet ou equivalente no seu smartphone.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="91b25218-2d87-4d2b-82f5-f52d14838b39" x="0" y="33" width="555" height="63"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Os presentes Termos e Condições Gerais (“T&CG”) destinam-se a definir as características e condições de funcionamento do programa de fidelização denominado “BRICO CLUB” (doravante o “Programa" ou o "Programa de Fidelização") dirigido a clientes profissionais da BRICO DEPOT, cujo titular é a sociedade BRICO DEPOT PORTUGAL, S.A. com sede social na Rua Elias Garcia, Estrada Nacional 294, KM14,2635-008 Rio de Mouro, Sintra (Lisboa), devidamente inscrita na Conservatória do Registo Comercial de Lisboa, com o número único de matrícula e de pessoa colectiva 510359612 (doravante “BRICO DEPOT PORTUGAL”).
+
+A adesão ao Programa de Fidelização implica que os membros adiram de forma expressa e sem reservas aos presentes T&CG, ficando legalmente vinculados ao seu cumprimento. Como tal, é nossa obrigação recomendar que leia atentamente os presentes T&CG antes de aderir ao nosso Programa de Fidelização.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="33ab9ab6-3986-4640-b277-d77ba595487c" x="0" y="3" width="555" height="30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Programa de Fidelização BRICO CLUB
+Termos e Condições Gerais
+]]></text>
+			</staticText>
+		</band>
+		<band height="450" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="192" width="555" height="34"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[6.1. A informação sobre o tratamento dos dados pessoais dos Afiliados do Programa de Fidelização consta da Política de Privacidade disponível no link seguinte: https://www.bricodepot.pt/politica-de-privacidadade .Pode também consultar a nossa política de privacidade abaixo destes termos e condições gerais.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="177" width="555" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[6.     Tratamento de dados pessoais]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="101" width="555" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5.     Comunicações]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="116" width="555" height="61"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[5.1. A BRICO DEPOT enviará comunicações eletrónicas relacionadas com o Programa de Fidelização, através de correio eletrónico, para o endereço de email disponibilizado pelo Afiliado através do formulário de inscrição.
+
+5.2. Poderão ser comunicadas, entre outras informações: (i) as vantagens e benefícios aplicáveis em cada momento ao Programa de Fidelização; (ii) as condições aplicáveis aos referidos benefícios e vantagens; (iii) lembretes ou notícias sobre vantagens e benefícios do Programa de Fidelização; (iv) qualquer outra informação que afete direta ou indiretamente o Programa de Fidelização ou a qualidade de Afiliado do Programa.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="54" width="555" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4.     Saída do Programa de Fidelização]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="69" width="555" height="32"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[4.1. Caso o Afiliado decida retirar-se do Programa de Fidelização, deverá comunicá-lo por correio eletrónico, para clubpro@bricodepot.com. Quando a BRICO DEPOT tiver sido notificada, procederá ao cancelamento dos dados do Afiliado do Programa de Fidelização, bem como ao cancelamento, com efeitos imediatos, das vantagens e benefícios associados à sua inscrição no Programa.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="24" width="555" height="30"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[3.1.    A BRICO DEPOT reserva-se o direito de excluir qualquer Afiliado do Programa no caso de este (i) violar a boa-fé contratual, (ii) não cumprir os presentes T&CG, (iii) fazer uso não autorizado do seu cartão, (iv) praticar um furto, fraude ou tentativa de fraude nas lojas BRICO DEPOT, bem como em compras realizadas através do seu site, (v) ou praticar qualquer ação que possa atentar ou afetar a reputação e/ou imagem da BRICO DEPOT, bem como dos seus trabalhadores, colaboradores e subcontratados.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="226" width="555" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.     Alteração dos Termos e Condições Gerais]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="241" width="555" height="17"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[7.1. A BRICO DEPOT reserva-se o direito de alterar em qualquer momento os presentes Termos e Condições Gerais, bem como de cancelar o Programa de Fidelização.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="258" width="555" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[8.     Responsabilidade]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="273" width="555" height="122"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[8.1. A alteração ou cancelamento do Programa de Fidelização pela BRICO DEPOT não dará direito ao Afiliado de exigir qualquer tipo de compensação, de qualquer natureza.
+
+8.2. A BRICO DEPOT não será responsável pelas consequências decorrentes da falta de comunicação com o Afiliado quando tal falta de comunicação se deva ao mau funcionamento do endereço de correio eletrónico ou à imprecisão da informação fornecida pelo Afiliado. Ao aceitar estes Termos e Condições Gerais, o Afiliado assegura que é o proprietário dos dados pessoais ou outros dados incluídos no formulário de recolha de dados e que tais dados são verdadeiros. Se este não for o caso, o Afiliado será responsável pelas responsabilidades daí decorrentes.
+
+8.3. A BRICO DEPOT não se responsabiliza pelo incumprimento ou cumprimento defeituoso dos presentes T&CG, se tal incumprimento ou cumprimento defeituoso resultar de factos ou circunstâncias que não estejam sob o controlo ou domínio das partes, nomeadamente, perturbações nas plataformas de telecomunicações e acesso aos mesmos, erros informáticos dos sistemas, servidores ou equipamentos informáticos, quedas e/ou flutuações de energia ou Internet, ou qualquer outro problema técnico que possa ocorrer, bem como situação de guerra, grave perturbação da ordem pública, epidemias, pandemias, acidente grave nas instalações ou com equipamentos de qualquer das partes, sismos, explosões, incêndios, inundações, sabotagens, greves não convocadas pelas partes e/ou ordens emitidas por qualquer autoridade judicial ou administrativa. Neste sentido, a BRICO DEPOT não assume qualquer responsabilidade por danos de qualquer natureza que possam surgir devido à falta de disponibilidade ou de continuidade da operação do Programa de Fidelização.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="33ab9ab6-3986-4640-b277-d77ba595487c" x="0" y="434" width="555" height="15"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[10.    Disposições Gerais]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="10" y="-1272" width="555" height="248"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Las presentes Condiciones Generales de Compra regulan la reserva y compra de los productos ofrecidos por BRICO DEPÔT en el Sitio Web así como a través de sus apps “BRICO & GO” y “SCAN & GO” para su ulterior recogida en el establecimiento físico escogido por los Usuarios conforme al procedimiento Click & Collect descrito más adelante, así como los productos ofrecidos por BRICO DEPÔT en el Sitio Web y sus apps “BRICO & GO” y “SCAN & GO” para su compra por internet con entrega a domicilio (en el caso de compras realizadas a través de nuestras apps, solo las realizadas a través de “SCAN & GO” podrán ser objeto de entrega a domicilio).
+
+Los términos y condiciones que figuran en estas Condiciones Generales de Compra y que rigen la contratación de tales productos deberán ser aceptadas de manera expresa por los Usuarios, debiendo para ello marcar la casilla que a tal efecto se les mostrará durante el proceso de contratación.
+
+Las presentes Condiciones Generales de Compra se completarán, en su caso, con las Condiciones de Uso del Sitio Web, así como con las políticas de privacidad y las políticas de cookies y envío de comunicaciones comerciales, que deberán ser, en su caso, igualmente aceptadas por los Usuarios de conformidad con los procedimientos establecidos en estas Condiciones Generales de Compra.
+
+Para poder contratar nuestros productos los Usuarios deberán ser mayores de 18 años y tener la capacidad legalmente exigida para contratar. Al contratar, manifiestan y garantizan que tienen la edad y los demás requisitos de capacidad exigidos.
+
+Asimismo, para poder reservar, adquirir por internet o simplemente añadir en su Lista de Deseos alguno de los productos puestos a la venta en el Sitio Web, los Usuarios podrán optar entre (i) registrarse previamente y crear una cuenta de usuario, siguiendo el procedimiento descrito en el apartado 3.3, o (ii) proseguir como Invitados, sin necesidad de la creación de una cuenta de usuario.
+
+Las presentes Condiciones Generales de Compra serán archivadas por BRICO DEPÔT y se hallarán permanentemente accesibles para los Usuarios en la siguiente enlace: Aviso legal y condiciones generales de compra y uso
+
+Las presentes Condiciones Generales de compra están disponibles en lengua española, así como en aquellas otras lenguas co-oficiales, disponibles a petición del Usuario.
+
+BRICO DEPÔT se reserva el derecho de modificar unilateralmente las presentes Condiciones Generales poniéndolo en conocimiento de los Usuarios con una antelación razonable. La modificación será eficaz a partir del momento en que se publique en el Sitio Web, y será aplicable a las reservas y/o compras de productos efectuadas a partir de dicho momento. En caso de cierre del Sitio Web, únicamente serán procesadas las reservas y/o compras que en aquel momento se encontrasen en curso.
+
+En el supuesto de que alguna o algunas de las presentes Condiciones Generales de Compra deviniera nula o inaplicable por razones jurídicas o materiales, no se verán afectadas las demás, que se aplicarán en cuanto la nulidad o inaplicabilidad no les afecte.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="395" width="555" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[9.     Direito e foro aplicável para a resolução de conflitos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="410" width="555" height="24"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[9.1. Os presentes T&CG regem-se pela lei portuguesa. Caso não se chegue a acordo sobre qualquer litígio emergente da interpretação ou execução dos presentes T&CG, o litígio será submetido aos tribunais da comarca de Sintra, com renúncia expressa a qualquer outro.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="0" width="555" height="24"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.     Exclusão do Programa de Fidelização]]></text>
+			</staticText>
+		</band>
+		<band height="405" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="126" width="555" height="0"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2. CONDICIONES DE USO DEL SITIO WEB
+
+2.1. INTRODUCCIÓN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="155" width="555" height="119"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[O acesso ao sítio web www.bricodepot.pt. (doravante, o “Sítio Web") e a compra dos produtos disponibilizados através do Sítio Web estão sujeitos às presentes condições de utilização do Sítio Web e Condições Gerais de Compra (doravante em conjunto denominadas "Condições Gerais") para os efeitos previstos na legislação aplicável incluindo, mas não limitando a, o Decreto-Lei n.º 7/2004, de 7 de Janeiro, que estabelece o regime jurídico do comércio eletrónico, o Decreto-Lei n.º 24/2014, de 14 de fevereiro, que estabelece o Regime dos Contratos Celebrados à Distância e dos Contratos Celebrados Fora do Estabelecimento Comercial, Decreto Lei 84/2021, de 18 de Outubro, que estabelece o regime jurídico das garantias da venda de bens de consumo, e a Lei n.º 24/96 de 31 de Julho, a Lei de Defesa do Consumidor.
+Este Sítio Web é operado por conta própria e em nome próprio, pela BRICO DEPÔT PORTUGAL, S.A. (doravante, “BRICO DEPÔT”), cujos dados de identificação são os seguintes:
+
+• Sede: Rua Elias Garcia, Estrada Nacional 294, KM14, 2635-008 Rio de Mouro
+• Dados de Registo: Sociedade matriculada na Conservatória do Registo Comercial de Lisboa, sob o número único de matrícula e de identificação de pessoa colectiva, com o capital social de 1.000.000 euros.
+• NIF: 510359612
+• Telefone: 308 800 364
+• Endereço de correio eletrónico: apoiocliente@bricodepot.com
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="274" width="555" height="99"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[O objeto do Sítio Web é disponibilizar a todos os clientes da BRICO DEPÔT e/ou aos utilizadores da Internet em geral (doravante, todos eles denominados em conjunto como "Utilizadores" e individualmente como “Utilizador") informação acerca dos produtos de bricolage, construção, jardinagem e de melhoria do lar comercializados pela BRICO DEPÔT, bem como disponibilizar uma plataforma na Internet para a compra de produtos disponíveis para venda através da Internet com entrega ao domicílio Click & Delivery, bem como permitindo a reserva e aquisição de determinados produtos disponíveis em stock em alguns dos estabelecimentos comerciais da BRICO DEPÔT abertos ao público em Portugal para sua recolha em loja através do processo “Click & Collect”, bem como oferecer, através do Blog, informação ou vídeos com conselhos práticos acerca de decoração do lar e sobre a montagem, instalação ou manipulação dos referidos produtos. O Sítio Web e seus conteúdos, bem como os produtos ou serviços nele disponibilizados destinam-se a pessoas maiores de idade plenamente capazes juridicamente, pelo que, nos termos máximos permitidos pela lei, a BRICO DEPÔT não se responsabiliza por qualquer visualização de conteúdo, compra ou qualquer outra consequência de utilização do site por menores ou incapazes, nos termos previstos na lei aplicável.
+Os serviços de entrega ao domicílio decorrentes das vendas efetuadas pela Internet podem estar limitados ao território de Portugal, por motivos relacionados com o prestador de serviços de entrega. Consulte no nosso Sítio Web os estabelecimentos que dispõem deste serviço.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="126"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[10.1.  O Afiliado não poderá ceder ou transferir a sua posição contratual decorrente do Contrato celebrado pela adesão aos presentes T&CG, no todo ou em parte, sem o consentimento prévio por escrito da BRICO DEPOT.
+
+10.2.  O Afiliado autoriza a BRICO DEPOT a ceder ou transferir a sua posição contratual decorrente do Contrato celebrado pela adesão aos presentes T&CG, no todo ou em parte, a: (i) uma subsidiária ou afiliada; (ii) adquirente do capital social, sociedade ou bens da BRICO DEPOT ou da BRICO DEPOT PORTUGAL; ou (iii) qualquer sucessor.
+
+10.3.  No caso de ocorrer uma situação não prevista nos presentes T&CG, a BRICO DEPOT interpretará a mesma de acordo com as regras contidas nos presentes T&CG, reservando-se o direito de efetuar qualquer modificação na execução dos mesmos, suspendendo-a sem aviso prévio, em caso de força maior.
+
+10.4.  Se alguma das cláusulas dos presentes T&CG for considerada nula ou anulável, considerar-se-á que tal disposição não faz parte das mesmas. Tal declaração de nulidade não implicará a invalidade das demais cláusulas dos presentes T&CG, que continuarão válidas e vinculativas para os Afiliados.
+
+10.5.  Ao assinar estas Condições, o Afiliado aceita integralmente os presentes Termos e Condições Gerais, sem qualquer reserva.
+
+E de acordo com o exposto, ambas as partes assinam este documento, e anexo, em duplicado.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="390" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.1. INTRODUÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="33ab9ab6-3986-4640-b277-d77ba595487c" x="-1" y="126" width="555" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CONDIÇÕES GERAIS DE COMPRA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="141" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1. AVISO LEGAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="376" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2. CONDIÇÕES DE UTILIZAÇÃO DO SÍTIO WEB]]></text>
+			</staticText>
+		</band>
+		<band height="381" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="78"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[O acesso ou navegação pelo Sítio Web e a utilização dos conteúdos ou materiais contidos no mesmo implica a aceitação, sem reservas, das seguintes Condições Gerais de Utilização do Sítio Web, bem como da Política de Privacidade e a Política de Cookies.
+Para efeitos de acesso e utilização do Sítio Web que a BRICO DEPÔT coloca à disposição dos Utilizadores, não será necessário registo, uma vez que a navegação no mesmo é livre, exceto no caso de ser iniciado um processo de reserva e compra de produtos através da Internet e/ou de serem praticadas outras ações (como a inclusão de certos produtos na Lista de Desejos do Utilizador) para as quais seja expressamente exigida a criação de uma Conta de Utilizador, nos termos estabelecidos na cláusula 3.2 das Condições Gerais de Compra.
+A simples utilização e navegação pelo Sítio Web implica que o Utilizador conhece e aceita integralmente as presentes Condições Gerais contidas no mesmo, as quais serão de plena e integral aplicação, tudo isto sem prejuízo da aceitação particular e expressa das Condições Gerais que possam ser aplicadas para a obtenção de determinada informação e/ou para a reserva e aquisição de produtos que possam ser promovidos no Sítio Web.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="78" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.2. UTILIZAÇÃO DO SÍTIO WEB PELOS UTILIZADORES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="92" width="555" height="28"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Os Utilizadores do presente Sítio Web obrigam-se a não utilizar, nem fazer uso da informação e/ou de qualquer elemento contido ou serviço incluído no mesmo que de qualquer modo ou forma possa implicar uma infração às leis, aos costumes, à ordem pública ou aos direitos e interesses de terceiros; a não aceder ilicitamente ao Sítio Web, nem difundir através do mesmo programas, vírus informáticos ou qualquer outra aplicação suscetível de produzir danos à BRICO DEPÔT ou a qualquer terceiro.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="120" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.3. ALTERAÇÃO DAS CONDIÇÕES DE UTILIZAÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="134" width="555" height="54"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[A BRICO DEPÔT reserva-se o direito de alterar em qualquer momento as presentes Condições de Utilização através da publicação das referidas alterações no Sítio Web com uma antecedência razoável,.com a finalidade de poderem ser conhecidas pelos Utilizadores, caso existam razões atendíveis. O Utilizador desde já aceita que motivos legais, técnicos ou de natureza comercial que afetem a BRICO DEPÔT devem ser considerados como razões atendíveis para a alteração das presentes Condições de Utilização. Será da responsabilidade exclusiva dos Utilizadores comprovar a versão em vigor em cada momento dos referidos textos. A navegação no Sítio Web após a entrada em vigor das referidas alterações implica a plena aceitação das novas Condições de Utilização que forem publicadas.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="188" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.4.FUNCIONAMENTO E LIMITAÇÃO DE RESPONSABILIDADE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="202" width="555" height="162"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[A BRICO DEPÔT fará tudo o que for razoável para procurar assegurar o correto funcionamento do Sítio Web e atuará de forma diligente para proporcionar e manter disponível o Sítio Web. Contudo, a BRICO DEPÔT não pode garantir a ausência de interrupções do serviço ou os problemas decorrentes da falta de cobertura, ou de falhas nos equipamentos, ou nas redes necessárias para o acesso ou transmissão dos dados. Em particular, mas não exclusivamente, a BRICO DEPÔT não assume qualquer responsabilidade, na máxima extensão legalmente permitida, nos seguintes casos:
+
+• Falhas técnicas que por causas fortuitas ou de outra natureza, impeçam o normal funcionamento do Sítio Web;
+• Falta de disponibilidade, por motivos de manutenção, reparação, atualizações do Sítio Web ou outros similares, que impeçam o acesso ou a utilização do Sítio Web;
+• Danos emergentes de vírus informáticos e similares, ou que sejam gerados em consequência de utilizações inadequadas do Sítio Web ou dos dispositivos utilizados pelos Utilizadores;
+• Intromissões de terceiros. A BRICO DEPÔT disporá de medidas técnicas para reduzir este tipo de riscos, mas não pode garantir que não ocorram intromissões, de qualquer natureza, de terceiros que prejudiquem o normal funcionamento do Sítio Web, não assumindo qualquer responsabilidade pelos danos que possam ser causados ao Utilizador por este motivo;
+• Erros de segurança que possam ocorrer ou possíveis danos que possam ser causados ao dispositivo do Utilizador (hardware e software) e/ou aos ficheiros ou documentos conservados no mesmo, em consequência da presença de vírus no dispositivo utilizado pelo Utilizador;
+• Por eventuais conflitos entre Utilizadores ou de Utilizadores com terceiros relacionados com a utilização ou com o funcionamento do Sítio Web; ou
+• Falhas no funcionamento do Sítio Web ou suspensões temporárias causadas por motivos alheios à BRICO DEPÔT, designadamente motivos de força maior que estejam fora do controlo da BRICO DEPÔT.
+Sem prejuízo do supra referido, a BRICO DEPÔT tomará as medidas adequadas para reduzir as referidas interrupções ou erros ou para resolver as mesmas no menor espaço de tempo possível.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="364" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.5. ÂMBITO DA INFORMAÇÃO CONTIDA NO SÍTIO WEB]]></text>
+			</staticText>
+		</band>
+		<band height="345" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="72"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[A BRICO DEPÔT não garante que os serviços prestados no Sítio Web e que a informação contida no mesmo sejam adequados ou suficientes para a prossecução dos fins para os quais os Utilizadores acedem ao mesmo.
+O Sítio Web não presta aconselhamento aos Utilizadores acerca da aquisição de produtos concretos disponibilizados pelas lojas BRICO DEPÔT, nem recomenda a compra concreta de produtos preferencialmente sobre outros.
+A informação, vídeos, conselhos práticos e quaisquer outros conteúdos incluídos no Blog do Sítio Web, são colocados à disposição dos Utilizadores para sua comodidade e para facilitar e melhorar a sua experiência de utilização e manipulação dos produtos. A BRICO DEPÔT fará tudo o que for razoável para que a informação contida seja correta e atualizada. Contudo, a referida informação tem natureza meramente indicativa, orientativa e não exaustiva, pelo que a BRICO DEPÔT ficará isenta, na máxima extensão legalmente permitida, de qualquer responsabilidade decorrente da sua aplicação ou utilização por parte dos Utilizadores.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="72" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.6. INFORMAÇÃO ALHEIA À BRICO DEPÔT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="86" width="555" height="38"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[A BRICO DEPÔT declina qualquer responsabilidade relativamente à informação que se encontrar fora do presente Sítio Web e que não for diretamente gerida pela BRICO DEPÔT ou pelo nosso webmaster. Nestes termos, a BRICO DEPÔT não será responsável relativamente aos conteúdos ou ao estado dos sítios web de terceiros cujos links possam estar incluídos no presente Sítio Web, nem a sua inclusão implica que a BRICO DEPÔT os aprove ou partilhe os seus conteúdos ou as opiniões que possam eventualmente conter.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="124" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.7. DIREITOS DE PROPRIEDADE INTELECTUAL E INDUSTRIAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="138" width="555" height="171"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[A BRICO DEPÔT é titular exclusiva de todos os direitos de propriedade intelectual, industrial e similares correspondentes ao Sítio Web e a todos os seus elementos (incluindo, sem natureza limitativa e meramente enumerativa, a sua interface gráfica, os sinais distintivos, marcas e logótipos - com denominações, gráficos e/ou mistos-, bases de dados, diretórios, dados e informação, imagens, fotografias, infografias, desenhos, desenhos gráficos, textos, áudio, vídeo e software, código objeto e código fonte, as presentes Condições Gerais, etc.) ou obteve - por si mesma ou através de fornecedores ou licenciantes legítimos - os direitos necessários dos seus legítimos titulares para a sua utilização pela BRICO DEPÔT, e como tal estão protegidos por normas nacionais e internacionais de propriedade intelectual e industrial.
+As marcas, rótulos, sinais distintivos ou logótipos da BRICO DEPÔT que aparecem no Sítio Web são da titularidade da BRICO DEPÔT ou foram licenciadas e estão devidamente registadas, pelo que estão igualmente protegidas também pelas normas nacionais e internacionais de propriedade industrial e intelectual em vigor. O titular das marcas, registadas ou não, tem todos os direitos reservados e não concede aos Utilizadores qualquer licença ou autorização de uso relativamente às mesmas.
+É autorizada a visualização, utilização e navegação pelo Sítio Web unicamente com a finalidade para a qual foi criada, nos termos previstos nas Condições de Utilização, ficando expressamente proibida a utilização do Sítio Web, de qualquer dos seus elementos e/ou de qualquer informação contida no mesmo com qualquer outra finalidade ou propósito, sem a autorização prévia e explícita da BRICO DEPÔT.
+Em particular, a título indicativo e não limitativo, não poderá ser utilizado qualquer elemento de informação contido em, ou obtido através do Sítio Web, não podendo reproduzir, transformar, modificar, copiar, alterar, adaptar, traduzir, desmontar, efetuar engenharia inversa, distribuir, comunicar, difundir, divulgar a terceiros, alugar, emprestar, licenciar, vender, colocar à disposição do público nem permitir o acesso público através de qualquer modalidade ou meio, em qualquer formato tangível ou intangível, nem pelo Utilizador nem por terceiros.
+Para a prática de qualquer destes atos com qualquer finalidade, será necessário o consentimento prévio por escrito, expresso e inequívoco da BRICO DEPÔT e/ou do legítimo titular dos direitos de propriedade intelectual e industrial correspondente.
+Consequentemente, a utilização do Sítio Web implica o compromisso dos Utilizadores de não infringir qualquer direito de propriedade industrial ou intelectual decorrente de qualquer elemento integrado no presente Sítio Web, bem como a não praticar os mencionados atos não autorizados, com ou sem fins comerciais e com ou sem fins lucrativos, sem o consentimento prévio por escrito, expresso e inequívoco da BRICO DEPÔT.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="309" width="555" height="33"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3. CONDIÇÕES GERAIS DE COMPRA
+
+3.1. INTRODUÇÃO
+]]></text>
+			</staticText>
+		</band>
+		<band height="382" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="257"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[As presentes Condições Gerais de Compra regulam a reserva e compra dos produtos disponibilizados pela BRICO DEPÔT no Sítio Web, para sua posterior recolha na loja escolhida pelos Utilizadores nos termos do procedimento “Click & Collect” descrito adiante, bem como os produtos disponibilizados pela BRICO DEPÔT no Sítio Web para sua compra através da Internet com entrega ao domicílio.
+Os termos e condições que constam destas Condições Gerais de Compra e que regem a contratação de tais produtos deverão ser aceites de forma expressa pelos Utilizadores, devendo para o efeito assinalar a caixa que para o efeito será exibida durante o processo de contratação.
+As presentes Condições Gerais de Compra serão complementadas, conforme aplicável, com as Condições de Utilização do Sítio Web, bem como com as políticas de privacidade e com as políticas de cookies e de envio de comunicações comerciais, que deverão ser, conforme aplicável, igualmente aceites pelos Utilizadores em conformidade com os procedimentos estabelecidos nas presentes Condições Gerais de Compra.
+Para poder contratar os nossos produtos os Utilizadores deverão ser maiores de 18 anos e ter a capacidade legalmente exigida para contratar. Ao contratar, declaram e garantem que têm idade e que preenchem os restantes requisitos de capacidade exigidos. O Utilizador declara, ainda, que:
+
+• É maior de idade;
+• Tem capacidade legal para celebrar contratos;
+• É residente em Portugal [ou noutro país do Espaço Económico Europeu];
+• Não utiliza o Sítio Web ou os productos e serviços nele disponibilizados para finalidade ilícitas ou desonestas; e
+• Caso o Utilizador atue em nome e por conta de uma organização, tem poderes de representação suficientes para, em nome e por conta dessa organização, facultar dados, processar a encomenda e concluir o respetivo pagamento.
+
+Nestes termos, para poder reservar, adquirir através da Internet ou simplesmente adicionar à sua lista de desejos alguns dos produtos colocados à venda no Sítio Web, os Utilizadores deverão registar-se previamente e criar uma conta de utilizador seguindo o procedimento descrito no ponto 3.2.
+As presentes Condições Gerais de Compra serão arquivadas pela BRICO DEPÔT e ficarão permanentemente acessíveis para os Utilizadores no seguinte URL:  https://www.bricodepot.pt/
+As presentes Condições Gerais de Compra estão disponíveis em língua portuguesa, bem como noutras línguas disponíveis no Sítio Web em cada momento.
+A BRICO DEPÔT reserva-se o direito de alterar unilateralmente as presentes Condições Gerais de Compra, caso existam razões atendíveis dando conhecimento dessas alterações aos
+Utilizadores com uma antecedência razoável. O Utilizador desde já aceita que motivos legais, técnicos ou de natureza comercial que afetem a BRICO DEPÔT devem ser considerados como razões atendíveis para a alteração das presentes Condições de Utilização. A alteração será eficaz a partir do momento em que for publicado no Sítio Web e será aplicável às reservas e/ou compras de produtos efetuadas a partir do referido momento. Em caso de fecho do Sítio Web, unicamente serão processadas as reservas e/ou compras que naquele momento estiverem em curso.
+No caso de alguma ou algumas das presentes Condições Gerais de Compra vier a ser declarada nula ou inaplicável por razões jurídicas ou materiais, as restantes não serão afetadas na medida em que a nulidade ou inaplicabilidade não as afete.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="257" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.2. CONTA DE UTILIZADOR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="1" y="271" width="555" height="95"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Para poder reservar, adquirir e pagar, ou simplesmente adicionar à sua Lista de Desejos produtos através do Sítio Web, o Utilizador deverá registar-se previamente e preencher para o efeito o formulário disponibilizado no Sítio Web com os dados solicitados (a "Conta de Utilizador").
+A partir da publicação da presente versão das Condições Gerais de Compra no Sítio Web, a criação da Conta de Utilizador envolverá a adesão do Utilizador no Programa de Fidelização “Brico CLUB”, da BRICO DEPÔT, permitindo ao Utilizador beneficiar das vantagens oferecidas pela BRICO DEPÔT em relação aos produtos por si vendidos diretamente, seja através do Sítio Web seja através das suas lojas físicas.
+Através da Conta de Utilizador, será ainda possível realizar as seguintes ações: comprovar o estado das encomendas, consultar o histórico de encomendas do Utilizador, alterar os dados de contacto do Utilizador, palavra-passe, etc.
+Apenas é permitido o registo de uma Conta de Utilizador por cada Utilizador.
+O Utilizador será responsável pela veracidade, exatidão e autenticidade dos dados facultados. A BRICO DEPÔT reserva-se o direito de eliminar qualquer Conta de Utilizador na qual o Utilizador tenha facultado dados pessoais falsos, incorretos ou não autênticos. O Utilizador obriga-se a manter atualizada a informação contida na sua Conta de Utilizador.
+Ao criar a conta de Utilizador deverá aceitar as presentes Condições Gerais e quaisquer outras condições de utilização da Aplicação Web, bem como as políticas de privacidade e de cookies que forem aplicáveis.
+A BRICO DEPÔT não se responsabiliza pelos danos causados por terceiros que tenham acesso à Conta de Utilizador, independentemente de terem autorização do Utilizador titular da mesma.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="366" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.3. PROCESSO DE CONTRATAÇÃO.]]></text>
+			</staticText>
+		</band>
+		<band height="375" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="1" width="555" height="118"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[O processo de contratação dos produtos ou serviços disponibilizados no Sítio Web é realizado online. A contratação será efetuada em língua portuguesa.
+Um pedido de encomenda é uma oferta efetuada pelo Utilizador nos termos da qual pretende adquirir os produtos ou serviços inseridos na encomenda. Desse modo, a informação disponibilizada no Sítio Web não constitui uma oferta ou proposta de venda, mas apenas um convite a contratar.
+A BRICO DEPÔT apenas processará uma encomenda após a confirmação do respetivo pagamento, pelo que não podemos garantir a disponibilidade dos produtos até ao envio da confirmação de expedição do produto. Caso o produto já não se encontre disponível, a BRICO DEPÔT notificará o Utilizador nesse sentido e procederá ao reembolso do pagamento realizado.
+A BRICO DEPÔT pode recusar a encomenda (e, nessa medida, não concluir a celebração do Contrato) nas seguintes situações:
+
+• Quando qualquer um dos produtos ou serviços da encomenda não esteja disponível;
+• Quando o pagamento for recusado ou não possamos obter confirmação do mesmo;
+• Se existir um erro de escrita na descrição ou no preço dos produtos ou serviços;
+• Se o Cliente não assegurar a sua disponibilidade para o agendamento de entrega dos produtos dentro dos prazos e condições acordados no ato da encomenda; ou
+• Se não cumprir os requisitos previstos na Cláusula 3.1 anterior.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="119" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.3.1. PARA RESERVAR E ADQUIRIR ATRAVÉS DA INTERNET COM “CLICK & COLLECT” (ENTREGA EM LOJA).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="133" width="555" height="170"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Aceder ao Sítio Web e, através da pesquisa, à secção de "produtos" ou aos catálogos disponíveis, selecionar os produtos que o Utilizador desejar reservar, adquirir e contratar.
+Registar-se e criar uma Conta de Utilizador nos termos descritos na Cláusula 3.2 e iniciar sessão com as chaves de acesso. Para adicionar produtos à lista de favoritos ou à lista de desejos, será sempre necessário, efetuar previamente o registo e iniciar sessão com a Conta de Utilizador,
+Selecionar a loja ou estabelecimento comercial desejado ou mais próximo para o Utilizador de entre os exibidos no Sítio Web através da secção "selecione uma loja". A loja selecionada ficará registado como opção preferida do Utilizador, sem prejuízo de poder ser alterado em qualquer momento.
+Pesquisar e confirmar a disponibilidade no estabelecimento físico escolhido do(s) produto(s) de interesse para os Utilizadores. Se os produtos não estiverem disponíveis, aparecerá uma mensagem em conformidade ao Utilizador.
+Se os produtos selecionados estiverem disponíveis em stock, deverão ser adicionados à lista de favoritos ou à lista de desejos e em seguida ao carrinho de compras.
+No carrinho de compras serão exibidos os produtos selecionados pelos Utilizadores. Depois de concluída pelos Utilizadores a seleção do(s) produto(s) que desejam adquirir ou contratar os Utilizadores acederão a um ecrã no qual poderão escolher a modalidade de entrega "Click & Collect" e na qual se incluirá informação detalhada acerca do(s) produto(s) selecionado(s). Em particular, neste ecrã serão indicados(as):
+
+• As características essenciais dos produtos;
+• O preço total dos produtos ou serviços (desagregando o preço do produto ou serviço, impostos e taxas aplicáveis bem como outros custos que forem relevantes, como o custo do transporte, quando aplicável); e
+• As Garantias aplicáveis.
+
+Após rever todas as condições, os Utilizadores serão redirecionados para a página de pagamento na qual deverão introduzir os seus dados de faturação e de pagamento ou, no caso de terem sido preenchidos anteriormente, confirmar os referidos dados e o método de faturação e pagamento desejado que forem recuperados de forma automática pelo sistema. Os métodos de pagamento disponíveis são Cartão Visa, Mastercard e American Express, bem como PayPal, Multibanco, MB Way. Depois de preenchida a referida informação, o sistema solicitará a aceitação das condições de utilização ou de outros termos da página de pagamentos que forem aplicáveis.
+De seguida, o Utilizador poderá visualizar um resumo da sua compra para confirmação e aceitação das presentes Condições Gerais. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="304" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[O UTILIZADOR DEVERÁ CONFIRMAR QUE LEU E QUE COMPREENDEU E ACEITA, SEM RESERVAS, AS PRESENTES CONDIÇÕES GERAIS DE COMPRA DOS PRODUTOS.
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="318" width="555" height="54"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Concluída a fase anterior, o Utilizador receberá automaticamente por correio eletrónico, uma confirmação sobre se o pagamento foi processado corretamente.
+Se não tiver sido possível confirmar o pagamento, o Utilizador poderá alterar ou corrigir o erro através dos mecanismos indicados na própria mensagem. Se o erro ficar resolvido, o processo de reserva prosseguirá normalmente. Contudo, se o erro não puder ser corrigido, o processo de reserva ficará suspenso e não produzirá efeitos nem será garantida a reserva ou disponibilidade do produto ou do serviço, pelo que o Utilizador deverá voltar a iniciar o processo caso deseje repetir o processo de reserva e compra dos produtos. Findas 24 horas sem que o processo de pagamento seja concluído com sucesso, a BRICO DEPÔT reserva-se o direito de cancelar definitivamente a encomenda.
+]]></text>
+			</staticText>
+		</band>
+		<band height="443" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" stretchType="RelativeToBandHeight" x="0" y="0" width="555" height="184"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Se o pagamento tiver ficado devidamente confirmado, o Utilizador será informado de que a sua encomenda se encontra em preparação e receberá, no prazo máximo de (1) hora laboral, uma confirmação da sua encomenda (a "Confirmação da Encomenda"), detalhando as instruções para a recolha da encomenda de acordo com o procedimento “Click & Collect”, nos termos descritos na cláusula 3.4. Adicionalmente, o Utilizador terá direito à emissão de uma fatura em formato de papel sem custo adicional, ou se o solicitar, em formato eletrónico. No caso de serem efetuadas reservas de produtos no Sítio Web a partir das 16:00h GMT, o prazo máximo de (1) hora laboral anteriormente referido, começará a contar a partir da primeira hora de abertura do dia útil seguinte do estabelecimento comercial escolhido.
+De seguida, o Utilizador disporá de um período de cinco (5) dias úteis, que inclui o sábado, (doravante, o “Período de Reserva") para proceder à recolha dos produtos adquiridos no estabelecimento comercial selecionado nos termos do procedimento “Click & Collect” descrito na cláusula 3.4. Para o efeito, o Utilizador deverá exibir o documento de Confirmação da Encomenda [e o seu documento de identidade ou documento equivalente].
+O Utilizador, através da simples aceitação da encomenda, para além de dar o seu consentimento às presentes Condições Gerais de Compra, obriga-se a observar e cumprir todas as medidas de segurança que no decurso do processo de entrega serão implementadas na sua loja. O Utilizador deverá ainda observar todas as medidas de segurança e higiene pessoais impostas pela legislação sanitária (utilização de máscara, luvas, etc.) que forem obrigatórias. Caso contrário poderá ser recusado o acesso à loja até serem cumpridas as referidas medidas.
+Depois de recolhidos os produtos pelo Utilizador na loja escolhida, o Utilizador deverá assinar o comprovativo de recolha em sinal de conformidade com a entrega e execução da compra e venda. Sem prejuízo do que antecede, o Utilizador poderá igualmente desistir da sua compra no momento de recolher os produtos na loja escolhida.
+No caso de o Utilizador ter alguma dúvida durante o processo de contratação, deverá abster-se de prosseguir com a ordem de compra e contactar a BRICO DEPÔT através dos dados de informação de contacto especificados no cabeçalho das presentes Condições Gerais de Compra. No caso de surgir alguma dúvida posteriormente à realização do processo de contratação, as suas dúvidas poderão ser igualmente direcionadas para o estabelecimento físico em que tiver reservados o(s) produto(s), cujos dados de contacto serão incluídos nas comunicações recebidas pelo Utilizador após a finalização do processo de contratação.
+O Utilizador poderá corrigir os dados que introduzir durante o processo de contratação, mas não poderá fazê-lo depois de confirmada a encomenda da sua parte. Recordamos em particular que é importante que os seus dados estejam atualizados, uma vez que qualquer correção nos mesmos poderá afetar a execução do contrato formalizado com a BRICO DEPÔT. Por esse motivo pedimos-lhe que confirme os seus dados durante o processo de contratação antes de confirmar a mesma e que mantenha os referidos dados sempre atualizados.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="184" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.3.2. PARA RESERVAR E ADQUIRIR PELA INTERNET EM CLICK & DELIVERY (ENTREGA AO DOMICÍLIO)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" stretchType="RelativeToBandHeight" x="-1" y="198" width="555" height="206"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Aceder ao Sítio Web e, através da pesquisa, à secção de "produtos" ou aos catálogos disponíveis, selecionar os produtos que o Utilizador desejar reservar, adquirir e contratar.
+Registar-se e criar uma Conta de Utilizador nos termos descritos na Cláusula 3.2 e iniciar sessão com as chaves de acesso. Para adicionar produtos à lista de favoritos ou à lista de desejos, será sempre necessário, efetuar previamente o registo e iniciar sessão com a Conta de Utilizador.
+Selecionar a loja ou estabelecimento comercial desejado ou mais próximo para o Utilizador de entre os exibidos no Sítio Web através da secção "selecione uma loja". A loja selecionada ficará registada como opção preferida do Utilizador, sem prejuízo de poder ser alterado em qualquer momento. Salienta-se, contudo, que a alteração de loja não afetará as encomendas já realizadas, cuja entrega será feita na loja indicada à data da encomenda.
+Pesquisar e confirmar a disponibilidade no estabelecimento físico escolhido do(s) produto(s) de interesse para os Utilizadores. Se os produtos não estiverem disponíveis, aparecerá uma mensagem que o indica ao Utilizador.
+Se os produtos selecionados estiverem disponíveis em stock, deverão ser adicionados à lista de favoritos ou à lista de desejos e em seguida ao carrinho de compras.
+No carrinho de compras serão exibidos os produtos selecionados pelos Utilizadores. Depois de concluída pelos Utilizadores a seleção do(s) produto(s) que desejam adquirir ou contratar os Utilizadores acederão a um ecrã no qual poderão escolher a modalidade de entrega "Click & Collect" e na qual se incluirá informação detalhada acerca do(s) produto(s) selecionado(s). Em particular, neste ecrã serão indicados(as):
+
+• As características essenciais dos produtos;
+• O preço total dos produtos ou serviços (desagregando o preço do produto, impostos e taxas aplicáveis bem como outros custos que forem relevantes, em especial o custo do transporte);
+• A aceitação do custo do transporte implicará também que o Utilizador aceite as condições gerais de transporte, da DPD ou da METHOD;
+• Os procedimentos de pagamento, envio e/ou recolha no estabelecimento (quando aplicável); e
+• As Garantias aplicáveis.
+
+Após rever todas as condições, os Utilizadores serão redirecionados para a página de pagamento na qual deverão introduzir os seus dados de faturação e de pagamento ou, no caso de terem sido preenchidos anteriormente, confirmar os referidos dados e o método de faturação e pagamento desejado que forem recuperados de forma automática pelo sistema. Depois de preenchida a referida informação, o sistema solicitará a aceitação das condições de utilização ou de outros termos da página de pagamentos que forem aplicáveis.
+De seguida, o Utilizador poderá visualizar um resumo da sua compra para confirmação e aceitação das presentes Condições Gerais. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="404" width="555" height="27"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[O UTILIZADOR DEVERÁ CONFIRMAR QUE LEU E QUE COMPREENDEU E ACEITA, SEM RESERVAS, AS PRESENTES CONDIÇÕES GERAIS DE COMPRA DOS PRODUTOS.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="431" width="555" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Concluída a fase anterior, o Utilizador receberá automaticamente por correio eletrónico, uma confirmação sobre se o pagamento foi processado corretamente.
+]]></text>
+			</staticText>
+		</band>
+		<band height="381" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="200"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Se não tiver sido possível confirmar o pagamento, o Utilizador poderá alterar ou corrigir o erro através dos mecanismos indicados na própria mensagem. Se o erro ficar resolvido, o processo de reserva prosseguirá normalmente. Contudo, se o erro não puder ser corrigido, o processo de reserva ficará suspenso e não produzirá efeitos nem será garantida a reserva ou disponibilidade do produto ou do serviço, pelo que o Utilizador deverá voltar a iniciar o processo caso deseje repetir o processo de reserva e compra dos produtos. Findos 24 horassem que o processo de pagamento seja concluído com sucesso, a BRICO DEPÔT reserva-se o direito de cancelar definitivamente a encomenda.
+
+Se o pagamento tiver ficado confirmado, o Utilizador será informado de que a sua encomenda se encontra em preparação e receberá uma confirmação da sua encomenda (a "Confirmação da Encomenda").
+
+Logo que se confirmar o pagamento e não havendo qualquer motivo de recusa da encomenda nos termos indicados no ponto 3.3. acima ou outros motivos de força maior, terá início a preparação da sua encomenda para entrega na morada do Utilizador dentro dos prazos estabelecidos no ponto 3.5 das presentes Condições Gerais.
+
+Facultaremos ao Utilizador um link no qual poderá acompanhar o estado da sua encomenda e da sua entrega ao domicílio pelo nosso prestador de serviços de transporte e como gerir o mesmo.
+
+No caso de o Utilizador ter alguma dúvida durante o processo de contratação, deverá abster-se de prosseguir com a ordem de compra e contactar a BRICO DEPÔT através dos dados de informação de contacto especificados no cabeçalho das presentes Condições Gerais de Compra. No caso de surgir alguma dúvida posteriormente à realização do processo de contratação, as suas dúvidas poderão ser igualmente direcionadas para o estabelecimento físico em que tiver reservados o(s) produto(s), cujos dados de contacto serão incluídos nas comunicações recebidas pelo Utilizador após a finalização do processo de contratação.
+
+O Utilizador poderá corrigir os dados que introduzir durante o processo de contratação, mas não poderá fazê-lo depois de confirmada a encomenda da sua parte. Recordamos, em particular, que é importante que os seus dados estejam atualizados, uma vez que qualquer correção nos mesmos poderá afetar a execução do contrato formalizado com a BRICO DEPÔT. Por esse motivo pedimos-lhe que confirme os seus dados durante o processo de contratação antes de confirmar a mesma e que mantenha os referidos dados sempre atualizados.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="214" width="555" height="165"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Os produtos que poderão ser reservados e adquiridos através do Sítio Web estarão disponíveis em determinados estabelecimentos comerciais da BRICO DEPÔT abertos ao público e situados em Portugal, que tenham disponível o serviço de reserva online e de recolha em loja (doravante “Click & Collect”).
+Neste sentido, os Utilizadores poderão adquirir os produtos que, estando disponíveis em stock, tenham sido reservados através do Sítio Web e posteriormente recolhidos presencialmente na loja escolhida de acordo com procedimento infra descrito. Os produtos à medida, sob pedido, a granel e novidades recém-chegadas não poderão ser reservados através do serviço “Click & Collect”.
+
+Ao iniciar o processo de compra, os Utilizadores poderão identificar e selecionar os estabelecimentos ou lojas abertas ao público, mais próximos da sua localização e confirmar a disponibilidade de stock dos produtos do seu interesse.
+Depois de concluída a compra, os produtos ficarão reservados durante o Período de Reserva indicado na cláusula 3.3.1. estando disponíveis para recolha no referido estabelecimento a partir da confirmação do pedido via SMS ou email.
+Atendendo a que a disponibilidade em stock dos produtos da BRICO DEPÔT vendidos através do Sítio Web poderá sofrer ligeiras variações em períodos de tempo limitados, é possível que a encomenda dos Utilizadores seja afetada. Neste sentido, no caso de o pedido não poder ser processado completa ou parcialmente, a BRICO DEPÔT contactará de imediato o Utilizador para lhe comunicar o correspondente cancelamento total ou parcial da sua reserva e a devolução imediata de todos os montantes que no seu caso tivessem sido pagos pelo Utilizador.
+
+No caso de parte da encomenda (por ex. determinadas unidades de um produto) não poder ser processada por qualquer motivo (por ex. variações de stock), a BRICO DEPÔT dará resposta à encomenda inicial relativamente à parte não afetada, dando conhecimento imediato do facto ao Utilizador através do envio de um novo email e dando-lhe a possibilidade de cancelar a encomenda na sua totalidade. No caso de o Utilizador decidir prosseguir com a encomenda, ser-lhe-á devolvida de imediato a parte proporcional do montante pago relativamente ao(s) produto(s) afetado(s). Se não tiver sido possível contactar o Utilizador, a BRICO DEPÔT processará o pedido parcial com os produtos disponíveis informando o Utilizador para esse efeito.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="200" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.4. PERÍODO DE RESERVA E RECOLHA EM LOJA (CLICK & COLLECT)]]></text>
+			</staticText>
+		</band>
+		<band height="328" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="96"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Decorridas umas horas desde o começo do cômputo do Período de Reserva, o Utilizador poderá receber lembretes que o informa do tempo restante de que dispõe para recolher a sua encomenda em loja.
+
+O Utilizador poderá levantar a sua encomenda pessoalmente ou através de representantes. No caso de pessoas coletivas, o levantamento da encomenda pode ser realizado por procuradores ou trabalhadores daquela. Deverá ser apresentada uma autorização de cobrança de encomenda assinada, que pode ser consultada nos seguintes links: particulares, autónomos e empresas. Os referidos representantes devem apresentar a confirmação da encomenda, o respetivo cartão do cidadão ou passaporte, bem como cópia do cartão do cidadão ou passaporte do titular da encomenda e, no caso de representação de pessoa coletiva, o título legal de representação.
+
+No caso de o Utilizador não proceder à recolha dos produtos durante o Período de Reserva, a BRICO DEPÔT entrará em contacto com o mesmo através do envio de uma mensagem na qual informe que o Período de Reserva se extinguiu e que a reserva dos produtos ficará automaticamente sem efeito, voltando a estar disponíveis para compra no Sítio Web. Nestes termos, o Utilizador receberá no menor espaço de tempo possível a devolução imediata de todos os montantes pagos.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="130" width="555" height="28"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[• As embalagens ou produtos com peso inferior a 31 Kg serão entregues no domicílio do Utilizador.
+• As embalagens com peso igual ou superior a 31 Kg serão entregues na rua.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="96" width="555" height="34"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.5. CONDIÇÕES DE ENTREGA AO DOMICÍLIO (CLICK & DELIVERY).
+
+3.5.1 CONSOANTE O PESO DO PRODUTO, A ENTREGA SERÁ REALIZADA NO DOMICÍLIO OU ENTREGUE JUNTO À RUA.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="172" width="555" height="156"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[BRICO DEPÔT envidará os melhores esforços para entregar o pedido ao Utilizador dentro de 5 dias úteis (excluindo feriados e fins de semana) a partir da data em que a encomenda foi realizada, salvo em situações alheias ao controlo da BRICO DEPÔT, caso em que o Utilizador será devidamente informado. Exceto quando explicitamente previsto nas presentes condições ou no momento da compra, qualquer atraso na entrega não confere ao Cliente direito a indemnização ou compensação, incluindo pela privação de uso, desde que a entrega ocorra dentro do prazo máximo de 30 (trinta) dias a contar da confirmação do envio.
+
+A data estimada de entrega será confirmada no momento da finalização da encomenda durante o processo de compra. Informamos que o prazo estimado de entrega é sempre indicado em dias úteis (excluindo sábados, domingos e feriados). A entrega considera-se realizada quando o Utilizador ou um terceiro designado por este adquire a posse material dos produtos.
+
+O Utilizador deverá estar presente no local indicado para a entrega na data e horário acordados ou designar uma pessoa que o substitua. Caso a BRICO DEPÔT não consiga realizar a entrega na data e faixa horária combinadas no domicílio do Utilizador, a encomenda será devolvida à loja BRICO DEPÔT, e o Utilizador será contactado para agendar uma nova entrega.
+
+Em caso de ausência do Utilizador ou de alguém que o represente no momento da entrega, o transportador deixará uma “notificação de ausência”. O Utilizador declara e garante que os dados fornecidos no pedido (nome, apelidos, telefone, morada completa, data e hora do Serviço) estão corretos. É obrigatório que o Utilizador forneça um contacto telefónico à BRICO DEPÔT para facilitar a localização, gestão dos serviços contratados e acompanhamento do processo. Não são aceites entregas em apartados postais ou locais públicos. A BRICO DEPÔT não se responsabiliza por falhas ou atrasos na entrega resultantes de endereços incorretos, falsos ou inexistentes fornecidos pelo Utilizador.]]></text>
+			</staticText>
+		</band>
+		<band height="394" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="215"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[No caso de o transportador ter que se deslocar uma segunda vez, devido a erro nos dados, o Utilizador terá de pagar o custo desta deslocação adicional. Da mesma forma, se o motivo pelo qual não tiver sido efetuada a entrega se dever a uma ausência por parte do Utilizador, este deverá pagar de novo o montante do transporte antes da sua realização, salvo se o motivo for imputável à BRICO DEPÔT, caso em que esta assumirá o custo do envio seguinte.
+
+Concluída a prestação do serviço contratado, é imprescindível confirmar a entrega, através da assinatura pelo Utilizador da correspondente guia de entrega.
+
+É necessário ao Utilizador verificar o número de pacotes e/ou unidades recebidas e, se existirem, os danos visíveis no momento da entrega. Para este efeito, terá de expressar a sua conformidade (ou não) com o número de embalagens/produtos e o estado dos mesmos, após ter examinado o produto. Deve assinalar por escrito qualquer perda e/ou dano visível das embalagens durante o transporte. Isto sem prejuízo da aplicação das garantias estatutárias. De modo a poder lidar adequadamente com o incidente, pedimos ao Utilizador que apresente uma descrição escrita e fotografias de qualquer dano/incidente que repare. A carta pode ser entregue pessoalmente em qualquer uma das nossas lojas ou através do seguinte endereço: apoiocliente@bricodepot.com
+Ao aceitar as presentes Condições Gerais de Compra o Utilizador declara que a BRICO DEPÔT o informou acerca das dimensões da sua encomenda e que o imóvel em que solicitou a entrega reúne as condições de tamanho e acessibilidade necessárias para depositar a mercadoria. No caso de a BRICO DEPÔT ter de efetuar alguma despesa adicional para proceder à entrega, esse custo adicional será previamente informado ao Utilizador. Se o Utilizador não informar a BRICO DEPÔT sobre estes detalhes e o seu serviço implicar um segundo transporte, terá de pagar a tarifa correspondente e não terá direito ao reembolso correspondente.
+
+O Utilizador exonera a BRICO DEPÔT de qualquer responsabilidade, na máxima extensão legalmente permitida, e como tal será o único responsável pela utilização dos produtos de acordo com as especificações técnicas e instruções de utilização correspondentes, por verificar quando aplicável a correta localização e colocação em conformidade do produto no imóvel, com dossier técnico do edifício, pelas obrigações de utilização e manutenção do imóvel, dos manuais de emergência e evacuação e por quaisquer outros requisitos aplicáveis ao imóvel em causa.
+
+No caso de não poder ser efetuada a entrega no domicílio por motivo imputável ao Utilizador num prazo máximo de 10 dias a contar da data de expedição do produto, a BRICO DEPÔT entrará em contacto com o Utilizador enviando uma mensagem, na qual informará o mesmo que a operação ficou automaticamente cancelada e que os produtos foram devolvidos à BRICO DEPÔT voltando a estar disponíveis para compra no seu Sítio Web. Neste caso, a BRICO DEPÔT devolverá ao Utilizador o custo exclusivo do produto através do mesmo meio de pagamento. O custo do transporte não será reembolsado para compensar os custos de devolução do produto à BRICO DEPÔT ocorridos devido à impossibilidade de entregar o produto por motivo imputável ao Utilizador.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="215" width="555" height="28"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.6. DIREITO DE LIVRE RESOLUÇÃO
+
+3.6.1. DESISTÊNCIA LEGAL E EFEITOS DA DESISTÊNCIA.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="-170" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.5.2 PRAZOS DE ENTREGA (CLICK & DELIVERY)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="1" y="243" width="555" height="120"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Depois de recebido o produto, o Utilizador dispõe de catorze (14) dias de calendário a contar do momento em que este, agindo na qualidade de consumidor, ou um terceiro por este nomeado e diverso do transportador, receba a posse material do último dos produtos adquiridos numa mesma encomenda, para exercer total ou parcialmente o seu direito de livre resolução, sem necessidade de indicar qualquer motivo.
+
+Para que o prazo de livre resolução seja respeitado, basta que a comunicação do Utilizador referente ao exercício do direito de livre resolução seja enviada antes do termo do prazo de resolução.
+
+O produto deverá conservar a embalagem original e encontrar-se em perfeitas condições, bem como incluir todos os seus acessórios e documentação.
+
+Em caso de desistência, total ou parcial, a BRICO DEPÔT devolverá ao Utilizador, pelo mesmo meio que utilizou para efetuar o pagamento e sem demora injustificada, todos os pagamentos efectuados pelo Utilizador relativamente ao produto devolvido, incluindo as despesas de entrega decorrentes, quando aplicável, do serviço de transporte contratado (na parte proporcional à quantidade de produtos devolvidos). Nos casos em que o Utilizador tenha adquirido vários produtos num mesmo pedido, e a devolução solicitada seja parcial, para o cálculo do montante do transporte a devolver, será considerado o preço que seria pago pelo Utilizador para a entrega ao domicílio da encomenda sem os produtos que foram objeto de devolução, sendo reembolsada a diferença.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="363" width="555" height="28"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Para exercer o direito de livre resolução o Utilizador deverá dirigir-se, dentro do referido prazo, ou pessoalmente à loja em que efetuou o seu pedido (e para este efeito a BRICO DEPÔT faculta um documento de desistência, que o Utilizador poderá se assim o desejar, utilizar) ou remotamente, confirmando a sua devolução a partir da própria página web da BRICO DEPÔT.
+Se o Utilizador estiver registado como tal no nosso Sítio Web, poderá fazê-lo acedendo à área de "As minhas Devoluções" na sua "Conta de Utilizador", ativar a opção "Nova Devolução" e selecionar de seguida o produto ou produtos que queira devolver.
+
+]]></text>
+			</staticText>
+		</band>
+		<band height="434" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="269"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Se o Utilizador tiver efetuado a sua compra como "Convidado" (ou seja, sem se registar) também poderá solicitar a devolução de um produto através da nossa aplicação de devoluções no nosso Sítio Web acedendo à secção "Devoluções" ou através do seguinte link: https://www.bricodepot.pt/sales/guest/form, introduzindo obrigatoriamente o seu número de encomenda e o seu endereço de correio eletrónico.
+
+Caso os formulários online acima especificados se encontrem, por qualquer motivo, indisponíveis, o Utilizador poderá utilizar o seguinte endereço de email para requerer a devolução: apoiocliente@bricodepot.com, indicando sempre o nome completo do utilizador e o número da encomenda.
+
+O Utilizador, depois de confirmada a devolução pela BRICO DEPÔT, deverá seguir o processo indicado. Caso o Utilizador opte por devolver através da transportadora, é importante que o Utilizador, durante o processo de devolução, adicione fotografias que comprovem o bom estado do produto antes de ser recolhido no seu domicílio.
+
+O Utilizador poderá devolver o(s) produto(s) através de qualquer das seguintes modalidades:
+
+• Entrega física em qualquer das nossas lojas;
+• Por correio postal ou serviço de entregas ou similar, por si contratado (assumindo na íntegra os respetivos custos de devolução); e
+• Solicitando à BRICO DEPÔT a recolha do(s) produto(s) no seu domicílio exclusivamente através da opção de devolução através da nossa página web, conforme descrevemos anteriormente.
+
+A BRICO DEPÔT reembolsará ao Utilizador o preço do(s) produto(s) e as despesas correntes de envio, o mais tardar nos 14 dias seguintes a contar (i) do dia em que recebermos a confirmação de recolha do(s) produto(s) anteriormente indicada, se optar pela recolha do produto no seu domicílio pela BRICO DEPÔT; ou (ii) no dia da devolução do produto se optar por devolver o mesmo numa das nossas lojas ou no dia em que nos facultar comprovativo da devolução dos bens, consoante a condição que se verificar em primeiro lugar
+A BRICO DEPÔT utilizará os mesmos meios de pagamento que o Utilizador tiver utilizado para a transação inicial, exceto se for expressamente acordado outro meio. Em qualquer caso, o Utilizador não suportará qualquer taxa que possa decorrer do referido reembolso. Poderemos reter o reembolso até termos recebido os artigos devolvidos pelo Utilizador.
+
+Se o Utilizador optar pela recolha dos produtos pela BRICO DEPÔT no seu domicílio (exclusivamente via web), os custos diretos decorrentes da devolução serão suportados pelo Utilizador apenas no caso de o pedido de devolução ter sido recusado pela
+
+BRICO DEPÔT ou caso se apliquem reduções no valor do produto devolvido por não estarem cumpridas as condições relativas ao seu estado, não podendo o montante desses custos ser em caso algum superior ao pago para o transporte para o seu domicílio. O Utilizador será responsável pela diminuição de valor dos produtos resultante de uma manipulação diversa da necessária para estabelecer a natureza, as características e o funcionamento dos bens objeto de devolução. Nesse caso poderão ser aplicadas pela BRICO DEPÔT deduções no reembolso sobre o produto, que poderão ser parciais ou alcançar o valor total do produto, consoante os danos ou defeitos que os mesmos apresentem.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="269" width="555" height="28"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.6.2. DIREITO ADICIONAL DE LIVRE RESOLUÇÃO (GARANTIAS COMERCIAIS).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="297" width="555" height="134"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[A BRICO DEPÔT oferece ao Utilizador uma garantia, adicional à garantia legal, de devolução ou troca dos produtos adquiridos, que poderá ser acionada pelo Utilizador dentro do prazo compreendido entre o 15º dia e o 180º dia a contar da data da entrega efetiva do último dos bens solicitados numa encomenda, sem necessidade de justificação e efetuando a devolução do (ou dos) mesmo(s), tudo isto em conformidade com o processo aí previsto.
+Para o exercício do direito adicional de livre resolução e para efetuar a devolução, o(s) produto(s) em causa deverá(ão) estar em perfeito estado, na sua embalagem original e por abrir, não podendo ter sido, em caso algum, objeto de instalação nem de qualquer utilização. O produto deverá em qualquer caso ser apresentado na sua embalagem original intacta e acompanhado de todos os respetivos manuais, bolsas, acessórios e elementos complementares originalmente incluídos no produto.
+
+As devoluções deverão ser efetuadas através de qualquer das fórmulas de devolução previstas no ponto 3.6.1 anterior. Caso se opte pela recolha do produto no domicílio do Utilizador através da página web, as despesas decorrentes da devolução serão suportadas pelo Utilizador apenas no caso de a devolução ser recusada por não cumprir as condições relativas ao estado do produto, ou se forem aplicáveis reduções no reembolso do preço do produto caso este apresente danos ou sinais de uso incompatíveis com as garantias comerciais da BRICO DEPÔT.
+Depois de comunicado o exercício do direito adicional de livre resolução, o Utilizador deverá devolver sem demora à BRICO DEPÔT o(s) produto(s) e, em qualquer caso, dentro de um prazo máximo de catorze (14) dias de calendário a partir da data em que comunicar a sua decisão de desistência do contrato BRICO DEPÔT.
+]]></text>
+			</staticText>
+		</band>
+		<band height="445" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="0" width="555" height="285"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[A BRICO DEPÔT reembolsará ao Utilizador o preço do(s) produto(s) e as despesas de envio, o mais tardar nos 14 dias seguintes a contar (i) do dia em que recebermos a comunicação anteriormente indicada se optar pela recolha do produto no seu domicílio pela BRICO DEPÔT; ou (ii) no dia da devolução do produto se optar por devolver o mesmo numa das nossas lojas, ou no dia em que nos facultar comprovativo da devolução dos bens, consoante a condição que se verificar em primeiro lugar.
+
+O montante do(s) produto(s) será reembolsado pela BRICO DEPÔT utilizando o mesmo meio de pagamento a que recorreu o Utilizador, a não ser que se especifique o contrário por este ao exercer o direito de livre resolução. Em qualquer caso, o Utilizador não incorrerá em qualquer despesa ou penalização em consequência do reembolso do montante na sequência do exercício do direito de livre resolução nos termos desta condição.
+
+Para poder exercer este direito é imprescindível entregar o(s) produto(s) adquirido(s) que deverá(ão) estar em perfeito estado e sem que o seu aspeto original tenha sido alterado. Adicionalmente, o produto deverá ser apresentado na sua embalagem original, e acompanhado de todos os respetivos manuais, bolsas, acessórios e elementos complementares originalmente incluídos no produto.
+
+A BRICO DEPÔT apenas devolverá integralmente ao Utilizador os montantes pagos por este relativamente à compra dos produtos, mas não estará obrigada a devolver ao Utilizador o custo assumido relativamente ao serviço de entrega do referido produto.
+Esta garantia de devolução não afeta os seus direitos legais.
+O Utilizador não poderá desistir das seguintes categorias de produtos:
+
+• Se destinem a higiene pessoal ou que, devido à sua natureza (produtos fungíveis ou que se esgotem ou deteriorem com o seu mero uso) não possam ser trocados: tampas de WC, escovas piaçaba, etc., exceto se estiverem precintadas e forem devolvidos na sua embalagem original.
+• Produtos que não se encontrem em perfeitas condições e que apresentem sinais evidentes de utilização e/ou desgaste, alterando a aparência da apresentação original.
+• Se o produto utilizar peças móveis ou acessórios fungíveis (peças de reposição) estes devem estar em perfeitas condições de conservação. Também não será aceite a troca ou devolução no caso de produtos que possuam um motor de explosão que tenham sido colocados em funcionamento ou utilizados alterando as condições de apresentação do produto.
+• Não será aceite a devolução nem a troca de produtos que tenham sido objeto de qualquer tipo de instalação (termos, caldeiras, esquentadores, materiais de construção, geradores, etc…).
+• Artigos vendidos a granel ou à medida.
+
+No caso de ser recusado o exercício do direito adicional de livre resolução por incumprimento das condições anteriormente citadas ou se forem aplicáveis reduções de reembolso por motivo de danos, informar-se-á o Utilizador detalhando os motivos. O produto ficará à disposição dos Utilizadores para posterior recolha (em depósito) na sua loja por um período máximo de dois (2) meses, exceto em caso de evento de força maior que deverão ser comunicados à BRICO DEPÔT o mais tardar até 2 dias úteis a contar da data desse evento. Após esse prazo, a BRICO DEPÔT poderá aplicar custos relacionados com o depósito, que serão comunicados ao Utilizador, bem como dispor do produto a seu livre critério, uma vez que se considerará estar em situação de abandono. O Utilizador também poderá solicitar o seu envio mediante pagamento prévio dos custos de transporte associados.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="285" width="555" height="13"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.7. GARANTIAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="1" y="298" width="555" height="147"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Nos termos do disposto no Decreto Lei 84/2021, de 18 de Outubro que estabelece o regime das garantias da venda de bens de consumo, em caso de falta de conformidade de um produto, por exemplo, por não se adequar à descrição indicada no Sítio Web, estar defeituoso ou não ser apto para a sua utilização, conforme disposto na lei, o Utilizador poderá optar entre pedir a sua reparação ou a sua substituição, sem qualquer custo. Nestes termos, quando aplicável, o referido Utilizador terá direito a um desconto no preço e, quando aplicável, à resolução do contrato salvo se, neste último caso, a falta de conformidade for pouco importante.
+
+A garantia legal anteriormente referida poderá ser exercida pelo Utilizador que tiver a qualidade de consumidor durante o prazo de três (3) anos a contar da entrega do produto. No caso de recolha dos produtos em loja de acordo com o procedimento “Click & Collect”, a entrega entender-se-á efetuada no momento da sua recolha no estabelecimento comercial selecionado.
+
+Adicionalmente, o produtor é obrigado a disponibilizar as peças necessárias à reparação dos bens adquiridos pelo consumidor, durante o prazo de 10 anos após a colocação em mercado da última unidade do respetivo bem.
+
+Não estão cobertos pela garantia os defeitos que não resultem do fabrico do produto em causa, como o desgaste decorrente da utilização do mesmo, ou da sua manipulação indevida, pancadas ou similares.
+
+Sem prejuízo da garantia legal, a BRICO DEPÔT concede aos seus clientes (sejam ou não consumidores) garantias comerciais que, consoante as circunstâncias, sejam igualmente aplicáveis nos termos previstos na Política de Garantias Comerciais disponível em: Politica de Garantias Comerciais
+]]></text>
+			</staticText>
+		</band>
+		<band height="369" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="0" width="555" height="17"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4. CESSÃO DE DIREITOS E OBRIGAÇÕES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="79" width="555" height="13"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5.FORÇA MAIOR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="92" width="555" height="191"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Quando ocorra um acontecimento ou facto fora do controlo razoável da BRICO DEPÔT (Caso de Força Maior), a BRICO DEPÔT não responderá, nem será responsável pelo incumprimento ou mora no cumprimento de qualquer uma das suas obrigações resultantes do Contrato.
+
+Entende-se por Caso de Força Maior todo o ato ou omissão, ou evento ou acidente, alheio à vontade ou ao controlo razoável da BRICO DEPÔT, incluindo em particular (mas sem limitar) os seguintes:
+
+• conflitos laborais com consequências na atividade da BRICO DEPÔT, como greve ou bloqueios/lock-out;
+
+• estado de guerra, declarada ou não, as rebeliões ou motins,
+
+• as catástrofes naturais, como incêndios, inundações e terramotos, epidemias e pandemias;
+
+• impossibilidade de utilização de meios de transporte, públicos ou privados, como ferrovia, marítimo, aéreo, terrestre por estrada,
+
+• impossibilidade de utilização ou cortes de comunicações públicas ou privadas;
+
+• atos, resoluções, legislação, regulamento ou restrições impostas por autoridades públicas com competência para o efeito; e
+
+•ituações de perigo para a saúde humana, como pandemia ou epidemia.
+
+O cumprimento do Contrato pela BRICO DEPÔT ficará suspenso enquanto subsistir o Caso de Força Maior, e, nessa medida, o prazo da BRICO DEPÔT para cumprimento do mesmo também se suspende enquanto o Caso de Força Maior durar. A BRICO DEPÔT envidará os esforços razoáveis para resolver o Caso de Força Maior ou para encontrar uma solução através da qual as obrigações da BRICO DEPÔT ao abrigo deste Acordo possam ser cumpridas apesar do Caso de Força Maior.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="1" y="17" width="555" height="61"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[• O Contrato vincula as Partes e os seus sucessores ou cessionários autorizados nos termos da cláusula seguinte.
+
+• O Utilizador não poderá transmitir, ceder ou subcontratar o Contrato, nem os seus direitos ou obrigações que resultem do mesmo, sem o consentimento prévio e por escrito da Brico Depot.
+
+• A BRICO DEPÔT fica desde já autorizada por si à transmissão, cedência, delegação ou subcontratação do presente Contrato, bem como de qualquer um dos direitos ou obrigações que resultam do mesmo, em qualquer momento da vigência do Contrato, sem prejuízo do cumprimento das formalidades exigidas pela legislação aplicável.
+
+
+
+]]></text>
+			</staticText>
+		</band>
+		<band height="392" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="112" width="555" height="33"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7. TERMOS E CONDIÇÕES DE VENDA NO MARKETPLACE
+
+7.1. RELAÇÃO COM O CONSUMIDOR
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="1" width="555" height="13"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[6. FORO E LEGISLAÇÃO APLICÁVEL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="1" y="14" width="555" height="98"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[As presentes Condições Gerais reger-se-ão pela legislação portuguesa.
+
+Qualquer litígio que possa emergir relativamente à presente relação contratual submeter-se-á ao foro dos tribunais competentes da cidade de Lisboa. Contudo, no caso de o Utilizador atuar como consumidor, os referidos litígios serão submetidos aos tribunais competentes do local de residência do Utilizador se for em Portugal, ou caso não o seja, serão tribunais do local em que estiver situado os estabelecimento comercial de entrega.
+
+O Utilizador, no caso de atuar na qualidade de consumidor, poderá igualmente submeter qualquer litígio emergente ou relacionado com as presentes Condições Gerais a um processo de resolução de conflitos alternativo ("ADR"). A listagem de plataformas ADR disponíveis da Comissão Europeia poderá ser consultada neste link.
+
+Sem prejuízo do anteriormente referido e nos termos máximos permitidos por lei, a BRICO DEPÔT não se compromete nem fica obrigada a participar em processos de resolução de litígios online perante o órgão de arbitragem do consumidor.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="145" width="555" height="100"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[No âmbito do nosso website, poderá realizar compras no nosso Marketplace, disponível em https://www.bricodepot.pt/ (“Marketplace”). No âmbito destas compras, poderá contratar com vendedores profissionais ou não profissionais – poderá encontrar informação relativa à qualidade (enquanto profissional ou não profissional), de cada vendedor, na página de informação detalhada acerca de cada vendedor.
+
+Caso pretenda exercer os seus direitos enquanto consumidor, deverá fazê-lo perante o vendedor. Para tal, poderá utilizar os contactos de cada vendedor profissional, disponíveis nas respetivas páginas de informação detalhada.
+
+Caso contrate com um vendedor não profissional, os direitos do consumidor decorrentes do direito da União Europeia em matéria de defesa dos consumidores não se aplicarão aos contratos que venham a ser celebrados.
+
+Ao utilizar o Marketplace, estará a contratar diretamente com o vendedor, sendo a BRICO DEPÔT apenas responsável, na máxima extensão legalmente permitida, pela disponibilização da plataforma onde serão disponibilizados os Produtos para venda.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="245" width="555" height="16"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.2. RELAÇÃO COM O VENDEDOR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="261" width="555" height="131"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Salvo se forem fornecidas e verificadas informações em contrário, se, em relação a um Produto que esteja a adquirir ou vender, estiver a agir para fins que estejam fora da sua atividade comercial, industrial, artesanal ou profissional, está a agir como "Consumidor".
+
+Se estiver a agir em nome do seu empregador ou de outra empresa, representa e garante que:
+
+• tem plena autoridade legal para vincular a sua entidade patronal ou essa empresa;
+• concorda com estas Condições Gerais de Compra, em nome da empresa que representa.
+• Contratos celebrados com o Utilizador Profissional
+• A encomenda do Comprador é uma oferta para a celebração de um contrato com o Vendedor.
+
+O Contrato de Compra e Venda de Terceiros (“Contrato”) é criado, e a oferta do Comprador é aceite pelo Vendedor, quando o Comprador recebe o e-mail de confirmação. Se, após o envio do e-mail de confirmação, o Vendedor não tiver o Produto em stock, a BRICO DEPÔT (em nome do Vendedor) notificará o Comprador e providenciará um reembolso total ao Comprador pelo Produto que não possa ser entregue.
+
+O Contrato de Compra e Venda de Terceiros continuará em vigor até à sua rescisão, de acordo com os termos deste Condições Gerais de Compra.
+]]></text>
+			</staticText>
+		</band>
+		<band height="401" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="27" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.4. ENTREGA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="14" width="555" height="13"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[O Vendedor concorda em vender ao Comprador o Produto exposto na página de produtos para venda no Marketplace (a "Página").  ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="0" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.3. PRODUCTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="41" width="555" height="51"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[O Produto deve ser entregue no endereço indicado pelo Comprador que deve estar situado em Portugal.
+
+O Produto será da responsabilidade do Comprador a partir do momento em que for entregue no endereço do Comprador. O Comprador será proprietário de um Produto uma vez que este tenha sido pago na totalidade.
+
+Os meios de entrega a utilizar serão os definidos pelo Vendedor.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="1" y="92" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.5. PAGAMENTO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="106" width="555" height="112"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[O Comprador deve pagar o preço do Produto tal como estabelecido na Página, cujo preço deve incluir todos os Impostos aplicáveis e encargos adicionais relacionados com o Produto (incluindo quaisquer custos de entrega). O Vendedor não pode exigir que o Comprador pague qualquer montante para além do preço do Produto, tal como estabelecido na Página.
+
+Se os Produtos tiverem sido entregues em conformidade com a cláusula 5.1, o montante devido ao Vendedor (que é o preço deduzidos de todos os montantes pagos e a pagar à BRICO DEPÔT ou que a BRICO DEPÔT terá o direito de reter ou deduzir em conformidade com os termos acordados entre a BRICO DEPÔT e o Vendedor) será disponibilizado ao Vendedor (sujeito aos termos acordados entre a BRICO DEPÔT e o Vendedor).
+
+O Marketplace cobra o pagamento dos Produtos, na qualidade de agente, em nome e por conta do Vendedor e a obrigação do Comprador de pagar os montantes devidos ao abrigo deste Contrato será satisfeita quando o Marketplace cobrar tal pagamento ao Comprador, em nome do Vendedor.
+
+Se o Comprador solicitar uma fatura, a BRICO DEPÔT poderá coordenar com o Vendedor (ou cada Vendedor no caso de compras múltiplas) a emissão da fatura. O Comprador receberá as faturas eletronicamente em formato digital.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="-1" y="218" width="555" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.6. RESOLUÇÃO E DEVOLUÇÕES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="232" width="555" height="169"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Direito de resolução - Consumidor Comprador
+
+As cláusulas deste ponto 6 só se aplicam nos casos em que tenha sido celebrado um Contrato entre um Vendedor e um Comprador que seja um Consumidor. Estas referem-se aos direitos de um Consumidor de resolver um Contrato e obter um reembolso.
+
+O Comprador tem o direito de resolver o Contrato entre ele e um vendedor profissional no prazo de 14 dias após a entrega dos Produtos e sem necessidade de indicar o motivo (“Período de Livre Resolução”). Note-se que este direito não se aplica a Produtos feitos à medida, que o Comprador compre ao Vendedor (ou seja, Produtos que o Vendedor cria segundo a especificação do Comprador ou que são claramente personalizados).
+
+O Período de Livre Resolução termina no prazo de 14 dias a contar do dia em que o Comprador, ou um terceiro indicado pelo Comprador (que não o transportador) adquire, a posse física dos Produtos. O Comprador pode cancelar o Contrato em relação a todos os Produtos entregues ou apenas em relação a alguns dos Produtos. Se o Comprador comprar vários Produtos ou se um Produto for entregue em peças, lotes ou peças separadas, o Período de Livre Resolução termina no prazo de 14 dias contados a partir do dia em que o Comprador, ou um terceiro indicado pelo Comprador (que não o transportador), adquire a posse física do último Produto, peça, lote ou peça a ser vendida ao abrigo do Contrato.
+
+Para exercer o direito de livre resolução, o Comprador deve informar o Vendedor através do Marketplace, da sua decisão de cancelar o Contrato de Venda a Terceiros, fazendo uma declaração clara (por exemplo, uma carta enviada por correio eletrónico). Se o Comprador efetuou a sua compra como "Convidado" (portanto sem se registar) pode também solicitar a devolução de um produto através da nossa aplicação de devoluções no nosso website acedendo à secção "Devoluções" ou através do seguinte link: Serviço de devoluções, obrigatoriamente entrando seu número de pedido e seu endereço de e-mail.
+]]></text>
+			</staticText>
+		</band>
+		<band height="450" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="448"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[O Comprador pode utilizar o seguinte modelo de formulário de cancelamento para o fazer, mas não é obrigado a fazê-lo:
+
+Modelo de formulário de livre resolução
+
+(só deve preencher e devolver o presente formulário se quiser resolver o contrato)
+
+• Para [inserir aqui o nome, o endereço geográfico e, eventualmente, e o endereço de correio eletrónico do profissional]:
+• Pela presente comunico/comunicamos (*) que resolvo/resolvemos (*) do meu/nosso (*) contrato de compra e venda relativo ao seguinte bem/para a prestação do seguinte serviço (*)
+• Solicitado em (*)/recebido em (*)
+• Nome do(s) consumidor(es)
+• Endereço do(s) consumidor(es)
+• Assinatura do(s) consumidor(es) (só no caso de o presente formulário ser notificado em papel)
+
+(*) Riscar o que não interessa
+
+Para cumprir o prazo cancelamento, é suficiente que o Comprador envie a sua comunicação relativa ao exercício do seu direito de livre resolução antes que o Período de livre resolução tenha terminado.
+
+A BRICO DEPÔT, em nome do Vendedor, enviará ao Comprador, por e-mail, um aviso de receção da notificação do exercício do direito de livre resolução por parte do Comprador.
+
+Se o Comprador resolver o Contrato antes de os Produtos terem sido enviados pelo Vendedor, este deverá informar imediatamente a BRICO DEPÔT da intenção do Comprador de resolver.
+
+Se o Comprador resolver um Contrato nos termos da cláusula 6.2, receberá um reembolso de todos os pagamentos por si efetuados, através do Marketplace, agindo em nome e por conta do Vendedor.
+
+O Vendedor reembolsará o Comprador sem atrasos indevidos, e o mais tardar até essa data:
+
+• 14 dias após o dia em que o Vendedor (ou, quando aplicável, a BRICO DEPÔT em nome do Vendedor) receber de volta do Comprador quaisquer Produtos fornecidos; ou
+• (se anterior) 14 dias após o dia em que o Comprador apresentar provas de que devolveu os Produtos ao Vendedor (ou, quando aplicável, à BRICO DEPÔT em nome do Vendedor).
+• Se não tiverem sido entregues Produtos, o Vendedor providenciará para que a BRICO DEPÔT reembolse o Comprador o mais tardar 14 dias após o dia em que o Vendedor for informado da decisão do Comprador de cancelar este Contrato.
+• Se os Produtos tiverem sido entregues ao Comprador, o Vendedor poderá reter o reembolso até ter recebido os Produtos de volta ou até o Comprador ter fornecido provas de ter devolvido os Produtos ao Vendedor (ou, quando aplicável, à BRICO DEPÔT em nome do Vendedor), consoante o que ocorrer em primeiro lugar.
+• O Vendedor pode fazer uma dedução do reembolso por perda de valor de quaisquer Produtos fornecidos, se a perda for o resultado de manuseamento desnecessário pelo Comprador. O Comprador só é responsável por qualquer diminuição de valor dos Produtos resultante do desgaste injusto e/ou não razoável dos Produtos, para além do necessário para estabelecer a natureza, características e funcionamento dos Produtos. O Vendedor pode fazer uma dedução de qualquer reembolso (o Comprador tem direito ao Vendedor) por tal perda de valor de quaisquer Produtos que o Vendedor forneça.
+• Se o Comprador desejar exercer os seus direitos a um reembolso ao abrigo desta cláusula 6, o Comprador deve devolver os Produtos ao endereço disponibilizado na Página. O Vendedor pagará as despesas de devolução.
+• O Comprador é responsável por cuidar razoavelmente dos Produtos até à sua devolução ao Vendedor (ou, quando aplicável, à BRICO DEPÔT, em nome do Vendedor). O Vendedor recomenda que os Produtos sejam devolvidos ao Vendedor (ou, quando aplicável, à BRICO DEPÔT em nome do Vendedor) utilizando um serviço que oferece um método de rastreio e que o Comprador mantenha uma prova do envio. O Vendedor não poderá fornecer ao Comprador um reembolso total se os Produtos não forem devolvidos ao Vendedor (ou, quando aplicável, à BRICO DEPÔT em nome do Vendedor) ou se forem danificados no momento da sua chegada.
+• O Vendedor fará o reembolso utilizando os mesmos meios de pagamento que o Comprador utilizou para a transação inicial; o Comprador não incorrerá na obrigação de pagamento de quaisquer taxas como resultado do reembolso.
+• O Comprador tem direitos legais em relação a Produtos que não estejam conformes com a sua descrição, que sejam defeituosos ou que não sejam adequados ao fim a que se destinam. Se o Comprador acreditar que quaisquer Produtos que tenha encomendado não estão em conformidade com o Contrato, deverá contactar o Vendedor através do Marketplace para tentar resolver o litígio. Se o Comprador e o Vendedor não forem capazes de resolver o litígio, qualquer das partes pode remeter o litígio para a BRICO DEPÔT, de acordo com a cláusula 8.
+• Caso o Comprador seja um consumidor e o Vendedor seja um vendedor profissional, aplicam-se os períodos de garantia legal referidos na cláusula 3.7 das CONDIÇÕES GERAIS DE COMPRA. Na máxima extensão legalmente permitida, o Vendedor será o único responsável pela conformidade dos Produtos que vende.
+]]></text>
+			</staticText>
+		</band>
+		<band height="332" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="3" width="555" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.7. LIMITAÇÃO DE RESPONSABILIDADE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="15" width="555" height="56"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Nada no presente Contrato de Venda exclui ou limita a responsabilidade de qualquer das partes por:
+
+• morte ou danos pessoais causados por negligência dessa parte;
+• fraude ou declarações falsas; e
+• qualquer assunto em relação ao qual seria ilícito para essa parte excluir ou restringir a sua responsabilidade.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="71" width="555" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.8. RESOLUÇÃO DE LITÍGIOS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="83" width="555" height="187"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[A BRICO DEPÔT não é parte de qualquer Contrato celebrado através do Marketplace e atua como agente em nome e por conta do Vendedor na celebração de Contratos entre o Vendedor e o Comprador. O Vendedor é responsável por responder e utilizar os melhores esforços para resolver as questões que surjam em relação a um Comprador e que digam respeito a um Produto do Vendedor. O Comprador reconhece que qualquer obrigação fiscal imposta à BRICO DEPÔT na sua qualidade de fornecedor, considerado em virtude da Lei Aplicável (incluindo qualquer fatura a ser emitida pela BRICO DEPÔT nessa qualidade ao Comprador) não terá qualquer efeito sobre as obrigações do Vendedor para com o Comprador ao abrigo deste Contrato.
+
+Se o litígio entre um Comprador e um Vendedor não puder ser resolvido:
+
+• a BRICO DEPÔT acederá às comunicações entre o Vendedor e o Comprador através do Marketplace para avaliar a situação;
+• para Produtos que, quando considerados em conjunto, tenham um preço até 25,00 euros (sem IVA), a BRICO DEPÔT poderá tomar uma decisão automática para resolver a situação e, em caso afirmativo, a BRICO DEPÔT informará o Vendedor e o Comprador de tal resolução. A resolução pode incluir o pagamento ao Comprador de um reembolso total. O Vendedor e o Comprador concordam em respeitar, e cumprir, tal resolução; e
+• para Produtos de um determinado Vendedor que, quando considerados em conjunto, tenham um preço superior a 25,00 euros (sem IVA), a questão será encaminhada para o gestor de conta da BRICO DEPÔT que avaliará a questão, contactará o Vendedor e discutirá e proporá uma solução. Se a BRICO DEPÔT não obtiver uma resposta do Vendedor no prazo de 24 horas após esse contacto, a BRICO DEPÔT reserva-se o direito de resolver o litígio independentemente do preço do artigo. O Vendedor e o Comprador concordam em aceitar e cumprir tal resolução. O gestor de conta da BRICO DEPÔT poderá solicitar ao Vendedor que apresente provas (apenas a título de exemplo) da entrega do Produto relevante (por exemplo, confirmação de entrega pelo transportador) e/ou da recolha de devolução do artigo. O Vendedor é responsável por fornecer provas e reconhece que, se o Vendedor não o fizer, o gestor de conta da BRICO DEPÔT poderá decidir resolver a questão a favor do Comprador. A BRICO DEPÔT envidará esforços razoáveis para resolver qualquer litígio no prazo de 72 horas após o Vendedor ou o Comprador fornecer as provas necessárias (tal como exigido pela BRICO DEPÔT).
+
+A BRICO DEPÔT não atuará como árbitro em relação a qualquer litígio e qualquer das partes em litígio terá o direito de intentar uma ação judicial em qualquer altura.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="270" width="555" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.9. CESSAÇÃO DE CONTRATO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="1" y="282" width="555" height="50"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Este Contrato cessa:
+
+• se o Comprador exercer o direito de livre resolução em conformidade com a cláusula 6;
+• quando os Produtos são entregues no endereço do Comprador; ou
+• 9.1.3 quando a conta de uma parte é encerrada pela BRICO DEPÔT.
+]]></text>
+			</staticText>
+		</band>
+		<band height="443" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="3" width="555" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.10. RESOLUÇÃO DE LITÍGIOS EM LINHA E ARBRITAGEM NECESSÁRIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="1" y="15" width="555" height="59"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Caso o Comprador seja um consumidor e o vendedor um profissional, para além dos meios de resolução de litígios descritos na cláusula 8, por favor note que para litígios que surjam como resultado de uma compra online, se o Comprador for residente num Estado membro da União Europeia, pode submeter a reclamação do Comprador à plataforma EU Resolução de Litígios em Linha (RLL) através do seu website em ec.europa.eu/odr. Pode ainda recorrer diretamente a uma Entidade de Resolução Alternativa de Litígios de Consumo, uma vez os conflitos de consumo de reduzido valor económico (menos de 5.000,00 Euros) estão sujeitos a arbitragem necessária ou mediação quando, por opção expressa dos Utilizadores, sejam submetidos à apreciação de tribunal arbitral adstrito aos centros de arbitragem de conflitos de consumo legalmente autorizados.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="74" width="555" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.11. LEI APLICÁVEL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="86" width="555" height="59"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Este Contrato é regido pela lei portuguesa. Isto significa que qualquer litígio ou reclamação decorrente ou relacionada com este Contrato (incluindo litígios ou reclamações não contratuais) será regida pela lei portuguesa.
+A menos que o Comprador seja um Consumidor, o Comprador e o Vendedor concordam irrevogavelmente que os tribunais de Portugal terão jurisdição exclusiva para resolver qualquer litígio ou reclamação (incluindo litígios ou reclamações não contratuais) que surjam de ou em conexão com este Contrato ou com o seu objeto ou formação.
+Se o Comprador for um Consumidor, o Comprador beneficiará de quaisquer disposições legalmente obrigatórias no país em que reside. Nada neste Contrato, incluindo a cláusula 11.1, afeta os direitos do Comprador enquanto Consumidor.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="2" y="206" width="555" height="36"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ANEXO I
+
+FORMULÁRIO PARA O EXERCÍCIO DO DIREITO DE LIVRE RESOLUÇÃO
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="242" width="555" height="12"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Apenas deverá preencher e enviar o presente formulário se desejar cancelar ou desistir do contrato:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="254" width="555" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[COMUNICAÇÃO DO EXERCÍCIO DO DIREITO DE LIVRE RESOLUÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="268" width="555" height="175"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Ao cuidado de Brico Depôt Portugal
+Rua Elias Garcia, Estrada Nacional 294, KM14, 2635-008 Rio de Mouro
+apoiocliente@bricodepot.com
+
+Exmos. senhores:
+
+Pela presente comunico que resolvo o meu contrato de compra e venda relativo ao bem/para prestação do seguinte serviço:
+
+• Número de encomenda:
+
+• Solicitado/Recebido (riscar o que não interessa) em:
+
+• Produtos de que desiste:
+
+• Nome completo do Utilizador:
+
+• Endereço do domicílio do Utilizador:
+
+• Assinatura do Utilizador (apenas em caso de notificação em papel):
+
+• Data:
+]]></text>
+			</staticText>
+		</band>
+		<band height="285" splitType="Stretch"/>
+		<band height="450" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="d9abd0ee-0531-454e-88dc-8b6102cb5b61" x="0" y="2" width="555" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[POLÍTICA DE PRIVACIDADE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="14" width="555" height="216"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Programa de Fidelização BRICO CLUB PRO
+
+Responsável pelo Tratamento: Brico Depôt Portugal, S.A. (Brico Depôt)
+N.I.F.: 510359612
+Morada:
+Rua Elias Garcia, Estrada Nacional 294, KM14
+2635-008 Rio Mouro, Sintra (Lisboa)
+Endereço de correio eletrónico: lpd.portugal@bricodepot.com
+
+
+1. Os clientes profissionais da BRICO DEPOT (doravante, os "Afiliados"), através da participação neste programa de fidelização denominado "BRICO CLUB” (“Programa”), aceitam de forma expressa e inequívoca a inclusão dos dados fornecidos através do formulário de registo, numa ou mais operações de tratamento, automatizada ou não, de dados pessoais pelas quais a BRICO DEPOT é responsável. Durante o processo de recolha dos dados, o Afiliado será informado acerca de quais os dados que terá de facultar obrigatoriamente para aceder ao Programa. A base legal é a aceitação dos Termos e Condições Gerais do Programa, estabelecendo uma relação contratual entre o Afiliado e o Brico Depôt.
+.
+
+2. A recolha dos referidos dados pessoais e o seu tratamento têm como principal finalidade o acesso, disponibilização e gestão da participação dos Afiliados no Programa de Fidelização "Brico CLUB" da BRICO DEPOT, a assinatura eletrónica, criação, armazenamento e custódia do comprovativo eletrónico que atesta  a existência e o conteúdo das presentes Condições do Programa e da sua Política de Privacidade, bem como a sua aceitação pelo Afiliado, o envio, receção e participação, por qualquer meio, da informação, conteúdos, produtos, serviços, atividades comerciais, ofertas e promoções, descontos, formas de pagamento, questionários, eventos e workshops, quer da BRICO DEPOT quer de terceiros associados ou parceiros deste Programa – neste caso, a BRICO DEPOT enviará diretamente essa informação, atuando como intermediário dos referidos terceiros, aos quais não cederá os seus dados. Tudo isto, através da adaptação e personalização da oferta comercial da BRICO DEPOT às características e preferências do Afiliado, que lhe permitam oferecer serviços do seu interesse de forma personalizada, com a respetiva gestão e criação de perfil correspondente. A comunicação de dados pessoais é um requisito contratual, necessário para subscrever os termos e condições gerais de participação no Programa, e os Afiliados são obrigados a fornecer dados pessoais, sem os quais não será possível concretizar a sua participação no Programa.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="-1" y="230" width="555" height="216"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[3. Adicionalmente, a BRICO DEPOT tratará a informação pessoal recolhida através do presente formulário para permitir que os Afiliados usufruam e participem nas diferentes ações de remarketing personalizado, levadas a cabo pela BRICO DEPOT através das funções próprias de “Google ADS.”, “Facebook ADS.”, “Twitter ADS.”, “Bing, ADS.”, “LinkedIn, ADS.” e “Pinterest, ADS.”, bem como nas diferentes ações de marketing digital geradas através das ferramentas de Audiências Similares (“LookALike Audiences”), que também são da responsabilidade das referidas redes sociais e/ou plataformas digitais.
+
+Para um melhor entendimento por parte dos Afiliadas quanto ao âmbito e implicações destas ações, a BRICO DEPOT informa:
+
+A) “Ações de remarketing personalizadas”: Permitem que os Afiliados do Programa visualizem a publicidade que é de responsabilidade da BRICO DEPOT de forma segmentada, ou seja, com base nos interesses particulares de cada Afiliado, ao visitar as redes sociais “Facebook”, “LinkedIn”, “Twitter” e “Pinterest”, bem como os ambientes das plataformas digitais “Google” (YouTube, pesquisas Google, etc.) ou “Microsoft” (ou seja, o motor de busca Bing). Estas funcionalidades de remarketing permitem criar audiências determinadas a partir de certas categorias de dados pessoais dos nossos Afiliados e gerar campanhas de marketing digital para cada público-alvo ou audiência.
+
+Para realizar ações personalizadas de remarketing, a BRICO DEPOT necessita de partilhar com as referidas redes sociais e/ou plataformas digitais as seguintes categorias de dados pessoais dos nossos Afiliados, a saber, nome e apelidos, endereço de email, CC, interesses e gostos, utilizando as medidas técnicas e organizativas que permitam garantir a confidencialidade, integridade e disponibilidade da referida informação pessoal.
+
+Esta informação partilhada pela BRICO DEPOT será eliminada por cada rede social ou plataforma digital imediatamente após a conclusão da ação concreta de remarketing personalizado desenvolvida pela BRICO DEPOT, e em caso algum será acedida por qualquer terceiro não autorizado.
+
+B) “Ações de marketing digital” (“Audiências Similares”): Graças às funções de audiências personalizadas ou similares proporcionadas pelas referidas redes sociais e/ou plataformas digitais, podem ser criadas novas audiências específicas relacionadas com um determinado público-alvo, a partir de determinadas categorias de dados pessoais dos nossos Afiliados.
+]]></text>
+			</staticText>
+		</band>
+		<band height="444" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="0" width="555" height="243"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Neste sentido, a BRICO DEPOT necessita de partilhar com as referidas redes sociais e/ou plataformas digitais dados pessoais dos nossos Afiliados, que suspeitamos que pertençam ao grupo-alvo a ser impactado e que partilham perfis similares ou interesses comuns. Posteriormente, a rede social ou plataforma digital, conforme aplicável, descriptografará os dados transmitidos pela BRICO DEPOT (desde que o titular dessa informação seja membro da rede social ou plataforma em causa), o que fará como parte da sua relação com a referida rede social ou plataforma digital, para poder exibir anúncios específicos aos utilizadores destas redes sociais ou plataformas com perfis semelhantes aos dos Afiliados da base de dados partilhada – sem que tal implique que seja revelada à BRICO DEPOT a identidade da nova audiência impactada.
+
+Esta informação partilhada pela BRICO DEPOT será eliminada por cada rede social e/ou plataforma digital imediatamente após a conclusão da campanha, e em caso algum será acedida por qualquer terceiro não autorizado.
+
+Recomendamos aos nossos Afiliados que revejam as Políticas de Privacidade desses meios. Encontrará maior detalhe acerca destas ações de marketing digital, disponíveis nos links seguintes:
+
+Link para a Política de Privacidade do Facebook: https://www.facebook.com/policy.php
+Link para a Política de Privacidade do Instagram: https://help.instagram.com/402411646841720
+Link para a Política de Privacidade do Pinterest: https://policy.pinterest.com/es/privacy-policy
+Link para a Política de Privacidade do LinkedIn: https://es.linkedin.com/legal/privacy-policy
+Link para a Política de Privacidade do Bing: https://privacy.microsoft.com/es-es/privacystatement
+Link para a Política de Privacidade do Twitter: https://twitter.com/es/privacy
+Relativamente a estas ações de marketing digital promovidas pela BRICO DEPOT, informam-se os Afiliados que podem cancelar a sua subscrição a qualquer momento, exercendo os direitos correspondentes detalhados infra.
+
+4. Os Afiliados poderão exercer os direitos de Acesso, Retificação, Apagamento, Oposição, Limitação do tratamento, Portabilidade e o direito a não ser objeto de decisões automatizadas que tenham um efeito jurídico sobre os seus direitos ou liberdades. Os Afiliados têm o direito de apresentar uma reclamação perante uma autoridade de controlo, que em Portugal é a “Comissão Nacional de Proteção de Dados”.
+
+5. Os direitos referidos no número anterior podem ser exercidos pelos Afiliados, através de correio eletrónico enviado para o endereço lpd.portugal@bricodepot.com ou por correio postal para o endereço postal acima indicado. Estes endereços serão aqueles que deverão ser utilizados pelo  Afiliado para dirigir os seus pedidos de exercício dos direitos mencionados no número anterior relativamente a qualquer das empresas às quais os dados pessoais sejam cedidos, de acordo com o disposto infra, indicando o seu número de Afiliado, o seu número de identificação pessoal (CC), ou, quando aplicável, um Número de Identificação de  Cidadão Estrangeiro válido, com vista à correta identificação.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b99f4179-3c40-47d2-8555-02f9ca51b0ff" x="0" y="243" width="555" height="199"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Arial" size="7"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[6. A BRICO DEPOT necessita que o Afiliado mantenha, no mínimo, um canal de comunicação eletrónico ativo e atualizado, com a finalidade de gerir e enviar as correspondentes comunicações de informação acerca das vantagens e benefícios do Programa, bem como as suas condições aplicáveis. Caso contrário, a BRICO DEPOT entenderá que o Afiliado não tem interesse em continuar a pertencer ao Programa, reservando-se o direito de anular a inscrição do Afiliado cancelando automaticamente sua conta pessoal, bem como as vantagens e benefícios aos quais ele pudesse ter acesso nesse momento.
+
+7. A BRICO DEPOT conserva os dados pessoais do Afiliado enquanto este tiver o estatuto de Afiliado e não tiver revogado o seu consentimento, ficando os dados pessoais conservados após a cessação da relação contratual devidamente bloqueados pelo período de tempo necessário ao cumprimento das responsabilidades que possam emergir da mesma, incluindo para o cumprimento de obrigações legais.
+
+
+8. Para cumprir algumas das finalidades indicadas na presente Política de Privacidade, precisamos de dar acesso aos seus dados pessoais a empresas terceiras, prestadoras de serviços de software as a Service, as quais serão Subcontratantes da BRICO DEPOT, e com as quais a BRICO DEPOT assinou os respetivos contratos de tratamento, garantindo assim que tratarão os dados dos Afiliados de acordo com o disposto na legislação em vigor em matéria de proteção de dados.
+Alguns destes prestadores de serviços poderão estar localizados fora do Espaço Económico Europeu. Nesses casos, a BRICO DEPOT assinará os correspondentes contratos com esses fornecedores, com a finalidade de garantir que a transferência dos seus dados pessoais é realizada a todo o tempo  de acordo com um quadro de segurança e proteção equivalente ao contemplado na legislação europeia de proteção de dados. Para obter uma cópia dos contratos, poderá enviar um email para o endereço lpd.bricoportugal@bricodepot.com.
+
+Adicionalmente, a BRICO DEPOT poderá ceder os dados pessoais a empresas do seu grupo de empresas (Kingfisher Group), o que inclui B&Q, Screwfix, Castorama e Brico Dêpot (para mais informação acerca do Grupo Kingfisher, visite nosso site: www.kingfisher.com), em conexão com as finalidades supra indicadas e/ou caso tal seja necessário para efeitos de gestão administrativa interna.
+É possível que algumas das empresas do grupo estejam localizadas fora do Espaço Económico Europeu, caso em que a BRICO DEPOT também tomará as medidas necessárias para garantir que a transferência dos seus dados pessoais beneficia de um nível de proteção equivalente.
+Fora destes casos, a BRICO DEPOT não cederá dados a terceiros, salvo autorização expressa ou obrigação ou permissão legal.
+
+]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<summary>
+		<band height="145" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="986f9937-931a-4042-89ef-a78d4d4d3d61" x="35" y="1" width="519" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="11" isBold="false" isUnderline="false"/>
+					<paragraph leftIndent="2" rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Assinatura dos termos e condições gerais:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="986f9937-931a-4042-89ef-a78d4d4d3d61" x="-1" y="123" width="555" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman" size="11" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[OBRIGADO!]]></text>
+			</staticText>
+			<image onErrorType="Blank">
+				<reportElement uuid="d5925ff3-c146-47f7-b282-34c7409f8117" x="81" y="21" width="398" height="102"/>
+				<imageExpression><![CDATA[$P{FIRMA}]]></imageExpression>
+			</image>
+		</band>
+	</summary>
+</jasperReport>

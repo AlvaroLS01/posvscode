@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+    ComerZZia 3.0
+
+    Copyright (c) 2008-2015 Comerzzia, S.L.  All Rights Reserved.
+
+    THIS WORK IS  SUBJECT  TO  SPAIN  AND  INTERNATIONAL  COPYRIGHT  LAWS  AND
+    TREATIES.   NO  PART  OF  THIS  WORK MAY BE  USED,  PRACTICED,  PERFORMED
+    COPIED, DISTRIBUTED, REVISED, MODIFIED, TRANSLATED,  ABRIDGED, CONDENSED,
+    EXPANDED,  COLLECTED,  COMPILED,  LINKED,  RECAST, TRANSFORMED OR ADAPTED
+    WITHOUT THE PRIOR WRITTEN CONSENT OF COMERZZIA, S.L. ANY USE OR EXPLOITATION
+    OF THIS WORK WITHOUT AUTHORIZATION COULD SUBJECT THE PERPETRATOR TO
+    CRIMINAL AND CIVIL LIABILITY.
+
+    CONSULT THE END USER LICENSE AGREEMENT FOR INFORMATION ON ADDITIONAL
+    RESTRICTIONS.
+
+-->
+<Panel>
+    <LineaBotones>
+        <Boton>
+			<texto>APORTAÇÃO</texto>
+            <clave>abrirCaja</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F1</teclaAccesoRapido>
+			<rutaImagen>iconos/abrir-caja.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>  
+        <Boton>
+           <texto>SANGRIA</texto>
+            <clave>retiradaEfectivo</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F2</teclaAccesoRapido>
+			<rutaImagen>iconos/verpagos.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+     	 <Boton>
+			<texto>ENTRADA DE TROCOS</texto>
+            <clave>aportacionCambio</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F8</teclaAccesoRapido>
+			<rutaImagen>iconos/canjeo.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+         <Boton>
+			<texto>PAGAMENTO A FORNECEDOR</texto>
+            <clave>abrirPagoProveedor</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F3</teclaAccesoRapido>
+			<rutaImagen>iconos/canjeo.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+        <Boton>
+			<texto>ENTRADA DESDE O BANCOO</texto>
+            <clave>ingresoDesdeBanco</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F4</teclaAccesoRapido>
+			<rutaImagen>iconos/canjeo.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+        <Boton>
+			<texto>CORRECCION INGRESO DESDE BANCO</texto>
+            <clave>salidaDeCaja</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F11</teclaAccesoRapido>
+			<rutaImagen>iconos/canjeo.png</rutaImagen>
+			<visible>S</visible>
+        </Boton> 
+	</LineaBotones>
+	<LineaBotones>	        
+		<Boton>
+			<texto>FECHO</texto>
+            <clave>abrirCierreCaja</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F5</teclaAccesoRapido>
+			<rutaImagen>iconos/cerrar-caja.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+       	<Boton>
+			<texto>CONTAGEM DE CAIXA</texto>
+            <clave>abrirRecuentoCaja</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F6</teclaAccesoRapido>
+			<rutaImagen>iconos/recuento-caja-24.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>  
+       	<Boton>
+			<texto>SAÍDA DE TROCOS</texto>
+            <clave>reingresoCambio</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F7</teclaAccesoRapido>
+			<rutaImagen>iconos/canjeo.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+           <Boton>
+			<texto>ENTREGA AO BANCO</texto>
+            <clave>retiradaABanco</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F9</teclaAccesoRapido>
+			<rutaImagen>iconos/cerrar-caja.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>   
+           <Boton>
+			<texto>RELATÓRIO DO BANCO</texto>
+            <clave>informeBanco</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F10</teclaAccesoRapido>
+			<rutaImagen>iconos/imprimir-ticket.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>  
+    </LineaBotones>
+</Panel>

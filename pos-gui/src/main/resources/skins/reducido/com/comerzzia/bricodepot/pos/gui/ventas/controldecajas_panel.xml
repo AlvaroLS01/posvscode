@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+    ComerZZia 3.0
+
+    Copyright (c) 2008-2015 Comerzzia, S.L.  All Rights Reserved.
+
+    THIS WORK IS  SUBJECT  TO  SPAIN  AND  INTERNATIONAL  COPYRIGHT  LAWS  AND
+    TREATIES.   NO  PART  OF  THIS  WORK MAY BE  USED,  PRACTICED,  PERFORMED
+    COPIED, DISTRIBUTED, REVISED, MODIFIED, TRANSLATED,  ABRIDGED, CONDENSED,
+    EXPANDED,  COLLECTED,  COMPILED,  LINKED,  RECAST, TRANSFORMED OR ADAPTED
+    WITHOUT THE PRIOR WRITTEN CONSENT OF COMERZZIA, S.L. ANY USE OR EXPLOITATION
+    OF THIS WORK WITHOUT AUTHORIZATION COULD SUBJECT THE PERPETRATOR TO
+    CRIMINAL AND CIVIL LIABILITY.
+
+    CONSULT THE END USER LICENSE AGREEMENT FOR INFORMATION ON ADDITIONAL
+    RESTRICTIONS.
+
+-->
+<Panel>
+    <LineaBotones>
+        <Boton>
+			<texto>APERTURA CAJA VENTA</texto>
+            <clave>abrirCaja</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F1</teclaAccesoRapido>
+			<rutaImagen>iconos/abrir-caja.png</rutaImagen>
+			<visible>S</visible>
+        </Boton> 
+        <Boton>
+            <texto>APERTURA DE TIENDA</texto>
+            <clave>abrirTienda</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F2</teclaAccesoRapido>
+			<rutaImagen>iconos/abrir-caja.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+        <Boton>
+           <texto>CIERRE DEL DIA</texto>
+            <clave>cierre</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F3</teclaAccesoRapido>
+			<rutaImagen>iconos/cerrar-caja.png</rutaImagen>
+			<visible>S</visible>
+
+        </Boton> 
+        <Boton>
+			<tipo>HUECO</tipo>
+        </Boton>
+        <Boton>
+            <texto>REFRESCAR PANTALLA </texto>
+            <clave>refrescar</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F5</teclaAccesoRapido>
+			<rutaImagen>iconos/actualizar.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+	</LineaBotones>
+	<LineaBotones>	        
+		<Boton>
+			<texto>RECEPCIÓN DESDE BANCO</texto>
+            <clave>recepcion</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F6</teclaAccesoRapido>
+			<rutaImagen>iconos/facturar.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>
+       	<Boton>
+			<texto>RETIRADA A BANCO</texto>
+            <clave>retirada</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F7</teclaAccesoRapido>
+			<rutaImagen>iconos/recuento-caja.png</rutaImagen>
+			<visible>S</visible>
+        </Boton>  
+       	<Boton>
+			<texto>INFORME BANCO</texto>
+            <clave>imprimir</clave>
+            <tipo>METODO</tipo>
+			<teclaAccesoRapido>F8</teclaAccesoRapido>
+			<rutaImagen>iconos/imprimir-ticket.png</rutaImagen>
+			<visible>S</visible>
+        </Boton> 
+        <Boton>
+        	<tipo>HUECO</tipo>
+        </Boton> 
+       	<Boton>
+			<tipo>HUECO</tipo>
+        </Boton>     
+    </LineaBotones>
+</Panel>

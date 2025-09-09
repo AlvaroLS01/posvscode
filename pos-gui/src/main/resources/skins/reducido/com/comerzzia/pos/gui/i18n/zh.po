@@ -1,0 +1,4670 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-10 08:18+0100\n"
+"PO-Revision-Date: 2018-11-06 16:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:155
+msgid "Propiedades de la pasarela: "
+msgstr ""
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:215
+#, fuzzy
+msgid "Este medio de pago no tiene configuración asociada."
+msgstr "无法删除所选的设置。"
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:226
+msgid "Propiedades de la tienda"
+msgstr ""
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:311
+#, fuzzy
+msgid "Configuración guardada correctamente."
+msgstr "更改保存正确。"
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:315
+#, fuzzy
+msgid ""
+"Ha habido un error al guardar la configuración. Contacte con el "
+"administrador."
+msgstr "无法关闭屏幕。请联系管理员。"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:159
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:245
+msgid "Caja configurada"
+msgstr "钱箱设置完毕"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:160
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:246
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:150
+msgid "Tienda"
+msgstr "店"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:161
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:540
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:541
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:580
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:581
+msgid "NO USA"
+msgstr "不用"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:262
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:296
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:329
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:363
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:397
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:432
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:466
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:502
+msgid "Método de conexión"
+msgstr "连接方法"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:263
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:297
+msgid "Tipo de impresora"
+msgstr "打印机类型"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:330
+msgid "Tipo de tarjeta de fidelización"
+msgstr "会员卡类型 "
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:364
+msgid "Tipo de visor"
+msgstr "取景器类型"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:398
+msgid "Tipo de cajón"
+msgstr "抽屉式"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:433
+msgid "Tipo de balanza"
+msgstr "平衡型"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:467
+msgid "Tipo de recarga móvil"
+msgstr "移动充值类型"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:503
+#, fuzzy
+msgid "Tipo de escáner"
+msgstr "抽屉式"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:708
+msgid "Deberá reiniciar la aplicación para establecer los cambios."
+msgstr "你必须重新启动程序来应用设置变化"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:712
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:720
+msgid "Error guardando información de dispositivos"
+msgstr "错误保存设备信息"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:828
+msgid "No se ha podido abrir la ventana de configuración"
+msgstr "无法打开配置窗口"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:8
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:299
+msgid "TALLA"
+msgstr "尺寸"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:9
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:300
+msgid "COLOR"
+msgstr "颜色"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:10
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:309
+msgid "Talla"
+msgstr "大小"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:11
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:310
+msgid "Color"
+msgstr "颜色"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:12
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:634
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:654
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:664
+msgid "Preparación de pedidos"
+msgstr "准备订单"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:13
+msgid "#Servicio"
+msgstr "服务代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:14
+msgid "Cód. documento"
+msgstr "文件代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:15
+msgid "Nº Bultos"
+msgstr "散装数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:16
+msgid "Tipo de embalaje"
+msgstr "包装形式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:17
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:715
+msgid "Cantidad"
+msgstr "数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:18
+msgid "Observaciones"
+msgstr "备注"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:19
+msgid "Escriba el código de la preparación a la que quiera acceder"
+msgstr "输入您要访问的编写代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:20
+msgid "Código de preparación"
+msgstr "准备代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:21
+msgid "Aceptar"
+msgstr "接受"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:22
+msgid "Cancelar"
+msgstr "取消"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:23
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/NuevoCodBarrasEspecialController.java:99
+msgid "Artículo"
+msgstr "商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:24
+msgid "X"
+msgstr "4X"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:25
+msgid "Peso"
+msgstr "重量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:26
+msgid "Productos pendientes"
+msgstr "待审核的产品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:27
+msgid "Desglose1"
+msgstr "细目1"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:28
+msgid "Desglose2"
+msgstr "细目2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:29
+#, fuzzy
+msgid "Cant. Pedida"
+msgstr "计好数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:30
+msgid "U. Medida"
+msgstr "计量单位"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:31
+msgid "Cant. Pdte."
+msgstr "待审数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:32
+msgid "Cant. Prep."
+msgstr "备好数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:33
+msgid "Criterio sustitución"
+msgstr "更换标准"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:34
+msgid "Modo preparación"
+msgstr "准备模式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:35
+msgid "Movimientos"
+msgstr "运动"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:36
+msgid "Cant. Medida"
+msgstr "计好数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:37
+msgid "Fecha"
+msgstr "日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:38
+msgid "Usuario"
+msgstr "用户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:39
+msgid "Tipo Movimiento"
+msgstr "机芯类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:40
+msgid "Ruta"
+msgstr "路线"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:41
+msgid "Nº Pedidos pendientes"
+msgstr "待审核的订单数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:42
+msgid "Resumen"
+msgstr "结论"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:43
+msgid "Total:"
+msgstr "总共"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:44
+msgid "Artículos no servidos"
+msgstr "不提供的商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:45
+msgid "Sustitución de artículo"
+msgstr "更换商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:46
+msgid "Consulta de servicios"
+msgstr "咨询服务"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:47
+#, fuzzy
+msgid "Fecha de entrega solicitada"
+msgstr "交付日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:48
+msgid "Tipos de servicio"
+msgstr "服务类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:49
+msgid "Cliente"
+msgstr "顾客"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:50
+msgid "Estados"
+msgstr "状态"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:51
+msgid "FECHA DE ENTREGA"
+msgstr "交货日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:52
+msgid "Franja horaria disponible"
+msgstr "时隙可用"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:53
+msgid "Franja horaria no disponible"
+msgstr "时隙不可用"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:54
+msgid "Número maximo de pedidos"
+msgstr "订单的最大数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:55
+msgid "Minutos de cadencia entre pedidos"
+msgstr "订单的节奏分钟"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:56
+msgid "Hora tope de pedido para servir en esta franja"
+msgstr "服务这一带的订单时间限制"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:57
+msgid "Número de pedidos a entregar"
+msgstr "订单交付数"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:58
+msgid "Número de pedidos servidos"
+msgstr "订单数量提供"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:59
+msgid "Número de pedidos permitidos"
+msgstr "允许的订单数"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:60
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:316
+msgid "Cerrar"
+msgstr "关闭"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:61
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:138
+msgid "Nombre"
+msgstr "名字"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:62
+msgid "Tipo de contacto"
+msgstr "接触式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:63
+msgid "Valor"
+msgstr "附加值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:64
+msgid "Responsable"
+msgstr "主管"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:65
+msgid "Art a preparar"
+msgstr "待备的商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:66
+msgid "Art ptes"
+msgstr "待审商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:67
+msgid "Art preparados"
+msgstr "准备好的商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:68
+msgid "Art sustituido"
+msgstr "替补商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:69
+msgid "Art no servido"
+msgstr "商品没有送达"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:70
+msgid "F inicio"
+msgstr "开始日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:71
+msgid "F fin"
+msgstr "期限"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:72
+msgid "Contenido"
+msgstr "目录"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:73
+msgid "Nº de bultos"
+msgstr "包装数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:74
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:704
+msgid "Descripción"
+msgstr "描述"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:75
+msgid "Domicilio"
+msgstr "住址"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:76
+msgid "CP"
+msgstr "邮编号码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:77
+msgid "Población"
+msgstr "镇"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:78
+msgid "Localidad"
+msgstr "地区"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:79
+msgid "Provincia"
+msgstr "省"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:80
+msgid "País"
+msgstr "国家"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:81
+msgid "Estados anteriores del servicio"
+msgstr "服务以前的状态"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:82
+msgid "Estado anterior"
+msgstr "之前的状态"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:83
+msgid "Estado nuevo"
+msgstr "新状态"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:84
+msgid "¿Está seguro de que quiere cambiar el estado de este servicio?"
+msgstr "你确定你想改变这个服务的状态？"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:85
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:707
+msgid "Fecha registro"
+msgstr "注册日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:86
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:722
+msgid "Importe"
+msgstr "金额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:87
+msgid "Transportista"
+msgstr "运营商"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:88
+#, fuzzy
+msgid "Importe pendiente"
+msgstr "余额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:89
+msgid "Fecha servicio"
+msgstr "日期服务"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:90
+msgid "Almacén origen"
+msgstr "仓库出发地"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:91
+msgid "Almacén preparación"
+msgstr "仓库准备"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:92
+msgid "Almacén destino"
+msgstr "仓库目的地"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:93
+msgid "Detalles del servicio"
+msgstr "服务内容"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:94
+msgid "Tipo"
+msgstr "类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:95
+msgid "Estado"
+msgstr "状态"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:96
+msgid "Fecha entrega"
+msgstr "交货日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:97
+msgid "Horario"
+msgstr "时间表"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:98
+msgid "Dirección de entrega"
+msgstr "送货地址"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:99
+msgid "Datos de la preparación"
+msgstr "数据准备"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:100
+msgid "Tipo servicio"
+msgstr "服务类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:101
+msgid "Cod. doc."
+msgstr "文件代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:102
+msgid "F. entrega"
+msgstr "交付日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:103
+msgid "Hora"
+msgstr "时间"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:104
+msgid "Acts."
+msgstr "活动"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:105
+msgid "Nueva actividad"
+msgstr "新活动"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:106
+msgid "Nueva solicitud"
+msgstr "新的申请"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:107
+msgid "Tipo de solicitud"
+msgstr "申请类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:108
+msgid "Solicitudes"
+msgstr "申请"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:109
+msgid "Solicitudes de"
+msgstr "的申请"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:110
+msgid "Resuelta"
+msgstr "解决"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:111
+msgid "#Solicitud"
+msgstr "申请代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:112
+msgid "Solicitud"
+msgstr "申请"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:113
+msgid "Creada por"
+msgstr "通过创建"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:114
+msgid "Resuelto"
+msgstr "解决"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:115
+msgid "Fecha resolución"
+msgstr "决议日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:116
+msgid "Actividades de la Solicitud seleccionada:"
+msgstr "应用活动选择："
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:117
+msgid "Visto"
+msgstr "查看"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:118
+msgid "Origen"
+msgstr "原稿"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:119
+msgid "Actividad"
+msgstr "活动"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:120
+msgid "Tipo contacto"
+msgstr "接触式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:121
+msgid "Datos contacto"
+msgstr "联系人数据"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:122
+msgid "Para mas información visite  www.comerzzia.es"
+msgstr "欲了解更多信息，请访问www.comerzzia.es"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:123
+msgid "Reiniciar ahora"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:124
+#, fuzzy
+msgid "No reiniciar"
+msgstr "开始日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:125
+msgid "OK"
+msgstr "行"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:126
+msgid "Borrar"
+msgstr "删除"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:127
+msgid "Código"
+msgstr "代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:128
+msgid "C.P."
+msgstr "邮编号码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:129
+msgid "Teléfono"
+msgstr "电话"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:130
+#, fuzzy
+msgid "Persona Contacto"
+msgstr "接触式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:131
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:684
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:690
+#, fuzzy
+msgid "Consulta de stocks"
+msgstr "余额查询"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:132
+msgid "Desglose 1"
+msgstr "细目1"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:133
+msgid "Desglose 2"
+msgstr "细目2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:134
+#, fuzzy
+msgid "Expresión Almacenes"
+msgstr "邮票印刷"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:135
+#, fuzzy
+msgid "Consultar"
+msgstr "余额查询"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:136
+#, fuzzy
+msgid "Solo disponible"
+msgstr "可用余额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:137
+msgid "Stocks tienda"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:138
+msgid "Stock"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:139
+msgid "Stock A"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:140
+msgid "Stock B"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:141
+msgid "Stock C"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:142
+msgid "Stock D"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:143
+msgid "Stock logístico"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:144
+msgid "Stocks resto tiendas"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:145
+#, fuzzy
+msgid "Contacto"
+msgstr "计数"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:146
+#, fuzzy
+msgid "Expresión tiendas"
+msgstr "邮票印刷"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:147
+msgid ""
+"Expresiones soportadas: T = todas las tiendas; G:XX = Grupo XX; E:YYYYY = "
+"Etiqueta YYYYY; XXXX = Código tienda."
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:148
+msgid ""
+"Los distintos comandos de los que se compone la expresión deberán ir "
+"separados por espacios."
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:149
+#, fuzzy
+msgid "Consultar Artículos"
+msgstr "用品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:151
+msgid "Caja"
+msgstr "钱箱"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:152
+msgid "Contraseña"
+msgstr "密码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:153
+msgid "SELECCIÓN DE USUARIO"
+msgstr "用户选择"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:154
+msgid "Salir"
+msgstr "退出"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:155
+msgid "Cambiar contraseña"
+msgstr "更改密码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:156
+msgid "Confirmar nueva contraseña"
+msgstr "确认新密码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:157
+msgid "Contraseña nueva"
+msgstr "新密码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:158
+msgid "Contraseña actual"
+msgstr "当前密码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:159
+msgid "Ocultar Menú"
+msgstr "隐藏菜单"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:160
+msgid "NOTIFICACIONES"
+msgstr "通告"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:161
+msgid "LIMPIAR"
+msgstr "清除"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:162
+msgid "CERRAR"
+msgstr "关闭"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:163
+msgid "Filtrar"
+msgstr "筛选"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:164
+msgid "Gestión de Permisos"
+msgstr "许可管理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:165
+msgid "Titular"
+msgstr "持有人"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:166
+msgid "Administrar"
+msgstr "管理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:167
+#, fuzzy
+msgid "Lea o escriba el código de barras de la tarjeta"
+msgstr "读取或写入卡礼金券的条形码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:168
+msgid "Número de tarjeta"
+msgstr "卡号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:169
+msgid "Alta Fidelizado"
+msgstr "注册会员客户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:170
+msgid "Consulta de saldo"
+msgstr "余额查询"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:171
+msgid "GiftCard Nº"
+msgstr "礼金券号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:172
+msgid "Saldo disponible"
+msgstr "可用余额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:173
+msgid "Recarga GiftCard"
+msgstr "礼金券充值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:174
+msgid "Recarga GiftCard Nº"
+msgstr "充值礼金券号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:175
+msgid "Datos Artículo Recarga"
+msgstr "商品重载数据"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:176
+msgid "Saldo actual"
+msgstr "当前余额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:177
+msgid "Recarga"
+msgstr "充值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:178
+msgid "Correo Electrónico"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:179
+msgid "Documento"
+msgstr "文件"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:180
+msgid "Apellidos"
+msgstr "姓氏"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:181
+#, fuzzy
+msgid "Direccion"
+msgstr "地址"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:182
+msgid "Tarjeta"
+msgstr "卡"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:183
+msgid "Host"
+msgstr "主持人"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:184
+msgid "Puerto"
+msgstr "端口"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:185
+msgid "Código de empresa"
+msgstr "公司代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:186
+msgid "Código de tienda"
+msgstr "店内码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:187
+msgid "Código de tpv"
+msgstr "冠捷代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:188
+msgid "Forma de pago"
+msgstr "付款方式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:189
+msgid "Configuración TEF CLEARONE"
+msgstr "TEF CLEARONE设置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:190
+msgid "Medios de pago"
+msgstr "付款"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:191
+msgid "Descripcion"
+msgstr "说明"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:192
+msgid "Configuración PINPAD REDSYS"
+msgstr "密码键盘配置Redsys"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:193
+msgid "Código centro"
+msgstr "中心代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:194
+msgid "Código terminal"
+msgstr "终端代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:195
+msgid "Clave de firma"
+msgstr "密码签名"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:196
+msgid "Configuración TEF Saima"
+msgstr "TEF Saima设置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:197
+msgid "IP Servicio"
+msgstr "IP服务"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:198
+msgid "Cod. moneda"
+msgstr "货币代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:199
+msgid "Configuración TEF WINCOR"
+msgstr "TEF WINCOR设置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:200
+msgid "Código tienda"
+msgstr "店铺ID"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:201
+msgid "POS"
+msgstr "位置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:202
+msgid "Actualizar claves"
+msgstr "更新码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:203
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:111
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:777
+msgid "Pagos"
+msgstr "支付"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:204
+msgid "PENDIENTE"
+msgstr "边坡"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:205
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1667
+msgid "CAMBIO"
+msgstr "找钱"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:206
+msgid "Artículos"
+msgstr "用品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:207
+msgid "TOTAL:"
+msgstr "总共"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:208
+#, fuzzy
+msgid "Configuración de medios de pago"
+msgstr "条码配置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:209
+#, fuzzy
+msgid "Seleccione un medio de pago para ver su configuración:"
+msgstr "选择找钱支付方式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:210
+msgid "Guardar cambios"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:211
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:671
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:675
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:679
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:681
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:685
+msgid "Configuración"
+msgstr "配置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:212
+msgid "General"
+msgstr "一般"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:213
+msgid "Visor"
+msgstr "取景器"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:214
+msgid "Cajón"
+msgstr "抽屉"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:215
+msgid "Impresora 1"
+msgstr "打印机1"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:216
+msgid "Impresora 2"
+msgstr "打印机2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:217
+msgid "Balanza"
+msgstr "平衡"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:218
+msgid "Fidelizado"
+msgstr "会员"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:219
+msgid "Recarga móvil"
+msgstr "移动充值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:220
+msgid "Escáner"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:221
+msgid "Editar configuración"
+msgstr "编辑设置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:222
+msgid "Escoja la población deseada"
+msgstr "选择所需的镇"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:223
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:597
+msgid "Datos del Cliente"
+msgstr "客户数据"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:224
+msgid "Tipo Documento"
+msgstr "文档类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:225
+msgid "Num. Documento"
+msgstr "文档号码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:226
+msgid "Activo"
+msgstr "活跃"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:227
+msgid "Datos Generales"
+msgstr "一般信息"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:228
+msgid "Teléfono 1"
+msgstr "电话1"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:229
+msgid "Teléfono 2"
+msgstr "电话2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:230
+msgid "Fax"
+msgstr "传真"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:231
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:232
+msgid "Pais"
+msgstr "国家"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:233
+msgid "Tarifa"
+msgstr "率"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:234
+msgid "Trat. Impuesto"
+msgstr "税务处理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:235
+msgid "Datos Bancarios"
+msgstr "银行详细信息"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:236
+msgid "CCC"
+msgstr "CCC"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:237
+msgid "(*) Campos obligatorios"
+msgstr "（*）必填字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:238
+msgid "Configuración código de barras"
+msgstr "条码配置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:239
+msgid "Prefijo"
+msgstr "字首"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:240
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/NuevoCodBarrasEspecialController.java:97
+msgid "Ticket"
+msgstr "票"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:241
+#: com/comerzzia/pos/gui/ventas/profesional/articulos/busqueda/BuscarArticulosProfesionalController.java:86
+msgid "Precio"
+msgstr "价格"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:242
+msgid "Fidelizacion"
+msgstr "忠实"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:243
+msgid "Posición"
+msgstr "位置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:244
+msgid "Longitud"
+msgstr "长度"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:245
+msgid "Parte entera"
+msgstr "整数部分"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:246
+msgid "Parte decimal"
+msgstr "小数部分"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:247
+msgid "Impresión de Cupones"
+msgstr "邮票印刷"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:248
+msgid "Promoción"
+msgstr "促销"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:249
+msgid "Imprimir"
+msgstr "打印"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:250
+msgid "Buscar colectivos"
+msgstr "集体搜索"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:251
+msgid "Cod. Colectivo"
+msgstr "集体代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:252
+msgid "Buscar"
+msgstr "搜索"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:253
+msgid "FIDELIZADO"
+msgstr "会员"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:254
+msgid "Datos generales"
+msgstr "一般信息"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:255
+msgid "Colectivos"
+msgstr "组"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:256
+msgid "Movimientos Tarjetas"
+msgstr "卡运动"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:257
+msgid "Últimas Ventas"
+msgstr "最新销售"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:258
+msgid "Etiquetas"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:259
+msgid "Editar"
+msgstr "编辑"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:260
+msgid "Código Colectivo"
+msgstr "集体代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:261
+msgid "Nº de tarjeta"
+msgstr "卡号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:262
+msgid "Tipo documento"
+msgstr "文档类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:263
+msgid "Sexo"
+msgstr "性别"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:264
+msgid "Fecha de nacimiento"
+msgstr "出生日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:265
+msgid "Estado civil"
+msgstr "婚姻状况"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:266
+#, fuzzy
+msgid "Fecha alta"
+msgstr "交货日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:267
+msgid "Email"
+msgstr "电子邮件"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:268
+msgid "Permitir notificaciones"
+msgstr "允许通知"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:269
+msgid "Solo ticket digital"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:270
+msgid "Móvil"
+msgstr "手机"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:271
+msgid "Código postal"
+msgstr "邮政编码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:272
+msgid "Tienda favorita"
+msgstr "喜欢的店铺"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:273
+msgid "Colectivo"
+msgstr "组"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:274
+msgid "Nº Tarjeta"
+msgstr "卡号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:275
+#, fuzzy
+msgid "Saldo Total"
+msgstr "当前余额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:276
+msgid "Últimos 20 movimientos de la tarjeta seleccionada"
+msgstr "选择的卡最后20运作"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:277
+msgid "Concepto"
+msgstr "概念"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:278
+msgid "Entrada"
+msgstr "条目"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:279
+msgid "Salida"
+msgstr "出厂"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:280
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:683
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:693
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1689
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1703
+msgid "Saldo"
+msgstr "余额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:281
+msgid "Tienda Favorita"
+msgstr "收藏店铺"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:282
+msgid "Ventas realizadas en los últimos 12 meses"
+msgstr "在过去12个月的销售"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:283
+msgid "Cód. Tienda"
+msgstr "商店代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:284
+msgid "Buscar tiendas"
+msgstr "查找商店"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:285
+msgid "Cod. Tienda"
+msgstr "商店代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:286
+msgid "Avisos al cajero"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:287
+msgid "Gestión de apartados"
+msgstr "搁置管理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:288
+msgid "Apartado Nº"
+msgstr "搁置号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:289
+msgid "Ver todos"
+msgstr "查看所有"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:290
+msgid "Cancelado"
+msgstr "取消"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:291
+msgid "Finalizado"
+msgstr "完成"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:292
+msgid "Nº"
+msgstr "号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:293
+msgid "Detalle de apartado"
+msgstr "搁置细节"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:294
+msgid "Poblacion"
+msgstr "人口"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:295
+msgid "Nº Doc"
+msgstr "文件号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:296
+msgid "Recogida"
+msgstr "收集"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:297
+msgid "ARTICULO"
+msgstr "商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:298
+msgid "DESCRIPCION"
+msgstr "说明"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:301
+msgid "CANT"
+msgstr "数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:302
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:644
+msgid "PVP"
+msgstr "零售价"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:303
+msgid "DTO"
+msgstr "折扣"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:304
+msgid "IMPORTE"
+msgstr "金额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:305
+msgid "SERVIDO"
+msgstr "服务"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:306
+msgid "ABONADO"
+msgstr "订户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:307
+msgid "SALDO CLIENTE"
+msgstr "客户余额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:308
+msgid "Marcar venta artículos"
+msgstr "标记出售的物品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:311
+msgid "Dto."
+msgstr "折扣"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:312
+msgid "Pagos del apartado"
+msgstr "搁置支付"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:313
+msgid "Medio de pago"
+msgstr "支付手段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:314
+msgid "Imprimir pago"
+msgstr "打印付款"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:315
+msgid "Importe a pagar"
+msgstr "支付金额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:316
+msgid "Apertura de Caja"
+msgstr "钱箱开幕"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:317
+msgid "Fecha Apertura"
+msgstr "开幕日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:318
+msgid "Abrir Caja"
+msgstr "开钱箱"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:319
+#, fuzzy
+msgid "Calculadora"
+msgstr "取消"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:320
+msgid "CANTIDAD"
+msgstr "数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:321
+msgid "MONEDA"
+msgstr "货币"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:322
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:977
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:981
+msgid "TOTAL"
+msgstr "总共"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:323
+msgid "Medio de Pago"
+msgstr "支付手段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:324
+#, fuzzy
+msgid "Añadir Importe"
+msgstr "金额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:325
+msgid "Efectivo"
+msgstr "现金"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:326
+msgid "Insertar Apunte"
+msgstr "插入点"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:327
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:648
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:656
+msgid "Gestión de Caja"
+msgstr "钱箱管理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:328
+msgid "Cajero"
+msgstr "出纳员"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:329
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:715
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:191
+msgid "Caja CERRADA"
+msgstr "钱箱关闭"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:330
+msgid "FECHA"
+msgstr "日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:331
+msgid "ENTRADAS"
+msgstr "输入"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:332
+msgid "SALIDAS"
+msgstr "输出"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:333
+msgid "CONCEPTO"
+msgstr "备注"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:334
+msgid "DESCRIPCION CONCEPTO"
+msgstr "备注描述"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:335
+msgid "DOCUMENTO"
+msgstr "文件"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:336
+msgid "F.PAGO"
+msgstr "付款方式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:337
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:627
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:628
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:629
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:631
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:635
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:637
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:639
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:641
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:643
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:645
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:647
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:649
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:655
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:677
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:687
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:761
+msgid "Ventas"
+msgstr "销售"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:338
+msgid "CÓDIGO"
+msgstr "代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:339
+msgid "Fecha Cierre"
+msgstr "截止日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:340
+msgid "MEDIO PAGO"
+msgstr "支付手段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:341
+msgid "TOTAL (E-S)"
+msgstr "总计（ES）"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:342
+msgid "RECUENTO"
+msgstr "计数"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:343
+msgid "DESCUADRE"
+msgstr "不平衡"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:344
+msgid "Total(E/S)"
+msgstr "合计（E / S）"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:345
+msgid "Total Recuento"
+msgstr "总计数"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:346
+msgid "Descuadre"
+msgstr "账不对"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:347
+msgid "Entradas (Ventas)"
+msgstr "输入（销售部）"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:348
+msgid "En X Tickets"
+msgstr "在X票"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:349
+msgid "Salidas (Devolución)"
+msgstr "输出（退款）"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:350
+msgid "Entradas (Mov)"
+msgstr "输入（运作）"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:351
+msgid "Salidas (Mov)"
+msgstr "输出（运作）"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:352
+msgid "Total Entradas"
+msgstr "总输入"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:353
+msgid "Total Salidas"
+msgstr "总输出"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:354
+msgid "Cerrar Caja"
+msgstr "关钱箱"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:355
+msgid "Recuento de Caja"
+msgstr "钱箱计数"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:356
+msgid "FORMA DE PAGO"
+msgstr "付款方式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:357
+msgid "Anotar recuento"
+msgstr "注释计数"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:358
+msgid "Otros"
+msgstr "其他"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:359
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:644
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:650
+msgid "Devoluciones"
+msgstr "退款"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:360
+msgid "Código de caja"
+msgstr "钱箱代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:361
+msgid "Tipo de documento"
+msgstr "文件类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:362
+msgid "Código de ticket"
+msgstr "票代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:363
+msgid "DATOS DEL TICKET ORIGINAL"
+msgstr "原始票信息"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:364
+msgid "ARTÍCULO"
+msgstr "商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:365
+msgid "DESCRIPCIÓN"
+msgstr "概述"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:366
+msgid "UND."
+msgstr "单"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:367
+msgid "DEVUELTAS"
+msgstr "退回"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:368
+msgid "DEVOLVER"
+msgstr "退"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:369
+msgid "Devolver"
+msgstr "退"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:370
+msgid "Cambio artículos"
+msgstr "改商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:371
+msgid "Cod. documento / Localizador"
+msgstr "文档代码/定位器"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:372
+msgid "INICIAR DEVOLUCION"
+msgstr "启动退款"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:373
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:648
+msgid "DTO."
+msgstr "折扣"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:374
+#, fuzzy
+msgid "Total Artículos:"
+msgstr "用品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:375
+msgid "0"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:376
+msgid "Imprimir Copia"
+msgstr "打印复印"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:377
+msgid "Ticket regalo"
+msgstr "礼品券"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:378
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:638
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:646
+msgid "Gestión de Documentos"
+msgstr "文档管理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:379
+msgid "Tipo Doc."
+msgstr "文件类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:380
+msgid "Localizador"
+msgstr "定位器"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:381
+msgid "Buscar Documento"
+msgstr "文档搜索"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:382
+msgid "Seleccionar Cliente"
+msgstr "选择客户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:383
+msgid "Dirección"
+msgstr "地址"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:384
+msgid "Telefono 2"
+msgstr "电话2 "
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:385
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:242
+msgid "Volver atrás"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:386
+msgid "Búsqueda de artículos"
+msgstr "搜索商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:387
+msgid "Precio + IVA"
+msgstr "价格+增值税"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:388
+#, fuzzy
+msgid "Stocks de artículo"
+msgstr "更换商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:389
+#, fuzzy
+msgid "Stocks por modelo"
+msgstr "更换商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:390
+msgid "Stocks por desglose 1"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:391
+msgid "Stocks por desglose 2"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:392
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:678
+#: com/comerzzia/pos/gui/ventas/profesional/venta/VentaProfesionalController.java:97
+msgid "Venta Profesional"
+msgstr "专业销售"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:393
+msgid "/ Peso"
+msgstr "/重量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:394
+msgid "PRECIO"
+msgstr "价格"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:395
+msgid "PRECIO + IVA"
+msgstr "价格+增值税"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:396
+msgid "IMPORTE + IVA"
+msgstr "金额+增值税"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:397
+msgid "Vendedor"
+msgstr "卖家"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:398
+msgid "CLIENTE FIDELIZADO:"
+msgstr "会员客户："
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:399
+msgid "SALDO:"
+msgstr "余额："
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:400
+msgid "Nº TARJETA:"
+msgstr "卡号："
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:401
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:737
+msgid "Base"
+msgstr "基价"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:402
+msgid "Iva"
+msgstr "增值税"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:403
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:738
+msgid "Recargo"
+msgstr "附加费"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:404
+msgid "Ponga el artículo sobre la balanza"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:405
+msgid "El artículo introducido requiere ser pesado en la balanza."
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:406
+msgid "Cupones del fidelizado"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:407
+#, fuzzy
+msgid "Sin cupones disponibles"
+msgstr "没有可供出售的物品。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:408
+msgid "Edición artículo"
+msgstr "商品编辑"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:409
+msgid "Articulo"
+msgstr "商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:410
+msgid "Descuento"
+msgstr "折扣"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:411
+msgid "Precio Total"
+msgstr "总价格"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:412
+msgid "Números de serie"
+msgstr "序列号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:413
+msgid "Recuperar Venta Omnicanal"
+msgstr "销售恢复全方位渠道"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:414
+msgid "Introduzca los datos del documento"
+msgstr "输入文档数据"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:415
+msgid "Cód. Caja"
+msgstr "钱箱代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:416
+msgid "Id. Documento"
+msgstr "文件ID"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:417
+#, fuzzy
+msgid "Cód. Pedido"
+msgstr "计好数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:418
+msgid "Números de serie dispopnibles"
+msgstr "可用编号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:419
+msgid "Artículo:"
+msgstr "商品:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:420
+msgid "Cantidad:"
+msgstr "数量"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:421
+msgid "Número de serie"
+msgstr "编号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:422
+msgid "Números de serie asociados a la línea del ticket"
+msgstr "与售票线路相关序列号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:423
+msgid "Pendiente:"
+msgstr "待定："
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:424
+msgid "Insertar"
+msgstr "插入"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:425
+msgid "Numeros serie"
+msgstr "序列号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:426
+msgid "Buscar Clientes"
+msgstr "搜索客户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:427
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:508
+msgid "CLIENTE"
+msgstr "客户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:428
+msgid "NUM. DOCUMENTO"
+msgstr "文档号码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:429
+msgid "POBLACION"
+msgstr "镇"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:430
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:741
+msgid "PROVINCIA"
+msgstr "省"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:431
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:104
+msgid "Datos del cliente para la factura"
+msgstr "发票的客户数据"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:432
+msgid "Nombre comercial"
+msgstr "商名"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:433
+msgid "Datos bancarios"
+msgstr "银行详细信息"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:434
+msgid "Buscar Cliente"
+msgstr "搜索客户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:435
+msgid "Buscar países"
+msgstr "搜索国家"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:436
+msgid "Cod. País"
+msgstr "国家代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:437
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:986
+msgid "ENTREGADO"
+msgstr "交付"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:438
+msgid "A PAGAR"
+msgstr "支付"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:439
+#, fuzzy
+msgid "TOTAL ARTÍCULOS:"
+msgstr "商品"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:440
+msgid "FORMA PAGO CAMBIO:"
+msgstr "找钱方式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:441
+msgid "Anotar pago"
+msgstr "写首付"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:442
+msgid "A CUENTA"
+msgstr "支付"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:443
+msgid "Selección medio de pago para el cambio"
+msgstr "选择找钱支付方式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:444
+msgid "Medio de pago seleccionado:"
+msgstr "选择的支付方式："
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:445
+#, fuzzy
+msgid "Consumo de puntos"
+msgstr "余额查询"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:446
+#, fuzzy
+msgid "Dispone de X puntos"
+msgstr "文件类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:447
+msgid "Indique cuántos puntos desea canjear por un cupón:"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:448
+#, fuzzy
+msgid "Importe resultante:"
+msgstr "余额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:449
+msgid "XX,XX€"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:450
+msgid "No usar puntos"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:451
+msgid "Recuperar ticket"
+msgstr "恢复客票"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:452
+msgid "FIN PREPARACIÓN"
+msgstr "准备完毕"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:453
+msgid "DETALLE DEL SERVICIO"
+msgstr "细节服务"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:454
+msgid "SUSTITUIR"
+msgstr "替代"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:455
+msgid "NO SERVIR"
+msgstr "没有服务"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:456
+msgid "IMPRIMIR PREPARACIÓN"
+msgstr "打印准备"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:457
+msgid "LIBERAR PREPARACIÓN"
+msgstr "解放准备"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:458
+msgid "CAMBIO FORMATO"
+msgstr "更改格式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:459
+msgid "BULTOS"
+msgstr "散装"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:460
+msgid "ASIGNARME PREPARACIÓN"
+msgstr "准备分配"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:461
+msgid "IR A PREPARACIÓN"
+msgstr "GO准备"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:462
+msgid "ACTUALIZAR"
+msgstr "跟新"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:463
+msgid "NUEVA PREPARACION"
+msgstr "新准备"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:464
+msgid "ETIQUETAS"
+msgstr "标签"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:465
+msgid "FILTRAR"
+msgstr "筛选"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:466
+msgid "PDTES. PREPARACIÓN"
+msgstr "待准备"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:467
+msgid "PDTES. EMBALAJE"
+msgstr "待包装"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:468
+msgid "EN PREPARACIÓN"
+msgstr "在制备"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:469
+msgid "PDTES. FACTURAR"
+msgstr "待结算"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:470
+msgid "PDTES. ENVÍO"
+msgstr "待运输"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:471
+msgid "PDTES. CONFIRMAR ENTREGA"
+msgstr "待确认发货"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:472
+msgid "PDTES. RECOGIDA"
+msgstr "待收"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:473
+msgid "DETALLE"
+msgstr "详细信息"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:474
+msgid "IMPRIMIR LISTADO"
+msgstr "打印列表"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:475
+msgid "NUEVA SOLICITUD"
+msgstr "新申请"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:476
+msgid "VER SOLICITUD"
+msgstr "查看申请"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:477
+msgid "RESOLVER"
+msgstr "解决"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:478
+msgid "NUEVA ACTIVIDAD"
+msgstr "新活动"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:479
+msgid "VER ACTIVIDAD"
+msgstr "请参见活动"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:480
+msgid "VISTO"
+msgstr "看过"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:481
+msgid "ASIGNAR CLIENTE"
+msgstr "指定客户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:482
+msgid "ANOTAR PAGO"
+msgstr "写首付"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:483
+msgid "COMPLETAR VENTA"
+msgstr "完成销售"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:484
+msgid "IMPRIMIR"
+msgstr "打印"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:485
+msgid "VER PAGOS"
+msgstr "看付款"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:486
+msgid "DATOS CLIENTE"
+msgstr "客户资料"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:487
+msgid "BÚSQUEDA"
+msgstr "搜索"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:488
+msgid "aceptar (no visible)"
+msgstr "接受（不可见）"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:489
+msgid "abrir cajón (no visible)"
+msgstr "打开（不可见）抽屉"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:490
+msgid "APERTURA"
+msgstr "开幕"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:491
+msgid "IMPRIMIR ULT. CIERRE"
+msgstr "打印最后的闭幕"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:492
+msgid "CIERRE"
+msgstr "闭幕"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:493
+msgid "INSERTAR APUNTE"
+msgstr "输入备注"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:494
+msgid "RECUENTO CAJA"
+msgstr "钱箱计数"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:495
+msgid "CAMBIAR CAJERO"
+msgstr "更换柜员"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:496
+msgid "AÑADIR UNO"
+msgstr "加一"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:497
+msgid "AÑADIR FILA"
+msgstr "加行"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:498
+msgid "AÑADIR TODO"
+msgstr "全部添加"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:499
+msgid "VER DOC. ORIGEN"
+msgstr "看原件"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:500
+msgid "ANULAR DEVOLUCION"
+msgstr "取消退款"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:501
+msgid "PAGOS"
+msgstr "付款"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:502
+msgid "GESTIÓN DOCUMENTOS"
+msgstr "文件管理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:503
+msgid "APARCAR TICKET"
+msgstr "搁放发票"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:504
+msgid "RECUPERAR TICKET"
+msgstr "恢复发票"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:505
+msgid "ANULAR TICKET"
+msgstr "取消发票"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:506
+msgid "SALDO GIFTCARD"
+msgstr "礼金券余额"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:507
+msgid "FIDELIZACION"
+msgstr "忠诚"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:509
+msgid "NUEVO CLIENTE"
+msgstr "新客户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:510
+msgid "EDITAR CLIENTE"
+msgstr "编辑客户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:511
+msgid "CLIENTE GENÉRICO"
+msgstr "通用客户"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:512
+msgid "VENDER"
+msgstr "出售"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:513
+msgid "OMNICANAL"
+msgstr "全方位渠道"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:514
+msgid "CATÁLOGO ONLINE"
+msgstr "在线目录"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:515
+msgid "Datos envío"
+msgstr "航运数据"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:516
+msgid "Datos cliente"
+msgstr "客户数据"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:517
+#, fuzzy
+msgid "SELECCIÓN MANUAL"
+msgstr "用户选择"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:518
+msgid "CANJEA PUNTOS"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:519
+msgid "CONSULTAR DISPONIBILIDAD"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:520
+msgid "Factura"
+msgstr "普票"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:521
+msgid "Debe rellenar el campo documento"
+msgstr "您必须填写文档字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:522
+msgid "Debe seleccionar un código de tratamiento de impuestos."
+msgstr "您必须选择一种税务处理代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:523
+msgid "Debe rellenar el campo descripción."
+msgstr "您必须填写描述字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:524
+msgid "La longitud del campo no puede superar los 45 caracteres."
+msgstr "字段长度不能超过45个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:525
+msgid "Debe rellenar el campo de identificación del cliente."
+msgstr "您必须填写客户识别字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:526
+msgid ""
+"La longitud del campo número de documento no puede superar los {max} "
+"caracteres"
+msgstr "文件号码字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:527
+msgid "La longitud del campo no puede superar los 15 caracteres."
+msgstr "字段长度不能超过15个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:528
+msgid "Debe rellenar el campo del nombre comercial del cliente."
+msgstr "您必须填写客户识别字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:529
+msgid ""
+"La longitud del campo nombre comercial no puede superar los {max} caracteres"
+msgstr "名称字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:530
+msgid "La longitud del campo domicilio no puede superar los {max} caracteres"
+msgstr "地址字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:531
+msgid "Debe rellenar el campo domicilio."
+msgstr "您必须填写地址字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:532
+msgid "La longitud del campo población no puede superar los {max} caracteres"
+msgstr "镇字段长度不能超过{max}个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:533
+msgid "La longitud del campo provincia no puede superar los {max} caracteres"
+msgstr "省字段长度不能超过4个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:534
+msgid "La longitud del campo localidad no puede superar los {max} caracteres"
+msgstr "地区字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:535
+msgid ""
+"La longitud del campo código postal no puede superar los {max} caracteres"
+msgstr "邮政编码字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:536
+msgid "La longitud del campo teléfono no puede superar los {max} caracteres"
+msgstr "电话字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:537
+msgid "Debe seleccionar el país del cliente."
+msgstr "您必须选择客户国家"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:538
+#, fuzzy
+msgid "La longitud del campo no puede superar los {max} caracteres."
+msgstr "该字段长度不能超过2个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:539
+msgid "Debe rellenar el campo longitud del contenido."
+msgstr "您必须填写长度字段内容"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:540
+msgid "La longitud del campo no puede superar los 2 caracteres."
+msgstr "该字段长度不能超过2个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:541
+msgid "El valor introducido debe ser numérico."
+msgstr "输入的该是数值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:542
+msgid "Debe rellenar el campo posición del contenido."
+msgstr "您必须填写内容的位置字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:543
+msgid "Debe rellenar el campo posición de la cantidad."
+msgstr "您必须填写数量的位置字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:544
+msgid "Debe rellenar el campo posición del precio."
+msgstr "您必须填写金额的位置字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:545
+msgid "Debe rellenar el campo parte decimal de la cantidad."
+msgstr "您必须填写数量的小数字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:546
+msgid "Debe rellenar el campo parte decimal del precio."
+msgstr "您必须填写金额的小数字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:547
+msgid "Debe rellenar el campo tipo de código."
+msgstr "您必须填写代码类型字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:548
+msgid "Debe rellenar el campo parte entera de la cantidad."
+msgstr "您必须填写数量的整数字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:549
+msgid "Debe rellenar el campo parte entera del precio."
+msgstr "您必须填写金额的整数字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:550
+msgid "Debe rellenar el campo prefijo."
+msgstr "您必须填写区域代码字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:551
+#, fuzzy
+msgid "La longitud del campo Código no puede superar los {max} caracteres."
+msgstr "邮政编码字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:552
+msgid "Debe rellenar el campo nombre"
+msgstr "您必须填写名字字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:553
+#, fuzzy
+msgid "La longitud del campo Nombre no puede superar los {max} caracteres."
+msgstr "名称字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:554
+msgid "Debe rellenar el campo apellidos"
+msgstr "您必须填写姓氏字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:555
+#, fuzzy
+msgid "La longitud del campo Apellidos no puede superar los {max} caracteres."
+msgstr "地区字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:556
+msgid "Debe seleccionar un tipo de documento"
+msgstr "您必须选择一种文档类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:557
+#, fuzzy
+msgid "La longitud del campo Documento no puede superar los {max} caracteres."
+msgstr "文件号码字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:558
+msgid "Debe rellenar el campo email"
+msgstr "您必须填写电子邮件字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:559
+#, fuzzy
+msgid "La longitud del campo Email no puede superar los {max} caracteres."
+msgstr "地址字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:560
+#, fuzzy
+msgid "La longitud del campo Móvil no puede superar los {max} caracteres."
+msgstr "公司名称字段长度不能超过{max}个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:561
+#, fuzzy
+msgid ""
+"La longitud del campo Código de Pais no puede superar los {max} caracteres."
+msgstr "邮政编码字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:562
+#, fuzzy
+msgid ""
+"La longitud del campo Código Postal no puede superar los {max} caracteres."
+msgstr "邮政编码字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:563
+msgid "Debe rellenar el campo provincia"
+msgstr "您必须填写省字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:564
+#, fuzzy
+msgid "La longitud del campo Provincia no puede superar los {max} caracteres."
+msgstr "省字段长度不能超过4个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:565
+msgid "Debe rellenar el campo población"
+msgstr "您必须填写镇字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:566
+#, fuzzy
+msgid "La longitud del campo Población no puede superar los {max} caracteres."
+msgstr "镇字段长度不能超过{max}个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:567
+#, fuzzy
+msgid "La Longitud del campo Localidad no puede superar los {max} caracteres."
+msgstr "地区字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:568
+msgid "Debe rellenar el campo domicilio"
+msgstr "您必须填写地址字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:569
+#, fuzzy
+msgid "La longitud del campo Domicilio no puede superar los {max} caracteres."
+msgstr "地址字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:570
+#, fuzzy
+msgid ""
+"La longitud del campo Observaciones no puede superar los {max} caracteres."
+msgstr "镇字段长度不能超过{max}个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:571
+msgid "El campo descripción del cliente debe estar relleno."
+msgstr "客户描述字段必须填写"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:572
+msgid "La longitud del campo descripción no puede superar los {max} caracteres"
+msgstr "描述字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:573
+msgid "El campo domicilio del cliente debe estar relleno."
+msgstr "客户地址字段必须填写"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:574
+msgid "El campo num. documento del cliente debe estar relleno."
+msgstr "客户文件号码字段必须填写"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:575
+msgid ""
+"La longitud del campo  num. documento no puede superar los {max} caracteres"
+msgstr "文件号码字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:576
+msgid "El campo país del cliente debe estar relleno."
+msgstr "客户国家字段必须填写"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:577
+msgid "El valor debe ser numérico."
+msgstr "该值必须是数字"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:578
+msgid "La fecha de apertura introducida no es válida"
+msgstr "输入的开幕日期无效。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:579
+msgid "Ha de indicar una fecha de apertura"
+msgstr "必须指出开幕日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:580
+msgid "El saldo ha de tener un valor positivo válido"
+msgstr "余额必须有一个有效的正值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:581
+msgid "El documento no puede superar los {max} caracteres"
+msgstr "该文档不能超过{max}个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:582
+msgid "Campo requerido"
+msgstr "必填字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:583
+msgid "El importe introducido no es válido"
+msgstr "输入的金额无效。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:584
+msgid "La descripción del concepto no puede superar los {max} caracteres"
+msgstr "概念描述长度不能超过{max}个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:585
+msgid "Ha de indicar una fecha de cierre"
+msgstr "必须指出关闭日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:586
+msgid "La fecha de cierre introducida no es válida"
+msgstr "输入的关闭日期无效。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:587
+msgid "El campo 'Código de tienda' no puede tener más de {max} dígitos."
+msgstr "'商店代码' 字段不能超过{max}数值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:588
+msgid "El campo 'Código de tienda' no puede estar vacío."
+msgstr "'商店代码'字段不能为空"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:589
+msgid "El campo 'Código de ticket' no puede estar vacío."
+msgstr "'发票代码'不能为空"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:590
+msgid "El campo 'Código de caja' no puede estar vacío."
+msgstr "钱箱代码不能为空"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:591
+msgid "El campo 'Código de caja' no puede tener más de {max} dígitos."
+msgstr "'钱箱代码' 字段不能超过{max}数值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:592
+msgid "El campo 'Tipo de documento' no puede estar vacío."
+msgstr "文档类型字段不能为空"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:593
+msgid "El campo 'Código de documento' no puede tener más de {max} dígitos."
+msgstr "'文档代码' 不能超过{max}数值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:594
+msgid "La longitud del código no puede tener más de {max} dígitos."
+msgstr "代码字段不能超过{max}数值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:595
+msgid "El código del ticket no es válido."
+msgstr "发票代码无效。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:596
+msgid "La fecha introducida no tiene un formato correcto."
+msgstr "输入的日期没有正确的格式"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:597
+msgid "La longitud del campo debe estar entre {min} y {max} caracteres."
+msgstr "该字段长度该有{min}到{max}个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:598
+msgid "La cantidad no puede ser nula"
+msgstr "数量不能是空值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:599
+msgid "El campo cantidad no es un número válido."
+msgstr "数量字段不是有效数值。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:600
+msgid "El precio no puede ser nulo"
+msgstr "金额不能是空值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:601
+msgid "El campo precio no es un número válido."
+msgstr "金额字段不是有效数值。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:602
+msgid "El campo descuento no es un número válido."
+msgstr "折扣字段不是有效数值。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:603
+msgid "Debe introducir el código de caja."
+msgstr "您必须输入钱箱代码。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:604
+msgid "Debe introducir el código de tienda."
+msgstr "您必须输入商店代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:605
+msgid "Debe introducir el código de identificación del documento."
+msgstr "你必须输入文件识别码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:606
+msgid "La longitud del campo no puede superar los 20 caracteres."
+msgstr "该字段长度不能超过20个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:607
+msgid "La longitud del campo no puede superar los 50 caracteres."
+msgstr "该字段长度不能超过50个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:608
+msgid "Debe rellenar el campo nombre."
+msgstr "您必须填写名称字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:609
+msgid "La longitud del campo nombre no puede superar los {max} caracteres"
+msgstr "名称字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:610
+msgid ""
+"La longitud del campo num. documento no puede superar los {max} caracteres"
+msgstr "文件号码字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:611
+msgid "Debe rellenar el campo telefono."
+msgstr "您必须填写电话字段"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:612
+msgid "Debe introducir un valor distinto de 0"
+msgstr "您必须输入除0以外的数值"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:613
+msgid "El campo permite un máximo de {max} caracteres"
+msgstr "该字段允许最多{max}字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:614
+msgid "Debe ingresar un nombre de usuario."
+msgstr "你必须输入用户名称"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:615
+msgid "Debe ingresar un password."
+msgstr "你必须输入密码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:616
+msgid "La longitud del usuario debe estar entre {min} y {max} caracteres."
+msgstr "用户长度该有{min}到{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:617
+#, fuzzy
+msgid ""
+"La longitud de las observaciones debe ser como máximo de {max} caracteres,"
+msgstr "该字段长度该有{min}到{max}个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:618
+#, fuzzy
+msgid "Debe introducir la descripción de la actividad."
+msgstr "您必须输入商店代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:619
+#, fuzzy
+msgid "La longitud de la descripción debe ser como máximo de {max} caracteres,"
+msgstr "描述字段长度不能超过{max}个字符"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:620
+#, fuzzy
+msgid "Debe seleccionar un tipo de contacto."
+msgstr "您必须选择一种文档类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:621
+#, fuzzy
+msgid "Debe introducir un valor."
+msgstr "您必须输入一个有效的数字。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:622
+#, fuzzy
+msgid "La longitud del valor debe ser como máximo de {max} caracteres,"
+msgstr "该字段长度该有{min}到{max}个字符。"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:623
+#, fuzzy
+msgid "Debe introducir la descripción de la solicitud."
+msgstr "您必须输入商店代码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:624
+#, fuzzy
+msgid "Debe seleccionar un tipo de solicitud."
+msgstr "您必须选择一种文档类型"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:625
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:633
+msgid "Servicios"
+msgstr "服务"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:626
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:652
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:660
+msgid "Gestíon de servicios"
+msgstr "服务管理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:630
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:640
+#, fuzzy
+msgid "Identificación de Cliente"
+msgstr "客户标识"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:632
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:636
+msgid "Venta a crédito"
+msgstr "赊销"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:642
+msgid "Gestión de Apartados"
+msgstr "搁置管理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:651
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:653
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:657
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:659
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:661
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:663
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:667
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:669
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:683
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:689
+msgid "Backstore"
+msgstr "后台"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:658
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:668
+msgid "Impresión de cupones"
+msgstr "打印优惠券"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:662
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:670
+msgid "Mantenimiento de Clientes"
+msgstr "客户维护"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:665
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:673
+msgid "Central"
+msgstr "总机"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:666
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:674
+msgid "Backoffice"
+msgstr "后台"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:672
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:680
+msgid "Configuración TPV"
+msgstr "TPV设置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:676
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:682
+msgid "Códigos de Barras especiales"
+msgstr "特殊条形码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:686
+#, fuzzy
+msgid "Configuración de Medios de Pago"
+msgstr "条码配置"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:688
+#: com/comerzzia/pos/gui/ventas/entregaCuenta/FacturacionArticulosVentaCreditoController.java:56
+msgid "Venta Omnicanal"
+msgstr "销售全方位渠道"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:691
+msgid "de"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:692
+#, fuzzy
+msgid "Hombre"
+msgstr "名字"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:693
+#, fuzzy
+msgid "POBLACIÓN"
+msgstr "镇"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:694
+msgid "DOMICILIO"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:695
+msgid "EMAIL"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:697
+msgid ""
+" con la finalidad recabar información para la elaboración de estudios y "
+"estadísticas que nos permitan mejorar nuestra relación con nuestros clientes "
+"y ofrecerles servicios y productos más acorde con sus hábitos, gustos y "
+"necesidades, prestándole así nuestros servicios exclusivos para clientes "
+"registrados (ofertas, descuentos y promociones)."
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:698
+msgid "MÓVIL"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:699
+#, fuzzy
+msgid "PERMITE NOTIFICACIONES"
+msgstr "通告"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:701
+msgid ""
+"Igualmente le informamos que sus datos personales podrán ser comunicados a "
+"las empresas de grupo con la finalidad del envío por parte de estas de "
+"comunicaciones comerciales. Puede consultar la identidad de las empresas del "
+"grupo en www.scalpers.es/partnersPuede oponerse al tratamiento de sus datos "
+"con esta finalidad marcando la siguiente casilla:"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:702
+msgid "Especificación importe IVA"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:703
+msgid ""
+" No deseo recibir comunicaciones comerciales de los servicios y productos de "
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:705
+msgid "No deseo que mis datos sean comunicados a las empresas del grupo."
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:706
+msgid "Términos pago"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:708
+#, fuzzy
+msgid "Nº teléfono"
+msgstr "电话"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:709
+msgid ""
+"Podrá en todo momento, ejercitar sus derechos de acceso, rectificación, "
+"cancelación y oposición comunicándolo por correo ordinario a "
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:710
+msgid "Cuota"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:711
+#, fuzzy
+msgid "Nº factura"
+msgstr "普票"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:712
+#, fuzzy
+msgid "TIPO DE DOCUMENTO"
+msgstr "文件"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:713
+msgid "Página"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:714
+#, fuzzy
+msgid "% Descuento"
+msgstr "折扣"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:716
+msgid "CIF/NIF"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:717
+msgid "Mujer"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:718
+msgid "FIRMA"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:719
+msgid "FORMULARIO DE SOLICITUD DE ALTA DE FIDELIZADO"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:721
+msgid ""
+"Asimismo utilizaremos sus datos personales para proporcionarle información "
+"comercial a través de cualquier medio de comunicación electrónica (correo "
+"electrónico, sms, etc…) así como a través de llamadas telefónicas o correo "
+"postal, sobre nuestros servicios y productos asi como de servicios y "
+"productos complementarios de terceras entidades que pueda ser de su interés, "
+"salvo que se oponga marcando las siguientes casillas:"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:723
+msgid "GÉNERO"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:724
+msgid "¡GRACIAS!"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:725
+#, fuzzy
+msgid "Total Impuestos"
+msgstr "税务处理"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:726
+#, fuzzy
+msgid "Fecha vencimiento"
+msgstr "出生日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:727
+#, fuzzy
+msgid "Precio venta"
+msgstr "总价格"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:728
+#, fuzzy
+msgid "Total EUR"
+msgstr "总共"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:729
+#, fuzzy
+msgid "Número serie:"
+msgstr "编号"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:730
+msgid "NOMBRE"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:731
+msgid ""
+"No deseo recibir comunicaciones comerciales de los servicios y productos "
+"complementarios de terceras entidades."
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:733
+msgid ""
+"En cumplimiento de lo dispuesto en la Ley Orgánica 15/1999, de 13 de "
+"diciembre, de Protección de Datos de Carácter Personal, le informamos que "
+"los datos personales que nos facilite en el presente formulario serán "
+"incorporados en un fichero titularidad de "
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:734
+#, fuzzy
+msgid "FECHA DE NACIMIENTO"
+msgstr "交货日期"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:735
+#, fuzzy
+msgid "CP:"
+msgstr "邮编号码"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:736
+msgid "Factura-a Nº cliente"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:739
+msgid "PAÍS"
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:740
+msgid ", junto con una copia de su DNI u otro documento identificativo."
+msgstr ""
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:742
+#, fuzzy
+msgid "Total"
+msgstr "总共"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:743
+msgid "APELLIDOS"
+msgstr ""
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/BuscarClienteController.java:107
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:752
+msgid "Se borrará el cliente seleccionado. ¿Está seguro?"
+msgstr "选定的客户将被清除。你确定吗？"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/codPostales/SeleccionPoblacionController.java:72
+msgid "Seleccione una población antes de continuar."
+msgstr "继续之前选择一个镇。"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:290
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:346
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/datosCliente/CambiarDatosClienteApartadoController.java:116
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:263
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:270
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:211
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:215
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:246
+msgid "Error consultando los documentos de identificación de la tienda."
+msgstr "错误咨询给商店的身份证明文件。"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:571
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:710
+msgid "No se pudo crear el cliente."
+msgstr "无法创建客户。"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:685
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:500
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:551
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:554
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:552
+msgid "Error en la búsqueda, país no encontrado"
+msgstr "搜索错误，未找到国家"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:692
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:504
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:559
+msgid "Error en la búsqueda del país del cliente."
+msgstr "寻找客户的国家出现错误"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:706
+msgid "No se encontró el cliente cuyos datos se desean modificar."
+msgstr "没有找到想修改的客户数据"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:895
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:405
+msgid "La petición no se procesó correctamente."
+msgstr "该请求未处理正确。"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:898
+msgid "Error. dirección de servicio rest no encontrada (HTTP 404)"
+msgstr "错误。 REST服务地址没有找到（HTTP 404）"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:901
+msgid "No se pudo conectar con los servicios rest (HTTP 400)"
+msgstr "无法连接rest服务（HTTP 400）"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:904
+msgid "No se pudo conectar con los servicios rest (HTTP 500)"
+msgstr "无法连接rest服务（HTTP 500）"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:907
+msgid "No se pudo conectar con los servicios rest"
+msgstr "无法连接rest服务"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:911
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:421
+#, java-format
+msgid ""
+"El cliente con el documento {0}, el tipo de documento {1} y el país {2} no "
+"existe en el sistema"
+msgstr "客户与文档{0}，文档类型{1}，和国家{2} 存在于系统中"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:914
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:425
+#, java-format
+msgid "El cliente con el documento {0} no existe en el sistema"
+msgstr "客户与文档{0}不存在于系统中"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1010
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:672
+msgid ""
+"El documento indicado no es válido, ¿desea guardar el cliente de todas "
+"formas?"
+msgstr "指示的文件是无效的，你仍要保存客户？"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1014
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:676
+msgid ""
+"Ha habido un error al intentar validar el documento, ¿desea guardar el "
+"cliente de todas formas?"
+msgstr "验证文档出现错误，你仍要保存客户？"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1099
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:622
+#, fuzzy
+msgid "Documento valido"
+msgstr "文件"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1101
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:624
+#, fuzzy
+msgid "Documento no valido"
+msgstr "文件"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1105
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:628
+#, java-format
+msgid "La clase {0} no implementa la interfaz {1}"
+msgstr ""
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1109
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:632
+#, fuzzy, java-format
+msgid "No se ha encontrado la clase {0}"
+msgstr "没有找到结果"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1113
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:636
+#, fuzzy
+msgid "Error validando el documento de identificación: "
+msgstr "错误咨询给商店的身份证明文件。"
+
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/MantenimientoCodigoBarrasController.java:178
+msgid ""
+"Se produjo un error consultando las configuraciones de códigos de barra."
+msgstr "查询条码设置出现错误"
+
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/MantenimientoCodigoBarrasController.java:253
+msgid "Se borrará la configuración seleccionada. ¿Está seguro?"
+msgstr "所选的设置将被删除。你确定吗？"
+
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/MantenimientoCodigoBarrasController.java:261
+msgid "No se pudo eliminar la configuración seleccionada."
+msgstr "无法删除所选的设置。"
+
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/NuevoCodBarrasEspecialController.java:221
+msgid "Error. No se pudo completar la operación."
+msgstr "错误。无法完成操作。"
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:136
+msgid "Debe escoger una promoción generadora de cupones"
+msgstr "你必须选择一个生成优惠券促销"
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:139
+msgid "Debe introducir una cantidad válida"
+msgstr "您必须输入有效的金额"
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:145
+msgid "No existen cupones para impresión manual"
+msgstr "不存在手动打印优惠券"
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:162
+msgid "La promoción escogida no es válida"
+msgstr "选择的促销是无效"
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:167
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:171
+msgid "Error obteniendo los cupones a imprimir"
+msgstr "错误获取要打印的优惠券"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/colectivos/ColectivoController.java:147
+msgid "Debe seleccionar antes el colectivo correspondiente."
+msgstr "你必须首先选择相应的组。"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:517
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:520
+msgid "Error en la búsqueda, tipos de documento no encontrado"
+msgstr "搜索错误，文档类型未找到"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:548
+msgid "Error en la búsqueda de tipos de documento"
+msgstr "错误搜索文档类型"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/FidelizadoController.java:494
+msgid "El código de fidelizado indicado ya existe"
+msgstr "指示的会员客户代码已存在"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/FidelizadoController.java:785
+msgid "Fidelizado creado correctamente"
+msgstr "会员客户创建成功"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/FidelizadoController.java:861
+msgid "Fidelizado editado correctamente"
+msgstr "会员客户编辑成功"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/MovimientoGui.java:28
+msgid "Definitivo"
+msgstr ""
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/MovimientoGui.java:31
+#, fuzzy
+msgid "Provisional"
+msgstr "省"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/MovimientoGui.java:34
+#, fuzzy
+msgid "Anulado"
+msgstr "取消"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/tiendas/TiendaController.java:148
+msgid "Debe seleccionar antes la tienda correspondiente."
+msgstr "您必须先选择相应的店面。"
+
+#: com/comerzzia/pos/gui/util/notifications/ShowScreenNotificationsController.java:54
+#, fuzzy
+msgid ""
+"No se han especificado las notificaciones. Contacte con un administrador si "
+"el problema persiste."
+msgstr "无法关闭屏幕。请联系管理员。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:251
+msgid "Error cargando pantalla de apartados."
+msgstr "错误加载搁置的屏幕"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:286
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:182
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:461
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:216
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:829
+msgid "No hay caja abierta. Se abrirá automáticamente."
+msgstr "没有开的钱箱。它会自动打开。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:289
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:185
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:465
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:219
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:833
+msgid "No hay caja abierta. Deberá ir a la gestión de caja para abrirla."
+msgstr "没有开的钱箱。你应该去现金管理将其打开。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:297
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:193
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:473
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:851
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:834
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1838
+#, java-format
+msgid ""
+"No se puede realizar la venta. El día de apertura de la caja {0} no coincide "
+"con el del sistema {1}"
+msgstr "你不能进行销售。钱箱开幕的日子{0}跟系统不匹配{1}"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:564
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:621
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:289
+#: com/comerzzia/pos/gui/ventas/devoluciones/tipoDocumento/TipoDocumentoController.java:127
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:132
+msgid "Error cargando pantalla. Para mas información consulte el log."
+msgstr "错误加载屏幕。欲了解更多信息，请参阅日志。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:568
+msgid "El apartado seleccionado no se puede editar."
+msgstr "选定的搁置不能进行编辑。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:633
+msgid "El apartado no se puede cancelar."
+msgstr "该搁置不能取消"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:636
+msgid "Se cancelará el apartado. ¿Está seguro?"
+msgstr "该搁置会被取消。你确定吗？"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:664
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:775
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:823
+msgid "Error grabando el movimiento de caja."
+msgstr "错误记录现金流动。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:688
+msgid "El apartado no está disponible para su venta."
+msgstr "该搁置是不能出售。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:695
+msgid "El coste del apartado no está cubierto."
+msgstr "搁置的费用不包括在内。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:699
+msgid "Se va a proceder a finalizar el apartado. ¿Desea continuar?"
+msgstr "它将继续结束搁置。是否继续？"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:732
+msgid "Debe indicar todos los números de serie para continuar."
+msgstr "您必须注明所有序列号才能继续。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:739
+msgid "Ha habido un error durante el procesado de los números de serie"
+msgstr "在处理序列号出现错误"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:792
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:392
+msgid "¿Desea asignar datos de facturación?"
+msgstr "你要分配的计费信息？"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:833
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:429
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1369
+msgid "Error al salvar el ticket."
+msgstr "无法保存票。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/datosCliente/CambiarDatosClienteApartadoController.java:112
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:259
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:207
+msgid ""
+"No se encontraron documentos de identificación configurados para la tienda."
+msgstr "没有找到给商店的设置好的身份证明文件"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:365
+#, java-format
+msgid "Detalle apartado {0}"
+msgstr "搁置细节{0}"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:387
+msgid "Nuevo apartado"
+msgstr "新的搁置"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:426
+msgid "---NUEVO APARTADO---"
+msgstr "--- 新搁置---"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:519
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:527
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:636
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:674
+msgid "No están permitidas recargas de tarjeta regalo en apartados."
+msgstr "在该搁置部分不能充值礼品卡"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:615
+msgid "Para insertar artículos debe estar en modo edición."
+msgstr "插入项目必须在编辑模式。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:678
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1811
+msgid "No se ha podido insertar la línea"
+msgstr "无法插入行"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:775
+msgid "No existen pagos asociados al apartado."
+msgstr "不存在该搁置的相关费用。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:798
+msgid "No se puede crear un apartado vacío"
+msgstr "您不能创建一个空的搁置"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:823
+msgid "Cambios guardados correctamente."
+msgstr "更改保存正确。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:843
+msgid "La fecha de recogida no debe ser anterior al día de hoy."
+msgstr "收集日期不得早于当天。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:871
+msgid "No se pueden editar datos de un apartado finalizado o cancelado."
+msgstr "不能编辑完成或取消的搁置的数据。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:903
+msgid "No se puede borrar una línea que ya está servida."
+msgstr "不能删除已投放的订单。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:910
+msgid "El artículo ya está cancelado."
+msgstr "商品已被取消。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:914
+msgid "Se va a cancelar el artículo seleccionado. ¿Está seguro?"
+msgstr "这将取消选择的商品。你确定吗？"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:926
+msgid "Debe confirmar o rechazar antes los cambios."
+msgstr "您必须先确认或拒绝更改。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:931
+msgid "No se pueden añadir pagos al apartado."
+msgstr "付款不能被添加到搁置里。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:955
+msgid "Se produjo un error en la carga del documento de pagos."
+msgstr "加载文档付款出现错误。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:960
+msgid "El importe pendiente de abonar es 0."
+msgstr "需支付的金额为0。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:971
+msgid "Debe confirmar antes los cambios."
+msgstr "您必须在更改之前进行确认。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:985
+msgid "No hay artículos disponibles para su venta."
+msgstr "没有可供出售的物品。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1021
+msgid "No se puede cambiar el cliente del apartado."
+msgstr "您不能更改搁置的客户。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1031
+msgid ""
+"Debe confirmar o rechazar los cambios para poder cerrar la pantalla de "
+"detalle de apartado."
+msgstr "您必须确认或拒绝更改关闭屏幕的搁置细节。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1049
+msgid "Debe confirmar o rechazar los cambios antes de imprimir el extracto."
+msgstr "您必须打印提取之前先确认或拒绝更改。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1056
+msgid "Se produjo un error en la impresión"
+msgstr "打印时出现错误"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1068
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1076
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2412
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2422
+#, java-format
+msgid "El artículo \"{0} - {1}\" no está tarificado."
+msgstr "商品\"{0} - {1}\" 没被计量。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1068
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1084
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:633
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2413
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2430
+msgid "¿Desea vender el artículo a precio 0?"
+msgstr "你想出售该项目以价格为0？"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1076
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1092
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:640
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2423
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2439
+msgid "No está permitida la venta a precio 0."
+msgstr "销售价格不允许为0。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1118
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2451
+msgid "No tiene permisos para usar articulos genéricos"
+msgstr "您未被授权使用通用项目"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:365
+msgid "Debe indicar los números de serie para continuar."
+msgstr "必须指出的序列号才能继续。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:372
+msgid "Ha habido un error al procesar los números de serie"
+msgstr "在处理序列号出现错误"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:382
+msgid "Debe seleccionar al menos un artículo para la venta."
+msgstr "您必须选择至少一个商品出售。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:386
+msgid "El saldo disponible del cliente es inferior al total de la venta."
+msgstr "客户可用余额小于销售总额。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:420
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:253
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:443
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:220
+#: com/comerzzia/pos/gui/ventas/gestiontickets/ticketRegalo/TicketRegaloController.java:305
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1351
+msgid "Lo sentimos, ha ocurrido un error al imprimir."
+msgstr "很遗憾，打印时发生错误。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:160
+msgid "No se permite el uso de diferentes medios de pago."
+msgstr "不允许使用不同的支付手段。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:173
+msgid "Confirme operación"
+msgstr "确认操作"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:173
+msgid "¿Desea eliminar los registros?"
+msgstr "你想删除记录？"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:189
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:524
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:587
+msgid "Borrar pago"
+msgstr "清除付款"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:189
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1566
+msgid "Sin pagos para eliminar."
+msgstr "没有该清除的支付。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:211
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1823
+#, fuzzy, java-format
+msgid ""
+"No se puede realizar la venta. La cantidad que se quiere pagar en efectivo "
+"supera el máximo permitido ({0})"
+msgstr "不能进行销售，总销售额超过了允许的最大值({0} ) 对于文档类型: {1}"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:218
+#, fuzzy, java-format
+msgid ""
+"No se puede realizar el pago. El día de apertura de la caja {0} no coincide "
+"con el del sistema {1}"
+msgstr "你不能进行销售。钱箱开幕的日子{0}跟系统不匹配{1}"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:278
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1863
+msgid "Los pagos han de cubrir el importe a pagar."
+msgstr "付款必须覆盖支付金额。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:292
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1181
+msgid "TOTAL:     "
+msgstr "总共"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:293
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1187
+msgid "PENDIENTE: "
+msgstr "待付："
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/verPagos/VerPagosApartadoController.java:152
+msgid "Error consultando los pagos del apartado"
+msgstr "错误咨询搁置的付款"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/verPagos/VerPagosApartadoController.java:188
+msgid "Se produjo un error en la impresión."
+msgstr "打印出现错误。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/pagoApartado/PagoApartadoController.java:107
+msgid "El importe no debe superar el total del apartado."
+msgstr "金额不该超过总搁置。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/pagoApartado/PagoApartadoController.java:111
+msgid "El importe debe ser mayor que cero."
+msgstr "金额必须大于零。"
+
+#: com/comerzzia/pos/gui/ventas/apartados/pagoApartado/PagoApartadoController.java:116
+msgid "Debe introducir un número válido."
+msgstr "您必须输入一个有效的数字。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:271
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:338
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:243
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:368
+msgid "Error cargando pantalla pagos."
+msgstr "错误加载付款屏幕。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:314
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:389
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1118
+msgid "No hay ninguna forma de pago seleccionada."
+msgstr "无付款方式。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:448
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:515
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1730
+msgid "Ha habido un error al recuperar el medio de pago"
+msgstr "恢复支付手段出现错误"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:453
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:520
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1734
+msgid "No se ha especificado una acción correcta para este botón"
+msgstr "此按钮没有指定的正确的操作"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:495
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:561
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1582
+msgid "Confirme operación."
+msgstr "确认操作。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:495
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:561
+msgid "¿Desea eliminar el registro?"
+msgstr "你想删除此记录？"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:499
+#, fuzzy
+msgid "Deberá seleccionar una línea antes de continuar."
+msgstr "继续之前选择一个镇。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:524
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:587
+msgid ""
+"Sin pagos para eliminar. Prueba de un mensaje de información bastante largo."
+msgstr "没有支付可清除的。测试一个相当长的消息的信息。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/InsertarApunteController.java:191
+msgid "El código de concepto no existe en la base de datos"
+msgstr "概念代码并不存在于数据库中"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/InsertarApunteController.java:218
+msgid "SALIDA DE CAJA"
+msgstr "现金流出"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/InsertarApunteController.java:220
+msgid "ENTRADA EN CAJA"
+msgstr "现金流进"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/tablaApuntes/TablaApuntesController.java:103
+msgid "Debe seleccionar un elemento de la tabla"
+msgstr "你必须从表中选择一个项目"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/tablaApuntes/TablaApuntesController.java:108
+msgid "Conceptos"
+msgstr "概念"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:315
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:240
+msgid "No está configurado el tipo de documento cierre de caja en el entorno."
+msgstr "环境里没有设置文档类型闭幕钱箱。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:483
+#, fuzzy, java-format
+msgid ""
+"No se puede insertar un apunte manual. El día de apertura de la caja {0} no "
+"coincide con el del sistema {1}"
+msgstr "你不能进行销售。钱箱开幕的日子{0}跟系统不匹配{1}"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:534
+msgid "Error recuperando el último cierre de caja para su impresión."
+msgstr "错误恢复最后的闭幕钱箱来进行打印。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:552
+#, fuzzy
+msgid "No se pueden borrar movimientos. La caja está cerrada."
+msgstr "不能删除已投放的订单。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:560
+msgid "¿Está seguro de querer eliminar esta línea de caja?"
+msgstr "你确定要删除这行线箱？"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:572
+msgid "Error eliminando la línea de caja."
+msgstr "错误删除线箱。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:693
+msgid ""
+"Para realizar el recuento de caja se deben cerrar todas las pantallas "
+"abiertas. ¿Desea continuar?"
+msgstr "要计算现金必须关闭所有打开的窗口。是否继续？"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:698
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:328
+msgid "Ya existe un recuento de la caja. ¿Desea borrarlo y empezar de nuevo?"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:724
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:188
+msgid "Caja ABIERTA"
+msgstr "开的钱箱"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:772
+#, fuzzy
+msgid "El ticket seleccionado no se ha encontrado en esta caja."
+msgstr "选定的搁置不能进行编辑。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:777
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:233
+msgid "Error leyendo información de ticket"
+msgstr "错误读取票信息"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:783
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:289
+msgid "Fallo al imprimir ticket."
+msgstr "无法打印票。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:310
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:342
+msgid ""
+"Para cerrar la caja se deben cerrar todas las pantallas abiertas. ¿Desea "
+"continuar?"
+msgstr "关闭此钱箱要关闭所有打开的窗口。是否继续？"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:360
+#, fuzzy
+msgid ""
+"Caja descuadrada con un importe mayor que el permitido. Revise recuento."
+msgstr "钱箱账不对。检查计数。"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:365
+#, fuzzy
+msgid ""
+"Se va a cerrar la caja con descuadres mayores al valor permitido, ¿Desea "
+"continuar?"
+msgstr "关闭此钱箱要关闭所有打开的窗口。是否继续？"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:370
+msgid "¿Seguro de realizar el Cierre?"
+msgstr "你确定做闭幕？"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:392
+msgid "Caja cerrada con descuadres"
+msgstr "闭幕抽屉有帐不对"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:485
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:486
+msgid "En "
+msgstr "在"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:485
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:486
+msgid "Tickets"
+msgstr "发票"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:546
+msgid "La fecha de cierre no puede ser anterior a la fecha de apertura."
+msgstr "在闭幕日期不能超过开幕的日期。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:307
+msgid "Se perderán los cambios realizados, ¿está seguro?"
+msgstr "更改可能会丢失，你确定吗？"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:341
+msgid ""
+"Se procederá a aplicar los cambios en el ticket de devolución, ¿está seguro?"
+msgstr "这将实施在退票里的更改，你确定？"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:443
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:473
+msgid "Debe seleccionar previamente la línea que desea modificar."
+msgstr "您必须首先选择要修改的行。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:576
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:577
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1269
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1270
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1274
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1275
+msgid "El número de tarjeta no coincide con el de la operación original"
+msgstr "卡号与原始操作的不匹配"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:580
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:581
+msgid "El número de tarjeta no es válido"
+msgstr "卡号无效"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:592
+#, java-format
+msgid "La línea {0} no se ha podido insertar por el siguiente motivo: "
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:141
+msgid "--NUEVA DEVOLUCION--"
+msgstr "- 新退款--"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:149
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:138
+msgid "No está configurado el tipo de documento nota de crédito en el entorno."
+msgstr "在环境中没有配置文档类型信用票据。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:229
+msgid "El documento %s no se ha encontrado"
+msgstr "该文件%s未找到"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:257
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2196
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2250
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1484
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1519
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2139
+msgid "Lo sentimos, ha ocurrido un error."
+msgstr "对不起，出现了错误。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:280
+msgid ""
+"El ticket fue realizando en una tienda con un tratamiento fiscal diferente "
+"al de esta tienda. No se puede realizar esta devolución."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:296
+msgid ""
+"No se han podido recuperar las líneas devueltas desde la central. Por favor, "
+"compruebe el ticket impreso para ver las líneas ya devueltas."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:299
+msgid "No se ha encontrado ningún ticket con esos datos"
+msgstr "没有发现有这些数据的任何发票"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:329
+#, java-format
+msgid "El código {0} no es un localizador o un código de documento válido"
+msgstr "代码{0}不是一个寻呼机或代码有效证件"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:372
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:345
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:356
+msgid "El documento seleccionado no es válido."
+msgstr "所选文档无效。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:383
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:505
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:361
+msgid "El tipo de documento indicado no existe en la base de datos."
+msgstr "该类型的文档显示在数据库中不存在。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:389
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:511
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:367
+msgid "El id introducido no es válido."
+msgstr "输入的ID无效。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:402
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:114
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:907
+msgid "---CAJA CERRADA---"
+msgstr "---钱箱关闭 ---"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:419
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:672
+msgid "La tarjeta introducida está dada de baja."
+msgstr "输入的卡被注销了。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:423
+msgid "El número de tarjeta no es válido."
+msgstr "卡号无效。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:439
+msgid ""
+"Ha ocurrido un error al conectar con el servidor para consultar la tarjeta "
+"regalo"
+msgstr "无法连接到服务器以检查礼品卡"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:607
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:590
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1863
+#, java-format
+msgid "La cantidad debe ser menor que {0}"
+msgstr "数量必须小于{0}"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:685
+#, fuzzy
+msgid ""
+"Se va a introducir un artículo que no estaba en la venta original. ¿Está "
+"seguro?"
+msgstr "这将取消选择的商品。你确定吗？"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:691
+msgid ""
+"Este artículo ya está completamente devuelto en la venta original. Se "
+"introducirá en positivo. ¿Está seguro?"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:705
+#, fuzzy
+msgid "Ha habido un error al introducir la línea"
+msgstr "恢复发票时出现错误"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:804
+msgid "No tiene permisos para cancelar la devolución."
+msgstr "您无权取消的退款。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:809
+msgid "Se anulará la devolución, ¿seguro que desea continuar?"
+msgstr "退款会被取消，你确定要继续吗？"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:866
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1191
+#, fuzzy
+msgid ""
+"Ha habido un error al cambiar el tipo de documento del ticket. Contacte con "
+"el administrador."
+msgstr "无法关闭屏幕。请联系管理员。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:987
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1551
+msgid "¿Está seguro de querer eliminar esta línea del ticket?"
+msgstr "你确定要删除这行发票？"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:998
+msgid "No tiene permisos para borrar una línea."
+msgstr "您没有权限删除一行。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1029
+#, fuzzy
+msgid "No se puede editar una línea con cantidad negativa."
+msgstr "不能删除已投放的订单。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1036
+msgid "No tiene permisos para modificar una línea."
+msgstr "您无权修改的线条。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1130
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1475
+msgid "No se puede cambiar el cliente de un ticket con líneas."
+msgstr "有行的发票不能更改客户"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1179
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:153
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1906
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1971
+msgid "El ticket no contiene líneas de artículo."
+msgstr "票不包含商品行。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1216
+#: com/comerzzia/pos/gui/ventas/entregaCuenta/FacturacionArticulosVentaCreditoController.java:82
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2117
+msgid "No se pudo ejecutar la acción seleccionada."
+msgstr "无法执行选定的操作。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1230
+msgid "Lea o escriba el código de barras de la tarjeta Giftcard"
+msgstr "读取或写入卡礼金券的条形码"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1295
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:106
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:899
+msgid ""
+"Existen tickets pendientes de confirmar. Antes debería finalizar la "
+"operación."
+msgstr "有未确定的待审票。要先结束操作。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1360
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2502
+msgid ""
+"Quedan números de serie por asignar. Por favor, asígnelos antes de seguir."
+msgstr "有序列号还没被分配。请继续之前分配好。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/tipoDocumento/TipoDocumentoController.java:205
+msgid "Debe seleccionar el tipo de documento correspondiente."
+msgstr "您必须选择适当的文档类型。"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/tipoDocumento/TipoDocumentoController.java:292
+msgid "Tipo de Documento"
+msgstr "文件类型"
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:180
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:185
+msgid "No es posible visualizar este tipo de documento"
+msgstr "您不能查看此类型的文件"
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:226
+msgid "Error leyendo información de ticket."
+msgstr "错误读取车票信息。"
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:194
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:1036
+msgid "No se han encontrado resultados"
+msgstr "没有找到结果"
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:328
+msgid "No se pudo obtener el ticket con el localizador introducido."
+msgstr "无法用出入的定位器获取发票。"
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:334
+msgid "Se produjo un error procesando el localizador. "
+msgstr "处理定位器时出现错误。"
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/ticketRegalo/TicketRegaloController.java:314
+msgid "No hay ninguna línea seleccionada."
+msgstr "未选择线。"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:181
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:685
+msgid "Existe una venta sin finalizar. ¿Desea recuperarla?"
+msgstr "有没有结束的销售。你要恢复吗？"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:189
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:193
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:498
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:502
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:506
+msgid "Ha habido un error al recuperar el ticket"
+msgstr "恢复发票时出现错误"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:253
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:140
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:768
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:779
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:956
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1566
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1893
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2191
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/cambioPagos/VentanaCambioController.java:78
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1239
+msgid "---NUEVO CLIENTE---"
+msgstr "--- 新客户--- "
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:343
+msgid "El cliente no existe o está inactivo."
+msgstr "客户不存在，或者是待用的。"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:346
+msgid "Se ha encontrado más de un cliente."
+msgstr "已找到多个客户。"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:404
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:434
+msgid "Debe seleccionar el cliente que desee establecer para la venta."
+msgstr "你必须选择出售里的客户。"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:493
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1342
+msgid "No hay tickets aparcados"
+msgstr "没有搁放的小票"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:521
+msgid ""
+"Existen tickets aparcados pendientes de confirmar. Antes debería finalizar "
+"la operación."
+msgstr "存在停放发票待定确认。先要结束此操作。"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:530
+msgid "No se ha podido cerrar la pantalla. Contacte con el administrador."
+msgstr "无法关闭屏幕。请联系管理员。"
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:49
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:939
+msgid "¿Está seguro de querer eliminar todas las líneas del ticket?"
+msgstr "你确定要删除所有发票里的行数？"
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:62
+msgid "---NUEVA VENTA---"
+msgstr "---新的销售记录--- "
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:83
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1919
+msgid "TOTAL A PAGAR"
+msgstr "总支付"
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:109
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:902
+msgid ""
+"Tiene tickets pendientes de confirmar. No tiene permisos para cancelar la "
+"venta."
+msgstr "有待定的发票。你无权取消此销售。"
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:133
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1886
+msgid "El ticket ha sido aparcado."
+msgstr "发票已搁放。"
+
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:102
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:297
+msgid "INICIO"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:179
+#, fuzzy
+msgid "No hay artículos en esta sección."
+msgstr "没有可供出售的物品。"
+
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:222
+#, fuzzy
+msgid "No se ha podido añadir el artículo. Contacte con el personal de tienda."
+msgstr "无法关闭屏幕。请联系管理员。"
+
+#: com/comerzzia/pos/gui/ventas/profesional/articulos/busqueda/BuscarArticulosProfesionalController.java:95
+msgid "Precio + Iva"
+msgstr "价格+增值税"
+
+#: com/comerzzia/pos/gui/ventas/profesional/cliente/IdentificacionClienteProfesionalController.java:36
+msgid "Seleccionar Cliente de Venta Profesional"
+msgstr "选择销售专业的客户"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:429
+msgid "Datos de la Promocion"
+msgstr "促销资料"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:430
+msgid "Error"
+msgstr "错误"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:546
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2198
+msgid "Error creando el ticket de venta."
+msgstr "错误创建发票销售。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:550
+msgid "Error insertando línea."
+msgstr "错误输入行。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:570
+msgid "Dato promocion fidelizado:"
+msgstr "会员推广数据："
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:573
+msgid "Datos promocion NO fidelizado:"
+msgstr "不是会员的推广数据："
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:863
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:958
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:975
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:993
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:1010
+msgid "No se ha seleccionado un artículo."
+msgstr "没有选择一个商品。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/coupons/CustomerCouponsController.java:107
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2627
+#, fuzzy
+msgid ""
+"Ha habido un error al mostrar la pantalla de cupones del fidelizado. Por "
+"favor, contacte con el administrador."
+msgstr "无法关闭屏幕。请联系管理员。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/coupons/CustomerCouponsController.java:167
+#, fuzzy
+msgid "No hay cupones disponibles.."
+msgstr "没有可供出售的物品。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:547
+msgid ""
+"Esta linea tiene asociados numeros de serie, la cantidad indicada es "
+"inferior a la anterior, los números de serie serán borrados, deberá "
+"indicarlos de nuevo, ¿está seguro?"
+msgstr ""
+"此线具有相关联的序列号，规定的数量小于以上所述，序列号将被删除，必须重新指"
+"定，你确定吗？"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:583
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1688
+msgid "No tiene permisos para realizar una devolución"
+msgstr "你无权做退款"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:595
+msgid "La cantidad debe ser distinta de cero."
+msgstr "数量必须是与零不同。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:601
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:606
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:613
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:618
+#, java-format
+msgid "El campo debe ser menor que {0}"
+msgstr "该字段必须小于{0}"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:624
+msgid "El descuento debe ser un valor entre 0 y 100."
+msgstr "折扣必须在0到100之间。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:450
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1076
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2272
+#, java-format
+msgid "La tarjeta de fidelización {0} no está activa"
+msgstr "会员卡{0}不活跃"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:457
+msgid "Tarjeta de fidelización añadida correctamente"
+msgstr "会员卡正确添加"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:671
+msgid ""
+"Existe un ticket guardado con pagos realizados. Se tiene que terminar ese "
+"ticket antes de poder vender."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1023
+msgid "Ha superado el límite de efectivo. Deberá realizar una retirada"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1035
+#, fuzzy
+msgid "Debe realizar una retirada de efectivo para poder continuar"
+msgstr "必须指出的序列号才能继续。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1213
+msgid "El cupón se ha añadido correctamente."
+msgstr "优惠券已成功添加。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1216
+msgid "El artículo se ha añadido correctamente."
+msgstr "商品已成功添加"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1338
+msgid "Hay tickets aparcados"
+msgstr "有停放发票"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1581
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1615
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1636
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1664
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2087
+msgid "La línea seleccionada no se puede modificar."
+msgstr "选择的线不能修改。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1600
+msgid "No tiene permisos para borrar una línea"
+msgstr "您没有权限删除一行"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1645
+msgid "No tiene permisos para modificar una línea"
+msgstr "您无权修改的一行"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1677
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2100
+msgid "La línea no se puede modificar."
+msgstr "此行不能改变。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1928
+msgid "El ticket no está vacío."
+msgstr "发票不是空的"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1994
+#, fuzzy
+msgid "Información para el cliente"
+msgstr "客户标识"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2017
+msgid "Fidelizado no dispone de puntos"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2021
+msgid "Debe insertar tarjeta fidelizado"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2024
+#, fuzzy
+msgid "El ticket no contiene líneas de artículo"
+msgstr "票不包含商品行。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2027
+#, fuzzy
+msgid ""
+"El ticket no contiene líneas de artículo y debe insertar tarjeta fidelizado"
+msgstr "票不包含商品行。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2127
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2215
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:645
+#, fuzzy
+msgid "Lea o escriba el código de barras de la tarjeta de regalo"
+msgstr "读取或写入条码卡"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2169
+msgid "El importe de recarga debe ser mayor que 0"
+msgstr "充值金额必须大于0"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2646
+msgid "Se ha podido aplicar un cupón."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2649
+#, java-format
+msgid "Se han podido aplicar {0} cupones."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:156
+msgid ""
+"Error en la búsqueda del documento de venta de crédito asociado a la factura."
+msgstr "搜索与发票相关的信用销售文件"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:170
+msgid "El código de localizador introducido no es correcto."
+msgstr "输入的定位器代码不正确。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:257
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:263
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:724
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1476
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1482
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1511
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1517
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2127
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2136
+msgid "Lo sentimos, ha ocurrido un error en la petición"
+msgstr "很抱歉，在要求里出现错误"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:259
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:718
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1478
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1513
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2130
+msgid "No se ha podido conectar con el servidor"
+msgstr "无法连接到服务器"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:261
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:721
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1480
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1515
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2133
+msgid "El servidor ha tardado demasiado tiempo en responder"
+msgstr "服务器的回应时间太长"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:265
+msgid "No se puede facturar documentos de distinto cliente"
+msgstr "不能结算不同客户的文档"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:267
+msgid "No se ha encontrado el cliente asociado al ticket origen"
+msgstr "未找到与原发票相关的客户"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/lineaOrigen/NumerosSerieLineaOrigenController.java:177
+msgid "No se pueden asignar más números de serie de la cantidad a devolver."
+msgstr "你不能指定序列号多于退款金额。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:233
+msgid "El número de serie no es válido, introduzca uno de la lista."
+msgstr "序列号是无效的，输入列表中的一个。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:238
+msgid "Imposible insertar el número de serie, ya están todos asignados."
+msgstr "不能输入序列号，并且全都被分配。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:243
+msgid "El número de serie debe ser único."
+msgstr "序列号必须是唯一的。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:284
+msgid "Hay números de serie sin asignar, la pantalla se cerrará, ¿Está seguro?"
+msgstr "有未分配的序列号，该屏幕会关闭，你确定吗？"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:316
+msgid "Los números asociados a la línea de venta serán borrados, ¿Está seguro?"
+msgstr "与销售线相关的数字将被删除，你确定吗？"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:325
+msgid "El número de serie indicado será borrado, ¿Está seguro?"
+msgstr "指定的序列号将被删除，你确定吗？"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:385
+msgid "No se pueden asignar todos los números de serie seleccionados."
+msgstr "您不能分配所有选中的序列号。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:401
+msgid "No se pueden asignar más números de serie, ya están todos asignados."
+msgstr "您不能分配更多的序列号，并都被分配了。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:412
+msgid "No hay registros para los parámetros de búsqueda seleccionados"
+msgstr "没有记录所选搜索参数"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:249
+msgid "Error al establecer el tipo de documento factura."
+msgstr "无法设置发票单据的类型。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:408
+msgid "Error. Dirección de servicio rest no encontrada (HTTP 404)"
+msgstr "错误。 REST服务地址没有找到（HTTP 404）"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:411
+msgid "No se pudo conectar con los servicios REST (HTTP 400)"
+msgstr "无法连接rest服务（HTTP 400）"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:414
+msgid "No se pudo conectar con los servicios REST (HTTP 500)"
+msgstr "无法连接rest服务（HTTP 500）"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:417
+msgid "No se pudo conectar con los servicios REST de la central"
+msgstr "他无法与中央REST服务连接"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/paises/PaisesController.java:174
+msgid "Debe seleccionar antes el país correspondiente."
+msgstr "您必须首先选择相关国家。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosEnvio/DatosEnvioController.java:233
+msgid "Datos del Envío"
+msgstr "配送信息"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:544
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:576
+#, fuzzy
+msgid "No se ha podido borrar el pago, contacte con el administrador."
+msgstr "无法关闭屏幕。请联系管理员。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:714
+#, fuzzy
+msgid "Lo sentimos, ha ocurrido un error en la petición."
+msgstr "很抱歉，在要求里出现错误"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:775
+msgid "Entrega a cuenta"
+msgstr "交收账户"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:860
+#, java-format
+msgid "El medio de pago asociado al tipo de promoción {0} no está configurado."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:978
+msgid "ENTREGA A CUENTA"
+msgstr "交收账户"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:983
+msgid "DEVUELTO"
+msgstr "退回"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1127
+msgid ""
+"El medio de pago seleccionado no permite introducir un importe superior al "
+"total del documento"
+msgstr "所选择的支付手段不允许输入超过文档的金额"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1199
+msgid "El valor del importe total debe ser inferior a "
+msgstr "总额的数值必须小于"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1275
+msgid "¿Es correcta la impresión del recibo del pago con tarjeta?"
+msgstr "用信用卡付款的打印出来的收据正确的吗？"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1351
+msgid "El error es: "
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1392
+msgid "Se han efectuados pagos. Debe cancelarlos para volver atrás."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1566
+msgid "Borrar pago."
+msgstr "清除付款。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1573
+#, fuzzy
+msgid "No hay ningún pago seleccionado."
+msgstr "无付款方式。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1578
+#, fuzzy
+msgid "El pago seleccionado no se puede borrar."
+msgstr "选定的搁置不能进行编辑。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1582
+#, fuzzy
+msgid "¿Desea eliminar el pago?"
+msgstr "你想删除此记录？"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/vuelta/VueltaController.java:147
+msgid "Debe seleccionar un medio de pago para el cambio."
+msgstr "您必须选择找钱的付款手段。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:119
+msgid "Actualmente dispone de "
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:121
+msgid " puntos."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:122
+msgid "Indique cuántos puntos desea canjear por un cupón"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:123
+#, fuzzy
+msgid "Importe resultante"
+msgstr "余额"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:164
+#, java-format
+msgid ""
+"Se va a generar un cupón por importe de {0} al fidelizado {1}. Esta "
+"operación no se podrá anular. ¿Está seguro de que desea continuar?"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:181
+#, fuzzy
+msgid "No puede introducir puntos negativos"
+msgstr "您必须输入一个有效的数字。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:183
+#, fuzzy
+msgid "No puede introducir 0 puntos"
+msgstr "您必须输入一个有效的数字。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:187
+msgid ""
+"El valor del campo debe ser un número positivo entero y menor al total de "
+"puntos máximos"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:232
+#, fuzzy
+msgid "No se ha encontrado id de promocion en las variables:\n"
+msgstr "没有发现有这些数据的任何发票"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:258
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:275
+#, fuzzy
+msgid "Ha fallado el canjeo de los puntos. Contacte con un administrador."
+msgstr "无法关闭屏幕。请联系管理员。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:283
+msgid "convertPointsToCoupon() - Fallo al convertir puntos a un cupón:\n"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:447
+#, fuzzy
+msgid "No se ha podido aplicar el cupón."
+msgstr "无法插入行"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:493
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:500
+msgid "Error procesando el código de barras. Revise configuración."
+msgstr "错误处理的条形码。检查设置。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:524
+msgid ""
+"No se ha podido pesar el artículo, compruebe la configuración de la balanza."
+msgstr "不能称商品重量，检查秤的设置。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:530
+msgid "Este artículo no puede ser introducido sin ser pesado previamente."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:604
+#, java-format
+msgid ""
+"El artículo {0} no se ha encontrado en el documento origen de la devolución."
+msgstr "商品{0}在退款原件没找到"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:607
+msgid "La cantidad a devolver del artículo supera a la cantidad vendida."
+msgstr "退还的数量超过卖出的数量"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:610
+#, java-format
+msgid ""
+"El artículo {0} existe en varias líneas del ticket original, deberá indicar "
+"la línea de devolución manualmente."
+msgstr "第{0}存在于原机票的几行，你必须手动指示返回线。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:620
+#, java-format
+msgid ""
+"Imposible realizar la venta, el total sin impuestos de la venta supera el "
+"máximo permitido ({0}) para el tipo de documento: {1}"
+msgstr "不能进行销售，销售不含税总额超过了允许的最大值({0}) 对于文档类型： {1}"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:627
+#, java-format
+msgid ""
+"Imposible realizar la venta, el total de la venta supera el máximo permitido "
+"({0}) para el tipo de documento: {1}"
+msgstr "不能进行销售，总销售额超过了允许的最大值({0} ) 对于文档类型: {1}"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:715
+#, java-format
+msgid ""
+"La vigencia para el tipo de documento {0} ha alcanzado el valor {1} sobre su "
+"máximo de {2}."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1136
+msgid "Ha ocurrido un error al anular los pagos"
+msgstr "中止付款时出现错误"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1167
+msgid "Ha ocurrido un error al confirmar los pagos con tarjeta de crédito"
+msgstr "发生了错误，确认信用卡支付"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1418
+#, fuzzy
+msgid "No se ha podido recuperar el tipo de documento origen."
+msgstr "您必须选择适当的文档类型。"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1429
+msgid ""
+"La devolución no se puede hacer porque superar el plazo máximo de devolución."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1782
+msgid "Lo sentimos, ha ocurrido un error al recuperar el ticket"
+msgstr "很抱歉，在获取发票时发生错误"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2065
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2066
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2086
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2087
+msgid "No se puede recargar la tarjeta regalo en un ticket ya iniciado."
+msgstr "你不能在已开的发票充值票礼品卡"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2069
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2089
+msgid "No puede recargarse la tarjeta regalo con el pago de otra. "
+msgstr "你不能用另一个礼品卡支付另一种礼品卡的充值"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2070
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2090
+msgid "No puede recargarse la tarjeta regalo con el pago de otra."
+msgstr "你不能用另一个礼品卡支付另一个礼品卡的充值"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2360
+msgid ""
+"No es posible emitir un documento por caducidad en fecha o nº secuencia "
+"asociada."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2362
+msgid "No es posible emitir un documento por caducidad en fecha"
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2364
+msgid ""
+"No es posible emitir un documento por caducidad en nº secuencia asociada."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2366
+msgid ""
+"No es posible emitir un documento por tener el contador un valor inválido."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2368
+msgid ""
+"No es posible emitir un documento por tener uno de los parámetros un valor "
+"inválido. Revise el log."
+msgstr ""
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2370
+msgid ""
+"No es posible emitir un documento porque hay un salto en la numeración del "
+"contador. Revise la configuración de la vigencia asociada."
+msgstr ""
+
+#~ msgid "Tipo de tarjeta"
+#~ msgstr "卡类型"
+
+#~ msgid "Tipo Gift Card"
+#~ msgstr "礼品卡类型"
+
+#~ msgid "Gift Card"
+#~ msgstr "礼品卡"
+
+#~ msgid "El código de concepto no puede ser vacío"
+#~ msgstr "概念代码不能为空"
+
+#~ msgid "TOTAL A DEVOLVER"
+#~ msgstr "总退款"
+
+#~ msgid "El importe supera el saldo disponible"
+#~ msgstr "金额超过了可用余额"
+
+#~ msgid "Se perderán los datos de pagos. ¿Desea continuar?"
+#~ msgstr "支付数据将丢失。是否继续？"
+
+#~ msgid "No se pudieron borrar los datos de la factura."
+#~ msgstr "不能删除发票数据。"
+
+#, fuzzy
+#~ msgid ""
+#~ "La tarjeta introducida no es del tipo permitido para este medio de pago."
+#~ msgstr "输入的卡被注销了。"
+
+#~ msgid "No puede usarse una tarjeta regalo en la operación."
+#~ msgstr "此操作里不能使用礼品卡。"
+
+#~ msgid "No puede usarse más de una tarjeta regalo."
+#~ msgstr "不能使用多于一个礼品卡"
+
+#~ msgid "Error procesando la tarjeta regalo para el pago"
+#~ msgstr "付款里错误处理礼品卡"
+
+#, fuzzy
+#~ msgid "Ha habido un error al procesar la devolución de la tarjeta regalo."
+#~ msgstr "在处理序列号出现错误"
+
+#~ msgid "Contado"
+#~ msgstr "计数"
+
+#~ msgid "El campo nombre del cliente debe estar relleno."
+#~ msgstr "客户名字字段必须填写"
+
+#~ msgid ""
+#~ "La longitud del campo nombre del cliente no puede superar los {max} "
+#~ "caracteres"
+#~ msgstr "客户名字字段长度不能超过{max}个字符"
+
+#~ msgid "La longitud del campo no puede superar los 30 caracteres."
+#~ msgstr "字段长度不能超过30个字符。"
+
+#~ msgid "La longitud del campo no puede superar los 255 caracteres."
+#~ msgstr "字段长度不能超过255个字符。"
+
+#~ msgid "La longitud del campo no puede superar los 4 caracteres."
+#~ msgstr "该字段长度不能超过4个字符。"
+
+#~ msgid "La longitud del campo no puede superar los 8 caracteres."
+#~ msgstr "该字段长度不能超过8个字符。"
+
+#~ msgid "Movimientos provisionales"
+#~ msgstr "临时变动"
+
+#~ msgid "Error creando las líneas de venta."
+#~ msgstr "错误创建销售线。"
+
+#~ msgid "Razón Social"
+#~ msgstr "公司名称"
+
+#~ msgid "CIF"
+#~ msgstr "CIF"
+
+#, fuzzy
+#~ msgid "PAGARE"
+#~ msgstr "支付"
+
+#, fuzzy
+#~ msgid "TARJETA REGALO"
+#~ msgstr "DELIVERED"

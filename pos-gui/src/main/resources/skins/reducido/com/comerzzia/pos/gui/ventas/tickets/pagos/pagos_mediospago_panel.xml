@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+    ComerZZia 3.0
+
+    Copyright (c) 2008-2015 Comerzzia, S.L.  All Rights Reserved.
+
+    THIS WORK IS  SUBJECT  TO  SPAIN  AND  INTERNATIONAL  COPYRIGHT  LAWS  AND
+    TREATIES.   NO  PART  OF  THIS  WORK MAY BE  USED,  PRACTICED,  PERFORMED
+    COPIED, DISTRIBUTED, REVISED, MODIFIED, TRANSLATED,  ABRIDGED, CONDENSED,
+    EXPANDED,  COLLECTED,  COMPILED,  LINKED,  RECAST, TRANSFORMED OR ADAPTED
+    WITHOUT THE PRIOR WRITTEN CONSENT OF COMERZZIA, S.L. ANY USE OR EXPLOITATION
+    OF THIS WORK WITHOUT AUTHORIZATION COULD SUBJECT THE PERPETRATOR TO
+    CRIMINAL AND CIVIL LIABILITY.
+
+    CONSULT THE END USER LICENSE AGREEMENT FOR INFORMATION ON ADDITIONAL
+    RESTRICTIONS.
+
+-->
+<Panel>
+	<LineaBotones>
+		<Boton>
+			<texto>aceptar (no visible)</texto>
+			<clave>aceptar</clave>
+			<tipo>METODO</tipo>
+			<teclaAccesoRapido/>
+			<visible>N</visible>
+		</Boton>
+		<Boton>
+			<texto>TARJETA MANUAL</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/visa.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>0011</value>
+				</entry>
+			</parametros>
+		</Boton>
+		<Boton>
+			<texto>TARJETA</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/mastercard.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>0010</value>
+				</entry>
+			</parametros>
+		</Boton>
+		<Boton>
+			<texto>EFECTIVO</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/efectivo.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>0000</value>
+				</entry>
+			</parametros>
+		</Boton>
+		<Boton>
+			<texto>TRANSFERENCIA</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/cheque.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>0110</value>
+				</entry>
+			</parametros>
+		</Boton>
+		<Boton>
+			<texto>GIFTCARD/VALE</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/vale.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>0060</value>
+				</entry>
+			</parametros>
+		</Boton>
+		<Boton>
+			<texto>ENTREGA A CUENTA</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/cheque.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>0030</value>
+				</entry>
+			</parametros>
+		</Boton>
+	</LineaBotones>
+	<LineaBotones>
+		<Boton>
+			<texto>CLIENTE A CUENTA</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/cheque.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>0600</value>
+				</entry>
+			</parametros>
+		</Boton>
+		<Boton>
+			<texto>DESCUENTO PROMOCIONAL</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/vale.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>0001</value>
+				</entry>
+			</parametros>
+			<visible>N</visible>
+		</Boton>
+		<Boton>
+			<texto>ECOMMERCE</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/cheque.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>0402</value>
+				</entry>
+			</parametros>
+		</Boton>
+		<Boton>
+			<texto>ES FINANCIACION</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/chueque.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>2001</value>
+				</entry>
+			</parametros>
+		</Boton>
+		<Boton>
+			<texto>PT ESFINANCIACION</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/chueque.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>2002</value>
+				</entry>
+			</parametros>
+		</Boton>
+		<Boton>
+			<texto>TARJETA ABONO (COMERZZIA)</texto>
+			<clave>seleccionarMedioPago</clave>
+			<tipo>METODO</tipo>
+			<rutaImagen>importes/chueque.png</rutaImagen>
+			<parametros>
+				<entry>
+					<key>codMedioPago</key>
+					<value>3000</value>
+				</entry>
+			</parametros>
+		</Boton>
+	</LineaBotones>
+</Panel>

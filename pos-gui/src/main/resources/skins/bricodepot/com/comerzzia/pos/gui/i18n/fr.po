@@ -1,0 +1,4764 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+<<<<<<< .mine
+"POT-Creation-Date: 2020-12-10 08:18+0100\n"
+"PO-Revision-Date: 2019-01-29 11:44+0100\n"
+=======
+"POT-Creation-Date: 2020-12-01 19:09+0100\n"
+"PO-Revision-Date: 2020-12-16 15:05+0100\n"
+>>>>>>> .r18029
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:155
+msgid "Propiedades de la pasarela: "
+msgstr "Propriétés de la passerelle de paiement: "
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:215
+msgid "Este medio de pago no tiene configuración asociada."
+msgstr "Ce mode de paiement n'a pas de configuration associée."
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:226
+msgid "Propiedades de la tienda"
+msgstr "Propriétés du magasin"
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:311
+msgid "Configuración guardada correctamente."
+msgstr "Configuration enregistrée avec succès."
+
+#: com/comerzzia/pos/gui/configuracion/mediospago/ConfiguracionMediosPagoController.java:315
+msgid ""
+"Ha habido un error al guardar la configuración. Contacte con el "
+"administrador."
+msgstr ""
+"Une erreur s'est produite lors de l'enregistrement de la configuration. "
+"Contactez l'administrateur."
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:159
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:245
+msgid "Caja configurada"
+msgstr "Caisse configurée"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:160
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:246
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:150
+msgid "Tienda"
+msgstr "Magasin"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:161
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:540
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:541
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:580
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:581
+msgid "NO USA"
+msgstr "N'UTILISE PAS"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:262
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:296
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:329
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:363
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:397
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:432
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:466
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:502
+msgid "Método de conexión"
+msgstr "Méthode de connexion"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:263
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:297
+msgid "Tipo de impresora"
+msgstr "Type d'imprimante"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:330
+msgid "Tipo de tarjeta de fidelización"
+msgstr "Type de carte de fidélité"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:364
+msgid "Tipo de visor"
+msgstr "Type de viseur"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:398
+msgid "Tipo de cajón"
+msgstr "Type de caisse"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:433
+msgid "Tipo de balanza"
+msgstr "Type de balance"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:467
+msgid "Tipo de recarga móvil"
+msgstr "Type de recharge mobile"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:503
+msgid "Tipo de escáner"
+msgstr "Type de scanner"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:708
+msgid "Deberá reiniciar la aplicación para establecer los cambios."
+msgstr "Vous devrez redémarrer l'application pour établir les modifications."
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:712
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:720
+msgid "Error guardando información de dispositivos"
+msgstr "Erreur lors de l'enregistrement des informations sur l'appareil"
+
+#: com/comerzzia/pos/gui/configuracion/tpv/ConfiguracionTPVController.java:828
+msgid "No se ha podido abrir la ventana de configuración"
+msgstr "La fenêtre de configuration n'a pas pu être ouverte"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:8
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:299
+msgid "TALLA"
+msgstr "TAILLE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:9
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:300
+msgid "COLOR"
+msgstr "COULEUR"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:10
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:309
+msgid "Talla"
+msgstr "Taille"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:11
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:310
+msgid "Color"
+msgstr "Couleur"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:12
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:634
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:654
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:664
+msgid "Preparación de pedidos"
+msgstr "Préparation des commandes"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:13
+msgid "#Servicio"
+msgstr "#Service"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:14
+msgid "Cód. documento"
+msgstr "Code Document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:15
+msgid "Nº Bultos"
+msgstr "Non. Paquets"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:16
+msgid "Tipo de embalaje"
+msgstr "Type d'emballage"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:17
+msgid "Cantidad"
+msgstr "Quantité"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:18
+msgid "Observaciones"
+msgstr "Observations"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:19
+msgid "Escriba el código de la preparación a la que quiera acceder"
+msgstr "Écrivez le code de la préparation à laquelle vous souhaitez accéder"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:20
+msgid "Código de preparación"
+msgstr "Code de préparation"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:21
+msgid "Aceptar"
+msgstr "Accepter"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:22
+msgid "Cancelar"
+msgstr "Annuler"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:23
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/NuevoCodBarrasEspecialController.java:99
+msgid "Artículo"
+msgstr "Article"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:24
+msgid "X"
+msgstr "X"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:25
+msgid "Peso"
+msgstr "Peso"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:26
+msgid "Productos pendientes"
+msgstr "Articles en attente"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:27
+msgid "Desglose1"
+msgstr "Décomposition 1"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:28
+msgid "Desglose2"
+msgstr "Décomposition 2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:29
+msgid "Cant. Pedida"
+msgstr "Qté. commandée"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:30
+msgid "U. Medida"
+msgstr "Uté. Mesure"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:31
+msgid "Cant. Pdte."
+msgstr "Qté. En attente"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:32
+msgid "Cant. Prep."
+msgstr "Qté. Prep."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:33
+msgid "Criterio sustitución"
+msgstr "Critères de substitution"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:34
+msgid "Modo preparación"
+msgstr "Mode préparation"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:35
+msgid "Movimientos"
+msgstr "Mouvements"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:36
+msgid "Cant. Medida"
+msgstr "Qté. Mesure"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:37
+msgid "Fecha"
+msgstr "Date"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:38
+msgid "Usuario"
+msgstr "Utilisateur"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:39
+msgid "Tipo Movimiento"
+msgstr "Type de mouvement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:40
+msgid "Ruta"
+msgstr "Route"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:41
+msgid "Nº Pedidos pendientes"
+msgstr "Nº des commandes en attente"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:42
+msgid "Resumen"
+msgstr "Résumé"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:43
+msgid "Total:"
+msgstr "Total:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:44
+msgid "Artículos no servidos"
+msgstr "Articles non servis"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:45
+msgid "Sustitución de artículo"
+msgstr "Remplacement d'article"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:46
+msgid "Consulta de servicios"
+msgstr "Des services de consultation"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:47
+msgid "Fecha de entrega solicitada"
+msgstr "Date de livraison requise"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:48
+msgid "Tipos de servicio"
+msgstr "Types de services"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:49
+msgid "Cliente"
+msgstr "Client"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:50
+msgid "Estados"
+msgstr "Etat"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:51
+msgid "FECHA DE ENTREGA"
+msgstr "DATE DE LIVRAISON"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:52
+msgid "Franja horaria disponible"
+msgstr "Bande horaire disponible"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:53
+msgid "Franja horaria no disponible"
+msgstr "Bande horaire non disponible"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:54
+msgid "Número maximo de pedidos"
+msgstr "Nombre maximum de commandes"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:55
+msgid "Minutos de cadencia entre pedidos"
+msgstr "Minutes de cadence entre les commandes"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:56
+msgid "Hora tope de pedido para servir en esta franja"
+msgstr "Date limite de commande pour servir dans ce bande"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:57
+msgid "Número de pedidos a entregar"
+msgstr "Nombre de commandes à livrer"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:58
+msgid "Número de pedidos servidos"
+msgstr "Nombre de commandes servies"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:59
+msgid "Número de pedidos permitidos"
+msgstr "Nombre de commandes autorisées"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:60
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:316
+msgid "Cerrar"
+msgstr "Fermer"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:61
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:138
+msgid "Nombre"
+msgstr "Nom"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:62
+msgid "Tipo de contacto"
+msgstr "Type de contact"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:63
+msgid "Valor"
+msgstr "Valeur"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:64
+msgid "Responsable"
+msgstr "Responsable"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:65
+msgid "Art a preparar"
+msgstr "Art. à préparer"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:66
+msgid "Art ptes"
+msgstr "Art. en attente"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:67
+msgid "Art preparados"
+msgstr "Art. préparé"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:68
+msgid "Art sustituido"
+msgstr "Art. remplacé"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:69
+msgid "Art no servido"
+msgstr "Art. non servi"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:70
+msgid "F inicio"
+msgstr "Date de début"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:71
+msgid "F fin"
+msgstr "Date de fin"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:72
+msgid "Contenido"
+msgstr "Contenu"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:73
+msgid "Nº de bultos"
+msgstr "Nº de paquets"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:74
+msgid "Descripción"
+msgstr "Description"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:75
+msgid "Domicilio"
+msgstr "Accueil"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:76
+msgid "CP"
+msgstr "CP"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:77
+msgid "Población"
+msgstr "Ville"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:78
+msgid "Localidad"
+msgstr "Localité"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:79
+msgid "Provincia"
+msgstr "Province"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:80
+msgid "País"
+msgstr "Pays"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:81
+msgid "Estados anteriores del servicio"
+msgstr "États de service antérieurs"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:82
+msgid "Estado anterior"
+msgstr "État précédent"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:83
+msgid "Estado nuevo"
+msgstr "État nouveau"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:84
+msgid "¿Está seguro de que quiere cambiar el estado de este servicio?"
+msgstr "Voulez-vous vraiment modifier l'état de ce service?"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:85
+msgid "Fecha registro"
+msgstr "Date d'inscription"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:86
+msgid "Importe"
+msgstr "Montant"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:87
+msgid "Transportista"
+msgstr "Transporteur"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:88
+msgid "Importe pendiente"
+msgstr "Montant en attente"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:89
+msgid "Fecha servicio"
+msgstr "Date du service"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:90
+msgid "Almacén origen"
+msgstr "Entrepôt d'origine"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:91
+msgid "Almacén preparación"
+msgstr "Préparation de l'entrepôt"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:92
+msgid "Almacén destino"
+msgstr "Entrepôt de destination"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:93
+msgid "Detalles del servicio"
+msgstr "Détails du service"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:94
+msgid "Tipo"
+msgstr "Type"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:95
+msgid "Estado"
+msgstr "Etat"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:96
+msgid "Fecha entrega"
+msgstr "Date de livraison"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:97
+msgid "Horario"
+msgstr "Tranche horaire"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:98
+msgid "Dirección de entrega"
+msgstr "Addresse de livraison"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:99
+msgid "Datos de la preparación"
+msgstr "Données de préparation"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:100
+msgid "Tipo servicio"
+msgstr "Type de service"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:101
+msgid "Cod. doc."
+msgstr "Code Doc."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:102
+msgid "F. entrega"
+msgstr "Date de livraison"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:103
+msgid "Hora"
+msgstr "Temps"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:104
+msgid "Acts."
+msgstr "Acts."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:105
+msgid "Nueva actividad"
+msgstr "Nouvelle activité"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:106
+msgid "Nueva solicitud"
+msgstr "Nouvelle requête"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:107
+msgid "Tipo de solicitud"
+msgstr "Type de demande"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:108
+msgid "Solicitudes"
+msgstr "Demandes"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:109
+msgid "Solicitudes de"
+msgstr "Demandes de"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:110
+msgid "Resuelta"
+msgstr "Résolu"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:111
+msgid "#Solicitud"
+msgstr "#Demande"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:112
+msgid "Solicitud"
+msgstr "Demande"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:113
+msgid "Creada por"
+msgstr "Créé par"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:114
+msgid "Resuelto"
+msgstr "Résolu"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:115
+msgid "Fecha resolución"
+msgstr "Date de résolution"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:116
+msgid "Actividades de la Solicitud seleccionada:"
+msgstr "Activités de l'demande sélectionnée:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:117
+msgid "Visto"
+msgstr "Vu"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:118
+msgid "Origen"
+msgstr "Origine"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:119
+msgid "Actividad"
+msgstr "Actif"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:120
+msgid "Tipo contacto"
+msgstr "Type de contact"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:121
+msgid "Datos contacto"
+msgstr "Détails du contact"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:122
+msgid "Para mas información visite  www.comerzzia.es"
+msgstr "Pour plus d'informations, visitez www.comerzzia.es"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:123
+msgid "Reiniciar ahora"
+msgstr "Redémarrer maintenant"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:124
+msgid "No reiniciar"
+msgstr "Ne redémarre pas"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:125
+msgid "OK"
+msgstr "OK"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:126
+msgid "Borrar"
+msgstr "Supprimer"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:127
+msgid "Código"
+msgstr "Code"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:128
+msgid "C.P."
+msgstr "C.P."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:129
+msgid "Teléfono"
+msgstr "Téléphone"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:130
+msgid "Persona Contacto"
+msgstr "Contact"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:131
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:684
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:690
+msgid "Consulta de stocks"
+msgstr "Demande de stock"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:132
+msgid "Desglose 1"
+msgstr "Décomposition 1"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:133
+msgid "Desglose 2"
+msgstr "Décomposition 2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:134
+msgid "Expresión Almacenes"
+msgstr "Expression de l'entrepôt"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:135
+msgid "Consultar"
+msgstr "Consulter"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:136
+msgid "Solo disponible"
+msgstr "Seulement disponible"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:137
+msgid "Stocks tienda"
+msgstr "Stocks magasin"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:138
+msgid "Stock"
+msgstr "Stock"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:139
+msgid "Stock A"
+msgstr "Stock A"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:140
+msgid "Stock B"
+msgstr "Stock B"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:141
+msgid "Stock C"
+msgstr "Stock C"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:142
+msgid "Stock D"
+msgstr "Stock D"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:143
+msgid "Stock logístico"
+msgstr "Stock logistique"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:144
+msgid "Stocks resto tiendas"
+msgstr "Stocks de repos magasins"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:145
+msgid "Contacto"
+msgstr "Contact"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:146
+msgid "Expresión tiendas"
+msgstr "Magasins d'expressions"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:147
+msgid ""
+"Expresiones soportadas: T = todas las tiendas; G:XX = Grupo XX; E:YYYYY = "
+"Etiqueta YYYYY; XXXX = Código tienda."
+msgstr ""
+"Expressions disponibles: T = tous les magasins; G: XX = groupe XX; E: YYYYY "
+"= Libellé YYYYY; XXXX = code de magasin."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:148
+msgid ""
+"Los distintos comandos de los que se compone la expresión deberán ir "
+"separados por espacios."
+msgstr ""
+"Les différentes commandes qui composent l'expression doivent être séparées "
+"par des espaces."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:149
+msgid "Consultar Artículos"
+msgstr "Consulter les articles"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:151
+msgid "Caja"
+msgstr "Caisse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:152
+msgid "Contraseña"
+msgstr "Mot de passe"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:153
+msgid "SELECCIÓN DE USUARIO"
+msgstr "SELECTION DE L'UTILISATEUR"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:154
+msgid "Salir"
+msgstr "Sortir"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:155
+msgid "Cambiar contraseña"
+msgstr "Changer le mot de passe"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:156
+msgid "Confirmar nueva contraseña"
+msgstr "Confirmer le nouveau mot de passe"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:157
+msgid "Contraseña nueva"
+msgstr "Nouveau mot de passe"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:158
+msgid "Contraseña actual"
+msgstr "Mot de passe actuel"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:159
+msgid "Ocultar Menú"
+msgstr "Cacher Menu"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:160
+msgid "NOTIFICACIONES"
+msgstr "NOTIFICATIONS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:161
+msgid "LIMPIAR"
+msgstr "NETTOYER"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:162
+msgid "CERRAR"
+msgstr "FERMER"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:163
+msgid "Filtrar"
+msgstr "Filtre"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:164
+msgid "Gestión de Permisos"
+msgstr "Gestion des autorisations"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:165
+msgid "Titular"
+msgstr "Gros titre"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:166
+msgid "Administrar"
+msgstr "Gérer"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:167
+msgid "Lea o escriba el código de barras de la tarjeta"
+msgstr "Lire ou écrire le code-barres sur la carte"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:168
+msgid "Número de tarjeta"
+msgstr "Numéro de carte"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:169
+msgid "Alta Fidelizado"
+msgstr "Haute fidélité"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:170
+msgid "Consulta de saldo"
+msgstr "Demande de solde"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:171
+msgid "GiftCard Nº"
+msgstr "Carte-cadeau No"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:172
+msgid "Saldo disponible"
+msgstr "Solde disponible"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:173
+msgid "Recarga GiftCard"
+msgstr "Recharger Carte-cadeau"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:174
+msgid "Recarga GiftCard Nº"
+msgstr "Recharge Carte-cadeau No"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:175
+msgid "Datos Artículo Recarga"
+msgstr "Recharge d'élément de données"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:176
+msgid "Saldo actual"
+msgstr "Solde courant"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:177
+msgid "Recarga"
+msgstr "Recharge"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:178
+msgid "Correo Electrónico"
+msgstr "Courrier électronique"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:179
+msgid "Documento"
+msgstr "Document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:180
+msgid "Apellidos"
+msgstr "Noms de famille"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:181
+msgid "Direccion"
+msgstr "Adresse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:182
+msgid "Tarjeta"
+msgstr "Carte"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:183
+msgid "Host"
+msgstr "Hôte"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:184
+msgid "Puerto"
+msgstr "Port"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:185
+msgid "Código de empresa"
+msgstr "Code d'entreprise"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:186
+msgid "Código de tienda"
+msgstr "Code de magasin"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:187
+msgid "Código de tpv"
+msgstr "Code de POS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:188
+msgid "Forma de pago"
+msgstr "Mode de paiement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:189
+msgid "Configuración TEF CLEARONE"
+msgstr "Configuration TEF CLEARONE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:190
+msgid "Medios de pago"
+msgstr "Modes de paiement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:191
+msgid "Descripcion"
+msgstr "Description"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:192
+msgid "Configuración PINPAD REDSYS"
+msgstr "Configuration PINPAD REDSYS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:193
+msgid "Código centro"
+msgstr "Code centre"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:194
+msgid "Código terminal"
+msgstr "Code terminal"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:195
+msgid "Clave de firma"
+msgstr "Clé de signature"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:196
+msgid "Configuración TEF Saima"
+msgstr "Configuration TEF Saima"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:197
+msgid "IP Servicio"
+msgstr "Service IP"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:198
+msgid "Cod. moneda"
+msgstr "Code devise"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:199
+msgid "Configuración TEF WINCOR"
+msgstr "Configuration TEF WINCOR"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:200
+msgid "Código tienda"
+msgstr "Code magasin"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:201
+msgid "POS"
+msgstr "POS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:202
+msgid "Actualizar claves"
+msgstr "Mettre à jour les clés"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:203
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:111
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:777
+msgid "Pagos"
+msgstr "Paiements"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:204
+msgid "PENDIENTE"
+msgstr "RESTE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:205
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1668
+msgid "CAMBIO"
+msgstr "CHANGEMENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:206
+msgid "Artículos"
+msgstr "Articles"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:207
+msgid "TOTAL:"
+msgstr "TOTAL:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:208
+msgid "Configuración de medios de pago"
+msgstr "Configuration des modes de paiement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:209
+msgid "Seleccione un medio de pago para ver su configuración:"
+msgstr "Sélectionnez un mode de paiement pour voir sa configuration:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:210
+msgid "Guardar cambios"
+msgstr "Enregistrer les modifications"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:211
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:671
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:675
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:679
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:681
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:685
+msgid "Configuración"
+msgstr "Configuration"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:212
+msgid "General"
+msgstr "Général"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:213
+msgid "Visor"
+msgstr "Viseur"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:214
+msgid "Cajón"
+msgstr "Caisse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:215
+msgid "Impresora 1"
+msgstr "Imprimante 1"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:216
+msgid "Impresora 2"
+msgstr "Imprimante 2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:217
+msgid "Balanza"
+msgstr "Échelle de poids"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:218
+msgid "Fidelizado"
+msgstr "Fidélité"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:219
+msgid "Recarga móvil"
+msgstr "Recharge mobile"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:220
+msgid "Escáner"
+msgstr "Scanner"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:221
+msgid "Editar configuración"
+msgstr "Modifier les paramètres"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:222
+msgid "Escoja la población deseada"
+msgstr "Choisissez la localité souhaitée"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:223
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:597
+msgid "Datos del Cliente"
+msgstr "Données client"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:224
+msgid "Tipo Documento"
+msgstr "Type de document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:225
+msgid "Num. Documento"
+msgstr "Document No"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:226
+msgid "Activo"
+msgstr "Actif"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:227
+msgid "Datos Generales"
+msgstr "Données générales"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:228
+msgid "Teléfono 1"
+msgstr "Téléphone 1"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:229
+msgid "Teléfono 2"
+msgstr "Téléphone 2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:230
+msgid "Fax"
+msgstr "Fax"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:231
+msgid "E-mail"
+msgstr "Email"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:232
+msgid "Pais"
+msgstr "Pays"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:233
+msgid "Tarifa"
+msgstr "Taux"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:234
+msgid "Trat. Impuesto"
+msgstr "Traitement fiscal"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:235
+msgid "Datos Bancarios"
+msgstr "Donnés Bancaires"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:236
+msgid "CCC"
+msgstr "CCC"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:237
+msgid "(*) Campos obligatorios"
+msgstr "(*) Champs obligatoires"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:238
+msgid "Configuración código de barras"
+msgstr "Configuration du code à barres"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:239
+msgid "Prefijo"
+msgstr "Préfixe"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:240
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/NuevoCodBarrasEspecialController.java:97
+msgid "Ticket"
+msgstr "Ticket"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:241
+#: com/comerzzia/pos/gui/ventas/profesional/articulos/busqueda/BuscarArticulosProfesionalController.java:86
+msgid "Precio"
+msgstr "Prix"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:242
+msgid "Fidelizacion"
+msgstr "Fidélité"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:243
+msgid "Posición"
+msgstr "Position"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:244
+msgid "Longitud"
+msgstr "Longueur"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:245
+msgid "Parte entera"
+msgstr "Partie entière"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:246
+msgid "Parte decimal"
+msgstr "Partie décimale"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:247
+msgid "Impresión de Cupones"
+msgstr "Impression de coupons"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:248
+msgid "Promoción"
+msgstr "Promotion"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:249
+msgid "Imprimir"
+msgstr "Imprimer"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:250
+msgid "Buscar colectivos"
+msgstr "Chercher des Collectifs"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:251
+msgid "Cod. Colectivo"
+msgstr "Code collectif"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:252
+msgid "Buscar"
+msgstr "Chercher"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:253
+msgid "FIDELIZADO"
+msgstr "FIDÉLITÉ"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:254
+msgid "Datos generales"
+msgstr "Données générales"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:255
+msgid "Colectivos"
+msgstr "Les collectifs"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:256
+msgid "Movimientos Tarjetas"
+msgstr "Mouvements de cartes"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:257
+msgid "Últimas Ventas"
+msgstr "Dernières ventes"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:258
+msgid "Etiquetas"
+msgstr "Étiquettes"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:259
+msgid "Editar"
+msgstr "Editer"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:260
+msgid "Código Colectivo"
+msgstr "Code Collectif"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:261
+msgid "Nº de tarjeta"
+msgstr "Numéro de carte"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:262
+msgid "Tipo documento"
+msgstr "Type de document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:263
+msgid "Sexo"
+msgstr "Genre"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:264
+msgid "Fecha de nacimiento"
+msgstr "Date de naissance"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:265
+msgid "Estado civil"
+msgstr "État civil"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:266
+msgid "Fecha alta"
+msgstr "Date de sortie"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:267
+msgid "Email"
+msgstr "Email"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:268
+msgid "Permitir notificaciones"
+msgstr "Activer les notifications"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:269
+msgid "Solo ticket digital"
+msgstr "Ticket digital uniquement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:270
+msgid "Móvil"
+msgstr "Mobile"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:271
+msgid "Código postal"
+msgstr "Code Postal"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:272
+msgid "Tienda favorita"
+msgstr "Magasin préféré"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:273
+msgid "Colectivo"
+msgstr "Collectif"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:274
+msgid "Nº Tarjeta"
+msgstr "No. de carte"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:275
+msgid "Saldo Total"
+msgstr "Solde total"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:276
+msgid "Últimos 20 movimientos de la tarjeta seleccionada"
+msgstr "20 derniers mouvements de la carte sélectionnée"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:277
+msgid "Concepto"
+msgstr "Concept"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:278
+msgid "Entrada"
+msgstr "Entrées (Mouv)"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:279
+msgid "Salida"
+msgstr "Sortir"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:280
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:683
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:693
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1690
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1704
+msgid "Saldo"
+msgstr "Solde"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:281
+msgid "Tienda Favorita"
+msgstr "Magasin préféré"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:282
+msgid "Ventas realizadas en los últimos 12 meses"
+msgstr "Ventes réalisées au cours des 12 derniers mois"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:283
+msgid "Cód. Tienda"
+msgstr "Code Magassin"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:284
+msgid "Buscar tiendas"
+msgstr "Chercher des Magasins"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:285
+msgid "Cod. Tienda"
+msgstr "Code Magassin"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:286
+msgid "Avisos al cajero"
+msgstr "Avis de caissier"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:287
+msgid "Gestión de apartados"
+msgstr "Gestion de réservations"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:288
+msgid "Apartado Nº"
+msgstr "Réservation Nº"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:289
+msgid "Ver todos"
+msgstr "Voir tous"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:290
+msgid "Cancelado"
+msgstr "Annulé"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:291
+msgid "Finalizado"
+msgstr "Finalisé"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:292
+msgid "Nº"
+msgstr "No"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:293
+msgid "Detalle de apartado"
+msgstr "Détaille de réservations"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:294
+msgid "Poblacion"
+msgstr "Ville"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:295
+msgid "Nº Doc"
+msgstr "Doc. No"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:296
+msgid "Recogida"
+msgstr "Ramasser"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:297
+msgid "ARTICULO"
+msgstr "ARTICLE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:298
+msgid "DESCRIPCION"
+msgstr "DESCRIPTION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:301
+msgid "CANT"
+msgstr "QUANT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:302
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:644
+msgid "PVP"
+msgstr "Prix TTC"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:303
+msgid "DTO"
+msgstr "DTO"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:304
+msgid "IMPORTE"
+msgstr "MONTANT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:305
+msgid "SERVIDO"
+msgstr "SERVI"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:306
+msgid "ABONADO"
+msgstr "ABONNÉ"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:307
+msgid "SALDO CLIENTE"
+msgstr "SOLDE CLIENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:308
+msgid "Marcar venta artículos"
+msgstr "Marquer les articles soldés"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:311
+msgid "Dto."
+msgstr "Remise"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:312
+msgid "Pagos del apartado"
+msgstr "Paiements de réservations"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:313
+msgid "Medio de pago"
+msgstr "Moyen de paiement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:314
+msgid "Imprimir pago"
+msgstr "Imprimer le paiement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:315
+msgid "Importe a pagar"
+msgstr "Montant à payer"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:316
+msgid "Apertura de Caja"
+msgstr "Ouverture de Caisse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:317
+msgid "Fecha Apertura"
+msgstr "Date d´ouverture"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:318
+msgid "Abrir Caja"
+msgstr "Ouvrir caisse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:319
+msgid "Calculadora"
+msgstr "Calculatrice"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:320
+msgid "CANTIDAD"
+msgstr "QUANTITE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:321
+msgid "MONEDA"
+msgstr "MONNAIE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:322
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:977
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:981
+msgid "TOTAL"
+msgstr "TOTAL"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:323
+msgid "Medio de Pago"
+msgstr "Moyen de paiement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:324
+msgid "Añadir Importe"
+msgstr "Ajouter un montant"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:325
+msgid "Efectivo"
+msgstr "Espèces"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:326
+msgid "Insertar Apunte"
+msgstr "Insérer une note"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:327
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:648
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:656
+msgid "Gestión de Caja"
+msgstr "Gestion de la trésorerie"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:328
+msgid "Cajero"
+msgstr "Caissier"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:329
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:715
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:191
+msgid "Caja CERRADA"
+msgstr "Caisse fermée"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:330
+msgid "FECHA"
+msgstr "DATE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:331
+msgid "ENTRADAS"
+msgstr "ENTRÉES"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:332
+msgid "SALIDAS"
+msgstr "SORTIES"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:333
+msgid "CONCEPTO"
+msgstr "CONCEPT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:334
+msgid "DESCRIPCION CONCEPTO"
+msgstr "DESCRIPTION CONCEPT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:335
+msgid "DOCUMENTO"
+msgstr "DOCUMENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:336
+msgid "F.PAGO"
+msgstr "M. PAIEMENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:337
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:627
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:628
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:629
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:631
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:635
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:637
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:639
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:641
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:643
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:645
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:647
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:649
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:655
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:677
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:687
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:761
+msgid "Ventas"
+msgstr "Ventes"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:338
+msgid "CÓDIGO"
+msgstr "CODE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:339
+msgid "Fecha Cierre"
+msgstr "Date de fermeture"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:340
+msgid "MEDIO PAGO"
+msgstr "MOYEN DE PAIEMENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:341
+msgid "TOTAL (E-S)"
+msgstr "TOTAL (E-S)"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:342
+msgid "RECUENTO"
+msgstr "DÉCLARÉ"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:343
+msgid "DESCUADRE"
+msgstr "DIFFÉRENCE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:344
+msgid "Total(E/S)"
+msgstr "Total (E/S)"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:345
+msgid "Total Recuento"
+msgstr "Total Déclaré"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:346
+msgid "Descuadre"
+msgstr "Différence"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:347
+msgid "Entradas (Ventas)"
+msgstr "Entrées (Ventes)"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:348
+msgid "En X Tickets"
+msgstr "En X tickets"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:349
+msgid "Salidas (Devolución)"
+msgstr "Sortir (Retour)"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:350
+msgid "Entradas (Mov)"
+msgstr "Entrées (Mouv)"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:351
+msgid "Salidas (Mov)"
+msgstr "Sorties (Mouv)"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:352
+msgid "Total Entradas"
+msgstr "Total Entrées"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:353
+msgid "Total Salidas"
+msgstr "Total Sorties"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:354
+msgid "Cerrar Caja"
+msgstr "Fermer Caisse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:355
+msgid "Recuento de Caja"
+msgstr "Compte de trésorerie"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:356
+msgid "FORMA DE PAGO"
+msgstr "MOYEN DE PAIEMENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:357
+msgid "Anotar recuento"
+msgstr "Annoter déclaré"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:358
+msgid "Otros"
+msgstr "Autres"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:359
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:644
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:650
+msgid "Devoluciones"
+msgstr "Retour"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:360
+msgid "Código de caja"
+msgstr "Code de caisse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:361
+msgid "Tipo de documento"
+msgstr "Type de document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:362
+msgid "Código de ticket"
+msgstr "Code du ticket"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:363
+msgid "DATOS DEL TICKET ORIGINAL"
+msgstr "DONNÉS DU TICKET ORIGINAL"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:364
+msgid "ARTÍCULO"
+msgstr "ARTICLE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:365
+msgid "DESCRIPCIÓN"
+msgstr "DESCRIPTION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:366
+msgid "UND."
+msgstr "UNITÉ"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:367
+msgid "DEVUELTAS"
+msgstr "RETOUR"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:368
+msgid "DEVOLVER"
+msgstr "REDONNER"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:369
+msgid "Devolver"
+msgstr "Redonner"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:370
+msgid "Cambio artículos"
+msgstr "Changement des articles"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:371
+msgid "Cod. documento / Localizador"
+msgstr "Code de document / Localisateur"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:372
+msgid "INICIAR DEVOLUCION"
+msgstr "COMMENCER LE RETOUR"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:373
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:648
+msgid "DTO."
+msgstr "REMISE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:374
+msgid "Total Artículos:"
+msgstr "Articles au total:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:375
+msgid "0"
+msgstr "0"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:376
+msgid "Imprimir Copia"
+msgstr "Imprimer une copie"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:377
+msgid "Ticket regalo"
+msgstr "Ticket cadeau"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:378
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:638
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:646
+msgid "Gestión de Documentos"
+msgstr "Gestion de documents"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:379
+msgid "Tipo Doc."
+msgstr "Type de Doc."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:380
+msgid "Localizador"
+msgstr "Localisateur"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:381
+msgid "Buscar Documento"
+msgstr "Chercher un Document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:382
+msgid "Seleccionar Cliente"
+msgstr "Sélectionnez un client"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:383
+msgid "Dirección"
+msgstr "Adresse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:384
+msgid "Telefono 2"
+msgstr "Téléphone 2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:385
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:242
+msgid "Volver atrás"
+msgstr "Retour"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:386
+msgid "Búsqueda de artículos"
+msgstr "Rechercher d'articles"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:387
+msgid "Precio + IVA"
+msgstr "Prix + TVA"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:388
+msgid "Stocks de artículo"
+msgstr "Stocks d'articles"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:389
+msgid "Stocks por modelo"
+msgstr "Stocks par modèle"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:390
+msgid "Stocks por desglose 1"
+msgstr "Stocks par décomposition 1"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:391
+msgid "Stocks por desglose 2"
+msgstr "Stocks par décomposition 2"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:392
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:678
+#: com/comerzzia/pos/gui/ventas/profesional/venta/VentaProfesionalController.java:97
+msgid "Venta Profesional"
+msgstr "Vente professionnelle"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:393
+msgid "/ Peso"
+msgstr "/ Poids"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:394
+msgid "PRECIO"
+msgstr "PRIX"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:395
+msgid "PRECIO + IVA"
+msgstr "PRIX + TVA"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:396
+msgid "IMPORTE + IVA"
+msgstr "MONTANT + TVA"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:397
+msgid "Vendedor"
+msgstr "Vendeur"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:398
+msgid "CLIENTE FIDELIZADO:"
+msgstr "CLIENT FIDÉLITÉ:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:399
+msgid "SALDO:"
+msgstr "SOLDE :"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:400
+msgid "Nº TARJETA:"
+msgstr "Nº CARTE:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:401
+msgid "Base"
+msgstr "Base"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:402
+msgid "Iva"
+msgstr "TVA"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:403
+msgid "Recargo"
+msgstr "Recharge"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:404
+msgid "Ponga el artículo sobre la balanza"
+msgstr "Mettez l'article sur la balance"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:405
+msgid "El artículo introducido requiere ser pesado en la balanza."
+msgstr "L'article saisi doit être pesé sur la balance."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:406
+msgid "Cupones del fidelizado"
+msgstr "Coupons de fidélité"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:407
+msgid "Sin cupones disponibles"
+msgstr "Aucun coupon disponible"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:408
+msgid "Edición artículo"
+msgstr "Édition de l'article"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:409
+msgid "Articulo"
+msgstr "Article"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:410
+msgid "Descuento"
+msgstr "Remise"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:411
+msgid "Precio Total"
+msgstr "Prix Total"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:412
+msgid "Números de serie"
+msgstr "Numéros de série"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:413
+msgid "Recuperar Venta Omnicanal"
+msgstr "Récupérer les ventes omnicanales"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:414
+msgid "Introduzca los datos del documento"
+msgstr "Entrez les données du document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:415
+msgid "Cód. Caja"
+msgstr "Code Caisse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:416
+msgid "Id. Documento"
+msgstr "Id. Document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:417
+msgid "Cód. Pedido"
+msgstr "Code commande"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:418
+msgid "Números de serie dispopnibles"
+msgstr "Numéros de série disponibles"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:419
+msgid "Artículo:"
+msgstr "Article:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:420
+msgid "Cantidad:"
+msgstr "Quantité:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:421
+msgid "Número de serie"
+msgstr "Numéro de série"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:422
+msgid "Números de serie asociados a la línea del ticket"
+msgstr "Numéros de série associés à la file du ticket"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:423
+msgid "Pendiente:"
+msgstr "Reste:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:424
+msgid "Insertar"
+msgstr "Insérer"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:425
+msgid "Numeros serie"
+msgstr "Numéros de série"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:426
+msgid "Buscar Clientes"
+msgstr "Chercher des Clients"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:427
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:508
+msgid "CLIENTE"
+msgstr "CLIENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:428
+msgid "NUM. DOCUMENTO"
+msgstr "No. DOCUMENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:429
+msgid "POBLACION"
+msgstr "VILLE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:430
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:720
+msgid "PROVINCIA"
+msgstr "PROVINCE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:431
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:104
+msgid "Datos del cliente para la factura"
+msgstr "Donnés du client pour la facture"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:432
+msgid "Nombre comercial"
+msgstr "Nom commercial"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:433
+msgid "Datos bancarios"
+msgstr "Donnés bancaires"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:434
+msgid "Buscar Cliente"
+msgstr "Chercher un client"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:435
+msgid "Buscar países"
+msgstr "Chercher des pays"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:436
+msgid "Cod. País"
+msgstr "Code Pays"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:437
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:986
+msgid "ENTREGADO"
+msgstr "REÇU"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:438
+msgid "A PAGAR"
+msgstr "MONTANT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:439
+msgid "TOTAL ARTÍCULOS:"
+msgstr "ARTICLES AU TOTAL:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:440
+msgid "FORMA PAGO CAMBIO:"
+msgstr "FORMULAIRE DE PAIEMENT D'ÉCHANGE:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:441
+msgid "Anotar pago"
+msgstr "Entrez le paiement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:442
+msgid "A CUENTA"
+msgstr "SUR COMPTE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:443
+msgid "Selección medio de pago para el cambio"
+msgstr "Sélection des moyens de paiement pour le changement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:444
+msgid "Medio de pago seleccionado:"
+msgstr "Moyen de paiement sélectionné:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:445
+msgid "Consumo de puntos"
+msgstr "Consommation de points"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:446
+msgid "Dispone de X puntos"
+msgstr "Solde de X points"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:447
+msgid "Indique cuántos puntos desea canjear por un cupón:"
+msgstr ""
+"Indiquez le nombre de points que vous souhaitez échanger contre un coupon:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:448
+msgid "Importe resultante:"
+msgstr "Montant résultant:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:449
+msgid "XX,XX€"
+msgstr "XX,XX€"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:450
+msgid "No usar puntos"
+msgstr "N'utilisez pas de points"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:451
+msgid "Recuperar ticket"
+msgstr "Récupérer le ticket"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:452
+msgid "FIN PREPARACIÓN"
+msgstr "FIN DE PRÉPARATION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:453
+msgid "DETALLE DEL SERVICIO"
+msgstr "DÉTAIL DU SERVICE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:454
+msgid "SUSTITUIR"
+msgstr "REMPLACER"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:455
+msgid "NO SERVIR"
+msgstr "NE PAS SERVIR"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:456
+msgid "IMPRIMIR PREPARACIÓN"
+msgstr "IMPRIMER LA PRÉPARATION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:457
+msgid "LIBERAR PREPARACIÓN"
+msgstr "DÉGAGER LA PRÉPARATION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:458
+msgid "CAMBIO FORMATO"
+msgstr "CHANGER LE FORMAT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:459
+msgid "BULTOS"
+msgstr "PAQUETS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:460
+msgid "ASIGNARME PREPARACIÓN"
+msgstr "ASSIGNEZ-MOI LA PRÉPARATION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:461
+msgid "IR A PREPARACIÓN"
+msgstr "ALLER À LA PRÉPARATION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:462
+msgid "ACTUALIZAR"
+msgstr "METTRE À JOUR"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:463
+msgid "NUEVA PREPARACION"
+msgstr "NOUVELLE PRÉPARATION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:464
+msgid "ETIQUETAS"
+msgstr "ÉTIQUETTES"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:465
+msgid "FILTRAR"
+msgstr "FILTRE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:466
+msgid "PDTES. PREPARACIÓN"
+msgstr "EN ATTENTE D'PRÉPARATION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:467
+msgid "PDTES. EMBALAJE"
+msgstr "EN ATTENTE D'EMBALLAGE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:468
+msgid "EN PREPARACIÓN"
+msgstr "EN PRÉPARATION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:469
+msgid "PDTES. FACTURAR"
+msgstr "EN ATTENTE D'FACTURÉ"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:470
+msgid "PDTES. ENVÍO"
+msgstr "EN ATTENTE D'EXPÉDITION"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:471
+msgid "PDTES. CONFIRMAR ENTREGA"
+msgstr "LIVRAISON DE CONFIRMATION EN ATTENTE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:472
+msgid "PDTES. RECOGIDA"
+msgstr "EN ATTENTE DE COLLECTE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:473
+msgid "DETALLE"
+msgstr "DÉTAIL"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:474
+msgid "IMPRIMIR LISTADO"
+msgstr "IMPRIMER LA LISTE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:475
+msgid "NUEVA SOLICITUD"
+msgstr "NOUVEAU DEMANDE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:476
+msgid "VER SOLICITUD"
+msgstr "VOIR DEMANDE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:477
+msgid "RESOLVER"
+msgstr "RÉSOUDRE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:478
+msgid "NUEVA ACTIVIDAD"
+msgstr "NOUVEAU ACTIVITÉ"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:479
+msgid "VER ACTIVIDAD"
+msgstr "VOIR L'ACTIVITÉ"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:480
+msgid "VISTO"
+msgstr "VUE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:481
+msgid "ASIGNAR CLIENTE"
+msgstr "ASSIGNER LE CLIENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:482
+msgid "ANOTAR PAGO"
+msgstr "NOTER DE PAIEMENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:483
+msgid "COMPLETAR VENTA"
+msgstr "TERMINEZ LA VENTE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:484
+msgid "IMPRIMIR"
+msgstr "IMPRIMER"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:485
+msgid "VER PAGOS"
+msgstr "VOIR LES PAIEMENTS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:486
+msgid "DATOS CLIENTE"
+msgstr "DONNÉES CLIENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:487
+msgid "BÚSQUEDA"
+msgstr "RECHERCHE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:488
+msgid "aceptar (no visible)"
+msgstr "accepter (pas visible)"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:489
+msgid "abrir cajón (no visible)"
+msgstr "ouvrir caisse (non visible)"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:490
+msgid "APERTURA"
+msgstr "OUVERTURE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:491
+msgid "IMPRIMIR ULT. CIERRE"
+msgstr "IMPRIMER LA FERMETURE DE LA DERNIÈRE CAISSE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:492
+msgid "CIERRE"
+msgstr "FERMETURE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:493
+msgid "INSERTAR APUNTE"
+msgstr "INSÉRER UNE NOTE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:494
+msgid "RECUENTO CAJA"
+msgstr "DÉCLARER DU CAISSE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:495
+msgid "CAMBIAR CAJERO"
+msgstr "CHANGER DE CAISSIER"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:496
+msgid "AÑADIR UNO"
+msgstr "AJOUTE UN"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:497
+msgid "AÑADIR FILA"
+msgstr "AJOUTER UNE RANGÉE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:498
+msgid "AÑADIR TODO"
+msgstr "TOUT AJOUTER"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:499
+msgid "VER DOC. ORIGEN"
+msgstr "VOIR LE DOCUMENT D'ORIGINE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:500
+msgid "ANULAR DEVOLUCION"
+msgstr "ANNULER LE RETOUR"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:501
+msgid "PAGOS"
+msgstr "PAIEMENTS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:502
+msgid "GESTIÓN DOCUMENTOS"
+msgstr "GESTION DE DOCUMENTS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:503
+msgid "APARCAR TICKET"
+msgstr "MISE EN ATTENTE TICKET"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:504
+msgid "RECUPERAR TICKET"
+msgstr "RÉCUPÉRATION TICKET EN ATTENTE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:505
+msgid "ANULAR TICKET"
+msgstr "ANNULER TICKET"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:506
+msgid "SALDO GIFTCARD"
+msgstr "SOLDE DES CARTES-CADEAUX"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:507
+msgid "FIDELIZACION"
+msgstr "CLIENT FIDÉLITÉ"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:509
+msgid "NUEVO CLIENTE"
+msgstr "NOUVEAU CLIENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:510
+msgid "EDITAR CLIENTE"
+msgstr "MODIFIER LE CLIENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:511
+msgid "CLIENTE GENÉRICO"
+msgstr "CLIENT GENERIQUE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:512
+msgid "VENDER"
+msgstr "VENDRE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:513
+msgid "OMNICANAL"
+msgstr "OMNICHANNEL"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:514
+msgid "CATÁLOGO ONLINE"
+msgstr "CATALOGUE EN LIGNE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:515
+msgid "Datos envío"
+msgstr "Données d'expédition"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:516
+msgid "Datos cliente"
+msgstr "Donnés client"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:517
+msgid "SELECCIÓN MANUAL"
+msgstr "SÉLECTION MANUELLE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:518
+msgid "CANJEA PUNTOS"
+msgstr "ÉCHANGER DES POINTS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:519
+msgid "CONSULTAR DISPONIBILIDAD"
+msgstr "VOIR LES DISPONIBILITÉS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:520
+msgid "Factura"
+msgstr "Facture"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:521
+msgid "Debe rellenar el campo documento"
+msgstr "Vous devez remplir le champ du document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:522
+msgid "Debe seleccionar un código de tratamiento de impuestos."
+msgstr "Vous devez sélectionner un code de traitement fiscal."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:523
+msgid "Debe rellenar el campo descripción."
+msgstr "Vous devez remplir le champ de description."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:524
+msgid "La longitud del campo no puede superar los 45 caracteres."
+msgstr "La longueur du champ ne peut pas dépasser 45 caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:525
+msgid "Debe rellenar el campo de identificación del cliente."
+msgstr "Vous devez remplir le champ d'identification du client."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:526
+msgid ""
+"La longitud del campo número de documento no puede superar los {max} "
+"caracteres"
+msgstr ""
+"La longueur du champ du numéro de document ne peut pas dépasser {max} "
+"caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:527
+msgid "La longitud del campo no puede superar los 15 caracteres."
+msgstr "La longueur du champ ne peut pas dépasser 15 caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:528
+msgid "Debe rellenar el campo del nombre comercial del cliente."
+msgstr "Vous devez remplir le champ du nom commercial du client."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:529
+msgid ""
+"La longitud del campo nombre comercial no puede superar los {max} caracteres"
+msgstr ""
+"La longueur du champ du nom commercial ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:530
+msgid "La longitud del campo domicilio no puede superar los {max} caracteres"
+msgstr "La longueur du champ d'adresse ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:531
+msgid "Debe rellenar el campo domicilio."
+msgstr "Vous devez remplir le champ d'adresse."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:532
+msgid "La longitud del campo población no puede superar los {max} caracteres"
+msgstr "La longueur du champ de ville ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:533
+msgid "La longitud del campo provincia no puede superar los {max} caracteres"
+msgstr ""
+"La longueur du champ de la province ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:534
+msgid "La longitud del campo localidad no puede superar los {max} caracteres"
+msgstr "La longueur du champ de localité ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:535
+msgid ""
+"La longitud del campo código postal no puede superar los {max} caracteres"
+msgstr ""
+"La longueur du champ du code postal ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:536
+msgid "La longitud del campo teléfono no puede superar los {max} caracteres"
+msgstr ""
+"La longueur du champ de téléphone ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:537
+msgid "Debe seleccionar el país del cliente."
+msgstr "Vous devez sélectionner le pays du client."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:538
+msgid "La longitud del campo no puede superar los {max} caracteres."
+msgstr "La longueur du champ ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:539
+msgid "Debe rellenar el campo longitud del contenido."
+msgstr "Vous devez remplir le champ de longueur du contenu."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:540
+msgid "La longitud del campo no puede superar los 2 caracteres."
+msgstr "La longueur du champ ne peut pas dépasser 2 caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:541
+msgid "El valor introducido debe ser numérico."
+msgstr "La valeur saisie doit être numérique."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:542
+msgid "Debe rellenar el campo posición del contenido."
+msgstr "Vous devez remplir le champ de position de contenu."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:543
+msgid "Debe rellenar el campo posición de la cantidad."
+msgstr "Vous devez remplir le champ de position de quantité."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:544
+msgid "Debe rellenar el campo posición del precio."
+msgstr "Vous devez remplir le champ de position de prix."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:545
+msgid "Debe rellenar el campo parte decimal de la cantidad."
+msgstr "Vous devez remplir la partie décimale du champ de quantité."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:546
+msgid "Debe rellenar el campo parte decimal del precio."
+msgstr "Vous devez remplir le champ partie décimale du prix."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:547
+msgid "Debe rellenar el campo tipo de código."
+msgstr "Vous devez remplir le champ type de code."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:548
+msgid "Debe rellenar el campo parte entera de la cantidad."
+msgstr "Vous devez remplir le champ une partie entière du montant."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:549
+msgid "Debe rellenar el campo parte entera del precio."
+msgstr "Vous devez remplir le champ une partie entière du prix."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:550
+msgid "Debe rellenar el campo prefijo."
+msgstr "Vous devez remplir le champ du préfixe."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:551
+msgid "La longitud del campo Código no puede superar los {max} caracteres."
+msgstr "La longueur du champ Code ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:552
+msgid "Debe rellenar el campo nombre"
+msgstr "Vous devez remplir le champ du nom"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:553
+msgid "La longitud del campo Nombre no puede superar los {max} caracteres."
+msgstr "La longueur du champ Nom ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:554
+msgid "Debe rellenar el campo apellidos"
+msgstr "Vous devez remplir le champ nom de famille"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:555
+msgid "La longitud del campo Apellidos no puede superar los {max} caracteres."
+msgstr "La longueur du champ Nom ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:556
+msgid "Debe seleccionar un tipo de documento"
+msgstr "Vous devez sélectionner un type de document"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:557
+msgid "La longitud del campo Documento no puede superar los {max} caracteres."
+msgstr "La longueur du champ Document ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:558
+msgid "Debe rellenar el campo email"
+msgstr "Vous devez remplir le champ email"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:559
+msgid "La longitud del campo Email no puede superar los {max} caracteres."
+msgstr "La longueur du champ Email ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:560
+msgid "La longitud del campo Móvil no puede superar los {max} caracteres."
+msgstr "La longueur du champ Mobile ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:561
+msgid ""
+"La longitud del campo Código de Pais no puede superar los {max} caracteres."
+msgstr ""
+"La longueur du champ Code de pays ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:562
+msgid ""
+"La longitud del campo Código Postal no puede superar los {max} caracteres."
+msgstr ""
+"La longueur du champ Code postal ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:563
+msgid "Debe rellenar el campo provincia"
+msgstr "Vous devez remplir le champ province"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:564
+msgid "La longitud del campo Provincia no puede superar los {max} caracteres."
+msgstr "La longueur du champ Province ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:565
+msgid "Debe rellenar el campo población"
+msgstr "Vous devez remplir le champ ville"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:566
+msgid "La longitud del campo Población no puede superar los {max} caracteres."
+msgstr "La longueur du champ Ville ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:567
+msgid "La Longitud del campo Localidad no puede superar los {max} caracteres."
+msgstr ""
+"Le champ Longueur de la localité ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:568
+msgid "Debe rellenar el campo domicilio"
+msgstr "Vous devez remplir le champ d'adresse"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:569
+msgid "La longitud del campo Domicilio no puede superar los {max} caracteres."
+msgstr "La longueur du champ Adresse ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:570
+msgid ""
+"La longitud del campo Observaciones no puede superar los {max} caracteres."
+msgstr ""
+"La longueur du champ Observations ne peut pas dépasser {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:571
+msgid "El campo descripción del cliente debe estar relleno."
+msgstr "Le champ de description du client doit être rempli."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:572
+msgid "La longitud del campo descripción no puede superar los {max} caracteres"
+msgstr ""
+"La longueur du champ de description ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:573
+msgid "El campo domicilio del cliente debe estar relleno."
+msgstr "Le champ d'adresse du client doit être rempli."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:574
+msgid "El campo num. documento del cliente debe estar relleno."
+msgstr "Le champ du numéro de document du client doit être rempli."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:575
+msgid ""
+"La longitud del campo  num. documento no puede superar los {max} caracteres"
+msgstr ""
+"La longueur du champ du numéro de document ne peut pas dépasser {max} "
+"caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:576
+msgid "El campo país del cliente debe estar relleno."
+msgstr "Le champ du pays du client doit être rempli."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:577
+msgid "El valor debe ser numérico."
+msgstr "La valeur doit être numérique."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:578
+msgid "La fecha de apertura introducida no es válida"
+msgstr "La date d'ouverture saisie n'est pas valide"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:579
+msgid "Ha de indicar una fecha de apertura"
+msgstr "Vous devez indiquer une date d'ouverture"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:580
+msgid "El saldo ha de tener un valor positivo válido"
+msgstr "Le solde doit avoir une valeur positive valide"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:581
+msgid "El documento no puede superar los {max} caracteres"
+msgstr "Le document ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:582
+msgid "Campo requerido"
+msgstr "Champs requis"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:583
+msgid "El importe introducido no es válido"
+msgstr "Le montant saisi n'est pas valide"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:584
+msgid "La descripción del concepto no puede superar los {max} caracteres"
+msgstr "La description du concept ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:585
+msgid "Ha de indicar una fecha de cierre"
+msgstr "Vous devez indiquer une date de clôture"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:586
+msgid "La fecha de cierre introducida no es válida"
+msgstr "La date de clôture saisie n'est pas valide"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:587
+msgid "El campo 'Código de tienda' no puede tener más de {max} dígitos."
+msgstr "Le champ \"Code magasin\" ne peut pas contenir plus de {max} chiffres."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:588
+msgid "El campo 'Código de tienda' no puede estar vacío."
+msgstr "Le champ \"Code magasin\" ne peut pas être vide."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:589
+msgid "El campo 'Código de ticket' no puede estar vacío."
+msgstr "Le champ \"Code du ticket\" ne peut pas être vide."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:590
+msgid "El campo 'Código de caja' no puede estar vacío."
+msgstr "Le champ \"Code caisse\" ne peut pas être vide."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:591
+msgid "El campo 'Código de caja' no puede tener más de {max} dígitos."
+msgstr "Le champ \"Code caisse\" ne peut pas contenir plus de {max} chiffres."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:592
+msgid "El campo 'Tipo de documento' no puede estar vacío."
+msgstr "Le champ \"Type de document\" ne peut pas être vide."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:593
+msgid "El campo 'Código de documento' no puede tener más de {max} dígitos."
+msgstr ""
+"Le champ \"Code du document\" ne peut pas contenir plus de {max} chiffres."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:594
+msgid "La longitud del código no puede tener más de {max} dígitos."
+msgstr "La longueur du code ne peut pas comporter plus de {max} chiffres."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:595
+msgid "El código del ticket no es válido."
+msgstr "Le code du ticket n'est pas valide."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:596
+msgid "La fecha introducida no tiene un formato correcto."
+msgstr "La date saisie n'est pas dans un format correct."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:597
+msgid "La longitud del campo debe estar entre {min} y {max} caracteres."
+msgstr ""
+"La longueur du champ doit être comprise entre {min} et {max} caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:598
+msgid "La cantidad no puede ser nula"
+msgstr "Le montant ne peut pas être nul"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:599
+msgid "El campo cantidad no es un número válido."
+msgstr "Le champ de quantité n'est pas un nombre valide."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:600
+msgid "El precio no puede ser nulo"
+msgstr "Le prix ne peut pas être nul"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:601
+msgid "El campo precio no es un número válido."
+msgstr "Le champ de prix n'est pas un nombre valide."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:602
+msgid "El campo descuento no es un número válido."
+msgstr "Le champ de remise n'est pas un nombre valide."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:603
+msgid "Debe introducir el código de caja."
+msgstr "Vous devez entrer le code de caisse."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:604
+msgid "Debe introducir el código de tienda."
+msgstr "Vous devez entrer le code du magasin."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:605
+msgid "Debe introducir el código de identificación del documento."
+msgstr "Vous devez saisir le code d'identification du document."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:606
+msgid "La longitud del campo no puede superar los 20 caracteres."
+msgstr "La longueur du champ ne peut pas dépasser 20 caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:607
+msgid "La longitud del campo no puede superar los 50 caracteres."
+msgstr "La longueur du champ ne peut pas dépasser 50 caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:608
+msgid "Debe rellenar el campo nombre."
+msgstr "La longueur du champ ne peut pas passer de 50 caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:609
+msgid "La longitud del campo nombre no puede superar los {max} caracteres"
+msgstr "La longueur du champ de nom ne peut pas dépasser {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:610
+msgid ""
+"La longitud del campo num. documento no puede superar los {max} caracteres"
+msgstr ""
+"La longueur du champ du numéro de document ne peut pas dépasser {max} "
+"caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:611
+msgid "Debe rellenar el campo telefono."
+msgstr "Vous devez remplir le champ téléphone."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:612
+msgid "Debe introducir un valor distinto de 0"
+msgstr "Vous devez entrer une valeur différente de 0"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:613
+msgid "El campo permite un máximo de {max} caracteres"
+msgstr "Le champ autorise un maximum de {max} caractères"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:614
+msgid "Debe ingresar un nombre de usuario."
+msgstr "Vous devez entrer un nom d'utilisateur."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:615
+msgid "Debe ingresar un password."
+msgstr "Vous devez entrer un mot de passe."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:616
+msgid "La longitud del usuario debe estar entre {min} y {max} caracteres."
+msgstr ""
+"La longueur de l'utilisateur doit être comprise entre {min} et {max} "
+"caractères."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:617
+msgid ""
+"La longitud de las observaciones debe ser como máximo de {max} caracteres,"
+msgstr "La longueur des observations doit être au maximum de {max} caractères,"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:618
+msgid "Debe introducir la descripción de la actividad."
+msgstr "Vous devez saisir la description de l'activité."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:619
+msgid "La longitud de la descripción debe ser como máximo de {max} caracteres,"
+msgstr ""
+"La longueur de la description doit être au maximum de {max} caractères,"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:620
+msgid "Debe seleccionar un tipo de contacto."
+msgstr "Vous devez sélectionner un type de contact."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:621
+msgid "Debe introducir un valor."
+msgstr "Vous devez saisir une valeur."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:622
+msgid "La longitud del valor debe ser como máximo de {max} caracteres,"
+msgstr "La longueur de la valeur doit être au maximum de {max} caractères,"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:623
+msgid "Debe introducir la descripción de la solicitud."
+msgstr "Vous devez saisir la description de la demande."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:624
+msgid "Debe seleccionar un tipo de solicitud."
+msgstr "Vous devez sélectionner un type de demande."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:625
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:633
+msgid "Servicios"
+msgstr "Services"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:626
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:652
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:660
+msgid "Gestíon de servicios"
+msgstr "La gestion des services"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:630
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:640
+msgid "Identificación de Cliente"
+msgstr "Identification du Client"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:632
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:636
+msgid "Venta a crédito"
+msgstr "Vente à crédit"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:642
+msgid "Gestión de Apartados"
+msgstr "Gestion de réservations"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:651
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:653
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:657
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:659
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:661
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:663
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:667
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:669
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:683
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:689
+msgid "Backstore"
+msgstr "Backstore"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:658
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:668
+msgid "Impresión de cupones"
+msgstr "Impression de coupons"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:662
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:670
+msgid "Mantenimiento de Clientes"
+msgstr "Maintenance de Clients"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:665
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:673
+msgid "Central"
+msgstr "Central"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:666
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:674
+msgid "Backoffice"
+msgstr "Backoffice"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:672
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:680
+msgid "Configuración TPV"
+msgstr "Configuration POS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:676
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:682
+msgid "Códigos de Barras especiales"
+msgstr "Codes à barres spéciaux"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:686
+msgid "Configuración de Medios de Pago"
+msgstr "Configuration des modes de paiement"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:688
+#: com/comerzzia/pos/gui/ventas/entregaCuenta/FacturacionArticulosVentaCreditoController.java:56
+msgid "Venta Omnicanal"
+msgstr "Vente Omnicanale"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:691
+msgid "FORMULARIO DE SOLICITUD DE ALTA DE FIDELIZADO"
+msgstr "FORMULAIRE DE DEMANDE D'INSCRIPTION DE FIDÉLITÉ"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:692
+msgid "de"
+msgstr "de"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:694
+msgid ""
+"Asimismo utilizaremos sus datos personales para proporcionarle información "
+"comercial a través de cualquier medio de comunicación electrónica (correo "
+"electrónico, sms, etc…) así como a través de llamadas telefónicas o correo "
+"postal, sobre nuestros servicios y productos asi como de servicios y "
+"productos complementarios de terceras entidades que pueda ser de su interés, "
+"salvo que se oponga marcando las siguientes casillas:"
+msgstr ""
+"Nous utiliserons également vos données personnelles pour vous fournir des "
+"informations commerciales par tout moyen de communication électronique "
+"(email, sms, etc ...) ainsi que par téléphone ou courrier postal, sur nos "
+"services et produits ainsi que sur les services et produits complémentaires "
+"de des tiers susceptibles de vous intéresser, sauf si vous vous y opposez en "
+"cochant les cases suivantes:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:695
+msgid "Hombre"
+msgstr "Homme"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:696
+msgid "POBLACIÓN"
+msgstr "VILLE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:697
+msgid "DOMICILIO"
+msgstr "DOMICILE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:698
+msgid "GÉNERO"
+msgstr "LE GENRE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:699
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:701
+msgid ""
+" con la finalidad recabar información para la elaboración de estudios y "
+"estadísticas que nos permitan mejorar nuestra relación con nuestros clientes "
+"y ofrecerles servicios y productos más acorde con sus hábitos, gustos y "
+"necesidades, prestándole así nuestros servicios exclusivos para clientes "
+"registrados (ofertas, descuentos y promociones)."
+msgstr ""
+" afin de collecter des informations pour la préparation d'études et de "
+"statistiques qui nous permettent d'améliorer notre relation avec nos clients "
+"et de leur proposer des services et des produits plus en phase avec leurs "
+"habitudes, goûts et besoins, fournissant ainsi nos services exclusifs aux "
+"clients enregistrés (offres, réductions et promotions )."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:702
+msgid "MÓVIL"
+msgstr "MOBILE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:703
+msgid "PERMITE NOTIFICACIONES"
+msgstr "PERMET LES NOTIFICATIONS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:704
+msgid "¡GRACIAS!"
+msgstr "MERCI!"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:706
+msgid ""
+"Igualmente le informamos que sus datos personales podrán ser comunicados a "
+"las empresas de grupo con la finalidad del envío por parte de estas de "
+"comunicaciones comerciales. Puede consultar la identidad de las empresas del "
+"grupo en www.scalpers.es/partnersPuede oponerse al tratamiento de sus datos "
+"con esta finalidad marcando la siguiente casilla:"
+msgstr ""
+"Nous vous informons également que vos données personnelles peuvent être "
+"communiquées aux sociétés du groupe dans le but d'envoyer des communications "
+"commerciales de leur part. Vous pouvez vérifier l'identité des sociétés du "
+"groupe sur www.scalpers.es/partners Vous pouvez vous opposer au traitement "
+"de vos données à cette fin en cochant la case suivante:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:707
+msgid ""
+" No deseo recibir comunicaciones comerciales de los servicios y productos de "
+msgstr ""
+" Je ne souhaite pas recevoir de communications commerciales sur les services "
+"et produits de "
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:708
+msgid "NOMBRE"
+msgstr "NOM"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:709
+msgid "No deseo que mis datos sean comunicados a las empresas del grupo."
+msgstr ""
+"Je ne souhaite pas que mes données soient communiquées aux sociétés du "
+"groupe."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:710
+msgid ""
+"No deseo recibir comunicaciones comerciales de los servicios y productos "
+"complementarios de terceras entidades."
+msgstr ""
+"Je ne souhaite pas recevoir de communications commerciales de services et "
+"produits complémentaires de la part de tiers."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:712
+msgid ""
+"En cumplimiento de lo dispuesto en la Ley Orgánica 15/1999, de 13 de "
+"diciembre, de Protección de Datos de Carácter Personal, le informamos que "
+"los datos personales que nos facilite en el presente formulario serán "
+"incorporados en un fichero titularidad de "
+msgstr ""
+"Conformément aux dispositions de la loi organique 15/1999 du 13 décembre sur "
+"la protection des données personnelles, nous vous informons que les données "
+"personnelles que vous nous fournissez dans ce formulaire seront incorporées "
+"dans un fichier appartenant "
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:713
+msgid ""
+"Podrá en todo momento, ejercitar sus derechos de acceso, rectificación, "
+"cancelación y oposición comunicándolo por correo ordinario a "
+msgstr ""
+"Vous pouvez, à tout moment, exercer vos droits d'accès, de rectification, "
+"annulation et opposition en le communiquant par courrier ordinaire à "
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:714
+msgid "FECHA DE NACIMIENTO"
+msgstr "DATE DE NAISSANCE"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:715
+msgid "CP:"
+msgstr "CP:"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:716
+msgid "TIPO DE DOCUMENTO"
+msgstr "TYPE DE DOCUMENT"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:717
+msgid "Página"
+msgstr "Page"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:718
+msgid "PAÍS"
+msgstr "PAYS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:719
+msgid ", junto con una copia de su DNI u otro documento identificativo."
+msgstr ""
+", avec une copie de votre pièce d'identité ou autre document "
+"d'identification."
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:721
+msgid "APELLIDOS"
+msgstr "LES SURNAMS"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:722
+msgid "Mujer"
+msgstr "Femme"
+
+#: com/comerzzia/pos/gui/i18n/gen/AdditionalMessages.java:723
+msgid "FIRMA"
+msgstr "SIGNATURE"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/BuscarClienteController.java:107
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:752
+msgid "Se borrará el cliente seleccionado. ¿Está seguro?"
+msgstr "Le client sélectionné sera supprimé. Êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/codPostales/SeleccionPoblacionController.java:72
+msgid "Seleccione una población antes de continuar."
+msgstr "Veuillez sélectionner une ville avant de continuer."
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:290
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:346
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/datosCliente/CambiarDatosClienteApartadoController.java:116
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:263
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:270
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:211
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:215
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:246
+msgid "Error consultando los documentos de identificación de la tienda."
+msgstr ""
+"Erreur lors de la consultation des documents d'identification du magasin."
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:571
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:710
+msgid "No se pudo crear el cliente."
+msgstr "Le client n'a pas pu être créé."
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:685
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:500
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:551
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:554
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:552
+msgid "Error en la búsqueda, país no encontrado"
+msgstr "Erreur de recherche, pays introuvable"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:692
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:504
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:559
+msgid "Error en la búsqueda del país del cliente."
+msgstr "Erreur dans la recherche du pays du client."
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:706
+msgid "No se encontró el cliente cuyos datos se desean modificar."
+msgstr "Aucun client dont les données ont été trouvées vouloir changer."
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:895
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:405
+msgid "La petición no se procesó correctamente."
+msgstr "La demande n'a pas été traitée correctement."
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:898
+msgid "Error. dirección de servicio rest no encontrada (HTTP 404)"
+msgstr "Erreur. Adresse de service rest introuvable (HTTP 404)"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:901
+msgid "No se pudo conectar con los servicios rest (HTTP 400)"
+msgstr "Impossible connecter avec les services rest (HTTP 400)"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:904
+msgid "No se pudo conectar con los servicios rest (HTTP 500)"
+msgstr "Impossible connecter avec les services rest (HTTP 500)"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:907
+msgid "No se pudo conectar con los servicios rest"
+msgstr "Impossible connecter avec les services rest"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:911
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:421
+#, java-format
+msgid ""
+"El cliente con el documento {0}, el tipo de documento {1} y el país {2} no "
+"existe en el sistema"
+msgstr ""
+"Le client avec le document {0}, le type de document {1} et le pays {2} "
+"n'existe pas dans le système"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:914
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:425
+#, java-format
+msgid "El cliente con el documento {0} no existe en el sistema"
+msgstr "Le client avec le document {0} n'est pas dans le system"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1010
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:672
+msgid ""
+"El documento indicado no es válido, ¿desea guardar el cliente de todas "
+"formas?"
+msgstr ""
+"Le document indiqué n'est pas valide, voulez-vous quand même enregistrer le "
+"client?"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1014
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosCliente/CambiarDatosClienteController.java:676
+msgid ""
+"Ha habido un error al intentar validar el documento, ¿desea guardar el "
+"cliente de todas formas?"
+msgstr ""
+"Une erreur s'est produite lors de la validation du document, voulez-vous "
+"quand même enregistrer le client?"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1099
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:622
+msgid "Documento valido"
+msgstr "Document valide"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1101
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:624
+msgid "Documento no valido"
+msgstr "Document invalide"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1105
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:628
+#, java-format
+msgid "La clase {0} no implementa la interfaz {1}"
+msgstr "La classe {0} n'implémente pas l'interface {1}"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1109
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:632
+#, java-format
+msgid "No se ha encontrado la clase {0}"
+msgstr "Classe {0} introuvable"
+
+#: com/comerzzia/pos/gui/mantenimientos/clientes/MantenimientoClienteController.java:1113
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:636
+msgid "Error validando el documento de identificación: "
+msgstr "Erreur lors de la validation du document d'identification: "
+
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/MantenimientoCodigoBarrasController.java:178
+msgid ""
+"Se produjo un error consultando las configuraciones de códigos de barra."
+msgstr ""
+"Une erreur s'est produite lors de l'interrogation des paramètres du code-"
+"barres."
+
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/MantenimientoCodigoBarrasController.java:253
+msgid "Se borrará la configuración seleccionada. ¿Está seguro?"
+msgstr "Les paramètres sélectionnés seront effacés. Êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/MantenimientoCodigoBarrasController.java:261
+msgid "No se pudo eliminar la configuración seleccionada."
+msgstr "La configuration sélectionnée n'a pas pu être supprimée."
+
+#: com/comerzzia/pos/gui/mantenimientos/codigoBarras/NuevoCodBarrasEspecialController.java:221
+msgid "Error. No se pudo completar la operación."
+msgstr "Erreur. L'opération n'a pas pu être complété."
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:136
+msgid "Debe escoger una promoción generadora de cupones"
+msgstr "Vous devez choisir une promotion qui gère de cupons"
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:139
+msgid "Debe introducir una cantidad válida"
+msgstr "Vous devez entrer un montant valide"
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:145
+msgid "No existen cupones para impresión manual"
+msgstr "Il n'y a pas de coupons pour l'impression manuelle"
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:162
+msgid "La promoción escogida no es válida"
+msgstr "La promotion choisie n'est pas valide"
+
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:167
+#: com/comerzzia/pos/gui/mantenimientos/cupones/ImpresionCuponesController.java:171
+msgid "Error obteniendo los cupones a imprimir"
+msgstr "Erreur lors de l'impression des coupons"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/colectivos/ColectivoController.java:147
+msgid "Debe seleccionar antes el colectivo correspondiente."
+msgstr "Vous devez d'abord sélectionner le groupe correspondant."
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:517
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:520
+msgid "Error en la búsqueda, tipos de documento no encontrado"
+msgstr "La recherche a échoué, types de documents introuvables"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/datosgenerales/PaneDatosGeneralesController.java:548
+msgid "Error en la búsqueda de tipos de documento"
+msgstr "Erreur de recherche de type de document"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/FidelizadoController.java:490
+msgid "El código de fidelizado indicado ya existe"
+msgstr "Le code de fidélité indiqué existe déjà"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/FidelizadoController.java:781
+msgid "Fidelizado creado correctamente"
+msgstr "Fidélité créée correctement"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/FidelizadoController.java:857
+msgid "Fidelizado editado correctamente"
+msgstr "Loyalist édité correctement"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/MovimientoGui.java:28
+msgid "Definitivo"
+msgstr "Définitive"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/MovimientoGui.java:31
+msgid "Provisional"
+msgstr "Provisoire"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/MovimientoGui.java:34
+msgid "Anulado"
+msgstr "Annulé"
+
+#: com/comerzzia/pos/gui/mantenimientos/fidelizados/tiendas/TiendaController.java:148
+msgid "Debe seleccionar antes la tienda correspondiente."
+msgstr "Vous devez d'abord sélectionner le magasin correspondant."
+
+#: com/comerzzia/pos/gui/util/notifications/ShowScreenNotificationsController.java:54
+msgid ""
+"No se han especificado las notificaciones. Contacte con un administrador si "
+"el problema persiste."
+msgstr ""
+"Les notifications n'ont pas été spécifiées. Contactez un administrateur si "
+"le problème persiste."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:251
+msgid "Error cargando pantalla de apartados."
+msgstr "Erreur lors du chargement de l'écran de la réservations."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:286
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:182
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:461
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:216
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:829
+msgid "No hay caja abierta. Se abrirá automáticamente."
+msgstr "Il n'y a pas de caisse ouvert. Il s'ouvrira automatiquement."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:289
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:185
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:465
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:219
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:833
+msgid "No hay caja abierta. Deberá ir a la gestión de caja para abrirla."
+msgstr ""
+"Il n'y a pas de caisse ouvert. Vous devrez aller à la gestión de caisse pour "
+"l´ouvrir."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:297
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:193
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:473
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:851
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:834
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1839
+#, java-format
+msgid ""
+"No se puede realizar la venta. El día de apertura de la caja {0} no coincide "
+"con el del sistema {1}"
+msgstr ""
+"La vente ne peut être effectuée. Le jour d'ouverture du caisse {0} ne "
+"coïncide pas avec celui du système {1}"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:564
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:621
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:289
+#: com/comerzzia/pos/gui/ventas/devoluciones/tipoDocumento/TipoDocumentoController.java:127
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:132
+msgid "Error cargando pantalla. Para mas información consulte el log."
+msgstr ""
+"Erreur de chargement de l'écran. Pour plus d'informations, consultez le log."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:568
+msgid "El apartado seleccionado no se puede editar."
+msgstr "La réservation sélectionnée ne peut pas être modifiée."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:633
+msgid "El apartado no se puede cancelar."
+msgstr "La réservation ne peut pas être annulée."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:636
+msgid "Se cancelará el apartado. ¿Está seguro?"
+msgstr "La réservation sera annulée. Êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:664
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:775
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:823
+msgid "Error grabando el movimiento de caja."
+msgstr "Erreur dans le registrement du mouvent de caisse."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:688
+msgid "El apartado no está disponible para su venta."
+msgstr "Le réservation n'est pas disponible à la vente."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:695
+msgid "El coste del apartado no está cubierto."
+msgstr "Le coût de la réservation n'est pas couvert."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:699
+msgid "Se va a proceder a finalizar el apartado. ¿Desea continuar?"
+msgstr "Il procédera à la fin de la réservation . Continuer?"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:732
+msgid "Debe indicar todos los números de serie para continuar."
+msgstr "Vous devez entrer tous les numéros de série pour continuer."
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:739
+msgid "Ha habido un error durante el procesado de los números de serie"
+msgstr "Une erreur s'est produite lors du traitement des numéros de série"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:792
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:392
+msgid "¿Desea asignar datos de facturación?"
+msgstr "Voulez-vous attribuer des informations de facturation?"
+
+#: com/comerzzia/pos/gui/ventas/apartados/ApartadosController.java:833
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:429
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1370
+msgid "Error al salvar el ticket."
+msgstr "Échec de l'enregistrement du ticket."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/datosCliente/CambiarDatosClienteApartadoController.java:112
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:259
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:207
+msgid ""
+"No se encontraron documentos de identificación configurados para la tienda."
+msgstr ""
+"Aucun document d'identification configuré pour le magasin n'a été trouvé."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:365
+#, java-format
+msgid "Detalle apartado {0}"
+msgstr "Détaille du réservation {0}"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:387
+msgid "Nuevo apartado"
+msgstr "Nouvelle réservation"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:426
+msgid "---NUEVO APARTADO---"
+msgstr "---NOUVEL RÉSERVATION---"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:519
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:527
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:636
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:674
+msgid "No están permitidas recargas de tarjeta regalo en apartados."
+msgstr ""
+"Les recharges de cartes-cadeaux ne sont pas autorisées dans les réservations."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:615
+msgid "Para insertar artículos debe estar en modo edición."
+msgstr "Pour insérer des articles, vous devez être en mode édition."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:678
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1811
+msgid "No se ha podido insertar la línea"
+msgstr "Impossible d'insérer la ligne"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:775
+msgid "No existen pagos asociados al apartado."
+msgstr "Il n'y a aucun paiement associé à la réservation."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:798
+msgid "No se puede crear un apartado vacío"
+msgstr "Impossible de créer une réservation vide"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:823
+msgid "Cambios guardados correctamente."
+msgstr "Changements sauvegardés avec succès."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:843
+msgid "La fecha de recogida no debe ser anterior al día de hoy."
+msgstr "La date de collecte ne doit pas être antérieure à aujourd'hui."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:871
+msgid "No se pueden editar datos de un apartado finalizado o cancelado."
+msgstr ""
+"Vous ne pouvez pas modifier les données d'une section terminée ou annulée ."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:903
+msgid "No se puede borrar una línea que ya está servida."
+msgstr "Vous ne pouvez pas supprimer une ligne déjà diffusée."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:910
+msgid "El artículo ya está cancelado."
+msgstr "L'élément est déjà annulé."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:914
+msgid "Se va a cancelar el artículo seleccionado. ¿Está seguro?"
+msgstr "L'élément sélectionné sera annulé. Êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:926
+msgid "Debe confirmar o rechazar antes los cambios."
+msgstr "Vous devez d'abord confirmer ou rejeter les modifications."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:931
+msgid "No se pueden añadir pagos al apartado."
+msgstr "Vous ne pouvez pas ajouter de paiements à la réservation."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:955
+msgid "Se produjo un error en la carga del documento de pagos."
+msgstr "Une erreur s'est produite lors du chargement du document de paiement."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:960
+msgid "El importe pendiente de abonar es 0."
+msgstr "Le montant en attente de paiement est de 0."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:971
+msgid "Debe confirmar antes los cambios."
+msgstr "Vous devez d'abord confirmer les modifications."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:985
+msgid "No hay artículos disponibles para su venta."
+msgstr "Il n'y a pas d'articles disponibles à la vente."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1021
+msgid "No se puede cambiar el cliente del apartado."
+msgstr "Vous ne pouvez pas changer le client de la réservation."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1031
+msgid ""
+"Debe confirmar o rechazar los cambios para poder cerrar la pantalla de "
+"detalle de apartado."
+msgstr ""
+"Vous devez confirmer ou rejeter les modifications afin de fermer l'écran de "
+"détail de la réservation."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1049
+msgid "Debe confirmar o rechazar los cambios antes de imprimir el extracto."
+msgstr ""
+"Vous devez confirmer ou rejeter les modifications avant d'imprimer le relevé."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1056
+msgid "Se produjo un error en la impresión"
+msgstr "Une erreur d'impression s'est produite"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1068
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1076
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2412
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2422
+#, java-format
+msgid "El artículo \"{0} - {1}\" no está tarificado."
+msgstr "Le article \"{0} - {1}\" n'esta pas tarifié."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1068
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1084
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:633
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2413
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2430
+msgid "¿Desea vender el artículo a precio 0?"
+msgstr "Voulez-vous vendre l'article au prix 0?"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1076
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1092
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:640
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2423
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2439
+msgid "No está permitida la venta a precio 0."
+msgstr "La vente au prix 0 n'est pas autorisée."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/DetalleApartadosController.java:1118
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2451
+msgid "No tiene permisos para usar articulos genéricos"
+msgstr "Vous n'êtes pas autorisé à utiliser des articles génériques"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:365
+msgid "Debe indicar los números de serie para continuar."
+msgstr "Vous devez entrer les numéros de série pour continuer."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:372
+msgid "Ha habido un error al procesar los números de serie"
+msgstr "Une erreur s'est produite lors du traitement des numéros de série"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:382
+msgid "Debe seleccionar al menos un artículo para la venta."
+msgstr "Vous devez sélectionner au moins un article à vendre."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:386
+msgid "El saldo disponible del cliente es inferior al total de la venta."
+msgstr "Le solde disponible du client est inférieur au total de la vente."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/marcarVenta/MarcarVentaApartadoController.java:420
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:253
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:443
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:220
+#: com/comerzzia/pos/gui/ventas/gestiontickets/ticketRegalo/TicketRegaloController.java:305
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1352
+msgid "Lo sentimos, ha ocurrido un error al imprimir."
+msgstr "Désolé, une erreur s'est produite lors de l'impression."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:160
+msgid "No se permite el uso de diferentes medios de pago."
+msgstr "L'utilisation de différents moyens de paiement n'est pas autorisée."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:173
+msgid "Confirme operación"
+msgstr "Confirmer l'opération"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:173
+msgid "¿Desea eliminar los registros?"
+msgstr "Voulez-vous supprimer les enregistrements?"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:189
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:524
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:587
+msgid "Borrar pago"
+msgstr "Supprimer le paiement"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:189
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1567
+msgid "Sin pagos para eliminar."
+msgstr "Aucun paiement à supprimer."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:211
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1824
+#, java-format
+msgid ""
+"No se puede realizar la venta. La cantidad que se quiere pagar en efectivo "
+"supera el máximo permitido ({0})"
+msgstr ""
+"La vente ne peut être effectuée. Le montant que vous souhaitez payer en "
+"espèces dépasse le maximum autorisé ({0})"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:218
+#, java-format
+msgid ""
+"No se puede realizar el pago. El día de apertura de la caja {0} no coincide "
+"con el del sistema {1}"
+msgstr ""
+"Le paiement ne peut être effectué. Le jour d'ouverture de la caisse {0} ne "
+"coïncide pas avec celui du système {1}"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:278
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1864
+msgid "Los pagos han de cubrir el importe a pagar."
+msgstr "Les paiements doivent couvrir le montant à payer."
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:292
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1181
+msgid "TOTAL:     "
+msgstr "TOTAL: "
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/pagos/NuevoPagoApartadoController.java:293
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1187
+msgid "PENDIENTE: "
+msgstr "IMPAYÉ: "
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/verPagos/VerPagosApartadoController.java:152
+msgid "Error consultando los pagos del apartado"
+msgstr "Erreur lors de la consultation des paiements de la réservation"
+
+#: com/comerzzia/pos/gui/ventas/apartados/detalle/verPagos/VerPagosApartadoController.java:188
+msgid "Se produjo un error en la impresión."
+msgstr "Une erreur s'est produite lors de l'impression."
+
+#: com/comerzzia/pos/gui/ventas/apartados/pagoApartado/PagoApartadoController.java:107
+msgid "El importe no debe superar el total del apartado."
+msgstr "Le montant ne doit pas dépasser le total de la réservation."
+
+#: com/comerzzia/pos/gui/ventas/apartados/pagoApartado/PagoApartadoController.java:111
+msgid "El importe debe ser mayor que cero."
+msgstr "Le montant doit être supérieur à zéro."
+
+#: com/comerzzia/pos/gui/ventas/apartados/pagoApartado/PagoApartadoController.java:116
+msgid "Debe introducir un número válido."
+msgstr "Vous devez entrer un numéro valide."
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:271
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:338
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:243
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:368
+msgid "Error cargando pantalla pagos."
+msgstr "Erreur lors du chargement de l'écran de paiement."
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:314
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:389
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1118
+msgid "No hay ninguna forma de pago seleccionada."
+msgstr "Il n'y a pas de mode de paiement sélectionné."
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:448
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:515
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1731
+msgid "Ha habido un error al recuperar el medio de pago"
+msgstr "Une erreur s'est produite lors de la récupération du mode de paiement"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:453
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:520
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1735
+msgid "No se ha especificado una acción correcta para este botón"
+msgstr "Une action correcte n'a pas été spécifiée pour ce bouton"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:495
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:561
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1583
+msgid "Confirme operación."
+msgstr "Confirmer l'opération."
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:495
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:561
+msgid "¿Desea eliminar el registro?"
+msgstr "Voulez-vous supprimer l'enregistrement?"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:499
+msgid "Deberá seleccionar una línea antes de continuar."
+msgstr "Vous devrez sélectionner une ligne avant de continuer."
+
+#: com/comerzzia/pos/gui/ventas/cajas/apertura/recuento/RecuentoCajaAperturaController.java:524
+#: com/comerzzia/pos/gui/ventas/cajas/recuentos/RecuentoCajaController.java:587
+msgid ""
+"Sin pagos para eliminar. Prueba de un mensaje de información bastante largo."
+msgstr ""
+"Aucun paiement à supprimer. Test d'un message d'information assez long."
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/InsertarApunteController.java:191
+msgid "El código de concepto no existe en la base de datos"
+msgstr "Le code du concept n'existe pas dans la base de données"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/InsertarApunteController.java:218
+msgid "SALIDA DE CAJA"
+msgstr "SORTIES DE CAISSE"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/InsertarApunteController.java:220
+msgid "ENTRADA EN CAJA"
+msgstr "ENTRÉE EN CAISSE"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/tablaApuntes/TablaApuntesController.java:103
+msgid "Debe seleccionar un elemento de la tabla"
+msgstr "Vous devez sélectionner un élément du tableau"
+
+#: com/comerzzia/pos/gui/ventas/cajas/apuntes/tablaApuntes/TablaApuntesController.java:108
+msgid "Conceptos"
+msgstr "Concepts"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:315
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:240
+msgid "No está configurado el tipo de documento cierre de caja en el entorno."
+msgstr ""
+"Le type de document de caisse enregistreuse n'est pas configuré dans "
+"l'environnement."
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:483
+#, java-format
+msgid ""
+"No se puede insertar un apunte manual. El día de apertura de la caja {0} no "
+"coincide con el del sistema {1}"
+msgstr ""
+"Vous ne pouvez pas insérer de mémo manuel. Le jour d'ouverture du caisse {0} "
+"ne coïncide pas avec celui du système {1}"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:534
+msgid "Error recuperando el último cierre de caja para su impresión."
+msgstr ""
+"Erreur lors de la récupération de la dernière clôture de caisse pour "
+"l'impression."
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:552
+msgid "No se pueden borrar movimientos. La caja está cerrada."
+msgstr "Vous ne pouvez pas supprimer les mouvements. La caisse est fermée."
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:560
+msgid "¿Está seguro de querer eliminar esta línea de caja?"
+msgstr "Êtes-vous sûr de vouloir éliminer cette ligne de caisse ?"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:572
+msgid "Error eliminando la línea de caja."
+msgstr "Erreur lors de la suppression de la ligne de caisse."
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:693
+msgid ""
+"Para realizar el recuento de caja se deben cerrar todas las pantallas "
+"abiertas. ¿Desea continuar?"
+msgstr ""
+"Pour effectuer le comptage des caisse,tous les écrans ouverts doivent être "
+"fermés. souhaitez-vous continuer?"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:698
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:328
+msgid "Ya existe un recuento de la caja. ¿Desea borrarlo y empezar de nuevo?"
+msgstr ""
+"Un décompte de caisse existe déjà. Voulez-vous le supprimer et recommencer?"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:724
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:188
+msgid "Caja ABIERTA"
+msgstr "Caisse OUVERTE"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:772
+msgid "El ticket seleccionado no se ha encontrado en esta caja."
+msgstr "Le ticket sélectionné n'a pas été trouvé dans cette caisse."
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:777
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:233
+msgid "Error leyendo información de ticket"
+msgstr "Erreur lors de la lecture des informations du ticket"
+
+#: com/comerzzia/pos/gui/ventas/cajas/CajasController.java:783
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:289
+msgid "Fallo al imprimir ticket."
+msgstr "Échec de l'impression du ticket."
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:310
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:342
+msgid ""
+"Para cerrar la caja se deben cerrar todas las pantallas abiertas. ¿Desea "
+"continuar?"
+msgstr ""
+"Pour fermer la caisse, tous les écrans ouverts doivent être fermés. "
+"souhaitez-vous continuer?"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:360
+msgid ""
+"Caja descuadrada con un importe mayor que el permitido. Revise recuento."
+msgstr ""
+"Hors caisse carrée avec un montant supérieur à celui autorisé. Vérifiez le "
+"déclaré."
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:365
+msgid ""
+"Se va a cerrar la caja con descuadres mayores al valor permitido, ¿Desea "
+"continuar?"
+msgstr ""
+"La caisse va être fermée avec plus que la valeur autorisée. Voulez-vous "
+"continuer?"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:370
+msgid "¿Seguro de realizar el Cierre?"
+msgstr "Etes-vous sûr de vouloir effectuer la clôture de caisse?"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:392
+msgid "Caja cerrada con descuadres"
+msgstr "Opération Clôture de caisse effectuée avec discordances"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:485
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:486
+msgid "En "
+msgstr "Dans "
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:485
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:486
+msgid "Tickets"
+msgstr "Tickets"
+
+#: com/comerzzia/pos/gui/ventas/cajas/cierre/CierreCajaController.java:546
+msgid "La fecha de cierre no puede ser anterior a la fecha de apertura."
+msgstr "La date de clôture ne peut être antérieure à la date d'ouverture."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:307
+msgid "Se perderán los cambios realizados, ¿está seguro?"
+msgstr "Les modifications apportées seront perdues, êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:341
+msgid ""
+"Se procederá a aplicar los cambios en el ticket de devolución, ¿está seguro?"
+msgstr ""
+"Les modifications seront appliquées au ticket de retour, êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:443
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:473
+msgid "Debe seleccionar previamente la línea que desea modificar."
+msgstr "Vous devez d'abord sélectionner la ligne que vous souhaitez modifier."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:576
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:577
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1269
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1270
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1274
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1275
+msgid "El número de tarjeta no coincide con el de la operación original"
+msgstr "Le numéro de la carte n'est pas le même de la opération originale"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:580
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:581
+msgid "El número de tarjeta no es válido"
+msgstr "Le numéro de la carte n'est pas valide"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/articulos/DevolucionArticulosController.java:592
+#, java-format
+msgid "La línea {0} no se ha podido insertar por el siguiente motivo: "
+msgstr "La ligne {0} n'a pas pu être insérée pour la raison suivante: "
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:141
+msgid "--NUEVA DEVOLUCION--"
+msgstr "- NOUVEAU RETOUR--"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:149
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:138
+msgid "No está configurado el tipo de documento nota de crédito en el entorno."
+msgstr "Le type de note de crédit n'est pas configuré dans l'environnement."
+
+<<<<<<< .mine
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:229
+=======
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:229
+#, java-printf-format
+>>>>>>> .r18029
+msgid "El documento %s no se ha encontrado"
+msgstr "Le document %s est introuvable"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:257
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2196
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2250
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1484
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1519
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2139
+msgid "Lo sentimos, ha ocurrido un error."
+msgstr "Désolé, une erreur s'est produite."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:280
+msgid ""
+"El ticket fue realizando en una tienda con un tratamiento fiscal diferente "
+"al de esta tienda. No se puede realizar esta devolución."
+msgstr ""
+"Le billet a été émis dans un magasin avec un traitement fiscal différent de "
+"celui de ce magasin. Ce remboursement ne peut être effectué."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:296
+msgid ""
+"No se han podido recuperar las líneas devueltas desde la central. Por favor, "
+"compruebe el ticket impreso para ver las líneas ya devueltas."
+msgstr ""
+"Impossible de récupérer les lignes renvoyées par le central. Veuillez "
+"vérifier le ticket imprimé pour voir les lignes déjà retournées."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:299
+msgid "No se ha encontrado ningún ticket con esos datos"
+msgstr "Aucun ticket avec ces données n'a été trouvé"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:329
+#, java-format
+msgid "El código {0} no es un localizador o un código de documento válido"
+msgstr "Le code {0} n'est pas un code de document ou un localisateur valide"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:372
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:345
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:356
+msgid "El documento seleccionado no es válido."
+msgstr "Le document sélectionné n'est pas valide."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:383
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:505
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:361
+msgid "El tipo de documento indicado no existe en la base de datos."
+msgstr "Le type de document indiqué n'existe pas dans la base de données."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:389
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:511
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:367
+msgid "El id introducido no es válido."
+msgstr "L'identifiant saisi n'est pas valide."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/DevolucionesController.java:402
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:114
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:907
+msgid "---CAJA CERRADA---"
+msgstr "---CAISSE FERMÉE---"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:419
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:672
+msgid "La tarjeta introducida está dada de baja."
+msgstr "La carte insérée est annulée."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:423
+msgid "El número de tarjeta no es válido."
+msgstr "Le numéro de la carte n'est pas valide."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:439
+msgid ""
+"Ha ocurrido un error al conectar con el servidor para consultar la tarjeta "
+"regalo"
+msgstr ""
+"Une erreur s'est produite lors de la connexion au serveur pour afficher la "
+"carte-cadeau"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:607
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:590
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1863
+#, java-format
+msgid "La cantidad debe ser menor que {0}"
+msgstr "La quantité doit être inférieure à {0}"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:685
+msgid ""
+"Se va a introducir un artículo que no estaba en la venta original. ¿Está "
+"seguro?"
+msgstr ""
+"Un article qui ne faisait pas partie de la vente initiale est sur le point "
+"d'être saisi. Êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:691
+msgid ""
+"Este artículo ya está completamente devuelto en la venta original. Se "
+"introducirá en positivo. ¿Está seguro?"
+msgstr ""
+"Cet article est déjà entièrement retourné lors de la vente initiale. Il sera "
+"introduit de manière positive. Êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:705
+msgid "Ha habido un error al introducir la línea"
+msgstr "Une erreur s'est produite lors de la saisie de la ligne"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:804
+msgid "No tiene permisos para cancelar la devolución."
+msgstr "Vous n'avez pas la permission d'annuler le retour."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:809
+msgid "Se anulará la devolución, ¿seguro que desea continuar?"
+msgstr "Le retour sera annulé, êtes-vous sûr de vouloir continuer?"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:866
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1191
+msgid ""
+"Ha habido un error al cambiar el tipo de documento del ticket. Contacte con "
+"el administrador."
+msgstr ""
+"Une erreur s'est produite lors de la modification du type de document du "
+"ticket. Contactez l'administrateur."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:987
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1551
+msgid "¿Está seguro de querer eliminar esta línea del ticket?"
+msgstr "Voulez-vous vraiment supprimer cette ligne du ticket?"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:998
+msgid "No tiene permisos para borrar una línea."
+msgstr "Vous n'êtes pas autorisé à supprimer une ligne."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1029
+msgid "No se puede editar una línea con cantidad negativa."
+msgstr "Vous ne pouvez pas modifier une ligne avec une quantité négative."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1036
+msgid "No tiene permisos para modificar una línea."
+msgstr "Vous n'êtes pas autorisé à modifier une ligne."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1130
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1475
+msgid "No se puede cambiar el cliente de un ticket con líneas."
+msgstr "Vous ne pouvez pas changer le client d'un ticket avec des lignes."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1179
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:153
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1906
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1971
+msgid "El ticket no contiene líneas de artículo."
+msgstr "Le ticket ne contient pas de lignes d'articles."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1216
+#: com/comerzzia/pos/gui/ventas/entregaCuenta/FacturacionArticulosVentaCreditoController.java:82
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2117
+msgid "No se pudo ejecutar la acción seleccionada."
+msgstr "L'action sélectionnée n'a pas pu être exécutée."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1230
+msgid "Lea o escriba el código de barras de la tarjeta Giftcard"
+msgstr "Lire ou écrire le code-barres sur la carte cadeau"
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1295
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:106
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:899
+msgid ""
+"Existen tickets pendientes de confirmar. Antes debería finalizar la "
+"operación."
+msgstr ""
+"Il y a des tickets en attente de confirmation. L'opération doit se terminer "
+"en premier."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/IntroduccionArticulosController.java:1360
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2502
+msgid ""
+"Quedan números de serie por asignar. Por favor, asígnelos antes de seguir."
+msgstr ""
+"Les numéros de série restent à attribuer. Veuillez les attribuer avant de "
+"continuer."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/tipoDocumento/TipoDocumentoController.java:205
+msgid "Debe seleccionar el tipo de documento correspondiente."
+msgstr "Vous devez sélectionner le type de document correspondant."
+
+#: com/comerzzia/pos/gui/ventas/devoluciones/tipoDocumento/TipoDocumentoController.java:292
+msgid "Tipo de Documento"
+msgstr "Type de document"
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:180
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:185
+msgid "No es posible visualizar este tipo de documento"
+msgstr "Il n'est pas possible de visualiser ce type de document"
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/detalle/DetalleGestionticketsController.java:226
+msgid "Error leyendo información de ticket."
+msgstr "Erreur lors de la lecture des informations du ticket."
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:194
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:1036
+msgid "No se han encontrado resultados"
+msgstr "Aucun résultat trouvé"
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:328
+msgid "No se pudo obtener el ticket con el localizador introducido."
+msgstr "Le ticket n'a pas pu être obtenu avec le localisateur entré."
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/GestionticketsController.java:334
+msgid "Se produjo un error procesando el localizador. "
+msgstr "Une erreur s'est produite lors du traitement du localisateur. "
+
+#: com/comerzzia/pos/gui/ventas/gestiontickets/ticketRegalo/TicketRegaloController.java:314
+msgid "No hay ninguna línea seleccionada."
+msgstr "Aucune ligne n'est sélectionnée."
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:181
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:685
+msgid "Existe una venta sin finalizar. ¿Desea recuperarla?"
+msgstr "Il y a une vente inachevée. Voulez-vous le récupérer?"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:189
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:193
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:498
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:502
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:506
+msgid "Ha habido un error al recuperar el ticket"
+msgstr "Une erreur s'est produite lors de la récupération du ticket"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:253
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:140
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:768
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:779
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:956
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1566
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1893
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2191
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/cambioPagos/VentanaCambioController.java:78
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1239
+msgid "---NUEVO CLIENTE---"
+msgstr "---NOUVEAU CLIENT---"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:343
+msgid "El cliente no existe o está inactivo."
+msgstr "Le client n'existe pas ou est inactif."
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:346
+msgid "Se ha encontrado más de un cliente."
+msgstr "Plus d'un client a été trouvé."
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:404
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:434
+msgid "Debe seleccionar el cliente que desee establecer para la venta."
+msgstr "Vous devez sélectionner le client que vous souhaitez mettre en vente."
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:493
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1342
+msgid "No hay tickets aparcados"
+msgstr "Aucun ticket stationné"
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:521
+msgid ""
+"Existen tickets aparcados pendientes de confirmar. Antes debería finalizar "
+"la operación."
+msgstr ""
+"Il y a des tickets en attente de confirmation. L'opération doit se terminer "
+"en premier."
+
+#: com/comerzzia/pos/gui/ventas/identificada/cliente/IdentificacionClienteController.java:530
+msgid "No se ha podido cerrar la pantalla. Contacte con el administrador."
+msgstr "L'écran n'a pas pu être fermé. Contactez l'administrateur."
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:49
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:939
+msgid "¿Está seguro de querer eliminar todas las líneas del ticket?"
+msgstr "Voulez-vous vraiment supprimer toutes les lignes du ticket?"
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:62
+msgid "---NUEVA VENTA---"
+msgstr "---NOUVEAU VENTE---"
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:83
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1919
+msgid "TOTAL A PAGAR"
+msgstr "TOTAL A PAYER"
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:109
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:902
+msgid ""
+"Tiene tickets pendientes de confirmar. No tiene permisos para cancelar la "
+"venta."
+msgstr ""
+"Vous avez des tickets en attente de confirmation. Vous n'êtes pas autorisé à "
+"annuler la vente."
+
+#: com/comerzzia/pos/gui/ventas/identificada/venta/VentaIdentificadaController.java:133
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1886
+msgid "El ticket ha sido aparcado."
+msgstr "Le ticket à été mis en attente."
+
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:102
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:297
+msgid "INICIO"
+msgstr "DÉBUT"
+
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:179
+msgid "No hay artículos en esta sección."
+msgstr "Il n'y a pas d'articles dans cette section."
+
+#: com/comerzzia/pos/gui/ventas/paneles/SeleccionarArticuloPanelesController.java:222
+msgid "No se ha podido añadir el artículo. Contacte con el personal de tienda."
+msgstr "L'article n'a pas pu être ajouté. Contactez le personnel du magasin."
+
+#: com/comerzzia/pos/gui/ventas/profesional/articulos/busqueda/BuscarArticulosProfesionalController.java:95
+msgid "Precio + Iva"
+msgstr "Prix + TVA"
+
+#: com/comerzzia/pos/gui/ventas/profesional/cliente/IdentificacionClienteProfesionalController.java:36
+msgid "Seleccionar Cliente de Venta Profesional"
+msgstr "Sélectionnez un client de Vente Professionnel"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:429
+msgid "Datos de la Promocion"
+msgstr "Données de promotion"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:430
+msgid "Error"
+msgstr "Erreur"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:546
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2198
+msgid "Error creando el ticket de venta."
+msgstr "Erreur lors de la création du ticket de vente."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:550
+msgid "Error insertando línea."
+msgstr "Erreur lors de l'insertion de la ligne."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:570
+msgid "Dato promocion fidelizado:"
+msgstr "Données de promotion de fidélité:"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:573
+msgid "Datos promocion NO fidelizado:"
+msgstr "Données de promotion non fidélités:"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:863
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:958
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:975
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:993
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/busquedas/BuscarArticulosController.java:1010
+msgid "No se ha seleccionado un artículo."
+msgstr "L'article n'a pas été sélectionné."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/coupons/CustomerCouponsController.java:107
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2627
+msgid ""
+"Ha habido un error al mostrar la pantalla de cupones del fidelizado. Por "
+"favor, contacte con el administrador."
+msgstr ""
+"Une erreur s'est produite lors de l'affichage de l'écran du coupon de "
+"fidélité. Veuillez contacter l'administrateur."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/coupons/CustomerCouponsController.java:167
+msgid "No hay cupones disponibles.."
+msgstr "Il n'y a pas de coupons disponibles."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:547
+msgid ""
+"Esta linea tiene asociados numeros de serie, la cantidad indicada es "
+"inferior a la anterior, los números de serie serán borrados, deberá "
+"indicarlos de nuevo, ¿está seguro?"
+msgstr ""
+"Cette ligne a des numéros de série associés, le montant indiqué est "
+"inférieur à la précédente, les numéros de série seront supprimés, vous "
+"devrez les indiquer à nouveau, êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:583
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1688
+msgid "No tiene permisos para realizar una devolución"
+msgstr "Vous n'avez pas l'autorisation d'effectuer un retour"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:595
+msgid "La cantidad debe ser distinta de cero."
+msgstr "La quantité doit être différente de zéro."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:601
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:606
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:613
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:618
+#, java-format
+msgid "El campo debe ser menor que {0}"
+msgstr "Le champ doit être inférieur à {0}"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/edicion/EdicionArticuloController.java:624
+msgid "El descuento debe ser un valor entre 0 y 100."
+msgstr "La remise doit être une valeur comprise entre 0 et 100."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:450
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1076
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2272
+#, java-format
+msgid "La tarjeta de fidelización {0} no está activa"
+msgstr "La carte de fidélité {0} n'est pas active"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:457
+msgid "Tarjeta de fidelización añadida correctamente"
+msgstr "Carte de fidélité ajoutée avec succès"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:671
+msgid ""
+"Existe un ticket guardado con pagos realizados. Se tiene que terminar ese "
+"ticket antes de poder vender."
+msgstr ""
+"Il y a un ticket enregistré avec les paiements effectués. Vous devez "
+"terminer ce ticket avant de pouvoir vendre."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1023
+msgid "Ha superado el límite de efectivo. Deberá realizar una retirada"
+msgstr ""
+"Vous avez dépassé la limite de trésorerie. Vous devrez effectuer un retrait"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1035
+msgid "Debe realizar una retirada de efectivo para poder continuar"
+msgstr "Vous devez effectuer un retrait d'espèces pour continuer"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1213
+msgid "El cupón se ha añadido correctamente."
+msgstr "Le coupon a été ajouté avec succès."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1216
+msgid "El artículo se ha añadido correctamente."
+msgstr "L'article a été ajouté avec succès."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1338
+msgid "Hay tickets aparcados"
+msgstr "Il existe des Tickets en Attente"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1581
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1615
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1636
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1664
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2087
+msgid "La línea seleccionada no se puede modificar."
+msgstr "La ligne sélectionnée ne peut pas être modifiée."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1600
+msgid "No tiene permisos para borrar una línea"
+msgstr "Vous n'êtes pas autorisé à supprimer une ligne"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1645
+msgid "No tiene permisos para modificar una línea"
+msgstr "Vous n'êtes pas autorisé à modifier une ligne"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1677
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2100
+msgid "La línea no se puede modificar."
+msgstr "La ligne ne peut pas être modifiée."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1928
+msgid "El ticket no está vacío."
+msgstr "Le ticket n'est pas vide."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:1994
+msgid "Información para el cliente"
+msgstr "Informations client"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2017
+msgid "Fidelizado no dispone de puntos"
+msgstr "Le fidélité n'a pas de points"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2021
+msgid "Debe insertar tarjeta fidelizado"
+msgstr "Vous devez insérer une carte de fidélité"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2024
+msgid "El ticket no contiene líneas de artículo"
+msgstr "Le ticket ne contient pas de lignes d'articles"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2027
+msgid ""
+"El ticket no contiene líneas de artículo y debe insertar tarjeta fidelizado"
+msgstr ""
+"Le ticket ne contient pas de lignes d'articles et vous devez insérer une "
+"carte de fidélité"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2127
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2215
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:645
+msgid "Lea o escriba el código de barras de la tarjeta de regalo"
+msgstr "Lire ou écrire le code-barres sur la carte-cadeau"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2169
+msgid "El importe de recarga debe ser mayor que 0"
+msgstr "Le montant de la recharge doit être supérieur à 0"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2646
+msgid "Se ha podido aplicar un cupón."
+msgstr "Un coupon pourrait être appliqué."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/FacturacionArticulosController.java:2649
+#, java-format
+msgid "Se han podido aplicar {0} cupones."
+msgstr "{0} coupons pourraient être appliqués."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:156
+msgid ""
+"Error en la búsqueda del documento de venta de crédito asociado a la factura."
+msgstr ""
+"Erreur dans la recherche du document de vente à crédit associé à la facture."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:170
+msgid "El código de localizador introducido no es correcto."
+msgstr "Le code de localisateur entré n'est pas correct."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:257
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:263
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:724
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1476
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1482
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1511
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1517
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2127
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2136
+msgid "Lo sentimos, ha ocurrido un error en la petición"
+msgstr "Désolé, une erreur de demande s'est produite"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:259
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:718
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1478
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1513
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2130
+msgid "No se ha podido conectar con el servidor"
+msgstr "Ne peut se connecter au serveur"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:261
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:721
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1480
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1515
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2133
+msgid "El servidor ha tardado demasiado tiempo en responder"
+msgstr "Le serveur a mis trop de temps à répondre"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:265
+msgid "No se puede facturar documentos de distinto cliente"
+msgstr "Vous ne pouvez pas facturer des documents de différents clients"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/facturarVentaCredito/FacturarVentaCreditoController.java:267
+msgid "No se ha encontrado el cliente asociado al ticket origen"
+msgstr "Le client associé au ticket d'origine est introuvable"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/lineaOrigen/NumerosSerieLineaOrigenController.java:177
+msgid "No se pueden asignar más números de serie de la cantidad a devolver."
+msgstr "Aucun numéro de série ne peut être attribué au montant à retourner."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:233
+msgid "El número de serie no es válido, introduzca uno de la lista."
+msgstr ""
+"Le numéro de série n'est pas valide, veuillez en saisir un dans la liste."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:238
+msgid "Imposible insertar el número de serie, ya están todos asignados."
+msgstr "Impossible d'insérer le numéro de série, ils sont tous attribués."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:243
+msgid "El número de serie debe ser único."
+msgstr "Le numéro de série doit être unique."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:284
+msgid "Hay números de serie sin asignar, la pantalla se cerrará, ¿Está seguro?"
+msgstr ""
+"Il y a des numéros de série non attribués, l'écran se fermera, êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:316
+msgid "Los números asociados a la línea de venta serán borrados, ¿Está seguro?"
+msgstr ""
+"Les numéros associés à la ligne de vente seront supprimés, êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:325
+msgid "El número de serie indicado será borrado, ¿Está seguro?"
+msgstr "Le numéro de série indiqué sera effacé, êtes-vous sûr?"
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:385
+msgid "No se pueden asignar todos los números de serie seleccionados."
+msgstr "Tous les numéros de série sélectionnés ne peuvent pas être attribués."
+
+#: com/comerzzia/pos/gui/ventas/tickets/articulos/numerosSerie/NumerosSerieController.java:401
+msgid "No se pueden asignar más números de serie, ya están todos asignados."
+msgstr ""
+"Plus aucun numéro de série ne peut être attribué, ils sont tous déjà "
+"attribués."
+
+#: com/comerzzia/pos/gui/ventas/tickets/clientes/ConsultaClienteController.java:412
+msgid "No hay registros para los parámetros de búsqueda seleccionados"
+msgstr ""
+"Il n'y a aucun enregistrement pour les paramètres de recherche sélectionnés"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:249
+msgid "Error al establecer el tipo de documento factura."
+msgstr "Erreur lors de la définition du type de facture."
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:408
+msgid "Error. Dirección de servicio rest no encontrada (HTTP 404)"
+msgstr "Erreur. Adresse de service rest introuvable (HTTP 404)"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:411
+msgid "No se pudo conectar con los servicios REST (HTTP 400)"
+msgstr "Impossible connecter avec les services rest (HTTP 400)"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:414
+msgid "No se pudo conectar con los servicios REST (HTTP 500)"
+msgstr "Impossible connecter avec les services rest (HTTP 500)"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/FacturaController.java:417
+msgid "No se pudo conectar con los servicios REST de la central"
+msgstr "Impossible connecter avec les services rest du central"
+
+#: com/comerzzia/pos/gui/ventas/tickets/factura/paises/PaisesController.java:174
+msgid "Debe seleccionar antes el país correspondiente."
+msgstr "Vous devez d'abord sélectionner le pays correspondant."
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/datosEnvio/DatosEnvioController.java:233
+msgid "Datos del Envío"
+msgstr "Informations sur le bateau"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:544
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:576
+msgid "No se ha podido borrar el pago, contacte con el administrador."
+msgstr "Le paiement n'a pas pu être supprimé, contactez l'administrateur."
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:714
+msgid "Lo sentimos, ha ocurrido un error en la petición."
+msgstr "Désolé, une erreur de demande s'est produite."
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:775
+msgid "Entrega a cuenta"
+msgstr "Livraison au compte"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:860
+#, java-format
+msgid "El medio de pago asociado al tipo de promoción {0} no está configurado."
+msgstr ""
+"Le moyen de paiement associé au type de promotion {0} n'est pas configuré."
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:978
+msgid "ENTREGA A CUENTA"
+msgstr "LIVRAISON AU COMPTE"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:983
+msgid "DEVUELTO"
+msgstr "RESTITUE"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1127
+msgid ""
+"El medio de pago seleccionado no permite introducir un importe superior al "
+"total del documento"
+msgstr ""
+"Le moyen de paiement sélectionné ne permet pas de saisir un montant "
+"supérieur au total du document"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1199
+msgid "El valor del importe total debe ser inferior a "
+msgstr "La valeur du montant total doit être inférieure à "
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1276
+msgid "¿Es correcta la impresión del recibo del pago con tarjeta?"
+msgstr "L'impression du reçu de paiement par carte est-elle correcte?"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1352
+msgid "El error es: "
+msgstr "L'erreur est: "
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1393
+msgid "Se han efectuados pagos. Debe cancelarlos para volver atrás."
+msgstr ""
+"Les paiements ont été effectués. Vous devez les annuler pour revenir en "
+"arrière."
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1567
+msgid "Borrar pago."
+msgstr "Supprimer le paiement."
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1574
+msgid "No hay ningún pago seleccionado."
+msgstr "Aucun paiement n'est sélectionné."
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1579
+msgid "El pago seleccionado no se puede borrar."
+msgstr "Le paiement sélectionné ne peut pas être supprimé."
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/PagosController.java:1583
+msgid "¿Desea eliminar el pago?"
+msgstr "Voulez-vous supprimer le paiement?"
+
+#: com/comerzzia/pos/gui/ventas/tickets/pagos/vuelta/VueltaController.java:147
+msgid "Debe seleccionar un medio de pago para el cambio."
+msgstr "Vous devez sélectionner un moyen de paiement pour la modification."
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:119
+msgid "Actualmente dispone de "
+msgstr "A actuellement "
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:121
+msgid " puntos."
+msgstr " points."
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:122
+msgid "Indique cuántos puntos desea canjear por un cupón"
+msgstr ""
+"Indiquez le nombre de points que vous souhaitez échanger contre un coupon"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:123
+msgid "Importe resultante"
+msgstr "Montant résultant"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:164
+#, java-format
+msgid ""
+"Se va a generar un cupón por importe de {0} al fidelizado {1}. Esta "
+"operación no se podrá anular. ¿Está seguro de que desea continuar?"
+msgstr ""
+"Un coupon sera généré pour un montant de {0} au fidélité {1}. Cette "
+"opération ne peut pas être annulée. Es-tu sur de vouloir continuer?"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:181
+msgid "No puede introducir puntos negativos"
+msgstr "Vous ne pouvez pas saisir de points négatifs"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:183
+msgid "No puede introducir 0 puntos"
+msgstr "Vous ne pouvez pas saisir 0 point"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:187
+msgid ""
+"El valor del campo debe ser un número positivo entero y menor al total de "
+"puntos máximos"
+msgstr ""
+"La valeur du champ doit être un nombre entier positif et inférieur au total "
+"des points maximum"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:232
+msgid "No se ha encontrado id de promocion en las variables:\n"
+msgstr "Aucun identifiant de promotion trouvé dans les variables:\n"
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:258
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:275
+msgid "Ha fallado el canjeo de los puntos. Contacte con un administrador."
+msgstr "L'échange de points a échoué. Contactez un administrateur."
+
+#: com/comerzzia/pos/gui/ventas/tickets/puntos/CanjeoPuntosController.java:283
+msgid "convertPointsToCoupon() - Fallo al convertir puntos a un cupón:\n"
+msgstr ""
+"convertPointsToCoupon () - Échec de la conversion des points en coupon:\n"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:447
+msgid "No se ha podido aplicar el cupón."
+msgstr "Le coupon n'a pas pu être appliqué."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:493
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:500
+msgid "Error procesando el código de barras. Revise configuración."
+msgstr "Erreur lors du traitement du code-barres. Vérifiez la configuration."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:524
+msgid ""
+"No se ha podido pesar el artículo, compruebe la configuración de la balanza."
+msgstr "L'article n'a pas pu être pesé, vérifiez les paramètres de la balance."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:530
+msgid "Este artículo no puede ser introducido sin ser pesado previamente."
+msgstr "Cet article ne peut pas être entré sans avoir été pesé au préalable."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:604
+#, java-format
+msgid ""
+"El artículo {0} no se ha encontrado en el documento origen de la devolución."
+msgstr "L'élément {0} est introuvable dans le document source de retour."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:607
+msgid "La cantidad a devolver del artículo supera a la cantidad vendida."
+msgstr "La quantité à retourner de l'article dépasse la quantité vendue."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:610
+#, java-format
+msgid ""
+"El artículo {0} existe en varias líneas del ticket original, deberá indicar "
+"la línea de devolución manualmente."
+msgstr ""
+"L'article {0} existe sur plusieurs lignes du ticket d'origine, vous devrez "
+"entrer la ligne de retour manuellement."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:620
+#, java-format
+msgid ""
+"Imposible realizar la venta, el total sin impuestos de la venta supera el "
+"máximo permitido ({0}) para el tipo de documento: {1}"
+msgstr ""
+"Impossible de réaliser la vente, le total hors taxes de la vente dépasse le "
+"maximum autorisé ({0}) pour le type de document: {1}"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:627
+#, java-format
+msgid ""
+"Imposible realizar la venta, el total de la venta supera el máximo permitido "
+"({0}) para el tipo de documento: {1}"
+msgstr ""
+"Impossible de réaliser la vente, le total de la vente dépasse le maximum "
+"autorisé ({0}) pour le type de document: {1}"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:715
+#, java-format
+msgid ""
+"La vigencia para el tipo de documento {0} ha alcanzado el valor {1} sobre su "
+"máximo de {2}."
+msgstr ""
+"La validité du type de document {0} a atteint la valeur {1} supérieure à son "
+"maximum de {2}."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1136
+msgid "Ha ocurrido un error al anular los pagos"
+msgstr "Une erreur s'est produite lors de l'annulation des paiements"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1167
+msgid "Ha ocurrido un error al confirmar los pagos con tarjeta de crédito"
+msgstr ""
+"Une erreur s'est produite lors de la confirmation des paiements par carte de "
+"crédit"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1418
+msgid "No se ha podido recuperar el tipo de documento origen."
+msgstr "Le type de document source n'a pas pu être récupéré."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1429
+msgid ""
+"La devolución no se puede hacer porque superar el plazo máximo de devolución."
+msgstr ""
+"Le retour ne peut pas être effectué car il dépasse la période de retour "
+"maximale."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:1782
+msgid "Lo sentimos, ha ocurrido un error al recuperar el ticket"
+msgstr "Désolé, une erreur s'est produite lors de la récupération du ticket"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2065
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2066
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2086
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2087
+msgid "No se puede recargar la tarjeta regalo en un ticket ya iniciado."
+msgstr "La carte cadeau ne peut pas être rechargée sur un ticket déjà démarré."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2069
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2089
+msgid "No puede recargarse la tarjeta regalo con el pago de otra. "
+msgstr ""
+"La carte cadeau ne peut pas être rechargée avec le paiement d'une autre. "
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2070
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2090
+msgid "No puede recargarse la tarjeta regalo con el pago de otra."
+msgstr ""
+"La carte cadeau ne peut pas être rechargée avec le paiement d'une autre."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2363
+msgid ""
+"No es posible emitir un documento por caducidad en fecha o nº secuencia "
+"asociada."
+msgstr ""
+"Il n'est pas possible d'émettre un document en raison de la date "
+"d'expiration ou du numéro de séquence associé."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2365
+msgid "No es posible emitir un documento por caducidad en fecha"
+msgstr ""
+"Il n'est pas possible d'émettre un document en raison de la date d'expiration"
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2367
+msgid ""
+"No es posible emitir un documento por caducidad en nº secuencia asociada."
+msgstr ""
+"Il n'est pas possible d'émettre un document en raison de l'expiration du "
+"numéro de séquence associé."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2369
+msgid ""
+"No es posible emitir un documento por tener el contador un valor inválido."
+msgstr ""
+"Il n'est pas possible d'émettre un document car le compteur a une valeur non "
+"valide."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2371
+msgid ""
+"No es posible emitir un documento por tener uno de los parámetros un valor "
+"inválido. Revise el log."
+msgstr ""
+"Il n'est pas possible d'émettre un document car l'un des paramètres a une "
+"valeur non valide. Consultez le journal."
+
+#: com/comerzzia/pos/gui/ventas/tickets/TicketManager.java:2373
+msgid ""
+"No es posible emitir un documento porque hay un salto en la numeración del "
+"contador. Revise la configuración de la vigencia asociada."
+msgstr ""
+"Il n'est pas possible d'émettre un document car il y a un saut dans la "
+"numérotation du compteur. Vérifiez les paramètres de durée de vie associés."
+
+#, fuzzy
+#~ msgid "Nº teléfono"
+#~ msgstr "Téléphone"
+
+#, fuzzy
+#~ msgid "Nº factura"
+#~ msgstr "Facture"
+
+#, fuzzy
+#~ msgid "% Descuento"
+#~ msgstr "Réduction"
+
+#, fuzzy
+#~ msgid "Total Impuestos"
+#~ msgstr "Trait des taxes"
+
+#, fuzzy
+#~ msgid "Fecha vencimiento"
+#~ msgstr "Date de naissance"
+
+#, fuzzy
+#~ msgid "Precio venta"
+#~ msgstr "Prix Total"
+
+#, fuzzy
+#~ msgid "Total EUR"
+#~ msgstr "Total (E/S)"
+
+#, fuzzy
+#~ msgid "Número serie:"
+#~ msgstr "Numéro de serie"
+
+#, fuzzy
+#~ msgid "Total"
+#~ msgstr "Total (E/S)"
+
+#~ msgid "Tipo de tarjeta"
+#~ msgstr "Type de carte"
+
+#~ msgid "Tipo Gift Card"
+#~ msgstr "Type de Gift Card"
+
+#~ msgid "Gift Card"
+#~ msgstr "Gift Card"
+
+#~ msgid "El código de concepto no puede ser vacío"
+#~ msgstr "Le code su concept ne peut pas être vide"
+
+#~ msgid "TOTAL A DEVOLVER"
+#~ msgstr "TOTAL A RESTITUER"
+
+#~ msgid "El importe supera el saldo disponible"
+#~ msgstr "Le montant est plus gran que le solde disponible"
+
+#~ msgid "Se perderán los datos de pagos. ¿Desea continuar?"
+#~ msgstr "Les données de paiement seront perdues. Continuer?"
+
+#~ msgid "No se pudieron borrar los datos de la factura."
+#~ msgstr "Impossible de supprimer les données de la facture ."
+
+#, fuzzy
+#~ msgid ""
+#~ "La tarjeta introducida no es del tipo permitido para este medio de pago."
+#~ msgstr "La carte n'est pas valide"
+
+#~ msgid "No puede usarse una tarjeta regalo en la operación."
+#~ msgstr "Impossible utiliser plus d'un carte cadeau dans l'opération"
+
+#~ msgid "No puede usarse más de una tarjeta regalo."
+#~ msgstr "Impossible utiliser plus d'un carte cadeau"
+
+#~ msgid "Error procesando la tarjeta regalo para el pago"
+#~ msgstr "Erreur à l'heure de traiter la gift-card pour le paiement."
+
+#~ msgid "Ha habido un error al procesar la devolución de la tarjeta regalo."
+#~ msgstr "Il y a eu un erreur à l'heure de traiter la giftcard"
+
+#~ msgid "Contado"
+#~ msgstr "Autres"
+
+#~ msgid "Movimientos provisionales"
+#~ msgstr "Mouvements provisoires"
+
+#~ msgid "Razón Social"
+#~ msgstr "Raison sociale :"
+
+#~ msgid "Error creando las líneas de venta."
+#~ msgstr "Erreur à l'heure de créer les lignes de vente."
+
+#~ msgid "CIF"
+#~ msgstr "CIF"
+
+#, fuzzy
+#~ msgid "PAGARE"
+#~ msgstr "A PAYER"
+
+#, fuzzy
+#~ msgid "TARJETA REGALO"
+#~ msgstr "DELIVERE"
+
+#~ msgid "No tiene permisos para realizar esta operación"
+#~ msgstr "Vous n'avez pas l'autorisation pour réaliser des restitutions"
+
+#~ msgid "Ver Detalle"
+#~ msgstr "Cacher Menu"
+
+#~ msgid "Ocultar Detalle"
+#~ msgstr "Cacher Menu"
+
+#~ msgid "Error inesperado. Para mas información consulte el log."
+#~ msgstr ""
+#~ "Erreur à l'heure de charger la fenêtre. Pour plus d'info consulter le log."
+
+#~ msgid "Error de validación"
+#~ msgstr "Erreur à l'heure de charger la fenêtre de payement"
+
+#~ msgid "El usuario no tiene permisos para ejecutar la pantalla activa."
+#~ msgstr "Vous n'avez pas l'autorisation de canceler la restitution"
+
+#~ msgid "No se pudo cambiar el password"
+#~ msgstr "Impossible de chenger le client de la section."
+
+#~ msgid "Error. No se ha encontrado el menú de la aplicación."
+#~ msgstr "Erreur à l'heure de charger la fenêtre de payement"
+
+#~ msgid "Error cargando menú de la aplicación."
+#~ msgstr "Erreur à l'heure de charger la fenêtre de payement"
+
+#~ msgid "Mostrar Menú"
+#~ msgstr "Cacher Menu"
+
+#~ msgid "No tiene permisos para realizar la acción"
+#~ msgstr "Vous n'avez pas l'autorisation pour réaliser des restitutions"
+
+#~ msgid "Seleccionar Usuario"
+#~ msgstr "Sélectionner le client"
+
+#~ msgid "Seleccionar Grupo"
+#~ msgstr "Sélectionner le client"
+
+#~ msgid "Debe seleccionar un grupo"
+#~ msgstr "Veuillez sélectionner le type de document qui correspond"
+
+#~ msgid "El campo debe estar en mayúsculas"
+#~ msgstr "La quantité doit être plus petite que {0}"
+
+#~ msgid "El campo debe estar en minúsculas"
+#~ msgstr "La quantité doit être plus petite que {0}"
+
+#~ msgid "La fecha introducida no puede ser una fecha pasada"
+#~ msgstr ""
+#~ "La date de fermeture ne peut pas être antérieure à la date d'ouverture"
+
+#~ msgid "Omnicanal"
+#~ msgstr "Omnicanal"
+
+#~ msgid "Mantenimientos"
+#~ msgstr "Maintenances"
+
+#~ msgid "Tienda:"
+#~ msgstr "Magasin :"
+
+#~ msgid "Caja:"
+#~ msgstr "Caisse:"
+
+#~ msgid "Usuario:"
+#~ msgstr "Utilisateur :"

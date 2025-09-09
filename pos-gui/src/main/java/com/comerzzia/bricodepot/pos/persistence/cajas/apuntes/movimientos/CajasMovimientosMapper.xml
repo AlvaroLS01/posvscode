@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientosMapper">
+  <resultMap id="BaseResultMap" type="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientos">
+    <id column="uid_actividad" jdbcType="VARCHAR" property="uidActividad" />
+    <id column="codconcepto_mov_origen" jdbcType="VARCHAR" property="codconceptoMovOrigen" />
+    <id column="codcaja_origen" jdbcType="VARCHAR" property="codcajaOrigen" />
+    <id column="codcaja_destino" jdbcType="VARCHAR" property="codcajaDestino" />
+    <id column="codconcepto_mov_destino" jdbcType="VARCHAR" property="codconceptoMovDestino" />
+    <result column="signo_destino" jdbcType="VARCHAR" property="signoDestino" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    uid_actividad, codconcepto_mov_origen, codcaja_origen, codcaja_destino, codconcepto_mov_destino, 
+    signo_destino
+  </sql>
+  <select id="selectByExample" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientosExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from x_cajas_movimientos_tbl
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientosKey" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from x_cajas_movimientos_tbl
+    where uid_actividad = #{uidActividad,jdbcType=VARCHAR}
+      and codconcepto_mov_origen = #{codconceptoMovOrigen,jdbcType=VARCHAR}
+      and codcaja_origen = #{codcajaOrigen,jdbcType=VARCHAR}
+      and codcaja_destino = #{codcajaDestino,jdbcType=VARCHAR}
+      and codconcepto_mov_destino = #{codconceptoMovDestino,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientosKey">
+    delete from x_cajas_movimientos_tbl
+    where uid_actividad = #{uidActividad,jdbcType=VARCHAR}
+      and codconcepto_mov_origen = #{codconceptoMovOrigen,jdbcType=VARCHAR}
+      and codcaja_origen = #{codcajaOrigen,jdbcType=VARCHAR}
+      and codcaja_destino = #{codcajaDestino,jdbcType=VARCHAR}
+      and codconcepto_mov_destino = #{codconceptoMovDestino,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientosExample">
+    delete from x_cajas_movimientos_tbl
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientos">
+    insert into x_cajas_movimientos_tbl (uid_actividad, codconcepto_mov_origen, 
+      codcaja_origen, codcaja_destino, codconcepto_mov_destino, 
+      signo_destino)
+    values (#{uidActividad,jdbcType=VARCHAR}, #{codconceptoMovOrigen,jdbcType=VARCHAR}, 
+      #{codcajaOrigen,jdbcType=VARCHAR}, #{codcajaDestino,jdbcType=VARCHAR}, #{codconceptoMovDestino,jdbcType=VARCHAR}, 
+      #{signoDestino,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientos">
+    insert into x_cajas_movimientos_tbl
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="uidActividad != null">
+        uid_actividad,
+      </if>
+      <if test="codconceptoMovOrigen != null">
+        codconcepto_mov_origen,
+      </if>
+      <if test="codcajaOrigen != null">
+        codcaja_origen,
+      </if>
+      <if test="codcajaDestino != null">
+        codcaja_destino,
+      </if>
+      <if test="codconceptoMovDestino != null">
+        codconcepto_mov_destino,
+      </if>
+      <if test="signoDestino != null">
+        signo_destino,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="uidActividad != null">
+        #{uidActividad,jdbcType=VARCHAR},
+      </if>
+      <if test="codconceptoMovOrigen != null">
+        #{codconceptoMovOrigen,jdbcType=VARCHAR},
+      </if>
+      <if test="codcajaOrigen != null">
+        #{codcajaOrigen,jdbcType=VARCHAR},
+      </if>
+      <if test="codcajaDestino != null">
+        #{codcajaDestino,jdbcType=VARCHAR},
+      </if>
+      <if test="codconceptoMovDestino != null">
+        #{codconceptoMovDestino,jdbcType=VARCHAR},
+      </if>
+      <if test="signoDestino != null">
+        #{signoDestino,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientosExample" resultType="java.lang.Long">
+    select count(*) from x_cajas_movimientos_tbl
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update x_cajas_movimientos_tbl
+    <set>
+      <if test="record.uidActividad != null">
+        uid_actividad = #{record.uidActividad,jdbcType=VARCHAR},
+      </if>
+      <if test="record.codconceptoMovOrigen != null">
+        codconcepto_mov_origen = #{record.codconceptoMovOrigen,jdbcType=VARCHAR},
+      </if>
+      <if test="record.codcajaOrigen != null">
+        codcaja_origen = #{record.codcajaOrigen,jdbcType=VARCHAR},
+      </if>
+      <if test="record.codcajaDestino != null">
+        codcaja_destino = #{record.codcajaDestino,jdbcType=VARCHAR},
+      </if>
+      <if test="record.codconceptoMovDestino != null">
+        codconcepto_mov_destino = #{record.codconceptoMovDestino,jdbcType=VARCHAR},
+      </if>
+      <if test="record.signoDestino != null">
+        signo_destino = #{record.signoDestino,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update x_cajas_movimientos_tbl
+    set uid_actividad = #{record.uidActividad,jdbcType=VARCHAR},
+      codconcepto_mov_origen = #{record.codconceptoMovOrigen,jdbcType=VARCHAR},
+      codcaja_origen = #{record.codcajaOrigen,jdbcType=VARCHAR},
+      codcaja_destino = #{record.codcajaDestino,jdbcType=VARCHAR},
+      codconcepto_mov_destino = #{record.codconceptoMovDestino,jdbcType=VARCHAR},
+      signo_destino = #{record.signoDestino,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientos">
+    update x_cajas_movimientos_tbl
+    <set>
+      <if test="signoDestino != null">
+        signo_destino = #{signoDestino,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where uid_actividad = #{uidActividad,jdbcType=VARCHAR}
+      and codconcepto_mov_origen = #{codconceptoMovOrigen,jdbcType=VARCHAR}
+      and codcaja_origen = #{codcajaOrigen,jdbcType=VARCHAR}
+      and codcaja_destino = #{codcajaDestino,jdbcType=VARCHAR}
+      and codconcepto_mov_destino = #{codconceptoMovDestino,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.comerzzia.bricodepot.pos.persistence.cajas.apuntes.movimientos.CajasMovimientos">
+    update x_cajas_movimientos_tbl
+    set signo_destino = #{signoDestino,jdbcType=VARCHAR}
+    where uid_actividad = #{uidActividad,jdbcType=VARCHAR}
+      and codconcepto_mov_origen = #{codconceptoMovOrigen,jdbcType=VARCHAR}
+      and codcaja_origen = #{codcajaOrigen,jdbcType=VARCHAR}
+      and codcaja_destino = #{codcajaDestino,jdbcType=VARCHAR}
+      and codconcepto_mov_destino = #{codconceptoMovDestino,jdbcType=VARCHAR}
+  </update>
+</mapper>

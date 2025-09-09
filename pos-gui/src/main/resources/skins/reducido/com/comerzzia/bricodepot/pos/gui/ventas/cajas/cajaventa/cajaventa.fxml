@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-1.0" minWidth="636.0" prefHeight="266.0" prefWidth="636.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.comerzzia.bricodepot.pos.gui.ventas.cajas.cajaventa.CajaVentaController">
+  <children>
+    <VBox minWidth="912.0" prefHeight="212.0" prefWidth="912.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <AnchorPane minHeight="196.0" minWidth="636.0" prefHeight="212.0" prefWidth="636.0" VBox.vgrow="ALWAYS">
+          <children>
+            <HBox minHeight="195.9998779296875" prefHeight="226.0" prefWidth="636.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <children>
+                <VBox minWidth="636.0" prefHeight="219.0" prefWidth="636.0" spacing="5.0">
+                  <children>
+                    <AnchorPane prefHeight="34.0" prefWidth="717.0" styleClass="titulo-ventana">
+                      <children>
+                        <Label fx:id="lbFinanciar" alignment="CENTER" text="%Caja Venta" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                      </children>
+                    </AnchorPane>
+                    <VBox prefHeight="98.0" prefWidth="717.0" spacing="5.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="739.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                          <children>
+                            <VBox prefHeight="29.0" prefWidth="318.0">
+                              <children>
+                                <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="739.0" spacing="5.0">
+                                  <children>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="33.0" prefWidth="114.0" text="%Usuario" />
+                                    <ComboBox id="cb" fx:id="cbUsuario" prefHeight="21.0" prefWidth="129.0">
+                                      <items>
+                                        <FXCollections fx:factory="observableArrayList">
+                                          <String fx:value="Item 1" />
+                                          <String fx:value="Item 2" />
+                                          <String fx:value="Item 3" />
+                                        </FXCollections>
+                                      </items>
+                                    </ComboBox>
+                                  </children>
+                                </HBox>
+                              </children>
+                            </VBox>
+                            <VBox prefHeight="29.0" prefWidth="318.0">
+                              <children>
+                                <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="739.0" spacing="5.0">
+                                  <children>
+                                    <TextField fx:id="tfImporte" prefWidth="200.0" />
+                                    <Button fx:id="btContarSaldo" minHeight="30.0" mnemonicParsing="false" onAction="#accionContarSaldo" prefHeight="30.0" prefWidth="34.0" styleClass="btRecuento" text="Recuento por monedas" />
+                                  </children>
+                                </HBox>
+                              </children>
+                            </VBox>
+                          </children>
+                          <VBox.margin>
+                            <Insets fx:id="x1" />
+                          </VBox.margin>
+                        </HBox>
+                      </children>
+                    </VBox>
+                    <HBox minWidth="636.0" prefHeight="22.0" prefWidth="636.0" />
+                    <VBox prefHeight="51.0" prefWidth="893.0" spacing="5.0" />
+                    <HBox minHeight="51.0" prefHeight="51.0" prefWidth="717.0" VBox.vgrow="NEVER">
+                      <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                        <TilePane alignment="BOTTOM_RIGHT" hgap="10.0" prefHeight="50.0" prefWidth="303.0" HBox.hgrow="NEVER">
+                          <children>
+                            <Button mnemonicParsing="false" onAction="#accionAceptar" prefHeight="42.0" prefWidth="115.0" styleClass="btAceptar" text="%Aceptar" />
+                            <Button mnemonicParsing="false" onAction="#accionCancelar" prefHeight="42.0" prefWidth="115.0" styleClass="btCancelar" text="%Cancelar" />
+                          </children>
+                          <padding>
+                            <Insets bottom="5.0" right="5.0" />
+                          </padding>
+                        </TilePane>
+                      </children>
+                    </HBox>
+                  </children>
+                </VBox>
+              </children>
+            </HBox>
+          </children>
+        </AnchorPane>
+      </children>
+    </VBox>
+  </children>
+  <stylesheets>
+    <URL value="@../../../../styles/styles.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.comerzzia.pos.core.gui.componentes.datepicker.* ?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="Content" maxWidth="800.0" minHeight="0.0" minWidth="0.0" prefHeight="-1.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.comerzzia.pos.gui.mantenimientos.fidelizados.datosgenerales.PaneDatosGeneralesController">
+  <children>
+    <HBox id="HBox" alignment="TOP_LEFT" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <VBox id="VBox" alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0" spacing="0.0" HBox.hgrow="ALWAYS">
+          <children>
+            <HBox id="HBox" alignment="CENTER" maxHeight="-1.0" minHeight="-1.0" prefHeight="-1.0" prefWidth="-1.0" spacing="0.0" VBox.vgrow="SOMETIMES">
+              <children>
+                <VBox prefHeight="-1.0" prefWidth="-1.0" spacing="4.0" HBox.hgrow="ALWAYS">
+                  <children>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Código" />
+                            <TextField fx:id="tfCodigo" editable="true" prefWidth="270.0" />
+                            <Label fx:id="lbNumeroTarjeta" alignment="CENTER_RIGHT" prefWidth="123.0" text="%Nº de tarjeta" />
+                            <TextField fx:id="tfNumeroTarjeta" editable="true" prefWidth="270.0" />
+                          </children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Nombre">
+                              <graphic>
+                                <Label text="*" />
+                              </graphic>
+                            </Label>
+                            <TextField fx:id="tfNombre" editable="true" prefWidth="270.0" />
+                            <Label alignment="CENTER_RIGHT" prefWidth="123.0" text="%Apellidos">
+                              <graphic>
+                                <Label text="*" />
+                              </graphic>
+                            </Label>
+                            <TextField fx:id="tfApellidos" editable="true" prefWidth="270.0" />
+                          </children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="100.0" text="%Tipo documento">
+                              <graphic>
+                                <Label text="*" />
+                              </graphic>
+                            </Label>
+                            <ComboBox fx:id="cbTipoDocumento" prefHeight="25.0" prefWidth="270.0">
+                              <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                  <String fx:value="Item 1" />
+                                  <String fx:value="Item 2" />
+                                  <String fx:value="Item 3" />
+                                </FXCollections>
+                              </items>
+                            </ComboBox>
+                            <Label alignment="CENTER_RIGHT" prefWidth="123.0" text="%Documento">
+                              <graphic>
+                                <Label text="*" />
+                              </graphic>
+                            </Label>
+                            <TextField fx:id="tfDocumento" editable="true" prefWidth="210.0" />
+                            <Button id="btValidaDocumento" fx:id="btValidarDocumento" minHeight="33.999900000002526" minWidth="43.0" mnemonicParsing="false" onAction="#accionValidarDocumento" prefHeight="33.999900000002526" prefWidth="43.0" styleClass="btValidarDocumento" text="Button" />
+                          </children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" prefWidth="100.0" text="%Sexo" />
+                            <ComboBox fx:id="cbSexo" prefHeight="25.0" prefWidth="270.0">
+                              <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                  <String fx:value="Item 1" />
+                                  <String fx:value="Item 2" />
+                                  <String fx:value="Item 3" />
+                                </FXCollections>
+                              </items>
+                            </ComboBox>
+                            <Label alignment="CENTER_RIGHT" prefWidth="123.0" text="%Fecha de nacimiento" />
+                            <DatePicker id="dpFechaNacimiento" fx:id="dpFechaNacimiento" prefWidth="200" />
+                          </children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" prefWidth="100.0" text="%Estado civil" />
+                            <ComboBox fx:id="cbEstadoCivil" disable="false" prefHeight="25.0" prefWidth="270.0">
+                              <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                  <String fx:value="Item 1" />
+                                  <String fx:value="Item 2" />
+                                  <String fx:value="Item 3" />
+                                </FXCollections>
+                              </items>
+                            </ComboBox>
+                            <Label fx:id="lbFechaAlta" alignment="CENTER_RIGHT" prefWidth="123.0" text="%Fecha alta" />
+                            <DatePicker id="dpFechaAlta" fx:id="dpFechaAlta" prefWidth="200" />
+                          </children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" minWidth="100.0" prefWidth="100.0" text="%Email">
+                              <graphic>
+                                <Label text="*" />
+                              </graphic>
+                            </Label>
+                            <TextField fx:id="tfEmail" editable="true" prefWidth="140.0" text="" />
+                            <CheckBox fx:id="chNotifEmail" mnemonicParsing="false" text="%Permitir notificaciones" />
+                            <CheckBox fx:id="chPaperLess" mnemonicParsing="false" text="%Solo ticket digital" />
+                            <Label alignment="CENTER_RIGHT" prefWidth="43.0" text="%Móvil" />
+                            <TextField fx:id="tfMovil" editable="true" prefWidth="85.0" text="" />
+                            <CheckBox fx:id="chNotifMovil" mnemonicParsing="false" text="%Permitir notificaciones" />
+                          </children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" minWidth="100.0" prefHeight="-1.0" prefWidth="100.0" text="%Pais">
+                              <graphic>
+                                <Label text="*" />
+                              </graphic>
+                            </Label>
+                            <TextField fx:id="tfCodPais" onAction="#cargaTiposDocumento" prefWidth="40.0" />
+                            <TextField fx:id="tfDesPais" editable="false" focusTraversable="false" prefWidth="150.0" text="" />
+                            <Button fx:id="btBuscarPais" minHeight="-1.0" minWidth="43.0" mnemonicParsing="false" onAction="#accionBuscarPais" prefHeight="-1.0" prefWidth="43.0" styleClass="btBuscar" text="Button" />
+                            <Label alignment="CENTER_RIGHT" prefWidth="80.0" text="%Provincia" />
+                            <TextField fx:id="tfProvincia" editable="true" prefWidth="130.0" />
+                            <HBox visible="false" managed="false">
+								<children>
+									<Label alignment="CENTER_RIGHT" prefWidth="70.0" text="%Localidad" />
+									<TextField fx:id="tfLocalidad" editable="true" prefWidth="133.0" />
+								</children>
+							</HBox>
+						</children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" prefWidth="100.0" text="%Población" />
+                            <TextField fx:id="tfPoblacion" editable="true" prefWidth="160.0" />
+                            <Label alignment="CENTER_RIGHT" prefWidth="100.0" text="%Código postal">
+                              <graphic>
+                                <Label text="*" />
+                              </graphic>
+                            </Label>
+                            <TextField fx:id="tfCodPostal" editable="true" prefWidth="60.0" text="" />
+                            <Label alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="100.0" text="%Domicilio" />
+                            <TextField fx:id="tfDomicilio" editable="true" prefWidth="237.0" />
+                          </children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="-1.0" prefWidth="-1.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+                          <children>
+                            <Label alignment="CENTER_RIGHT" minWidth="100.0" prefHeight="33.0" prefWidth="100.0" text="%Tienda favorita" />
+                            <TextField fx:id="tfCodTienda" onAction="#accionCargarTienda" prefWidth="54.0" />
+                            <TextField fx:id="tfDesTienda" editable="false" focusTraversable="false" prefWidth="158.0" />
+                            <Button fx:id="btBuscarTienda" minHeight="-1.0" minWidth="43.0" mnemonicParsing="false" onAction="#accionBuscarTienda" prefHeight="-1.0" prefWidth="43.0" styleClass="btBuscar" text="Button" />
+                            <Button fx:id="btLimpiarTienda" minHeight="-1.0" minWidth="43.0" mnemonicParsing="false" onAction="#accionLimpiarTienda" prefHeight="-1.0" prefWidth="43.0" styleClass="btLimpiar" text="" />
+                            <Label fx:id="lbColectivo" alignment="CENTER_RIGHT" minWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" text="%Colectivo">
+                              <graphic>
+                                <Label text="*" />
+                              </graphic>
+                            </Label>
+                            <TextField fx:id="tfCodColectivo" onAction="#accionCargarColectivo" prefWidth="54.0" />
+                            <TextField fx:id="tfDesColectivo" editable="false" focusTraversable="false" prefWidth="158.0" />
+                            <Button fx:id="btBuscarColectivo" minHeight="-1.0" minWidth="43.0" mnemonicParsing="false" onAction="#accionBuscarColectivo" prefHeight="-1.0" prefWidth="43.0" styleClass="btBuscar" text="Button" />
+                            <Button fx:id="btLimpiarColectivo" minHeight="-Infinity" minWidth="43.0" mnemonicParsing="false" onAction="#accionLimpiarColectivo" prefHeight="-1.0" prefWidth="43.0" styleClass="btLimpiar" text="" />
+                          </children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                    <AnchorPane prefHeight="-1.0" prefWidth="-1.0" />
+                  </children>
+                </VBox>
+              </children>
+              <padding>
+                <Insets top="10.0" />
+              </padding>
+              <VBox.margin>
+                <Insets top="2.0" />
+              </VBox.margin>
+            </HBox>
+          </children>
+        </VBox>
+      </children>
+    </HBox>
+  </children>
+</AnchorPane>

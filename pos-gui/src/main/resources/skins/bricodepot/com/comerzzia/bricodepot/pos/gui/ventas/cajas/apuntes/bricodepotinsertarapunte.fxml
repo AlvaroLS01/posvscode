@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.comerzzia.pos.core.gui.componentes.textField.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="280.0" maxWidth="700.0" minHeight="280.0" prefHeight="280.0" prefWidth="700.0" styleClass="mainFxmlClass, pantalla-detalle" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.comerzzia.bricodepot.pos.gui.ventas.cajas.apuntes.BricodepotInsertarApunteController">
+  <children>
+    <VBox prefHeight="294.0" prefWidth="697.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <AnchorPane minHeight="40.0" prefHeight="40.0" prefWidth="678.0" style="&#10;" styleClass="titulo-ventana">
+          <children>
+            <Label fx:id="lblTituloVentana" alignment="CENTER" contentDisplay="CENTER" prefWidth="678.0" text="%Insertar apunte" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0" />
+          </children>
+        </AnchorPane>
+        <FlowPane alignment="CENTER_LEFT" hgap="5.0" prefHeight="50.0" prefWidth="200.0">
+          <children>
+            <Label fx:id="textConcepto" alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="124.0" rotate="0.0" style="fx-label-padding: 6 0 18 6;" text="%Concepto">
+              <font>
+                <Font size="16.0" fx:id="x1" />
+              </font>
+            </Label>
+            <TextField id="tfCodDoc" fx:id="tfCodConcepto" editable="true" prefHeight="30.0" prefWidth="80.0" />
+            <TextField fx:id="tfDescConcepto" prefHeight="30.0" prefWidth="271.0" />
+          </children>
+          <VBox.margin>
+            <Insets top="10.0" />
+          </VBox.margin>
+        </FlowPane>
+        <FlowPane hgap="5.0" prefHeight="40.0" prefWidth="200.0">
+          <children>
+            <Label alignment="CENTER_RIGHT" font="$x1" prefHeight="50.0" prefWidth="124.0" rotate="0.0" style="fx-label-padding: 6 0 18 6;" text="%Importe" />
+            <TextFieldImporte id="tfArticulos" fx:id="tfImporte" disable="false" editable="true" focusTraversable="true" prefHeight="30.0" prefWidth="147.0" />
+            <Label fx:id="lbTipoImporte" alignment="CENTER_LEFT" font="$x1" prefHeight="50.0" prefWidth="371.0" rotate="0.0" style="" styleClass="labelTipoRetirada" text="" />
+          </children>
+        </FlowPane>
+        <FlowPane hgap="5.0" prefHeight="40.0" prefWidth="200.0">
+          <children>
+            <Label alignment="CENTER_RIGHT" font="$x1" prefHeight="50.0" prefWidth="124.0" rotate="0.0" style="fx-label-padding: 6 0 18 6;" text="%Documento" />
+            <TextField id="tfArticulos" fx:id="tfDocumento" disable="false" editable="true" focusTraversable="true" prefHeight="30.0" prefWidth="406.0" text="" />
+          </children>
+        </FlowPane>
+        <AnchorPane prefHeight="44.0" prefWidth="697.0" style="&#10;">
+          <children>
+            <HBox alignment="CENTER" prefHeight="44.0" prefWidth="697.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+              <children>
+                <Label fx:id="lbError" alignment="CENTER" contentDisplay="LEFT" prefHeight="30.0" prefWidth="428.0" styleClass="lbError" text="" textFill="#cc0000" />
+              </children>
+            </HBox>
+          </children>
+        </AnchorPane>
+        <AnchorPane minHeight="50.0" prefHeight="57.0" prefWidth="700.0">
+          <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="697.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="0.0">
+              <children>
+                <Button id="btAceptar" fx:id="btnAceptar" alignment="CENTER" font="$x1" minHeight="42.0" minWidth="115.0" mnemonicParsing="false" onAction="#accionAceptar" prefHeight="42.0" prefWidth="115.0" style="" styleClass="btAceptar" text="%Aceptar" textAlignment="LEFT" />
+                <Button id="btCancelar" font="$x1" minHeight="42.0" minWidth="115.0" mnemonicParsing="false" onAction="#accionCancelar" prefHeight="42.0" prefWidth="115.0" styleClass="btCancelar" text="%Cancelar" />
+              </children>
+            </HBox>
+          </children>
+        </AnchorPane>
+      </children>
+    </VBox>
+  </children>
+  <stylesheets>
+    <URL value="@../../../../../../../../../../../../../../../../../../../styles/styles.css" />
+  </stylesheets>
+</AnchorPane>
